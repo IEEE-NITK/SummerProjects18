@@ -38,62 +38,20 @@ int main(int argc, char const *argv[])
 				break;
 
 			case 2:
-				for( i=0;i<1000;i++)
-				{
-					for(int j=i+1;j<1000-i;j++)
-					{
-						if(arr[j]>arr[j+1])
-						{
-							//swap
-							swap = arr[j];
-							arr[j] = arr[j+1];
-							arr[j+1] = swap;
-
-						}
-					}
-				}
-				
+				std::sort(arr,arr+1000);
 				break;
 
 			case 3:
-				flag =1;
-				for(i=0;i<1000;i++)
-				{
-					if(arr[i]==el)
-					{
-						flag =0;
-						cout << "found at position " << i << endl;
-						break;
-					}
-				}
-				if(flag)
-					cout<< "element not found\n";
+				cout << lower_bound(arr, arr+1000, el) <<endl;
 				break;
 
 			case 4:
-				flag =1;
-				for(i=1000-1;i>0;i--)
-				{
-					if(arr[i]==el)
-					{
-						flag =0;
-						cout << "found at position " << i << endl;
-						break;
-					}
-				}
-				if(flag)
-					cout<< "element not found\n";
+				cout << upper_bound(arr, arr+1000, el) <<endl;
 				break;
+				
 
 			case 5:
-				for(i=1;i<1000;i++)
-				{
-					//swap
-					swap =arr[i];
-					arr[i] = arr[0];
-					arr[0] = swap;
-				}
-				cout << endl;
+				std::next_permutation(arr,arr+1000);
 				for(i=0;i<1000;i++)
 				{
 					cout << arr[i] << " ";
@@ -101,15 +59,9 @@ int main(int argc, char const *argv[])
 				cout << endl;
 				break;
 
+
 			case 6:
-				for(i=1000-1;i>0;i--)
-				{
-					//swap
-					swap =arr[i];
-					arr[i] = arr[0];
-					arr[0] = swap;
-				}
-				cout << endl;
+				std::prev_permutation(arr,arr+1000);
 				for(i=0;i<1000;i++)
 				{
 					cout << arr[i] << " ";
