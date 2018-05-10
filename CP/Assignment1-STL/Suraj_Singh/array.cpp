@@ -42,11 +42,11 @@ int main(int argc, char const *argv[])
 				break;
 
 			case 3:
-				cout << lower_bound(arr, arr+1000, el) <<endl;
+				cout << (lower_bound(arr, arr+1000, el)  - arr) <<endl;
 				break;
 
 			case 4:
-				cout << upper_bound(arr, arr+1000, el) <<endl;
+				cout << (upper_bound(arr, arr+1000, el) - arr)<<endl;
 				break;
 				
 
