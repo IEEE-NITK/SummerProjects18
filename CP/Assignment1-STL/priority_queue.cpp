@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int x,y,z,n,c,i;
+int x,y,z,n,c,i;
 priority_queue< pair <int,pair<int,int>>> p;
 pair<int,pair<int,int>>q;
 cin>>n;
