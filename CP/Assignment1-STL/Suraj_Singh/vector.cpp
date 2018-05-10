@@ -54,20 +54,8 @@ int main(int argc, char const *argv[])
 
 			case 4:
 				flag =1;
-				for(std::vector<int>::iterator   i=V.begin(); i != V.end(); ++i)
-			    {
-			    	//cout << *i << endl;
-			        if(*i==el)
-			        {
-			        	flag = 0;
-			            V.erase(i);
-			            i--;
-			            break;
-			        }
-			    }
-			    if(flag)
-			    	cout << "Element not found" <<endl;
-				
+				int erase_pos = std::find(V.begin(), V.end(), el);
+				V.erase(V.begin() + erase_pos);
 				break;
 
 			case 5:
