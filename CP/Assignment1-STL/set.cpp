@@ -41,7 +41,8 @@ int main()
         else if (c == 7)
         {
             cin >> x;
-            if (m.count(x) > 0)
+            itr = m.find(x);
+            if(itr!=m.end())
                 cout << "YES" << endl;
             else
                 cout << "NO" << endl;

@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     array<int, 1000> a;
+    int *k;
     int n, i, c, x, y, j, ch;
     a.fill(0);
     cin >> n;
@@ -12,29 +13,21 @@ int main()
         if (c == 1)
         {
             cin >> x >> y;
-            a.at(x) = y;
+            a.at(x)=y;
         }
         else if (c == 2)
             sort(a.begin(), a.end());
         else if (c == 3)
         {
             cin >> x;
-            for (j = 0; j < 1000; j++)
-            {
-                if (a.at(j) == x)
-                    break;
-            }
-            cout << j << endl;
+            k = lower_bound(a.begin(), a.end(), x);
+            cout << k << endl;
         }
         else if (c == 4)
         {
             cin >> x;
-            for (j = 999; j >= 0; j--)
-            {
-                if (a.at(j) == x)
-                    break;
-            }
-            cout << j << endl;
+            k == upper_bound(a.begin(), a.end(), x);        
+            cout << k << endl;
         }
         else if (c == 5)
         {

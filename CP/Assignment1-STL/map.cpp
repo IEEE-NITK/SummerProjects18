@@ -24,10 +24,11 @@ int main()
         else if (c == 3)
         {
             cin >> x;
-            if (m.count(x) > 0)
-                cout << "YES" << endl;
+            itr = m.find(x);
+            if(itr!=m.end())
+            cout<<"YES"<<endl;
             else
-                cout << "NO" << endl;
+            cout<<"NO"<<endl;
         }
         else if (c == 4)
         {

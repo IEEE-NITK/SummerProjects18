@@ -23,24 +23,17 @@ int main()
         {
             f = 0;
             cin >> x;
-            for (i = v.begin(); i <= v.end(); i++)
-            {
-                if (*i == x)
-                    f = 1;
-            }
-            if (f == 1)
-                cout << "YES" << endl;
-            else
+            i = find(v.begin(), v.end(), x);
+            if (i == v.end())
                 cout << "NO" << endl;
+            else
+                cout << "YES" << endl;
         }
         else if (c == 4)
         {
             cin >> x;
-            for (i = v.begin(); i <= v.end(); i++)
-            {
-                if (*i == x)
-                    break;
-            }
+            i = find(v.begin(), v.end(), x);
+            if(i!=v.end());
             v.erase(i);
         }
         if (c == 5)
