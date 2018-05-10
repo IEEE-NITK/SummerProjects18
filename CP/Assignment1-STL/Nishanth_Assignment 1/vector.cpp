@@ -8,6 +8,7 @@ int main()
 {
     int q,n,i,x,y;
     vector <int> vct;
+    vector <int> :: iterator itr;
     cin >> q;
     for(i=0;i<q;i++)
     {
@@ -24,17 +25,14 @@ int main()
             vct[x]=y;
             break;
         case 3:
-            cin >> x;
-            for(i=0;i<vct.size();i++)
             {
-                if(vct[i]==x)
-                    {
-                        printf("YES\n");
-                        break;
-                    }
+                cin >> x;
+                auto p = std::find(vct.begin(),vct.end(),x);
+                if(p!=vct.end())
+                    cout << "YES" << "\n";
+                else
+                    cout << "NO" << "\n";
             }
-            if(i==vct.size())
-                printf("NO\n");
             break;
         case 4:
             {

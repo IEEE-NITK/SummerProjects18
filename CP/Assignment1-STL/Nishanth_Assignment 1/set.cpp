@@ -42,8 +42,8 @@ int main()
 		case 7:
             {   
                     cin>>x;
-                    int flag = st.count(x);
-                    if(flag)
+                    itr = st.find(x);
+                    if(itr != st.end())
                         cout<<"Yes"<<endl;
                     else 
                         cout<<"No"<<endl;

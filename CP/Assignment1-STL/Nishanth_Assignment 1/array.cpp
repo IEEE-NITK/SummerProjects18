@@ -8,8 +8,9 @@ using namespace std;
 int main()
 {
     int q,n,i,x,y;
-    int arr[3];
+    int arr[1000];
     memset(arr,0,sizeof(arr));
+    std::array<int,1000>::iterator low1, up1;
     cin >> q;
     for(i=0;i<q;i++)
     {
@@ -22,32 +23,24 @@ int main()
             arr[x]=y;
             break;
         case 2:
-            sort(arr,arr+3);
+            sort(arr,arr+1000);
             break;
         case 3:
             cin >> x;
-            for(i=0;i<3;i++)
-                if(arr[i]==x)
-                    {
-                        cout << i << "\n";
-                        break;
-                    }
+            low1 = lower_bound(arr,arr+1000,x);
+            cout << low1 - (arr) << endl;
             break;
         case 4:
-          cin >> x;
-            for(i=2;i>=0;i--)
-                if(arr[i]==x)
-                    {
-                        cout << i << "\n";
-                        break;
-                    }
+            cin >> x;
+            up1 = upper_bound(arr,arr+1000,x);
+            cout << up1 - (arr) << endl;
             break;
         case 5:
             {
-                bool val = next_permutation(arr,arr+3);
+                bool val = next_permutation(arr,arr+1000);
             if(val!=false)
             {
-                for(i=0;i<3;i++)
+                for(i=0;i<1000;i++)
                     cout << arr[i] << " ";
                 cout << "\n";
             }
@@ -55,10 +48,10 @@ int main()
             break;
         case 6:
             {
-                bool val = prev_permutation(arr,arr+3);
+                bool val = prev_permutation(arr,arr+1000);
             if(val!=false)
             {
-                for(i=0;i<3;i++)
+                for(i=0;i<1000;i++)
                     cout << arr[i] << " ";
                 cout << "\n";
             }

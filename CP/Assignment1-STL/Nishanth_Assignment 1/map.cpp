@@ -34,16 +34,11 @@ int main()
 		{
 		    cin >> x;
 		    map <string, int> :: iterator itr;
-            for (itr = mp.begin(); itr != mp.end(); ++itr)
-            {
-                if(itr->first == x)
-                    {
-                        cout << "YES" << "\n";
-                        break;
-                    }
-            }
-        if(itr==mp.end())
-            cout << "NO" << "\n";
+		    itr = mp.find(x);
+		    if(itr!=mp.end())
+		        cout << "YES" << "\n";
+		    else 
+		        cout << "NO" << "\n";
 		}
         break;
         case 4:
