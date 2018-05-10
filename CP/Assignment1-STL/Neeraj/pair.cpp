@@ -1,8 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 bool ssecond(const pair<int, int>& a,const pair<int,int>& b)
-{
-    return (a.second<b.second);
+{   if(a.second<b.second)
+    {
+        return 1;
+    }
+    else if( a.second==b.second)
+    {
+
+        return (a.first<b.first);
+    }
+    else return 0;
+
 }
 int main()
 {   pair<int,int> p[1000]=make_pair(0,0);
@@ -28,5 +37,5 @@ int main()
                     cout<<endl;
         }
     }
-    return 0;
+return 0;
 }
