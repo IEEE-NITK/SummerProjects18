@@ -4,12 +4,24 @@ bool comp1(pair<int,int> p1, pair<int,int> p2)
 {
     if(p1.first<p2.first)
         return 1;
+    else if(p1.first==p2.first)
+    {
+        if(p1.second<p2.second)
+            return 1;
+        return 0;
+    }
     return 0;
 }
 bool comp2(pair<int,int> p1, pair<int,int> p2)
 {
     if(p1.second<p2.second)
         return 1;
+    else if(p1.second==p2.second)
+    {
+        if(p1.first<p2.first)
+            return 1;
+        return 0;
+    }
     return 0;
 }
 int main()
