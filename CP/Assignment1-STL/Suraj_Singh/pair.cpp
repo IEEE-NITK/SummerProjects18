@@ -2,7 +2,13 @@
 #include <algorithm>
 using namespace std;
 
+bool customSort1(pair<int, int> a, pair<int, int> b) {
+	return a.first==b.first?a.second<b.second:a.first<b.first;
+}
 
+bool customSort2(pair<int, int> a, pair<int, int> b) {
+	return a.second==b.second?a.first<b.first:a.second<b.second;
+}
 
 int main(int argc, char const *argv[])
 {
@@ -50,42 +56,11 @@ int main(int argc, char const *argv[])
 
 				if(pos ==1)
 				{
-					for(int i=0;i<1000;i++)
-					{
-						for(j=i;j<1000-i-1;j++)
-						{
-							if(arr[j].first>arr[j+1].first)
-							{
-								//swap
-
-								swap = arr[j];
-
-								arr[j] = arr[j+1];
-								arr[j+1] = swap;
-
-							}
-						}
-					}
+					std::sort(arr,arr+1000, customSort1);
 				}
 				else if(pos==2)
 				{
-					for(int i=0;i<1000;i++)
-					{
-						for(j=i;j<1000-i-1;j++)
-						{
-							if(arr[j].second>arr[j+1].second)
-							{
-								//swap
-
-								swap = arr[j];
-
-								arr[j] = arr[j+1];
-								arr[j+1] = swap;
-
-							}
-						}
-					}
-
+					std::sort(arr,arr+1000,customSort2);
 				}
 				else
 				{
