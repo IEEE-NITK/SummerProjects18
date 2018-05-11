@@ -40,30 +40,24 @@ int main()
                            std::cout<<*it;
                           break;
                           }
-                  case 7:{int search,count1=0;
+                  case 7:{int search;
                           std::cin>>search;
                           it=s.begin();
-                          for(;it!=s.end();it++)
-                           {if(search==*it)
-                             {std::cout<<"yes";
-                               count1++;
-                             }
-                              else
-                             continue;
-                             }
-
-                             if(count1==0)
-                             std::cout<<"no";
+                          it=s.find(search);
+                         if(it!=s.end())
+                           std::cout<<"yes";
+                           else
+                           std::cout<<"no";
+                           
                            }
                   case 8: { int search;
                             std::cin>>search;
-                            it=s.begin();
-                            for(;it!=s.end();it++)
-                              {if(search==*it)
-                                 s.erase(it);
-                               else
-                                continue;
-                              }
+                        
+                            it=s.find(search);
+                             s.erase(it);
+                              
+                             
                            }
                 }
       }
+}   

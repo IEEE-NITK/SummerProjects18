@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iostream>
 #include<bits/stdc++.h>
 #include<vector>
 int main()
@@ -28,30 +29,16 @@ int main()
                           break;
                          }
 
-                  case 3:{    int search,count1=0;
+                  case 3:{    int search;
                              std::cin>>search;
-                           for (std::vector<int>::iterator it=vec.begin(); it<vec.end(); it++)
-                            { if(search==*it)
-                             {std::cout<<"yes";
-                               count1++;
-                             }
-                             else
-                             continue;
-                             }
-                             if(count1==0)
-                             std::cout<<"No found";
-                             break;
-                         }
+                              if((it=find(vec.begin(),vec.end(),search))!=vec.end())
+                                 std::cout<<"yes\n";
+                                  else
+                                 std::cout<<"no\n";
+                                break;		
                   case 4:{    int rem;
-                             std::cout<<"enter:";
                              std::cin>>rem;
-                           for (std::vector<int>::iterator it=vec.begin(); it<vec.end(); it++)
-                             { if(rem==*it)
-                               {vec.erase(it);
-                                }
-                               else
-                             continue;
-                             }
+                             vec.erase(find(vec.begin(),vec.end(),rem));
                              break;
                          }
                      case 5: {
@@ -70,4 +57,6 @@ int main()
                              }
                   }
               }
+   }
    }          
+   
