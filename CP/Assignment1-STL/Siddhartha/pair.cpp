@@ -8,14 +8,14 @@ bool sortbysec(pair<int,int> a,
 bool sortbyfrst(pair<int,int> a,
               pair<int,int> b)
 {
-    return (a.first > b.first);
+    return (a.first < b.first);
 }
 int main()
 {
     int c,Q,x;
     cin >> Q;
-    vector<pair<int,int> > ar[10];
-    for(int i = 0; i < 10; ++i)
+    vector<pair<int,int> > ar[1000];
+    for(int i = 0; i < 1000; ++i)
         ar[i].push_back(make_pair(0,0));
 
     while(Q--)
@@ -25,7 +25,7 @@ int main()
         {
         case  3 :
         {
-            for(int i=0; i<10; i++)
+            for(int i=0; i<1000; i++)
                 for(vector<pair<int,int> >::iterator it=ar[i].begin(); it!=ar[i].end(); it++)
                     cout<<"("<<it->first<<","<<it->second<<")";
             cout<<endl;
@@ -36,10 +36,10 @@ int main()
             cin>>x;
             switch(x)
             {
-            case 2:  for(int i = 0; i < 10; ++i)
+            case 2:  for(int i = 0; i < 1000; ++i)
                             sort(ar[i].begin(), ar[i].end(), sortbysec);
                         break;
-            case 1: for(int i = 0; i < 10; ++i)
+            case 1: for(int i = 0; i < 1000; ++i)
                             sort(ar[i].begin(), ar[i].end(), sortbyfrst);
                         break;
 

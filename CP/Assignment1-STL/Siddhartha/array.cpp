@@ -21,36 +21,36 @@ int main()
             break;
         }
         case 2 :
-            sort(ar,ar+10);
+            sort(ar,ar+1000);
             break;
         case 3 :
         {
-            sort(ar,ar+10);
+            sort(ar,ar+1000);
             cin>>x;
-            int p=lower_bound(ar,ar+10,x) - ar ;
+            int p=lower_bound(ar,ar+1000,x) - ar ;
             cout <<p<<endl;
             break;
         }
         case 4 :
         {
-            sort(ar,ar+10);
+            sort(ar,ar+1000);
             cin>>x;
-            int p=upper_bound(ar,ar+10,x) - ar ;
+            int p=upper_bound(ar,ar+1000,x) - ar ;
             cout <<p<<endl;
             break;
         }
         case 5 :
         {
-            next_permutation(ar,ar+10);
-            for(int i=0; i<10; i++)
+            next_permutation(ar,ar+1000);
+            for(int i=0; i<1000; i++)
                 cout<<ar[i]<<" ";
             cout<<endl;
             break;
         }
         case 6:
         {
-            prev_permutation(ar,ar+10);
-            for(int i=0; i<10; i++)
+            prev_permutation(ar,ar+1000);
+            for(int i=0; i<1000; i++)
                 cout<<ar[i]<<" ";
             cout<<endl;
             break;
