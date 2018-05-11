@@ -2,7 +2,9 @@
 using namespace std;
 bool myfunc(pair<int,int> &a, pair<int,int> &b) // I didn't actually get this concept.
 {
-return a.second<b.second;
+ if(a.second < b.second) return true;
+ if(a.second == b.second) return a.first < b.first;
+ return false;
 }
 main()
 {
