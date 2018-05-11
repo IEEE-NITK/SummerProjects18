@@ -1,0 +1,16 @@
+[
+    {
+        "user": "UAFLHAB2M",
+        "text": "<@UAFLHAB2M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525250305.000146"
+    },
+    {
+        "user": "UAFU0J1K5",
+        "text": "<@UAFU0J1K5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525286464.000261"
+    }
+]
