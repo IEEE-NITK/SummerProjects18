@@ -12,7 +12,7 @@ int main()
 {
     int c,Q,x;
     cin >> Q;
-    pair<int,int> ar[10];
+    pair<int,int> ar[1000];
     while(Q--)
     {
         cin >>c;
@@ -31,16 +31,16 @@ int main()
             cin>>x;
             switch(x)
             {
-             case 1:     sort(ar, ar+10,sortbyfrstosec);
+             case 1:     sort(ar, ar+1000,sortbyfrstosec);
                         break;
-             case 2:     sort(ar, ar+10, sortbysecosec);
+             case 2:     sort(ar, ar+1000, sortbysecosec);
                         break;
             }
         }
 
           case  3 :
         {
-            for(int i=0; i<10; i++)
+            for(int i=0; i<1000; i++)
                cout<<"("<<ar[i].first<<","<<ar[i].second<<")";
             cout<<endl;
             break;
