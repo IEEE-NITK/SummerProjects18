@@ -1,34 +1,29 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool sortbysec(pair<int,int> a,
-              pair<int,int> b)
+bool sortbysecosec(const pair<int,int> &a,const pair<int,int> &b)
 {
     return (a.second< b.second);
 }
-bool sortbyfrst(pair<int,int> a,
-              pair<int,int> b)
+bool sortbyfrstosec(const pair<int,int> &a,const pair<int,int> &b)
 {
-    return (a.first < b.first);
+    return (a.first< b.second);
 }
 int main()
 {
     int c,Q,x;
     cin >> Q;
-    vector<pair<int,int> > ar[1000];
-    for(int i = 0; i < 1000; ++i)
-        ar[i].push_back(make_pair(0,0));
-
+    pair<int,int> ar[10];
     while(Q--)
     {
         cin >>c;
         switch(c)
         {
-        case  3 :
+       case 1 :
         {
-            for(int i=0; i<1000; i++)
-                for(vector<pair<int,int> >::iterator it=ar[i].begin(); it!=ar[i].end(); it++)
-                    cout<<"("<<it->first<<","<<it->second<<")";
-            cout<<endl;
+            cin>>x;
+            int y,z;
+            cin>>y>>z;
+            ar[x-1]=(make_pair(y,z));
             break;
         }
         case  2 :
@@ -36,23 +31,21 @@ int main()
             cin>>x;
             switch(x)
             {
-            case 2:  for(int i = 0; i < 1000; ++i)
-                            sort(ar[i].begin(), ar[i].end(), sortbysec);
+             case 1:     sort(ar, ar+10,sortbyfrstosec);
                         break;
-            case 1: for(int i = 0; i < 1000; ++i)
-                            sort(ar[i].begin(), ar[i].end(), sortbyfrst);
+             case 2:     sort(ar, ar+10, sortbysecosec);
                         break;
-
             }
         }
-        case 1 :
+
+          case  3 :
         {
-            cin>>x;
-            int y,z;
-            cin>>y>>z;
-            ar[x-1].push_back(make_pair(y,z));
+            for(int i=0; i<10; i++)
+               cout<<"("<<ar[i].first<<","<<ar[i].second<<")";
+            cout<<endl;
             break;
         }
+
         }
     }
     return 0;
