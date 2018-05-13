@@ -1,0 +1,3235 @@
+[
+    {
+        "user": "UAF9TDN5P",
+        "text": "<@UAF9TDN5P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188222.000234"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "can I get a head count of how many of you are ready? Put a thumbs up here on this message",
+        "thread_ts": "1525188299.000139",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525188855.000034"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525188299.000139",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH07G9T9",
+                    "UAFHUCYAG",
+                    "UAGR3HCLW",
+                    "UAFVAN945",
+                    "UAFL06YEM"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "user": "UAGR3HCLW",
+        "text": "<@UAGR3HCLW> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188435.000578"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": ":+1:",
+        "ts": "1525188452.000406"
+    },
+    {
+        "user": "UAFVAN945",
+        "text": "<@UAFVAN945> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188463.000265"
+    },
+    {
+        "user": "UAH07G9T9",
+        "text": "<@UAH07G9T9> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188500.000317"
+    },
+    {
+        "user": "UAF9M0XBK",
+        "text": "<@UAF9M0XBK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188674.000614"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": ":+1:",
+        "client_msg_id": "f5b7ceca-fc12-43d2-871a-c3fb15dbeb94",
+        "ts": "1525188694.000308"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "we will wait for a few more mins.",
+        "ts": "1525188731.000605"
+    },
+    {
+        "user": "UAGR7CFEJ",
+        "text": "<@UAGR7CFEJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188755.000065"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": ":+1:",
+        "ts": "1525188779.000605"
+    },
+    {
+        "user": "UAGTJ7M8X",
+        "text": "<@UAGTJ7M8X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525188810.000651"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it would be nice if you put a thumbs up here, less clutter and easier to count.",
+        "thread_ts": "1525188299.000139",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1525188855.000034"
+    },
+    {
+        "user": "UAF4ZQ7BJ",
+        "text": "<@UAF4ZQ7BJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525189036.000252"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": ":+1:",
+        "ts": "1525189042.000556"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay let us start now",
+        "ts": "1525189100.000384"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "do all of you have a terminal to begin with?",
+        "ts": "1525189116.000124"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it would be nice to explore the commands on the go. Please make sure you have this for future sessions atleast",
+        "ts": "1525189156.000329"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "most of what I cover today, is what you already know",
+        "ts": "1525189170.000505"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, can anyone tell me what ls does?",
+        "ts": "1525189191.000311"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": "what is the full form?",
+        "ts": "1525189238.000574"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "list is the full form of ls",
+        "ts": "1525189254.000061"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": "oh my bad. Yes ls lists all the files in the present directory",
+        "ts": "1525189305.000391",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "there are tons of other options that can be used along with ls",
+        "ts": "1525189347.000203"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "for instance:",
+        "ts": "1525189354.000168"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAGTJ7M8X> can you tell me what ls -l does?",
+        "ts": "1525189381.000038"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "how is it different from the barebones ls?",
+        "ts": "1525189392.000785"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "It gives a long formate like it include last time used etc",
+        "client_msg_id": "cf7848c6-4ece-41e2-b9eb-d122e5734568",
+        "ts": "1525189416.000337"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah. more precisely, it mentions the size, permissions, modified date and time, owner of the file, etc.",
+        "ts": "1525189453.000320"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "To see the filesize in human readable format, we can use ls -lh command",
+        "thread_ts": "1525189473.000753",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525189524.000393"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525189473.000753"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAGR7CFEJ> what does ls -a do?",
+        "ts": "1525189494.000019"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": "sorry but what is barebones?",
+        "thread_ts": "1525189511.000037",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525189543.000115"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525189511.000037"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "-h flag stands for human readable",
+        "thread_ts": "1525189473.000753",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1525189524.000393"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "without any flag, only the ls command",
+        "thread_ts": "1525189511.000037",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525189543.000115"
+    },
+    {
+        "user": "UAG0A3ZNH",
+        "text": "<@UAG0A3ZNH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525189570.000400"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "Reveals hidden filea",
+        "client_msg_id": "f40bed79-1a2c-4ebe-a431-9e4a7e9796e1",
+        "ts": "1525189582.000367"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "Files*",
+        "client_msg_id": "c946cca8-fe65-4198-9b49-f2ef11218da9",
+        "ts": "1525189586.000097"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "Is it?",
+        "client_msg_id": "b17fe19d-df53-4740-8bec-524c462705ca",
+        "thread_ts": "1525189596.000390",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525189655.000523"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525189596.000390"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAGR3HCLW> can you tell me what ls -R does? Do this in a directory with subdirectories :stuck_out_tongue:",
+        "ts": "1525189603.000451"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "Even LS -a mentions current and prarent directory's",
+        "client_msg_id": "54b3a015-17f8-450d-ab57-a4cb55fba28e",
+        "thread_ts": "1525189616.000670",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525189905.000354"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525189616.000670"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "lists recursively directory tree",
+        "thread_ts": "1525189629.000323",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525189702.000478"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525189629.000323"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "Also",
+        "client_msg_id": "0d5b1609-6893-4596-bb34-6f4bdcbe7b57",
+        "ts": "1525189629.000474"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah. Folders might contain many hidden files (usually beginning with a dot in their names, like .bashrc, .vimrc, .profile) etc.",
+        "thread_ts": "1525189596.000390",
+        "parent_user_id": "UAF9M0XBK",
+        "ts": "1525189655.000523"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah, correct",
+        "ts": "1525189670.000633"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "A better way to visualize the directory structure is by using tree command. But you will have to install the program in the first place",
+        "thread_ts": "1525189629.000323",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525189702.000478",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR3HCLW"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, let's move onto the cd command",
+        "ts": "1525189742.000012"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "cd as you know, is used to change the working directory",
+        "ts": "1525189767.000582"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you all must check out zsh terminal",
+        "ts": "1525189785.000026"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "there's a nice plugin called oh-my-zsh also",
+        "ts": "1525189799.000665"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it's really cool",
+        "ts": "1525189803.000784"
+    },
+    {
+        "user": "UAFPA8G59",
+        "text": "<@UAFPA8G59> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525189805.000731"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "now, can everyone pitch in the different ways we can use cd command?",
+        "ts": "1525189837.000519"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "like moving to parent folder, ... etc?",
+        "ts": "1525189850.000050"
+    },
+    {
+        "user": "UAFL06YEM",
+        "text": "<@UAFL06YEM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525189860.000146"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "cd~username does that i guess",
+        "client_msg_id": "0f346b03-6c96-44c0-964b-d10641173c84",
+        "ts": "1525189885.000545"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "It is important that ls is in lowercase as LS isn't a command",
+        "thread_ts": "1525189616.000670",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525189905.000354"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "cd .. moves up one directory",
+        "ts": "1525189912.000374"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "moving to the home directory can be done using \"cd ~ \"",
+        "ts": "1525189918.000649"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but moving one directory above needs : cd ..",
+        "ts": "1525189931.000053"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah",
+        "ts": "1525189936.000567"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "how do you move up two directories at a time?",
+        "ts": "1525189950.000648"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "cd ..\/..",
+        "thread_ts": "1525189985.000751",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190005.000593"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525190836.000658"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191554.000531"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191603.000182"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525191745.000750"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192397.000078"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1525189985.000751",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah, correct",
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525190005.000593"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "As an aside, in the zsh terminal with that plugin, you can directly start typing in the folder name, it will have cached all of the previous working directories. It's a great productivity boost for devs.",
+        "ts": "1525190066.000550"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "is everyone with me so far?",
+        "ts": "1525190106.000378"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "any doubts?",
+        "ts": "1525190109.000269"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "is zsh a separate program",
+        "thread_ts": "1525190131.000102",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190152.000753"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525190170.000076"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190190.000238"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1525190131.000102"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you can tell me if I am fast, slow, boring, whatever",
+        "ts": "1525190134.000239"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it's another terminal itself, like bash",
+        "thread_ts": "1525190131.000102",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190152.000753"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "so we have to install zsh right",
+        "thread_ts": "1525190131.000102",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190170.000076"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<https:\/\/gist.github.com\/derhuerst\/12a1558a4b408b3b2b6e>",
+        "thread_ts": "1525190131.000102",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190190.000238"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": "Do all terminals need Linux OS?",
+        "thread_ts": "1525190193.000693",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190236.000798"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190259.000800"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190469.000522"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190483.000081"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191367.000043"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191410.000372"
+            },
+            {
+                "user": "UAF4ZQ7BJ",
+                "ts": "1525191505.000548"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191663.000374"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1525190193.000693"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "terminal is a program on the linux distributions, which can be used to create, manage and work with other processes",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525190236.000798",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAF4ZQ7BJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "now, you have terminals on windows also, apart from mac OSX",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525190259.000800"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, moving on. Can anyone tell me what's the different between relative and absolute address?",
+        "ts": "1525190343.000347"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "relative address is dealing with memory locations with respect to another one",
+        "ts": "1525190460.000746"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you can use bash on windows also, but you don't have the freedom to tinker with stuff, like you do in linux",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525190469.000522"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "Relative addresses can be diff",
+        "client_msg_id": "d7737b36-75f8-42b7-94c4-2a91bb32ed63",
+        "ts": "1525190481.000747"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "windows abstracts away a lot of the details from the user",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525190483.000081"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "But absolute address is same no matter which directory u working in",
+        "client_msg_id": "c540752e-f4ae-42b9-abb3-dfd36ef357f2",
+        "ts": "1525190520.000183"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "like if you have a pointer p pointing to a int and p++ will point to the address + 4bytes",
+        "thread_ts": "1525190535.000728",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190608.000235"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525190535.000728",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "correct, absolute addresses are specified from the root directory",
+        "ts": "1525190540.000042"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the relative addresses are specified wrt the current directory",
+        "ts": "1525190564.000728"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I am not sure if the pointers analogy is the best way to describe the situation. Especially, when we have soft links and all",
+        "thread_ts": "1525190535.000728",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525190608.000235"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you guys can check out what \"cd - \" does",
+        "ts": "1525190633.000026"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it's used to move directly to the last used directory",
+        "ts": "1525190664.000736"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, shall we move on to pwd command?",
+        "ts": "1525190685.000473",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR3HCLW",
+                    "UAG0A3ZNH",
+                    "UAFL06YEM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "S",
+        "client_msg_id": "1cae4f28-8395-4a33-810c-f468a89fdfbf",
+        "ts": "1525190706.000302"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "can we use pointers to  access and manipulate these addresses?",
+        "thread_ts": "1525190741.000657",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190847.000032"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190898.000615"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190952.000657"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525190972.000393"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1525190741.000657"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1525190808.000335"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: try out these commands and tell me the O\/P",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAGJCR52R",
+            "created": 1525190826,
+            "timestamp": 1525190826,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "try out these commands and tell me the O\/P"
+        },
+        "is_intro": false,
+        "ts": "1525190826.000729"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "can we type cd ..\/..\/ n times to move up n directories?",
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525190836.000658"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I am not sure I got your question, but yeah that's how it's implemented in the file system",
+        "thread_ts": "1525190741.000657",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190847.000032"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the commands to create a file, create soft and hard links, delete a file - all involving storing the addresses of blocks of memory(which together make up a file)",
+        "thread_ts": "1525190741.000657",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190898.000615"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "storing and playing with the addresses of the blocks",
+        "thread_ts": "1525190741.000657",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190952.000657"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but these are not exposed to the user per se, that's why we need an abstraction called a file system",
+        "thread_ts": "1525190741.000657",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525190972.000393"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: you guys haven't tried it out yet? I'll explain the different commands, but what is the output?",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAHB9JU30",
+            "created": 1525191036,
+            "timestamp": 1525191036,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "you guys haven't tried it out yet? I'll explain the different commands, but what is the output?"
+        },
+        "is_intro": false,
+        "ts": "1525191036.000520"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so what does pwd do? - spits out the present working directory",
+        "ts": "1525191068.000540"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAG0A3ZNH> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: It says \"No such file or directory\" ?",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAGJFFWTX",
+            "created": 1525191072,
+            "timestamp": 1525191072,
+            "user": "UAG0A3ZNH",
+            "is_intro": false,
+            "comment": "It says \"No such file or directory\" ?"
+        },
+        "is_intro": false,
+        "ts": "1525191072.000714"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "4th one gives the home directory i guess",
+        "ts": "1525191107.000047"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: oh okay, try replacing the first part of the code with some other existing directory. I could find that directory on my computer though",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAG7RMS3E",
+            "created": 1525191154,
+            "timestamp": 1525191154,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "oh okay, try replacing the first part of the code with some other existing directory. I could find that directory on my computer though"
+        },
+        "is_intro": false,
+        "ts": "1525191154.000119"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "ln: .\/a: File exists",
+        "ts": "1525191206.000183"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so the first line will take you to the home directory",
+        "ts": "1525191218.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: 2nd one said ln: failed to create symbolic link 'htm': File exists",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAGEG81SN",
+            "created": 1525191219,
+            "timestamp": 1525191219,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "2nd one said ln: failed to create symbolic link 'htm': File exists"
+        },
+        "is_intro": false,
+        "ts": "1525191219.000755"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the second line uses the ln with -s flag. It's used to create a soft link to the directory, which is specified in the first argument",
+        "ts": "1525191262.000041"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the third line moves into the htm directory",
+        "ts": "1525191288.000080"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh|code for pwd>: and then the 3rd one said -bash: cd: htm: No such file or directory",
+        "file": {
+            "id": "FAGJCLE13",
+            "created": 1525190807,
+            "timestamp": 1525190807,
+            "name": "code_for_pwd.sh",
+            "title": "code for pwd",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 51,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJCLE13\/download\/code_for_pwd.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJCLE13-fc3d076c1d",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJCLE13\/code_for_pwd.sh\/edit",
+            "preview": "cd ~\r\nln -s \/var\/www\/html\/ htm\r\ncd htm\r\n\/bin\/pwd -L",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cd<\/span> ~<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">ln<\/span> <span class=\"cm-attribute\">-s<\/span> \/var\/www\/html\/ htm<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> htm<\/pre><\/div>\n<div><pre>\/bin\/pwd <span class=\"cm-attribute\">-L<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 6
+        },
+        "comment": {
+            "id": "FcAGBKJ943",
+            "created": 1525191318,
+            "timestamp": 1525191318,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "and then the 3rd one said -bash: cd: htm: No such file or directory"
+        },
+        "is_intro": false,
+        "ts": "1525191318.000343"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "What is soft link",
+        "client_msg_id": "8bf2dbe2-6c45-4c23-afe3-67bc4ec3ea94",
+        "thread_ts": "1525191319.000010",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191805.000178"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525191319.000010"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I took the pain of creating sym links or soft links to show the difference between -P and -L flags for the pwd command",
+        "ts": "1525191330.000371"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "<@UAF4ZQ7BJ> think of a terminal as just another program allowing you to do a bunch of stuff. Back in the day, there was no GUI. No mouse even at one point. So everything was done by issuing a specific set of commands to your computer. Everything from file handling to system management. And all of that was done through an interface called the Command Line Interface(CLI) which we now call the terminal. You can do everything you can do using a GUI on a terminal.\n\nAnd no. You don't need a Linux OS for a terminal. Every major OS has a terminal, though the instructions you issue and what you can do has its limitations.",
+        "client_msg_id": "ecc47ee7-3a63-4881-9c1c-3eda21e19c15",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525191367.000043"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "soft links will be covered in detail in the future sessions. But what can be understood is - two different files can be linked together keeping a single copy of the data on the hard disk",
+        "ts": "1525191403.000224"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "For e.g on the windows command line you have `dir` command to list directories and files whereas Linux bash terminals use `ls`",
+        "client_msg_id": "8eec9d96-6444-4f53-b02e-93c044bd90e4",
+        "edited": {
+            "user": "UAH07G9T9",
+            "ts": "1525191630.000000"
+        },
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525191410.000372"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "something like a pointer?",
+        "thread_ts": "1525191422.000493",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1525191438.000562"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525191422.000493"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah, it's actually a pointer",
+        "thread_ts": "1525191422.000493",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525191438.000562"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so pwd -L flag will only show the output, without minding the soft links",
+        "ts": "1525191462.000075",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but you will get a different output if you use a -P flag for the pwd command",
+        "ts": "1525191483.000423"
+    },
+    {
+        "type": "message",
+        "user": "UAF4ZQ7BJ",
+        "text": "thanks a lot",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525191505.000548"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "also, I have used \/bin\/pwd command in the above snippet because, pwd refers to the shell's implementation of the command",
+        "ts": "1525191512.000477"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but \/bin\/pwd refers to the specific binary file, which is already present in the system",
+        "ts": "1525191538.000563"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": " <@UAFPA8G59> If there are n directories to move up to, then yes.\n\nIf you type `ls - a` in any directory it will list all the files and directories including the hidden ones. You will find two files `. ` and `.. `. Here the first one refers to the current directory and the second one to the parent directory.",
+        "client_msg_id": "4fb284da-2b39-43e8-ba71-05287bf935de",
+        "edited": {
+            "user": "UAH07G9T9",
+            "ts": "1525191694.000000"
+        },
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525191554.000531"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so when you are writing an application, if you don't want your applucation to break, when the bash implementation of pwd is modified, you will want to use binary implementations",
+        "thread_ts": "1525191587.000059",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191974.000075"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525191587.000059"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "So you can keep doing `..\/..\/..` n number of times because every directory has a `.. ` that points to the parent directory.",
+        "client_msg_id": "88d90226-2643-46d7-97c4-16d674f3db66",
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525191603.000182"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it's fine if you don't get the soft link part completely, just remember that we have flags to get the resolved path names also",
+        "ts": "1525191639.000635"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "everyone is with me till now?",
+        "ts": "1525191650.000594",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR3HCLW",
+                    "UAG0A3ZNH",
+                    "UAGR7CFEJ",
+                    "UAGTJ7M8X"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Keep asking doubts :D",
+        "client_msg_id": "ebd13cde-ea11-4d18-9a04-a7a415d234f6",
+        "thread_ts": "1525190193.000693",
+        "parent_user_id": "UAF4ZQ7BJ",
+        "ts": "1525191663.000374"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": "Ya",
+        "client_msg_id": "f29429af-af97-4cc0-9196-d907a5da5529",
+        "ts": "1525191672.000769"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "kinda",
+        "thread_ts": "1525191675.000225",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525191867.000109"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192057.000537"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192094.000241"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1525191675.000225"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "hmm i see. and how to move down n directories?",
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525191745.000750"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1525191750.000245"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I want you guys to try out all these commands",
+        "ts": "1525191777.000611"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the -n flag is used to include line numbers when it displays the contents of the files - improves readability",
+        "thread_ts": "1525191803.000676",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192142.000662"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525191803.000676"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "<@UAGTJ7M8X> Remember creating a shortcut in windows? Think of it as a something pretty much like that. More details will be given in future sessions.",
+        "client_msg_id": "fbe037a1-59bf-465e-91e0-41a8757258ed",
+        "edited": {
+            "user": "UAH07G9T9",
+            "ts": "1525191826.000000"
+        },
+        "thread_ts": "1525191319.000010",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525191805.000178"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the sixth line shows, how all the output of the cat command can be plummeled into another file. this is very useful",
+        "ts": "1525191863.000463"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "<@UAFPA8G59> what's the doubt?",
+        "client_msg_id": "e4f87639-b550-4b2a-8e50-a42227a6c2cf",
+        "thread_ts": "1525191675.000225",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525191867.000109"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "for the command shown in the 4th line: we can take input from STDIN (keyboard) until the user hits Ctrl+D. All of that text will be saved into the specified file",
+        "ts": "1525191928.000086"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "anything that you didn't understand here?",
+        "ts": "1525191943.000112"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "cat is actually used to concatenate files. It concatenates them and prints an o\/p",
+        "ts": "1525191967.000033"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "What he's trying to say is, if you application uses the pwd command, if the version that bash uses is modified then your application might break. So we specifically tell it use the binary at \/bin\/pwd",
+        "client_msg_id": "136e0da7-aaad-4363-ab6d-c5759cc3ddd9",
+        "thread_ts": "1525191587.000059",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1525191974.000075"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "I've to look up some of this in order to get a clear picture that's all",
+        "thread_ts": "1525191675.000225",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525192057.000537"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "give me a thumbs up if you have understood.",
+        "ts": "1525192069.000090"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Yeah. Just raise doubts in the Google group if some doubt pops up. It's usually a bit murky in the beginning",
+        "client_msg_id": "8c5fea4d-e6c4-4e5a-9be2-93bc2196930e",
+        "thread_ts": "1525191675.000225",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1525192094.000241"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAG0A3ZNH> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: is the 3rd command supposed to replace previous data in the file?",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAGBU5RFD",
+            "created": 1525192124,
+            "timestamp": 1525192124,
+            "user": "UAG0A3ZNH",
+            "is_intro": false,
+            "comment": "is the 3rd command supposed to replace previous data in the file?"
+        },
+        "is_intro": false,
+        "ts": "1525192124.000619"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: yeah i think so",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHG6L8TZ",
+            "created": 1525192141,
+            "timestamp": 1525192141,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "yeah i think so"
+        },
+        "is_intro": false,
+        "ts": "1525192141.000131"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Create file with some dummy content first. And then run those commands.",
+        "client_msg_id": "958a7948-a20c-4385-8786-3c06259600e9",
+        "thread_ts": "1525191803.000676",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1525192142.000662"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "no",
+        "ts": "1525192155.000223"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: yes, if already a file with the same name exists, then the contents will be overwritten",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAGJT4X0V",
+            "created": 1525192162,
+            "timestamp": 1525192162,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "yes, if already a file with the same name exists, then the contents will be overwritten"
+        },
+        "is_intro": false,
+        "ts": "1525192162.000639"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: provided you have writing permissions for that file",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHG74P47",
+            "created": 1525192182,
+            "timestamp": 1525192182,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "provided you have writing permissions for that file"
+        },
+        "is_intro": false,
+        "ts": "1525192182.000537"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH07G9T9> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: Yes. If you want to instead append something to the end use `cat &gt;&gt;inp_file`",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBMTD1C",
+            "created": 1525192189,
+            "timestamp": 1525192189,
+            "user": "UAH07G9T9",
+            "is_intro": false,
+            "comment": "Yes. If you want to instead append something to the end use `cat &gt;&gt;inp_file`"
+        },
+        "is_intro": false,
+        "ts": "1525192189.000773"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH07G9T9> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: <@UAFHUCYAG> we can come to that later. Don't give them too much at once :p",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAGESP0BC",
+            "created": 1525192207,
+            "timestamp": 1525192207,
+            "user": "UAH07G9T9",
+            "is_intro": false,
+            "comment": "<@UAFHUCYAG> we can come to that later. Don't give them too much at once :p",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFHUCYAG"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1525192207.000179"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: does the second command work with more than two files?",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAGBV6875",
+            "created": 1525192218,
+            "timestamp": 1525192218,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "does the second command work with more than two files?"
+        },
+        "is_intro": false,
+        "ts": "1525192218.000640"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH07G9T9> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: Which second command? ",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAG83CR1A",
+            "created": 1525192245,
+            "timestamp": 1525192245,
+            "user": "UAH07G9T9",
+            "is_intro": false,
+            "comment": "Which second command? "
+        },
+        "is_intro": false,
+        "ts": "1525192245.000247"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: cat file1 file2?",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBNK206",
+            "created": 1525192252,
+            "timestamp": 1525192252,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "cat file1 file2?"
+        },
+        "is_intro": false,
+        "ts": "1525192253.000021"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: yes, we can have multiple files for the cat command. THe second line, I presume",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAFU5QMJM",
+            "created": 1525192261,
+            "timestamp": 1525192261,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "yes, we can have multiple files for the cat command. THe second line, I presume"
+        },
+        "is_intro": false,
+        "ts": "1525192261.000540"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH07G9T9> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: Yes. It will first print contents of file1 then contents of file2",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBNSU2J",
+            "created": 1525192279,
+            "timestamp": 1525192279,
+            "user": "UAH07G9T9",
+            "is_intro": false,
+            "comment": "Yes. It will first print contents of file1 then contents of file2"
+        },
+        "is_intro": false,
+        "ts": "1525192279.000584"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "cat is for display",
+        "ts": "1525192287.000606"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "OK small question for you guys",
+        "client_msg_id": "cc76c446-da22-4b9d-bde0-a2ea8c9548dd",
+        "ts": "1525192298.000685"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "You could also say cat &lt; filename",
+        "ts": "1525192306.000451"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Let's say you have a file file1.txt with some text in it. There's another file file2.txt. How would you append the contents of file1.txt at the end of file2.txt?",
+        "client_msg_id": "69c7da6e-9f76-4d37-bfc7-8b8f4d23fdd7",
+        "edited": {
+            "user": "UAH07G9T9",
+            "ts": "1525192880.000000"
+        },
+        "thread_ts": "1525192346.000545",
+        "reply_count": 6,
+        "replies": [
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525192441.000184"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192579.000183"
+            },
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525192802.000416"
+            },
+            {
+                "user": "UAGTJ7M8X",
+                "ts": "1525192878.000184"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192909.000340"
+            },
+            {
+                "user": "UAGTJ7M8X",
+                "ts": "1525193022.000398"
+            }
+        ],
+        "unread_count": 6,
+        "ts": "1525192346.000545"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFPA8G59> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: so what's the difference b\/w cat file1 file2 and cat file1;cat file2;...",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAGEUKGF4",
+            "created": 1525192375,
+            "timestamp": 1525192375,
+            "user": "UAFPA8G59",
+            "is_intro": false,
+            "comment": "so what's the difference b\/w cat file1 file2 and cat file1;cat file2;..."
+        },
+        "is_intro": false,
+        "ts": "1525192375.000598"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Move down as in?",
+        "client_msg_id": "fb2c5f17-8c0a-40a7-9ad1-88ef9d7b0452",
+        "thread_ts": "1525189985.000751",
+        "parent_user_id": "UAGR3HCLW",
+        "ts": "1525192397.000078"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "cat file2.txt file1.txt",
+        "thread_ts": "1525192346.000545",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192441.000184"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: the first command is used to squash many files together, and a lot more processing can be done. like: cat file1 file2 file3 &gt; sort file4",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBQKTM4",
+            "created": 1525192446,
+            "timestamp": 1525192446,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "the first command is used to squash many files together, and a lot more processing can be done. like: cat file1 file2 file3 &gt; sort file4",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFPA8G59",
+                        "UAH07G9T9"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1525192446.000188"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: but the second will only display the contents of individual files separately. Here, cat is only being used for display purposes",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBR3YA2",
+            "created": 1525192486,
+            "timestamp": 1525192486,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "but the second will only display the contents of individual files separately. Here, cat is only being used for display purposes",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFPA8G59",
+                        "UAGR7CFEJ"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1525192486.000694"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH07G9T9> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh|cat command usage>: A semicolon is used as a separator between commands. In this case the output of the two will be the same. But having `cat file1 file2` will give you the concatenation of the two files and you can do whatever you want with it(append it to another file etc) ",
+        "file": {
+            "id": "FAGJNP5K7",
+            "created": 1525191749,
+            "timestamp": 1525191749,
+            "name": "cat_command_usage.sh",
+            "title": "cat command usage",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 276,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGJNP5K7\/download\/cat_command_usage.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGJNP5K7-ba3646824e",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGJNP5K7\/cat_command_usage.sh\/edit",
+            "preview": "cat <filename>, cat -n <filename> # displays line numbers also\r\ncat file1 file2\r\ncat >inp_file # enter your input and finally hit Ctrl+D\r\ncat file1; cat file2; cat file3; # working with multiple files\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cat<\/span> &lt;filename&gt;, <span class=\"cm-builtin\">cat<\/span> <span class=\"cm-attribute\">-n<\/span> &lt;filename&gt; <span class=\"cm-comment\"># displays line numbers also<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1 file2<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> &gt;inp_file <span class=\"cm-comment\"># enter your input and finally hit Ctrl+D<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cat<\/span> file1; <span class=\"cm-builtin\">cat<\/span> file2; <span class=\"cm-builtin\">cat<\/span> file3; <span class=\"cm-comment\"># working with multiple files<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 6,
+            "lines_more": 1,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 15
+        },
+        "comment": {
+            "id": "FcAHBRHVC6",
+            "created": 1525192532,
+            "timestamp": 1525192532,
+            "user": "UAH07G9T9",
+            "is_intro": false,
+            "comment": "A semicolon is used as a separator between commands. In this case the output of the two will be the same. But having `cat file1 file2` will give you the concatenation of the two files and you can do whatever you want with it(append it to another file etc) ",
+            "num_stars": 1,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFHUCYAG",
+                        "UAFPA8G59"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1525192532.000525"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "is third command changes any of file original contents",
+        "thread_ts": "1525192563.000457",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192588.000124"
+            },
+            {
+                "user": "UAGTJ7M8X",
+                "ts": "1525192614.000039"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525192642.000294"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192653.000181"
+            },
+            {
+                "user": "UAGTJ7M8X",
+                "ts": "1525192669.000466"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1525192563.000457"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Are you sure? Wouldn't that just print the contents of file1 and then file2?\nRead the question again",
+        "client_msg_id": "847aeb18-5aaf-42ba-8ae5-fc775ffed400",
+        "thread_ts": "1525192346.000545",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192579.000183"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "it overwrites them",
+        "thread_ts": "1525192563.000457",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525192588.000124"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "means",
+        "thread_ts": "1525192563.000457",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525192614.000039"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "deletes the current content and adds the new one",
+        "thread_ts": "1525192563.000457",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525192642.000294"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "whatever was wriiten in the file at first will be replaced with whatever u just typed",
+        "thread_ts": "1525192563.000457",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525192653.000181",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "UAFVAN945",
+                    "UAH07G9T9"
+                ],
+                "count": 2
+            },
+            {
+                "name": "heart_eyes",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "ohh",
+        "thread_ts": "1525192563.000457",
+        "parent_user_id": "UAGTJ7M8X",
+        "ts": "1525192669.000466"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "So\n`cat file1&gt;file2` will overwrite file2 with contents of file1\n\n`cat file1&gt;&gt;file2` will append contents of file2 at the end of file1.\n\n\nThis is best seen when you type them out in a terminal yourself. So at the end of this I want all of you to run all of these on your terminals and to confirm the functionalities. You can raise doubts if something doesn't look right.",
+        "client_msg_id": "4ea90bcb-4127-4fd3-83a8-9caa317abcd2",
+        "ts": "1525192700.000574"
+    },
+    {
+        "type": "message",
+        "user": "UAF9M0XBK",
+        "text": ":+1:",
+        "client_msg_id": "987ea4a9-e02e-4cfe-aea5-6761a26767cc",
+        "ts": "1525192723.000190"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "works",
+        "ts": "1525192784.000664"
+    },
+    {
+        "text": "oh yeah",
+        "thread_ts": "1525192346.000545",
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "UAGR3HCLW",
+        "root": {
+            "type": "message",
+            "user": "UAH07G9T9",
+            "text": "Let's say you have a file file1.txt with some text in it. There's another file file2.txt. How would you append the contents of file1.txt at the end of file2.txt?",
+            "client_msg_id": "69c7da6e-9f76-4d37-bfc7-8b8f4d23fdd7",
+            "edited": {
+                "user": "UAH07G9T9",
+                "ts": "1525192880.000000"
+            },
+            "thread_ts": "1525192346.000545",
+            "reply_count": 6,
+            "replies": [
+                {
+                    "user": "UAGR3HCLW",
+                    "ts": "1525192441.000184"
+                },
+                {
+                    "user": "UAH07G9T9",
+                    "ts": "1525192579.000183"
+                },
+                {
+                    "user": "UAGR3HCLW",
+                    "ts": "1525192802.000416"
+                },
+                {
+                    "user": "UAGTJ7M8X",
+                    "ts": "1525192878.000184"
+                },
+                {
+                    "user": "UAH07G9T9",
+                    "ts": "1525192909.000340"
+                },
+                {
+                    "user": "UAGTJ7M8X",
+                    "ts": "1525193022.000398"
+                }
+            ],
+            "unread_count": 6,
+            "ts": "1525192346.000545"
+        },
+        "ts": "1525192802.000416"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Question unanswered. ",
+        "attachments": [
+            {
+                "fallback": "[May 1st, 2018 9:32 AM] kaushikskalmady: Let's say you have a file file1.txt with some text in it. There's another file file2.txt. How would you append the contents of file.txt at the end of file2.txt?",
+                "ts": "1525192346.000545",
+                "author_id": "UAH07G9T9",
+                "author_subname": "Kaushik S Kalmady",
+                "channel_id": "CAF8JML2D",
+                "channel_name": "sessions",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "Let's say you have a file file1.txt with some text in it. There's another file file2.txt. How would you append the contents of file.txt at the end of file2.txt?",
+                "author_name": "Kaushik S Kalmady",
+                "author_link": "https:\/\/ieeeunixsmp.slack.com\/team\/UAH07G9T9",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/cdbe3173112f8f748b29701ccdc0ec61.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0022-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ieeeunixsmp.slack.com\/archives\/CAF8JML2D\/p1525192346000545?thread_ts=1525192346000545&cid=CAF8JML2D",
+                "is_share": true,
+                "footer": "Thread in #sessions"
+            }
+        ],
+        "thread_ts": "1525192811.000540",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192853.000178"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192919.000622"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192931.000393"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525192952.000247"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525192964.000349"
+            },
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525193141.000181"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525193219.000599"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1525192811.000540"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, do you want me to continue?",
+        "ts": "1525192850.000644"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "cat file2&gt;&gt;file",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192853.000178"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "or shall we call it a day?",
+        "ts": "1525192857.000703",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG",
+                    "UAFVAN945"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "cat file1.txt file2.txt &gt;&gt;file2.txt",
+        "thread_ts": "1525192346.000545",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192878.000184"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "What would that do? Can you go through it one by one by breaking it down?",
+        "client_msg_id": "09762643-c752-4e7b-a608-cb3723e491a3",
+        "thread_ts": "1525192346.000545",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192909.000340"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Sure? :p",
+        "client_msg_id": "b1a98156-c00a-4379-9db5-3fc6c2d2817a",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192919.000622"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "pretty sure",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192931.000393"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "I want to add thing to the end of file2, so should file2 be on the left of the &gt;&gt; or the right?",
+        "client_msg_id": "01672b06-3441-4c99-be35-76b752e2beb9",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192952.000247"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "left",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525192964.000349"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Also, when you see something like `command file1 &gt; file2`\n\ncontents of file1 will be used by the command and the output will be written to file2 by overwriting the current contents of file2. Cool?",
+        "client_msg_id": "87bbdc4c-2cf3-47c9-8418-1b372d2dd299",
+        "thread_ts": "1525193019.000558",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1525193131.000237"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525193019.000558",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG",
+                    "UAGR7CFEJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "its actually cat file1.txt &gt;&gt;file2.txt",
+        "thread_ts": "1525192346.000545",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525193022.000398"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "s",
+        "ts": "1525193124.000212"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "oh that's a good way to remember",
+        "thread_ts": "1525193019.000558",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525193131.000237"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "cat file1&gt;&gt;file2 appends file1 to file2 right?",
+        "ts": "1525193136.000349"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "The answer is `cat file1.txt&gt;&gt;file2.txt`\n\nBreaking it down\n\n`cat file1.txt` display content so file1.txt.\n`cat file1.txt &gt;&gt;file2.txt` display contents of file1.txt and redirect it to the end of file2.txt (append)",
+        "client_msg_id": "1078b508-6e48-40b8-8c50-7e650350bbbe",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525193141.000181"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "<@UAGR3HCLW> you are right.",
+        "client_msg_id": "ca209b69-005f-4429-877c-16695938e657",
+        "ts": "1525193188.000708"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "oh its the reverse",
+        "thread_ts": "1525192811.000540",
+        "parent_user_id": "UAH07G9T9",
+        "ts": "1525193219.000599"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "`&gt;` is known as the redirection. If you notice cat only displays the output. The reason it gets added to file2 is because you `redirect` the output there?",
+        "client_msg_id": "47dc78d5-181f-4cee-8497-dbbcc3629af4",
+        "ts": "1525193242.000065"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "So if you break down the command `cat file1 &gt; file2`\n\nIt's actually made of two parts.\n\nFirst part `cat file1` displays contents of file1\n\nSecond part `&gt; file2` redirect output of the command that preceded the `&gt;` to file2",
+        "client_msg_id": "d4070d96-c8d7-4898-95fc-a70affcf66d4",
+        "ts": "1525193317.000024"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "So you can actually do `ls&gt;file2`",
+        "client_msg_id": "d0bf6df9-fbc8-4b9d-97ae-c19320ff6ee5",
+        "ts": "1525193341.000365",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "UAFHUCYAG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "What do you think that will do?",
+        "client_msg_id": "24382582-d0df-45e3-936e-4770c692f883",
+        "ts": "1525193350.000300"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "write the output given by ls to file",
+        "ts": "1525193387.000137"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "yeah same",
+        "ts": "1525193409.000412"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Perfect. So next time you see a `&gt;`you should realize it just means take the output from what preceeded `&gt;` and redirect it to the file specified after `&gt;`",
+        "client_msg_id": "595f51a2-b7e2-4bc2-8906-f1dd1965bc83",
+        "ts": "1525193434.000277",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ",
+                    "UAFHUCYAG",
+                    "UAFPA8G59",
+                    "UAGTJ7M8X",
+                    "UAG0A3ZNH"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, I managed to compile a few resources on other commands, just check them out",
+        "ts": "1525193549.000372"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGK84U05\/mkdir_options.png|flags for mkdir>",
+        "file": {
+            "id": "FAGK84U05",
+            "created": 1525193572,
+            "timestamp": 1525193572,
+            "name": "mkdir options.PNG",
+            "title": "flags for mkdir",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UAFHUCYAG",
+            "editable": false,
+            "size": 103309,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGK84U05\/mkdir_options.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAGK84U05\/download\/mkdir_options.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_64.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_80.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_360.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_360_w": 360,
+            "thumb_360_h": 302,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_480.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_480_w": 480,
+            "thumb_480_h": 403,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_160.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_720.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_720_w": 720,
+            "thumb_720_h": 604,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_800.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_800_w": 800,
+            "thumb_800_h": 671,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_960.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_960_w": 960,
+            "thumb_960_h": 805,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAGK84U05-2ec3953f68\/mkdir_options_1024.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 859,
+            "image_exif_rotation": 1,
+            "original_w": 1068,
+            "original_h": 896,
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAGK84U05\/mkdir_options.png",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAGK84U05-0d8225e237",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1525193575.000339"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> shared a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh|mkdir>",
+        "file": {
+            "id": "FAHA7BDRU",
+            "created": 1525187872,
+            "timestamp": 1525187872,
+            "name": "mkdir.sh",
+            "title": "mkdir",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 266,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHA7BDRU\/mkdir.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHA7BDRU\/download\/mkdir.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAHA7BDRU-0aa403b137",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh\/edit",
+            "preview": "mkdir dir1 dir2 dir3\r\nmkdir parent1\/child1\/our_folder # what if the parent folders are not already present? throws an error!\r\nmkdir -p parent1\/child1\/our_folder # works fine!\r\n# -p --parent: creates the parent folders automatically\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> dir1 dir2 dir3<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> parent1\/child1\/our_folder <span class=\"cm-comment\"># what if the parent folders are not already present? throws an error!<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> <span class=\"cm-attribute\">-p<\/span> parent1\/child1\/our_folder <span class=\"cm-comment\"># works fine!<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-comment\"># -p --parent: creates the parent folders automatically<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 8,
+            "lines_more": 3,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "UAFHUCYAG",
+        "upload": false,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1525193601.000446"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh|mkdir>: sample code for mkdir",
+        "file": {
+            "id": "FAHA7BDRU",
+            "created": 1525187872,
+            "timestamp": 1525187872,
+            "name": "mkdir.sh",
+            "title": "mkdir",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 266,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHA7BDRU\/mkdir.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHA7BDRU\/download\/mkdir.sh?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAHA7BDRU-0aa403b137",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHA7BDRU\/mkdir.sh\/edit",
+            "preview": "mkdir dir1 dir2 dir3\r\nmkdir parent1\/child1\/our_folder # what if the parent folders are not already present? throws an error!\r\nmkdir -p parent1\/child1\/our_folder # works fine!\r\n# -p --parent: creates the parent folders automatically\r\n\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> dir1 dir2 dir3<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> parent1\/child1\/our_folder <span class=\"cm-comment\"># what if the parent folders are not already present? throws an error!<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> <span class=\"cm-attribute\">-p<\/span> parent1\/child1\/our_folder <span class=\"cm-comment\"># works fine!<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-comment\"># -p --parent: creates the parent folders automatically<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 8,
+            "lines_more": 3,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcAHC2RTAA",
+            "created": 1525193601,
+            "timestamp": 1525193601,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "sample code for mkdir"
+        },
+        "is_intro": false,
+        "ts": "1525193601.000515"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHC34Q8N\/rmdir_options.png|flags for rm dir>",
+        "file": {
+            "id": "FAHC34Q8N",
+            "created": 1525193626,
+            "timestamp": 1525193626,
+            "name": "rmdir options.PNG",
+            "title": "flags for rm dir",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UAFHUCYAG",
+            "editable": false,
+            "size": 61314,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHC34Q8N\/rmdir_options.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAHC34Q8N\/download\/rmdir_options.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_64.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_80.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_360.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_360_w": 360,
+            "thumb_360_h": 192,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_480.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_480_w": 480,
+            "thumb_480_h": 256,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_160.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_720.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_720_w": 720,
+            "thumb_720_h": 385,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_800.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_800_w": 800,
+            "thumb_800_h": 427,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_960.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_960_w": 960,
+            "thumb_960_h": 513,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FAHC34Q8N-5b29c4784e\/rmdir_options_1024.png?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 547,
+            "image_exif_rotation": 1,
+            "original_w": 1170,
+            "original_h": 625,
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAHC34Q8N\/rmdir_options.png",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAHC34Q8N-15c3aae74c",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1525193630.000400"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Also, you can always do `command --help` and the terminal will display info about that command.",
+        "client_msg_id": "ac071fd2-302b-4ba4-902e-1434c3f07197",
+        "ts": "1525193662.000631"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Try with `ls --help` and `cat - - help`",
+        "client_msg_id": "f94259a9-866d-453d-a5a6-bb1ba6ee305d",
+        "ts": "1525193685.000255"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "use the `man command_name` to get the manual pages",
+        "ts": "1525193690.000161"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Guys you can ping any of us if you have any doubts, you could post them either here or on the google group",
+        "ts": "1525193724.000177"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "also, regarding the working of rm command, rm will only unlink the associated data from the file name in the filesystem, and it marks the associated space as usable on the device. We won't actually get rid of the data on the disk",
+        "ts": "1525193739.000398"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, to remove stuff like your browser history, use shred command instead. This will overwrite all of the data on the disk, and so it can't be reconstructed again also.",
+        "ts": "1525193761.000480"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "We will come to this later ^",
+        "client_msg_id": "d9194412-022c-44e0-b9ef-6448f1d63389",
+        "ts": "1525193794.000723"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, in conclusion, today we went through the commands ls, cat, pwd, cd, redirection operator",
+        "ts": "1525193809.000111"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, that's it for today",
+        "ts": "1525193876.000529"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you guys can ask your doubts on google groups - it's a lot more organised.",
+        "ts": "1525193899.000012"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "good night!",
+        "ts": "1525193912.000463"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "If there's something nagging you right now then bring it up! We'll clear that off",
+        "client_msg_id": "727576b6-16ad-45ef-a9ff-cb0586f7c0fb",
+        "ts": "1525193970.000035"
+    },
+    {
+        "user": "UAH30B5KQ",
+        "text": "<@UAH30B5KQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1525237601.000006"
+    }
+]
