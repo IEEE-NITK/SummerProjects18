@@ -34,10 +34,8 @@ int main()
             case 3:
             {
                 cin>>x;
-                if(M1.count(x)>0)
-                cout<<"Yes";
-                else
-                cout<<"No";
+                M1.find(M1.begin(),M1.end(),x) != M1.end()? cout<<"Yes" : cout<<"No";
+                
                 break;
             }
 
