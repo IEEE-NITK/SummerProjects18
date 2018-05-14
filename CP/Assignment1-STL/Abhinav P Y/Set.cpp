@@ -48,12 +48,7 @@ int main()
             case 7:
                 {   
                     cin>>x;
-                    int check = 0;
-                    int ref = S1.count(x);
-                    if(ref)
-                        cout<<"Yes"<<endl;
-                    else 
-                        cout<<"No"<<endl;
+                    S1.find(S1.begin(),S1.end(),x) != S1.end() ? cout<<"Yes" : cout<<"No";
                     break;
 
                     /*for(itr = S1.begin(); itr!= S1.end(); ++itr)
