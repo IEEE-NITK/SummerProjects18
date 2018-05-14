@@ -30,34 +30,14 @@ int main()
 
             case 3:
                 cin>>x;
-                ref = 0;
-                for(i = V1.begin(), k = 0; i!=V1.end(); ++i, ++k)
-                {
-                    if(V1[k] == x)
-                    {
-                        ref = 1;
-                        break;
-                    }
-                }
-                if(ref == 1)
-                cout<<"Yes"<<endl;
-                else
-                cout<<"No"<<endl;
-
+                V1.find(V1.begin(),V1.end(),x)!=V1.end() ? cout<<"Yes" : cout<<"No";
                 break;
 
 
 
             case 4:
                 cin>>x;
-                for(i = V1.begin(), k = 0; i!=V1.end(); ++i, ++k)
-                {
-                    if(V1[k] == x)
-                    {
-                        V1.erase(i);
-                        break;
-                    }
-                }
+                V1.find(V1.begin(),V1.end(),x) != V1.end() ? V1.erase(x) : ;
                 break;
 
             case 5:
