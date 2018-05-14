@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 a.out:     file format elf64-x86-64
+=======
+code1:     file format elf64-x86-64
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
 
 
 Disassembly of section .init:
@@ -132,15 +136,24 @@ Disassembly of section .text:
 0000000000000660 <__libc_csu_init>:
  660:	41 57                	push   r15
  662:	41 56                	push   r14
+<<<<<<< HEAD
  664:	41 89 ff             	mov    r15d,edi
+=======
+ 664:	49 89 d7             	mov    r15,rdx
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
  667:	41 55                	push   r13
  669:	41 54                	push   r12
  66b:	4c 8d 25 46 07 20 00 	lea    r12,[rip+0x200746]        # 200db8 <__frame_dummy_init_array_entry>
  672:	55                   	push   rbp
  673:	48 8d 2d 46 07 20 00 	lea    rbp,[rip+0x200746]        # 200dc0 <__init_array_end>
  67a:	53                   	push   rbx
+<<<<<<< HEAD
  67b:	49 89 f6             	mov    r14,rsi
  67e:	49 89 d5             	mov    r13,rdx
+=======
+ 67b:	41 89 fd             	mov    r13d,edi
+ 67e:	49 89 f6             	mov    r14,rsi
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
  681:	4c 29 e5             	sub    rbp,r12
  684:	48 83 ec 08          	sub    rsp,0x8
  688:	48 c1 fd 03          	sar    rbp,0x3
@@ -150,9 +163,15 @@ Disassembly of section .text:
  696:	31 db                	xor    ebx,ebx
  698:	0f 1f 84 00 00 00 00 	nop    DWORD PTR [rax+rax*1+0x0]
  69f:	00 
+<<<<<<< HEAD
  6a0:	4c 89 ea             	mov    rdx,r13
  6a3:	4c 89 f6             	mov    rsi,r14
  6a6:	44 89 ff             	mov    edi,r15d
+=======
+ 6a0:	4c 89 fa             	mov    rdx,r15
+ 6a3:	4c 89 f6             	mov    rsi,r14
+ 6a6:	44 89 ef             	mov    edi,r13d
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
  6a9:	41 ff 14 dc          	call   QWORD PTR [r12+rbx*8]
  6ad:	48 83 c3 01          	add    rbx,0x1
  6b1:	48 39 dd             	cmp    rbp,rbx

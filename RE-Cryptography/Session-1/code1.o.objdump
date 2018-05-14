@@ -15,6 +15,7 @@ Disassembly of section .text:
   1f:	b8 00 00 00 00       	mov    eax,0x0
   24:	c9                   	leave  
   25:	c3                   	ret    
+<<<<<<< HEAD
 
 Disassembly of section .data:
 
@@ -79,3 +80,5 @@ Disassembly of section .eh_frame:
   32:	0c 07                	or     al,0x7
   34:	08 00                	or     BYTE PTR [rax],al
 	...
+=======
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
