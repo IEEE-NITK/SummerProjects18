@@ -17,19 +17,7 @@ int main()
 	      a[x]=y;
 	      break;
 	case 2:
-	      int t;
-	      for(int j=0;j<n;j++)
-              {
-                 for(int k=0;k<n-1;k++)
-	 	{
-		   if(a[k]>a[k+1])
-		   { 
-		     t=a[k];
-		     a[k]=a[k+1];	
-		     a[k+1]=a[k];
-		   }
-		}
-	      }
+	      sort(a,a+1000);
 	      break;
 	case 3:
               cin>>x;
