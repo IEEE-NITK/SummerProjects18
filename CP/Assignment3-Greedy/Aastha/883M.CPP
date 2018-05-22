@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -31,4 +32,5 @@ int main()
     }
     p=2*(l+b);
     cout<<p;
+    cout<<endl;
 }
