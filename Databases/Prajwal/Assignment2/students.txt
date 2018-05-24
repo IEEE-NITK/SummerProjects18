@@ -1,0 +1,12 @@
+> db.students.find({}).limit(10);
+{ "_id" : ObjectId("5b033272648d5f1469cfee7d"), "dept" : "EC", "age" : 20, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Tvarika Raj", "state" : "Gujarat", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee7e"), "dept" : "CO", "age" : 19, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Thangamani Patel", "state" : "West Bengal", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee7f"), "dept" : "CH", "age" : 17, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Pradyot Raj", "state" : "Rajasthan", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee80"), "dept" : "CH", "age" : 19, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Payod Raj", "state" : "Jharkhand", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee81"), "dept" : "CH", "age" : 19, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Tarika Patel", "state" : "Uttar Pradesh", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee82"), "dept" : "EC", "age" : 19, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Rupa Ismail", "state" : "Uttar Pradesh", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee83"), "dept" : "CH", "age" : 17, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Jogindra Raj", "state" : "Gujarat", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee84"), "dept" : "EC", "age" : 17, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Vandan Raj", "state" : "Haryana", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee85"), "dept" : "ME", "age" : 20, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Parvatinandan Khan", "state" : "Gujarat", "isHome" : false }
+{ "_id" : ObjectId("5b033272648d5f1469cfee86"), "dept" : "CV", "age" : 19, "admission_date" : ISODate("1970-01-01T00:00:00Z"), "name" : "Jnyaneshwar Kumar", "state" : "Assam", "isHome" : false }
+>
