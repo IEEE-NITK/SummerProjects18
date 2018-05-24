@@ -1,0 +1,10 @@
+{ "_id" : "IT", "hod" : "Morty Smith", "location" : "western campus", "capacity" : 52, "num_faculty" : 18 }
+{ "_id" : "CS", "hod" : "Rick Sanchez", "location" : "western campus", "capacity" : 106, "num_faculty" : 30 }
+{ "_id" : "CH", "hod" : "Beth Smith", "location" : "western campus", "capacity" : 30, "num_faculty" : 10 }
+{ "_id" : "ME", "hod" : "Jerry Smith", "location" : "eastern campus", "capacity" : 115, "num_faculty" : 32 }
+{ "_id" : "MN", "hod" : "Summer Smith", "location" : "eastern campus", "capacity" : 30, "num_faculty" : 9 }
+{ "_id" : "MT", "hod" : "Jessica", "location" : "esstern campus", "capacity" : 32, "num_faculty" : 11 }
+{ "_id" : "EE", "hod" : "Donna Guatermann", "location" : "western campus", "capacity" : 60, "num_faculty" : 20 }
+{ "_id" : "CV", "hod" : "Chris", "location" : "esstern campus", "capacity" : 45, "num_faculty" : 18 }
+{ "_id" : "EC", "hod" : "Tiny Rick", "location" : "eastern campus", "capacity" : 100, "num_faculty" : 28 }
+
