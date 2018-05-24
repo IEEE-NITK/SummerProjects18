@@ -1,0 +1,80 @@
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd05"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b353"),
+        "age" : 20,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Tvarika Raj",
+        "state" : "Gujarat"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd06"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b352"),
+        "age" : 19,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Thangamani Patel",
+        "state" : "West Bengal"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd07"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b359"),
+        "age" : 17,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Pradyot Raj",
+        "state" : "Rajasthan"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd08"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b359"),
+        "age" : 19,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Payod Raj",
+        "state" : "Jharkhand"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd09"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b359"),
+        "age" : 19,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Tarika Patel",
+        "state" : "Uttar Pradesh"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd0a"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b353"),
+        "age" : 19,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Rupa Ismail",
+        "state" : "Uttar Pradesh"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd0b"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b359"),
+        "age" : 17,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Jogindra Raj",
+        "state" : "Gujarat"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd0c"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b353"),
+        "age" : 17,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Vandan Raj",
+        "state" : "Haryana"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd0d"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b356"),
+        "age" : 20,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Parvatinandan Khan",
+        "state" : "Gujarat"
+}
+{
+        "_id" : ObjectId("5b0690442fd8297551d3fd0e"),
+        "dept" : ObjectId("5b0682ee0626d337cee8b357"),
+        "age" : 19,
+        "admission_date" : ISODate("1970-01-01T00:00:00Z"),
+        "name" : "Jnyaneshwar Kumar",
+        "state" : "Assam"
+}
