@@ -1,0 +1,9 @@
+{ "_id" : "IT", "hod" : "antarish", "location" : "western campus", "capacity" : 90, "num_faculty" : 10 }
+{ "_id" : "cs", "hod" : "cjsncjnj", "location" : "western campus", "capcity" : 100, "num_faculty" : 11 }
+{ "_id" : "CH", "hod" : "dvjvd", "location" : "eastern campus", "capacity" : 56, "num_faculty" : 12 }
+{ "_id" : "ME", "hod" : "djnn", "location" : "eastern campus", "capacity" : 160, "num_faculty" : 20 }
+{ "_id" : "ec", "hod" : "dvvklnklk", "location" : "western campus", "capcity" : 122, "num_faculty" : 32 }
+{ "_id" : "CV", "hod" : "cbsbj", "location" : "eastern campus", "capacity" : 45, "num_faculty" : 12 }
+{ "_id" : "EE", "hod" : "ijfaoj", "location" : "western campus", "capacity" : 123, "num_faculty" : 12 }
+{ "_id" : "MT", "hod" : "fhhusdhld", "location" : "eastern campus", "capacity" : 123, "num_faculty" : 9 }
+{ "_id" : "MN", "hod" : "dskkndks", "location" : "eastern campus", "capacity" : 101, "num_faculty" : 12 }
