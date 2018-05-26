@@ -1,7 +1,7 @@
 
 
 #include<bits/stdc++.h>
-#include<vector>
+
 int main()
 { int number,size,count=0,count1,count2=0;
  std::string c;
