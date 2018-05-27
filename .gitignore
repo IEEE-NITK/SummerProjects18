@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# mypy
+.mypy_cache/
+
+# Prerequisites
+*.d
+
+# Executables
+*.exe
+*.out
+*.app
+
+#IDE's
+.idea/
+.vscode/
