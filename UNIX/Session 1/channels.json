@@ -1,0 +1,117 @@
+[
+    {
+        "id": "CAF8GMEQ1",
+        "name": "general",
+        "created": "1525100751",
+        "creator": "UAFHUCYAG",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "UAF4ZQ7BJ",
+            "UAF9M0XBK",
+            "UAF9TDN5P",
+            "UAFHUCYAG",
+            "UAFL06YEM",
+            "UAFLHAB2M",
+            "UAFNJ8Q8K",
+            "UAFPA8G59",
+            "UAFU0J1K5",
+            "UAFVAN945",
+            "UAG0A3ZNH",
+            "UAGR3HCLW",
+            "UAGR7CFEJ",
+            "UAGTJ7M8X",
+            "UAH07G9T9",
+            "UAH30B5KQ",
+            "UAH4W9SU9",
+            "UAH8CT90X",
+            "UAKJWKXN1"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-based matters",
+            "creator": "UAFHUCYAG",
+            "last_set": "1525100751"
+        },
+        "purpose": {
+            "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+            "creator": "UAFHUCYAG",
+            "last_set": "1525100751"
+        }
+    },
+    {
+        "id": "CAFHUD9MJ",
+        "name": "random",
+        "created": "1525100751",
+        "creator": "UAFHUCYAG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "UAF4ZQ7BJ",
+            "UAF9M0XBK",
+            "UAF9TDN5P",
+            "UAFHUCYAG",
+            "UAFL06YEM",
+            "UAFLHAB2M",
+            "UAFNJ8Q8K",
+            "UAFPA8G59",
+            "UAFU0J1K5",
+            "UAFVAN945",
+            "UAG0A3ZNH",
+            "UAGR3HCLW",
+            "UAGR7CFEJ",
+            "UAGTJ7M8X",
+            "UAH07G9T9",
+            "UAH30B5KQ",
+            "UAH4W9SU9",
+            "UAH8CT90X",
+            "UAKJWKXN1"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "UAFHUCYAG",
+            "last_set": "1525100751"
+        },
+        "purpose": {
+            "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+            "creator": "UAFHUCYAG",
+            "last_set": "1525100751"
+        }
+    },
+    {
+        "id": "CAF8JML2D",
+        "name": "sessions",
+        "created": "1525100892",
+        "creator": "UAFHUCYAG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "UAF4ZQ7BJ",
+            "UAF9M0XBK",
+            "UAF9TDN5P",
+            "UAFHUCYAG",
+            "UAFL06YEM",
+            "UAFLHAB2M",
+            "UAFNJ8Q8K",
+            "UAFPA8G59",
+            "UAFU0J1K5",
+            "UAFVAN945",
+            "UAG0A3ZNH",
+            "UAGR3HCLW",
+            "UAGR7CFEJ",
+            "UAGTJ7M8X",
+            "UAH07G9T9",
+            "UAH30B5KQ",
+            "UAH4W9SU9"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Channel for conducting sessions",
+            "creator": "UAFHUCYAG",
+            "last_set": "1525101388"
+        }
+    }
+]
