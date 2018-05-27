@@ -1,0 +1,33 @@
+section .data
+     N1 DB 36H,55H,27H,42H
+     N2 DB 38H,41H,29H,39H
+     R times 5 db 0 
+ends
+section .text
+global _start
+                               
+_start
+     
+      MOV DS,AX
+     
+      MOV SI,N1
+      MOV DI,N2
+      mOV BX,R
+     
+     
+       MOV CX,5
+LOOP1:      
+       MOV AL,[SI]
+                           
+       ADD AL,[DI]
+       MOV [BX],AL
+            
+       INC BX
+       INC SI
+       INC DI
+      
+       LOOP LOOP1   
+     
+      MOV AH,4CH
+      INT 21H     
+
