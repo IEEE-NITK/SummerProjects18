@@ -1,0 +1,11 @@
+> db.departments.find({});
+{ "_id" : "CS", "hod" : "A", "location" : "western campus", "capacity" : 108, "num_faculty" : 27 }
+{ "_id" : "IT", "hod" : "B", "location" : "western campus", "capacity" : 100, "num_faculty" : 28 }
+{ "_id" : "EC", "hod" : "C", "location" : "western campus", "capacity" : 94, "num_faculty" : 30 }
+{ "_id" : "EE", "hod" : "D", "location" : "western campus", "capacity" : 90, "num_faculty" : 24 }
+{ "_id" : "ME", "hod" : "E", "location" : "eastern campus", "capacity" : 120, "num_faculty" : 32 }
+{ "_id" : "CV", "hod" : "F", "location" : "eastern campus", "capacity" : 88, "num_faculty" : 30 }
+{ "_id" : "MT", "hod" : "G", "location" : "eastern campus", "capacity" : 60, "num_faculty" : 16 }
+{ "_id" : "CH", "hod" : "H", "location" : "eastern campus", "capacity" : 80, "num_faculty" : 24 }
+{ "_id" : "MN", "hod" : "I", "location" : "eastern campus", "capacity" : 90, "num_faculty" : 26 }
+>
