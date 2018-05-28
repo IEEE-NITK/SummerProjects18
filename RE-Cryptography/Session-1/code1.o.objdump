@@ -1,0 +1,17 @@
+
+code1.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	48 83 ec 10          	sub    rsp,0x10
+   8:	c7 45 fc 7b 00 00 00 	mov    DWORD PTR [rbp-0x4],0x7b
+   f:	c6 45 fb 78          	mov    BYTE PTR [rbp-0x5],0x78
+  13:	48 8d 3d 00 00 00 00 	lea    rdi,[rip+0x0]        # 1a <main+0x1a>
+  1a:	e8 00 00 00 00       	call   1f <main+0x1f>
+  1f:	b8 00 00 00 00       	mov    eax,0x0
+  24:	c9                   	leave  
+  25:	c3                   	ret    
