@@ -1,0 +1,59 @@
+
+code.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <factorial>:
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	48 83 ec 20          	sub    rsp,0x20
+   8:	89 7d ec             	mov    DWORD PTR [rbp-0x14],edi
+   b:	48 c7 45 f8 01 00 00 	mov    QWORD PTR [rbp-0x8],0x1
+  12:	00 
+  13:	c7 45 f4 01 00 00 00 	mov    DWORD PTR [rbp-0xc],0x1
+  1a:	eb 15                	jmp    31 <factorial+0x31>
+  1c:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+  1f:	48 98                	cdqe   
+  21:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+  25:	48 0f af c2          	imul   rax,rdx
+  29:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  2d:	83 45 f4 01          	add    DWORD PTR [rbp-0xc],0x1
+  31:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+  34:	3b 45 ec             	cmp    eax,DWORD PTR [rbp-0x14]
+  37:	7e e3                	jle    1c <factorial+0x1c>
+  39:	48 8b 45 f8          	mov    rax,QWORD PTR [rbp-0x8]
+  3d:	48 89 c6             	mov    rsi,rax
+  40:	bf 00 00 00 00       	mov    edi,0x0
+  45:	b8 00 00 00 00       	mov    eax,0x0
+  4a:	e8 00 00 00 00       	call   4f <factorial+0x4f>
+  4f:	90                   	nop
+  50:	c9                   	leave  
+  51:	c3                   	ret    
+
+0000000000000052 <main>:
+  52:	55                   	push   rbp
+  53:	48 89 e5             	mov    rbp,rsp
+  56:	48 83 ec 10          	sub    rsp,0x10
+  5a:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  61:	00 00 
+  63:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  67:	31 c0                	xor    eax,eax
+  69:	bf 00 00 00 00       	mov    edi,0x0
+  6e:	e8 00 00 00 00       	call   73 <main+0x21>
+  73:	48 8d 45 f4          	lea    rax,[rbp-0xc]
+  77:	48 89 c6             	mov    rsi,rax
+  7a:	bf 00 00 00 00       	mov    edi,0x0
+  7f:	b8 00 00 00 00       	mov    eax,0x0
+  84:	e8 00 00 00 00       	call   89 <main+0x37>
+  89:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+  8c:	89 c7                	mov    edi,eax
+  8e:	e8 00 00 00 00       	call   93 <main+0x41>
+  93:	b8 00 00 00 00       	mov    eax,0x0
+  98:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+  9c:	64 48 33 14 25 28 00 	xor    rdx,QWORD PTR fs:0x28
+  a3:	00 00 
+  a5:	74 05                	je     ac <main+0x5a>
+  a7:	e8 00 00 00 00       	call   ac <main+0x5a>
+  ac:	c9                   	leave  
+  ad:	c3                   	ret    

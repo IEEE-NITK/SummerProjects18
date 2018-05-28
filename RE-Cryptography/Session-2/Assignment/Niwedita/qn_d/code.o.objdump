@@ -1,0 +1,82 @@
+
+code.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <func>:
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	48 83 ec 20          	sub    rsp,0x20
+   8:	89 7d ec             	mov    DWORD PTR [rbp-0x14],edi
+   b:	c7 45 f8 00 00 00 00 	mov    DWORD PTR [rbp-0x8],0x0
+  12:	c7 45 fc 00 00 00 00 	mov    DWORD PTR [rbp-0x4],0x0
+  19:	eb 45                	jmp    60 <func+0x60>
+  1b:	8b 4d ec             	mov    ecx,DWORD PTR [rbp-0x14]
+  1e:	ba 67 66 66 66       	mov    edx,0x66666667
+  23:	89 c8                	mov    eax,ecx
+  25:	f7 ea                	imul   edx
+  27:	c1 fa 02             	sar    edx,0x2
+  2a:	89 c8                	mov    eax,ecx
+  2c:	c1 f8 1f             	sar    eax,0x1f
+  2f:	29 c2                	sub    edx,eax
+  31:	89 d0                	mov    eax,edx
+  33:	c1 e0 02             	shl    eax,0x2
+  36:	01 d0                	add    eax,edx
+  38:	01 c0                	add    eax,eax
+  3a:	29 c1                	sub    ecx,eax
+  3c:	89 ca                	mov    edx,ecx
+  3e:	01 55 f8             	add    DWORD PTR [rbp-0x8],edx
+  41:	8b 4d ec             	mov    ecx,DWORD PTR [rbp-0x14]
+  44:	ba 67 66 66 66       	mov    edx,0x66666667
+  49:	89 c8                	mov    eax,ecx
+  4b:	f7 ea                	imul   edx
+  4d:	c1 fa 02             	sar    edx,0x2
+  50:	89 c8                	mov    eax,ecx
+  52:	c1 f8 1f             	sar    eax,0x1f
+  55:	29 c2                	sub    edx,eax
+  57:	89 d0                	mov    eax,edx
+  59:	89 45 ec             	mov    DWORD PTR [rbp-0x14],eax
+  5c:	83 45 fc 01          	add    DWORD PTR [rbp-0x4],0x1
+  60:	83 7d ec 00          	cmp    DWORD PTR [rbp-0x14],0x0
+  64:	7f b5                	jg     1b <func+0x1b>
+  66:	83 7d f8 09          	cmp    DWORD PTR [rbp-0x8],0x9
+  6a:	7f 05                	jg     71 <func+0x71>
+  6c:	8b 45 f8             	mov    eax,DWORD PTR [rbp-0x8]
+  6f:	eb 0a                	jmp    7b <func+0x7b>
+  71:	8b 45 f8             	mov    eax,DWORD PTR [rbp-0x8]
+  74:	89 c7                	mov    edi,eax
+  76:	e8 00 00 00 00       	call   7b <func+0x7b>
+  7b:	c9                   	leave  
+  7c:	c3                   	ret    
+
+000000000000007d <main>:
+  7d:	55                   	push   rbp
+  7e:	48 89 e5             	mov    rbp,rsp
+  81:	48 83 ec 10          	sub    rsp,0x10
+  85:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  8c:	00 00 
+  8e:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  92:	31 c0                	xor    eax,eax
+  94:	bf 00 00 00 00       	mov    edi,0x0
+  99:	e8 00 00 00 00       	call   9e <main+0x21>
+  9e:	48 8d 45 f4          	lea    rax,[rbp-0xc]
+  a2:	48 89 c6             	mov    rsi,rax
+  a5:	bf 00 00 00 00       	mov    edi,0x0
+  aa:	b8 00 00 00 00       	mov    eax,0x0
+  af:	e8 00 00 00 00       	call   b4 <main+0x37>
+  b4:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+  b7:	89 c7                	mov    edi,eax
+  b9:	e8 00 00 00 00       	call   be <main+0x41>
+  be:	89 c6                	mov    esi,eax
+  c0:	bf 00 00 00 00       	mov    edi,0x0
+  c5:	b8 00 00 00 00       	mov    eax,0x0
+  ca:	e8 00 00 00 00       	call   cf <main+0x52>
+  cf:	b8 00 00 00 00       	mov    eax,0x0
+  d4:	48 8b 55 f8          	mov    rdx,QWORD PTR [rbp-0x8]
+  d8:	64 48 33 14 25 28 00 	xor    rdx,QWORD PTR fs:0x28
+  df:	00 00 
+  e1:	74 05                	je     e8 <main+0x6b>
+  e3:	e8 00 00 00 00       	call   e8 <main+0x6b>
+  e8:	c9                   	leave  
+  e9:	c3                   	ret    

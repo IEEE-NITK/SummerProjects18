@@ -1,0 +1,154 @@
+
+code.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	48 81 ec e0 d4 01 00 	sub    rsp,0x1d4e0
+   b:	64 48 8b 04 25 28 00 	mov    rax,QWORD PTR fs:0x28
+  12:	00 00 
+  14:	48 89 45 f8          	mov    QWORD PTR [rbp-0x8],rax
+  18:	31 c0                	xor    eax,eax
+  1a:	bf 00 00 00 00       	mov    edi,0x0
+  1f:	e8 00 00 00 00       	call   24 <main+0x24>
+  24:	48 8d 95 24 2b fe ff 	lea    rdx,[rbp-0x1d4dc]
+  2b:	48 8d 85 20 2b fe ff 	lea    rax,[rbp-0x1d4e0]
+  32:	48 89 c6             	mov    rsi,rax
+  35:	bf 00 00 00 00       	mov    edi,0x0
+  3a:	b8 00 00 00 00       	mov    eax,0x0
+  3f:	e8 00 00 00 00       	call   44 <main+0x44>
+  44:	bf 00 00 00 00       	mov    edi,0x0
+  49:	e8 00 00 00 00       	call   4e <main+0x4e>
+  4e:	c7 85 28 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d8],0x0
+  55:	00 00 00 
+  58:	eb 76                	jmp    d0 <main+0xd0>
+  5a:	c7 85 2c 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d4],0x0
+  61:	00 00 00 
+  64:	eb 55                	jmp    bb <main+0xbb>
+  66:	48 8d 8d 30 2b fe ff 	lea    rcx,[rbp-0x1d4d0]
+  6d:	8b 85 2c 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d4]
+  73:	48 63 f0             	movsxd rsi,eax
+  76:	8b 85 28 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d8]
+  7c:	48 63 d0             	movsxd rdx,eax
+  7f:	48 89 d0             	mov    rax,rdx
+  82:	48 c1 e0 02          	shl    rax,0x2
+  86:	48 01 d0             	add    rax,rdx
+  89:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+  90:	00 
+  91:	48 01 d0             	add    rax,rdx
+  94:	48 c1 e0 02          	shl    rax,0x2
+  98:	48 01 f0             	add    rax,rsi
+  9b:	48 c1 e0 02          	shl    rax,0x2
+  9f:	48 01 c8             	add    rax,rcx
+  a2:	48 89 c6             	mov    rsi,rax
+  a5:	bf 00 00 00 00       	mov    edi,0x0
+  aa:	b8 00 00 00 00       	mov    eax,0x0
+  af:	e8 00 00 00 00       	call   b4 <main+0xb4>
+  b4:	83 85 2c 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d4],0x1
+  bb:	8b 85 24 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4dc]
+  c1:	39 85 2c 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d4],eax
+  c7:	7c 9d                	jl     66 <main+0x66>
+  c9:	83 85 28 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d8],0x1
+  d0:	8b 85 20 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4e0]
+  d6:	39 85 28 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d8],eax
+  dc:	0f 8c 78 ff ff ff    	jl     5a <main+0x5a>
+  e2:	bf 00 00 00 00       	mov    edi,0x0
+  e7:	e8 00 00 00 00       	call   ec <main+0xec>
+  ec:	c7 85 28 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d8],0x0
+  f3:	00 00 00 
+  f6:	eb 76                	jmp    16e <main+0x16e>
+  f8:	c7 85 2c 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d4],0x0
+  ff:	00 00 00 
+ 102:	eb 55                	jmp    159 <main+0x159>
+ 104:	48 8d 8d 70 c7 fe ff 	lea    rcx,[rbp-0x13890]
+ 10b:	8b 85 2c 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d4]
+ 111:	48 63 f0             	movsxd rsi,eax
+ 114:	8b 85 28 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d8]
+ 11a:	48 63 d0             	movsxd rdx,eax
+ 11d:	48 89 d0             	mov    rax,rdx
+ 120:	48 c1 e0 02          	shl    rax,0x2
+ 124:	48 01 d0             	add    rax,rdx
+ 127:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+ 12e:	00 
+ 12f:	48 01 d0             	add    rax,rdx
+ 132:	48 c1 e0 02          	shl    rax,0x2
+ 136:	48 01 f0             	add    rax,rsi
+ 139:	48 c1 e0 02          	shl    rax,0x2
+ 13d:	48 01 c8             	add    rax,rcx
+ 140:	48 89 c6             	mov    rsi,rax
+ 143:	bf 00 00 00 00       	mov    edi,0x0
+ 148:	b8 00 00 00 00       	mov    eax,0x0
+ 14d:	e8 00 00 00 00       	call   152 <main+0x152>
+ 152:	83 85 2c 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d4],0x1
+ 159:	8b 85 24 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4dc]
+ 15f:	39 85 2c 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d4],eax
+ 165:	7c 9d                	jl     104 <main+0x104>
+ 167:	83 85 28 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d8],0x1
+ 16e:	8b 85 20 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4e0]
+ 174:	39 85 28 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d8],eax
+ 17a:	0f 8c 78 ff ff ff    	jl     f8 <main+0xf8>
+ 180:	c7 85 28 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d8],0x0
+ 187:	00 00 00 
+ 18a:	e9 d0 00 00 00       	jmp    25f <main+0x25f>
+ 18f:	c7 85 2c 2b fe ff 00 	mov    DWORD PTR [rbp-0x1d4d4],0x0
+ 196:	00 00 00 
+ 199:	e9 a8 00 00 00       	jmp    246 <main+0x246>
+ 19e:	8b 85 2c 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d4]
+ 1a4:	48 63 c8             	movsxd rcx,eax
+ 1a7:	8b 85 28 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d8]
+ 1ad:	48 63 d0             	movsxd rdx,eax
+ 1b0:	48 89 d0             	mov    rax,rdx
+ 1b3:	48 c1 e0 02          	shl    rax,0x2
+ 1b7:	48 01 d0             	add    rax,rdx
+ 1ba:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+ 1c1:	00 
+ 1c2:	48 01 d0             	add    rax,rdx
+ 1c5:	48 c1 e0 02          	shl    rax,0x2
+ 1c9:	48 01 c8             	add    rax,rcx
+ 1cc:	8b 8c 85 30 2b fe ff 	mov    ecx,DWORD PTR [rbp+rax*4-0x1d4d0]
+ 1d3:	8b 85 2c 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d4]
+ 1d9:	48 63 f0             	movsxd rsi,eax
+ 1dc:	8b 85 28 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d8]
+ 1e2:	48 63 d0             	movsxd rdx,eax
+ 1e5:	48 89 d0             	mov    rax,rdx
+ 1e8:	48 c1 e0 02          	shl    rax,0x2
+ 1ec:	48 01 d0             	add    rax,rdx
+ 1ef:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+ 1f6:	00 
+ 1f7:	48 01 d0             	add    rax,rdx
+ 1fa:	48 c1 e0 02          	shl    rax,0x2
+ 1fe:	48 01 f0             	add    rax,rsi
+ 201:	8b 84 85 70 c7 fe ff 	mov    eax,DWORD PTR [rbp+rax*4-0x13890]
+ 208:	01 c1                	add    ecx,eax
+ 20a:	8b 85 2c 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d4]
+ 210:	48 63 f0             	movsxd rsi,eax
+ 213:	8b 85 28 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4d8]
+ 219:	48 63 d0             	movsxd rdx,eax
+ 21c:	48 89 d0             	mov    rax,rdx
+ 21f:	48 c1 e0 02          	shl    rax,0x2
+ 223:	48 01 d0             	add    rax,rdx
+ 226:	48 8d 14 85 00 00 00 	lea    rdx,[rax*4+0x0]
+ 22d:	00 
+ 22e:	48 01 d0             	add    rax,rdx
+ 231:	48 c1 e0 02          	shl    rax,0x2
+ 235:	48 01 f0             	add    rax,rsi
+ 238:	89 8c 85 b0 63 ff ff 	mov    DWORD PTR [rbp+rax*4-0x9c50],ecx
+ 23f:	83 85 2c 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d4],0x1
+ 246:	8b 85 24 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4dc]
+ 24c:	39 85 2c 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d4],eax
+ 252:	0f 8c 46 ff ff ff    	jl     19e <main+0x19e>
+ 258:	83 85 28 2b fe ff 01 	add    DWORD PTR [rbp-0x1d4d8],0x1
+ 25f:	8b 85 20 2b fe ff    	mov    eax,DWORD PTR [rbp-0x1d4e0]
+ 265:	39 85 28 2b fe ff    	cmp    DWORD PTR [rbp-0x1d4d8],eax
+ 26b:	0f 8c 1e ff ff ff    	jl     18f <main+0x18f>
+ 271:	b8 00 00 00 00       	mov    eax,0x0
+ 276:	48 8b 7d f8          	mov    rdi,QWORD PTR [rbp-0x8]
+ 27a:	64 48 33 3c 25 28 00 	xor    rdi,QWORD PTR fs:0x28
+ 281:	00 00 
+ 283:	74 05                	je     28a <main+0x28a>
+ 285:	e8 00 00 00 00       	call   28a <main+0x28a>
+ 28a:	c9                   	leave  
+ 28b:	c3                   	ret    
