@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-int k,j;
+int k;
     std::string a,b;
       std::cin>>a;
 
@@ -10,7 +10,7 @@ int k,j;
 
     k=a.size();
      std::cout<<a[0];
-    for( j=1;j<k;j++)
+    for( int j=1;j<k;j++)
        
            {if(a[j]<b[0])
            std::cout<<a[j];
