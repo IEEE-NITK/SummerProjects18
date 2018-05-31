@@ -1,0 +1,31 @@
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c85"), "age" : 20, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Tvarika Raj", "state" : "Gujarat", "de
+pt_id" : "EC" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c86"), "age" : 19, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Thangamani Patel", "state" : "West Ben
+gal", "dept_id" : "CO" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c87"), "age" : 17, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Pradyot Raj", "state" : "Rajasthan", "
+dept_id" : "CH" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c88"), "age" : 19, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Payod Raj", "state" : "Jharkhand", "de
+pt_id" : "CH" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c89"), "age" : 19, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Tarika Patel", "state" : "Uttar Prades
+h", "dept_id" : "CH" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c8a"), "age" : 19, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Rupa Ismail", "state" : "Uttar Pradesh
+", "dept_id" : "EC" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c8b"), "age" : 17, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Jogindra Raj", "state" : "Gujarat", "d
+ept_id" : "CH" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c8c"), "age" : 17, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Vandan Raj", "state" : "Haryana", "dep
+t_id" : "EC" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c8d"), "age" : 20, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Parvatinandan Khan", "state" : "Gujara
+t", "dept_id" : "ME" }
+{ "_id" : ObjectId("5afe972ee70b8a2bb9f91c8e"), "age" : 19, "admission_date" : I
+SODate("1970-01-01T00:00:00Z"), "name" : "Jnyaneshwar Kumar", "state" : "Assam",
+ "dept_id" : "CV" }
+
