@@ -1,0 +1,87 @@
+7a)
+in code7,the address of arguments are stored in registers rdi,rsi,rdx,rdc,r8,r9 and the function gets these values
+
+7b) pass arguments while executing
+
+7c)use the string command
+              
+8a)                instructions      stack space bytes
+recursive          177               139624
+iter               104            139264
+
+
+8b)
+iterative=9n+5
+recursive=16n+1
+
+n=7;it=68 ,rec=113
+n=4;it=41 ,rec=65
+n=3;it=32, rec=49
+n=2;it=23, rec=33
+n=1; it 14, rec=17
+
+
+8c)iterative is better since it uses less instructions for the same stack space
+
+
+9a) the first parameter is printed
+
+9d)
+return address by static--0x00005555555547db
+rbp; 0x5555555547d0
+
+dynamic analysis--0x5555555547db
+
+both are same
+
+it gives a segmentation fault for length more than 100 characters
+
+
+
+
+10a)
+warning: implicit declaration of function ‘gets’ [-Wimplicit-function-declaration]
+  gets(buffer);
+  ^~~~
+/tmp/ccpmseFk.o: In function `main':
+code10.c:(.text+0x15): warning: the `gets' function is dangerous and should not be used.
+
+10b)rbp pushed at 0x00005555555546f0 
+return address  0x7ffff7a5a2e1 
+
+10c)string of length 120 and more causes segmentation fault
+
+10d)large input might have changed the return address
+
+
+11a) yes
+
+11b)those inputs were larger than the allocated space and stack information was overwritten.
+
+
+12a)
+string of min length 123
+
+12b)
+length 111
+
+12c)without stack protector-Segmentation fault (core dumped)
+ with stack protector-*** stack smashing detected ***: <unknown> terminated
+Aborted (core dumped)
+
+12d) it detects buffer overflows on stack allocated variables
+
+12e)
+mov    rax,QWORD PTR [rbp-0x8]
+xor    rax,QWORD PTR fs:0x28
+je     0x764 <func1+85>
+call   0x5b0 <__stack_chk_fail@plt>
+    extra in code12-2
+
+
+
+
+
+
+
+
