@@ -1,0 +1,14 @@
+a)
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+__libc_start_main
+__gmon_start__
+Fatal error
+I/O device not found
+Usage: $ ./code1 <number1> <number2>
+Kernel Eroror
+Syestem call Error
+
+b)
+
+
