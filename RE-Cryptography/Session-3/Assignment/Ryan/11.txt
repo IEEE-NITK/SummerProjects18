@@ -1,0 +1,12 @@
+11.
+
+a.
+Yes
+
+b.
+The strcpy function does not take in the maximum length of the string. So when the input is much larger than the buffer size, it causes some data to be overwritten and thus causes a segfault.
+
+c.
+return value: 0x7ffff7a05b97
+
+If a string of length greater than 120 is taken, the value of rbp and the return address changes.
