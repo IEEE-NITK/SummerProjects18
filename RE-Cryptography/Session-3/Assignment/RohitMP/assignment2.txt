@@ -1,4 +1,5 @@
 1a. This executable runs on 32 bit (x86) architecture as all the registers used are of size 32 bits or lesser and the lahf command is avaiable only in 32 bit architecture.
+[comment by Adwaith]: This file is a 32-bit ARM executable and can be found out by file command. ($ file code1) will give all the details regarding the file. readelf command can also be used.
 
 1b. Magic numbers are the first few bytes of a file which are unique to a particular file type. These unique bits are referred to as magic numbers,  also sometimes referred to as a  file signature. The magic number of code1 is 7f 45 4c 46 01 01 01 00.
 
@@ -7,6 +8,7 @@
 Upon using chmod and adding execute permissions, I still got errors like 'no job control' and 'command not found'.
 
 1d. We can notice that the magic numbers of a PDF and an executable are not the same which implies that the system does not treat both the files in the same way which means that a PDF cannot be run like an executable.
+
 
 
 
@@ -64,11 +66,13 @@ _start:
         mov rbx, 0x00
         int 0x80
 
+[comment by Adwaith]: Check the code once again. Logic is correct, but null character at the end of the string should be put as 0x00 or just 0 and not '0x0'. '0x0' is a string in itself. So, the above strings are not null-terminated. Run the code and you will be able to figure it out from the output you get.
+
 3c. The second print statement has been removed from the assembly code.
 
 3d. The compiler has removed unnecessary parts of the code, i.e. the second print statement due to the unconditional print statement and replaced it by a 'nop' or no-operation.
 
-
+[comment by Adwaith]: The compiler has optimized the code. Optimization was the word we were looking for.
 
 
 
@@ -89,10 +93,14 @@ _start:
 7ffff7ffe000-7ffff7fff000 rw-p 00000000 00:00 0 
 7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+[comment by Adwaith]: Were these the only entries? There should have been other entries at the beginning. Report all the entries.
 
 4c. 7ffffffde000-7ffffffff000 is for .text section and 7ffff7ffe000-7ffff7fff000 is for .data section since the memory location 0x7fffffffdfd8 is used to store the pushed value of rbp.
+[comment by Adwaith]: Check this once again. Just compare the addresses of .text(or the main function) in gdb and these addresses. Do they match?
+
 
 4d. I don't find a file with permissions -wxp. I think it's so because that part of the memory would be useless in runtime if you could only store data in it and not read back from it.
+[comment by Adwaith]: That's a good observation! . Will you find a address space with rwxp permissions?
 
 4e.
 First time : 
@@ -157,6 +165,7 @@ for(i=0;i<n;i++)
 printf("Output = %d\n",n);
 
 6b. No, they're not the same. code6 consists of a recursive function call_me_1 which prints the values from 0 till the number entered excluding it. call_me_2 only loads the entered number into the rax register and passes the control back to main function to print the number.
+[comment by Adwaith]: GO through the disassembly of all the functions once again. 
 
 6c. There are two functions namely 'call_me_1' and 'call_me_2'.
 The two instructions:
@@ -192,6 +201,7 @@ We should pass nine arguments while executing the code for it to print the flag.
 
 8a. iterative - 104 instructions and 139264 bytes of stack memory
     recursive - 177 instructions and 139264 bytes of stack memory
+
 
 8b. Consider n>=1
 No. of instructions:
@@ -240,6 +250,7 @@ The segmentation fault was caused because the entered was greater than the size 
 The return address is 0x7ffff7a161c1.
 
 10c. A string of length greater than or equal to 120 causes segmentation fault.
+[comment by Adwaith]: Here, though the buffer size is 100, can you think why it is segfaulting at 120 bytes? 
 
 10d. The program segfaults only if I enter a string of length greater than or equal to 120.
 
@@ -254,7 +265,7 @@ The reason is that last few bits of the return were changed by the large input i
 11a. Yes
 
 11b. They did for some inputs because the size of the input was more than the space allocated for it which caused it to overwrite other information in the stack thus leading to loss of information and unintended addresses/executions and segmentation fault.
-
+[comment by Adwaith]: Good one!
 
 
 
@@ -295,7 +306,7 @@ The values in fs:28 were:
 0x8995097e93829400
 0xac2d940e3df2e00
 fs is a protected register which we directly cannot access. So the value stored in fs is unknown.
-
+[comment by Adwaith]: How did you find out that value of fs cannot be found? 
 
 
 
