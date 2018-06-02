@@ -1,0 +1,19 @@
+{ "_id" : "CO", "hod" : "abc", "location" : "Western Campus", "capacity" : 95, "
+num_faculty" : 20 }
+{ "_id" : "EC", "hod" : "def", "location" : "Western Campus", "capacity" : 90, "
+num_faculty" : 25 }
+{ "_id" : "EE", "hod" : "ghi", "location" : "Western Campus", "capacity" : 100,
+"num_faculty" : 22 }
+{ "_id" : "IT", "hod" : "jkl", "location" : "Western Campus", "capacity" : 102,
+"num_faculty" : 15 }
+{ "_id" : "CH", "hod" : "mno", "location" : "Eastern Campus", "capacity" : 45, "
+num_faculty" : 18 }
+{ "_id" : "ME", "hod" : "pqr", "location" : " Eastern Campus", "capacity" : 160,
+ "num_faculty" : 30 }
+{ "_id" : "CV", "hod" : "stu", "location" : " Eastern Campus", "capacity" : 80,
+"num_faculty" : 23 }
+{ "_id" : "MN", "hod" : "vwq", "location" : "Eastern Campus", "capacity" : 40, "
+num_faculty" : 10 }
+{ "_id" : "MT", "hod" : "xyz", "location" : "Eastern Campus", "capacity" : 45, "
+num_faculty" : 21 }
+

@@ -1,0 +1,2388 @@
+[
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Hey",
+        "ts": "1525793488.000595",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH07G9T9",
+                    "UAF9M0XBK",
+                    "UAFL06YEM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "hi",
+        "ts": "1525793551.000563"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Let's wait 5 min more for people to join in",
+        "ts": "1525793581.000697"
+    },
+    {
+        "type": "message",
+        "user": "UAF9TDN5P",
+        "text": "I'm here too :)",
+        "client_msg_id": "3cc621d6-3c14-4ba6-9aa2-895889b0f59e",
+        "ts": "1525793620.000385",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945",
+                    "UAFLHAB2M",
+                    "UAH30B5KQ",
+                    "UAFU0J1K5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok guys",
+        "ts": "1525793935.000733"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "lets start:grin:",
+        "ts": "1525793951.000536"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Did you guys complete the tasks that were given in the mail?",
+        "ts": "1525793974.000678"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": ":+1::skin-tone-5:",
+        "client_msg_id": "65FC3C7F-CE89-4CFD-B8EF-82F1A5961689",
+        "ts": "1525794008.000713"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "i did not receive mail",
+        "thread_ts": "1525794072.000919",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525794110.000028"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525794163.000597"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525794072.000919"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok, don't worry we will sort this out after the session",
+        "thread_ts": "1525794072.000919",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525794110.000028"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFU0J1K5> do you know the answer to the first question?",
+        "ts": "1525794138.000799"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "yeah",
+        "thread_ts": "1525794072.000919",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525794163.000597"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Here are a set of tasks for the next session as a recap of the first one:-\n1) Find out the difference between UNIX and LINUX.\n2) Create a directory called \"Unix project\" (without quotes) in your home directory.\n3) Go into that directory and create a text file using 'cat' command and write some text into it. \n4) Now delete this entire directory(along with that file of course).",
+        "ts": "1525794165.000892"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "Linux is a unix clone",
+        "client_msg_id": "0C7E4D68-B4EB-4149-BFE8-B3B895A9CC4A",
+        "ts": "1525794237.000779"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "good",
+        "ts": "1525794263.000577"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Anything else you would like to add?",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525794296.000000"
+        },
+        "ts": "1525794277.000890"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "Linux is portable whereas unix is not",
+        "client_msg_id": "4D5F445A-49F6-44F6-8A3B-6E211314389B",
+        "ts": "1525794293.000773"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "That's right",
+        "ts": "1525794308.000620"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "LINUX is basically open source, while UNIX is proprietary software.",
+        "ts": "1525794350.000220"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Linux is used in home based pcs while unix is used in server system",
+        "client_msg_id": "c8118144-3078-42d1-b87e-e24c7c888d4d",
+        "ts": "1525794407.000469",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Linux is developed by Open Source development i.e. through sharing and collaboration of code and features through forums etc and it is distributed by various vendors.\n\nUnix systems are divided into various other flavors, mostly developed by AT&amp;T as well as various commercial vendors and non-profit organizations.",
+        "ts": "1525794495.000414"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "You can check out the source code here: <https:\/\/github.com\/torvalds\/linux>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "torvalds\/linux",
+                "title_link": "https:\/\/github.com\/torvalds\/linux",
+                "text": "linux - Linux kernel source tree",
+                "fallback": "GitHub: torvalds\/linux",
+                "from_url": "https:\/\/github.com\/torvalds\/linux",
+                "thumb_url": "https:\/\/avatars1.githubusercontent.com\/u\/1024025?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/torvalds\/linux"
+            }
+        ],
+        "ts": "1525794549.000027"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So I'd like to give you a little bit of backstory about Linux.",
+        "ts": "1525794589.000228"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "To learn about how Linux came to be, let’s go back to the beginning to 1969 where Ken Thompson and Dennis Ritchie of Bell Laboratories developed the UNIX operating system. It was later rewritten in C to make it more portable and eventually became a widely used operating system.",
+        "ts": "1525794621.000530"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Almost a decade later Richard Stallman started working on the GNU (GNU is Not UNIX) project, the GNU kernel called Hurd, which unfortunately never came to completion. The GNU General Public License (GPL), a free software license, was also created as a result of this.",
+        "ts": "1525794669.000836"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The *kernel* is the most important piece in the operating system. It allows the hardware to talk to the software. It also does a whole lot of other things, but we’ll discuss that in the upcoming sessions. For now, just know that the kernel controls pretty much everything that happens on your system.",
+        "ts": "1525794734.000524"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "During this time other efforts such as BSD, MINIX, etc were developed to be UNIX like-systems. However, one thing that all these UNIX like-systems had in common was the lack of a unified kernel. Then in 1991, a young fellow named _Linus Torvalds_ started developing what we now know today as the Linux kernel.",
+        "ts": "1525794791.000176",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFU0J1K5",
+                    "UAGR3HCLW",
+                    "UAFL06YEM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Interesting right?",
+        "ts": "1525794887.000098"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok so the next question: Create a directory called \"Unix project\" (without quotes) in your home directory.",
+        "ts": "1525794917.000953"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Does anyone know to do to this?",
+        "ts": "1525794958.000908"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "By using mkdir command",
+        "client_msg_id": "a5ccd2b5-1f4e-46f9-8592-c1cd9306d3bc",
+        "ts": "1525794985.000210"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "correct but did you say mkdir Unix project?",
+        "thread_ts": "1525795023.000058",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525795043.000571"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525795081.000141"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525795175.000175"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525795194.000153"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1525795023.000058"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "mkdir Unix\/ project",
+        "thread_ts": "1525795028.000241",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525795111.000874"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525795180.001014"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525795028.000241"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Nope",
+        "client_msg_id": "b793d9ef-74bd-4060-8a99-603d701f9a2b",
+        "thread_ts": "1525795023.000058",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795043.000571"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Can you tell me the exact command you used?",
+        "thread_ts": "1525795023.000058",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795081.000141"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Did you try executing this command with the forward slash?",
+        "thread_ts": "1525795028.000241",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525795111.000874"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok so I want everyone to execute the following commands and tell me what output you get",
+        "ts": "1525795172.000869"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "I don't know",
+        "client_msg_id": "28a52ba6-96d8-4582-a955-c96d5dcc2145",
+        "thread_ts": "1525795023.000058",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795175.000175"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "sorry its forward slash",
+        "thread_ts": "1525795028.000241",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525795180.001014"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "It's alright",
+        "thread_ts": "1525795023.000058",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795194.000153"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALCRCC85\/-.txt|Untitled>",
+        "file": {
+            "id": "FALCRCC85",
+            "created": 1525795244,
+            "timestamp": 1525795244,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 33,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALCRCC85\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALCRCC85\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALCRCC85\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FALCRCC85-65c1c556ab",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALCRCC85\/-.txt\/edit",
+            "preview": "cd\r\ncd Desktop\r\nmkdir SMP; cd SMP",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>cd<\/pre><\/div>\n<div><pre>cd Desktop<\/pre><\/div>\n<div><pre>mkdir SMP; cd SMP<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAGR3HCLW",
+                        "UAGTJ7M8X",
+                        "UAFU0J1K5"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525795244.000782"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "put a thumbs up on the snippet once you're done",
+        "ts": "1525795315.000538"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "it creates a directory smp in desktop and goes into the directory",
+        "ts": "1525795351.000470",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Thats correct:smiley:",
+        "ts": "1525795367.000558"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Now I want you guys to try to make a directory called \"Unix project\" using the mkdir command",
+        "ts": "1525795420.000218"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "After that using the 'ls' command I want you to tell me what happens",
+        "thread_ts": "1525795446.000020",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525795504.000171"
+            },
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525795518.000480"
+            },
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525795525.000410"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525795565.000748"
+            },
+            {
+                "user": "UAGTJ7M8X",
+                "ts": "1525795573.000345"
+            },
+            {
+                "user": "UAGR3HCLW",
+                "ts": "1525795584.000236"
+            },
+            {
+                "user": "UAFU0J1K5",
+                "ts": "1525795644.000849"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1525795446.000020"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "directory is empty",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795504.000171"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "so it doesn",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795518.000480"
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "do anything",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795525.000410"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "did you use the 'mkdir' command?",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795565.000748"
+    },
+    {
+        "type": "message",
+        "user": "UAGTJ7M8X",
+        "text": "It is making two empty directory's Unix and project",
+        "client_msg_id": "78d6dec3-d055-4162-b535-b106f8aa2913",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795573.000345",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAGR3HCLW",
+        "text": "oh i used double quotes",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795584.000236"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok good",
+        "ts": "1525795596.000177"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKHS8MJ4\/2_directories_created.txt|2 directories created>",
+        "file": {
+            "id": "FAKHS8MJ4",
+            "created": 1525795629,
+            "timestamp": 1525795629,
+            "name": "2_directories_created.txt",
+            "title": "2 directories created",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 19,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKHS8MJ4\/2_directories_created.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKHS8MJ4\/download\/2_directories_created.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKHS8MJ4\/2_directories_created.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAKHS8MJ4-a4b7771143",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKHS8MJ4\/2_directories_created.txt\/edit",
+            "preview": "mkdir Unix project ",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>mkdir Unix project <\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525795629.000686"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "It makes two different directories",
+        "client_msg_id": "C82D5769-F653-4F75-8C17-2A5C83B87CDB",
+        "thread_ts": "1525795446.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525795644.000849",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "this command results in the creation of 2 directories like some of you have seen",
+        "ts": "1525795669.000725"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "What we want is a directory called \"Unix project\"",
+        "ts": "1525795694.000781"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "to get that we need to use the command",
+        "ts": "1525795704.000695"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAL8WA9JN\/-.txt|Untitled>",
+        "file": {
+            "id": "FAL8WA9JN",
+            "created": 1525795730,
+            "timestamp": 1525795730,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 19,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAL8WA9JN\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAL8WA9JN\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAL8WA9JN\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAL8WA9JN-95f7deab63",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAL8WA9JN\/-.txt\/edit",
+            "preview": "mkdir Unix\\ project",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>mkdir Unix\\ project<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525795730.000441"
+    },
+    {
+        "text": "This message was deleted.",
+        "edited": {
+            "user": "UAFL06YEM",
+            "ts": "1525795791.000000"
+        },
+        "type": "message",
+        "subtype": "tombstone",
+        "user": "USLACKBOT",
+        "hidden": true,
+        "thread_ts": "1525795750.000078",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525795764.000725"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525795812.000331"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525795828.000273"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1525795750.000078"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "I think",
+        "client_msg_id": "28b4de9b-5dec-45b5-a1be-e084dca6f810",
+        "thread_ts": "1525795750.000078",
+        "parent_user_id": "UAFL06YEM",
+        "ts": "1525795764.000725"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "'cd' is used to change directories.",
+        "thread_ts": "1525795750.000078",
+        "parent_user_id": "USLACKBOT",
+        "ts": "1525795812.000331"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Ok",
+        "client_msg_id": "a967df95-9c85-4581-a462-a4696f9ce01e",
+        "thread_ts": "1525795750.000078",
+        "parent_user_id": "USLACKBOT",
+        "ts": "1525795828.000273"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Now when you use the 'ls' command you should see a single directory named \"Unix project\"",
+        "ts": "1525795883.000735",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFU0J1K5",
+                    "UAGTJ7M8X",
+                    "UAFL06YEM",
+                    "UAH30B5KQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The same result can be obtained even if you say",
+        "ts": "1525795976.000032"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAEG71V\/-.txt|Untitled>",
+        "file": {
+            "id": "FAMAEG71V",
+            "created": 1525795993,
+            "timestamp": 1525795993,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 20,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAMAEG71V\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAMAEG71V\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAEG71V\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAMAEG71V-fff7bda303",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAEG71V\/-.txt\/edit",
+            "preview": "mkdir \"Unix project\"",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>mkdir &quot;Unix project&quot;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "num_stars": 1
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525795993.000654"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Any doubts so far?",
+        "ts": "1525796057.000465",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFL06YEM",
+                    "UAFHUCYAG"
+                ],
+                "count": 2
+            },
+            {
+                "name": "-1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFU0J1K5"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "no",
+        "ts": "1525796094.000053"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "ok so moving on",
+        "ts": "1525796137.000144"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "3) Go into that directory and create a text file using 'cat' command and write the text \"Hello World!\" into it.",
+        "ts": "1525796175.000556"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "What's the command to change directory?",
+        "ts": "1525796226.000725"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Cd",
+        "client_msg_id": "0b17c0fe-e6b7-4d88-9e89-e22f1f790199",
+        "thread_ts": "1525796257.000494",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796303.000050"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525796330.000590"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796336.000197"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525796366.000871"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1525796257.000494",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "that is correct, but ensure it is in lowercase though",
+        "thread_ts": "1525796257.000494",
+        "parent_user_id": "UAFL06YEM",
+        "ts": "1525796303.000050"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Yeah..",
+        "client_msg_id": "3ed5d23b-250d-4562-b5b9-ede5e59e5770",
+        "thread_ts": "1525796257.000494",
+        "parent_user_id": "UAFL06YEM",
+        "ts": "1525796330.000590"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "otherwise you will get an error saying \"command not found\"",
+        "thread_ts": "1525796257.000494",
+        "parent_user_id": "UAFL06YEM",
+        "ts": "1525796336.000197"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Ok",
+        "client_msg_id": "35924e6e-594b-4253-b87f-393e2720bfff",
+        "thread_ts": "1525796257.000494",
+        "parent_user_id": "UAFL06YEM",
+        "ts": "1525796366.000871"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAKFD63\/try_this_out.txt|Try this out>",
+        "file": {
+            "id": "FAMAKFD63",
+            "created": 1525796383,
+            "timestamp": 1525796383,
+            "name": "Try_this_out.txt",
+            "title": "Try this out",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 43,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAMAKFD63\/try_this_out.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAMAKFD63\/download\/try_this_out.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAKFD63\/try_this_out.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAMAKFD63-7339ef5776",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAMAKFD63\/try_this_out.txt\/edit",
+            "preview": "cd Unix\\ project\r\ncat > a.txt\r\nHello World!",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>cd Unix\\ project<\/pre><\/div>\n<div><pre>cat &gt; a.txt<\/pre><\/div>\n<div><pre>Hello World!<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 3,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525796383.000791"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Then press Ctrl+d",
+        "thread_ts": "1525796416.000539",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFU0J1K5",
+                "ts": "1525796487.000374"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796547.000768"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796558.000757"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796577.000063"
+            },
+            {
+                "user": "UAFU0J1K5",
+                "ts": "1525796615.000290"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1525796416.000539"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "Can we use ctrl z",
+        "client_msg_id": "13D96978-B3B4-4E57-8009-CA2A94C576A7",
+        "thread_ts": "1525796416.000539",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796487.000374"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "You can but what this does is it just pauses the current process",
+        "thread_ts": "1525796416.000539",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796547.000768"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This is not advisable.",
+        "thread_ts": "1525796416.000539",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796558.000757"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "'fg' command can then be used to resume it",
+        "thread_ts": "1525796416.000539",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796577.000063"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Did you all try it out?",
+        "ts": "1525796592.000456",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAH30B5KQ",
+                    "UAFL06YEM",
+                    "UAGR3HCLW"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "Ok",
+        "client_msg_id": "832B76AD-ED5A-48D4-8590-4FE5CCBAD979",
+        "thread_ts": "1525796416.000539",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796615.000290"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "(cat a.txt &gt; b.txt) and (cp a.txt b.txt) are same??",
+        "thread_ts": "1525796671.000853",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH07G9T9",
+                "ts": "1525796883.000525"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525796671.000853"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Yes, it is essentially performing the same operation. In the first case your taking the output of one and writing that into b.txt and in the second you are using the copy function",
+        "ts": "1525796766.000449",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So do any of you know why we use Ctrl+d?",
+        "thread_ts": "1525796795.000219",
+        "reply_count": 12,
+        "replies": [
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525796838.000510"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525796847.000701"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525796988.000753"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797025.000283"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797047.000393"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797066.000062"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797102.000053"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797115.000436"
+            },
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525797119.000011"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797120.000804"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797151.000646"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797165.000785"
+            }
+        ],
+        "unread_count": 12,
+        "ts": "1525796795.000219"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "To come out from the text file",
+        "client_msg_id": "7d7592eb-08b5-48ec-b76e-0df58af3d5cf",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796838.000510"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "save and exit?",
+        "ts": "1525796841.000146",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "thats right",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796847.000701"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "^d is an End of file character. Once that is encountered, the file writing is complete.",
+        "ts": "1525796861.000023"
+    },
+    {
+        "type": "message",
+        "user": "UAH07G9T9",
+        "text": "Althout it performs the same function here you should know that the two commands are used for completely different purposes.",
+        "client_msg_id": "3550c5b5-e478-46b7-af91-b88a5ba17768",
+        "edited": {
+            "user": "UAH07G9T9",
+            "ts": "1525796905.000000"
+        },
+        "thread_ts": "1525796671.000853",
+        "parent_user_id": "UAFLHAB2M",
+        "ts": "1525796883.000525"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Let's learn a few more essential commands",
+        "ts": "1525796913.000298"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This week is all about the basics, but they are very essential commands",
+        "ts": "1525796957.000119"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Can you tell me how to reopen it",
+        "client_msg_id": "70667096-34a4-4ba1-b842-150f730d015c",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525796988.000753"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "to view the file you have created, use \"cat a.txt\"",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797025.000283"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "modifications can't be made though using the cat command",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525797170.000000"
+        },
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797047.000393"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "you can append text at the end of the file using the command \"cat &gt;&gt; a.txt\"",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525797082.000000"
+        },
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797066.000062"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "we can open the file in editor and make changes. right?",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797102.000053"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I'll teach you few tricks which you will definitely find they come in handy",
+        "ts": "1525797114.000726",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFHUCYAG",
+                    "UAH30B5KQ",
+                    "UAFU0J1K5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "gedit a.txt",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797115.000436"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Okay....thanks",
+        "client_msg_id": "bf69c2a1-9500-4a58-8710-067081d2df2b",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797119.000011"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "like this",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797120.000804"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "yup we'll be teaching you this next week:grin:",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797151.000646"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "ok:sweat_smile:",
+        "thread_ts": "1525796795.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797165.000785"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ok so moving on to a command that you will be super grateful very soon is the \"history\" command",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525797255.000000"
+        },
+        "ts": "1525797246.000204"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "In your shell, there is a history of the commands that you previously entered, you can actually look through these commands. This is quite useful when you want to find and run a command you used previously without actually typing it again.",
+        "ts": "1525797272.000444"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAM6AQ4S2\/try_this.txt|try this>",
+        "file": {
+            "id": "FAM6AQ4S2",
+            "created": 1525797295,
+            "timestamp": 1525797295,
+            "name": "try_this.txt",
+            "title": "try this",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 9,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAM6AQ4S2\/try_this.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAM6AQ4S2\/download\/try_this.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAM6AQ4S2\/try_this.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAM6AQ4S2-bb896d897c",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAM6AQ4S2\/try_this.txt\/edit",
+            "preview": "history",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>history<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFU0J1K5",
+                        "UAH30B5KQ",
+                        "UAFL06YEM",
+                        "UAGR3HCLW"
+                    ],
+                    "count": 4
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525797296.000070"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "to run the same command you did before, just hit the up arrow.",
+        "ts": "1525797388.000002",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAH30B5KQ",
+                    "UAFL06YEM"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Want to run the previous command without typing it again? Use !!. If you typed cat a.txt and want to run it again, you can actually just go '!!' and it will run the last command you ran.",
+        "ts": "1525797421.000689"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Another history shortcut is ctrl-R, this is the reverse search command, if you hit ctrl-R on the terminal and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key.",
+        "thread_ts": "1525797489.000406",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797576.000688"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525797489.000406",
+        "reactions": [
+            {
+                "name": "astonished",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFHUCYAG"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Guys I do hope you make a note of these commands",
+        "ts": "1525797514.000784",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFL06YEM",
+                    "UAGR3HCLW",
+                    "UAFHUCYAG",
+                    "UAH30B5KQ",
+                    "UAFLHAB2M"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "cool right?:joy:",
+        "thread_ts": "1525797489.000406",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797576.000688",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "UAFU0J1K5"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Do you guys want a 5 min break?:sweat_smile:",
+        "thread_ts": "1525797661.000448",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797694.000569"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525797701.000335"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525797661.000448"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "as you wish. we're fine",
+        "thread_ts": "1525797661.000448",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797694.000569"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": ":laughing:",
+        "thread_ts": "1525797661.000448",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797701.000335"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So before we proceed",
+        "ts": "1525797740.000028"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I want to tell you guys about the result of using - ^d, ^z, ^c after you enter some text using the cat command",
+        "ts": "1525797807.000486"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFL06YEM> what was the ^d command for?",
+        "thread_ts": "1525797827.000183",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525797883.000014"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525797892.000053"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525797827.000183"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "To come out from the text file",
+        "client_msg_id": "dc63ca50-904d-4b28-898d-fa1f477ec8c8",
+        "thread_ts": "1525797827.000183",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797883.000014"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "right",
+        "thread_ts": "1525797827.000183",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525797892.000053"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "ctrl+D is used to quit the current action.",
+        "thread_ts": "1525797908.000410",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525798081.000809"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525799664.000782"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525797908.000410"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "ctrl+c kills the current process which is the process of writing into the file.",
+        "thread_ts": "1525797945.000109",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798023.000832"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525797945.000109"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "ctrl+z is used to pause the current process. 'fg' command can then be used to resume it",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525798284.000000"
+        },
+        "thread_ts": "1525798001.000370",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525798091.000282"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1525798001.000370"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This method is not recommended though",
+        "thread_ts": "1525797945.000109",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798023.000832"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "understood?",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525798046.000000"
+        },
+        "ts": "1525798036.000734",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR3HCLW",
+                    "UAFL06YEM",
+                    "UAFLHAB2M",
+                    "UAH30B5KQ",
+                    "UAFU0J1K5"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "capital D?",
+        "thread_ts": "1525797908.000410",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798081.000809"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "fg is to resume in the foreground right",
+        "thread_ts": "1525798001.000370",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798091.000282",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "When you feel like your terminal is getting a little cluttered, you can do a little cleanup, using the clear command to clear up your display.",
+        "ts": "1525798150.000011"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt|Clears the screen>",
+        "file": {
+            "id": "FAKJPDS8Y",
+            "created": 1525798181,
+            "timestamp": 1525798181,
+            "name": "Clears_the_screen.txt",
+            "title": "Clears the screen",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 5,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKJPDS8Y\/clears_the_screen.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKJPDS8Y\/download\/clears_the_screen.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAKJPDS8Y-eca80c72ac",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt\/edit",
+            "preview": "clear",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>clear<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525798181.000699"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The next one is really really useful:sweat_smile:",
+        "thread_ts": "1525798228.000341",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFL06YEM",
+                "ts": "1525798264.000482"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798351.000790"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525798228.000341"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "One of the most useful features in any command-line environment is tab completion. If you start typing the beginning of a command, file, directory, etc and hit the Tab key, it will autocomplete based on what it finds in the directory you are searching as long as you don’t have any other files that start with those letters.",
+        "ts": "1525798255.000124",
+        "reactions": [
+            {
+                "name": "hushed",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "rmdir?",
+        "client_msg_id": "0bf276a2-b772-499d-8106-9daf9efc6c73",
+        "thread_ts": "1525798228.000341",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798264.000482"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "that is useful too",
+        "thread_ts": "1525798228.000341",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798351.000790"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "all of you are in the Unix project directory with a text file called a.txt right?",
+        "ts": "1525798386.000786"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Yeah",
+        "client_msg_id": "94841bfa-e873-40fb-801d-f6651cdad8bd",
+        "ts": "1525798440.000802"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "why does a backslash come at the end?",
+        "thread_ts": "1525798445.000369",
+        "reply_count": 8,
+        "replies": [
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798504.000621"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525798531.000135"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525798551.000063"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798583.000068"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525798628.000104"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798654.000485"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1525798661.000114"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798692.000584"
+            }
+        ],
+        "unread_count": 8,
+        "ts": "1525798445.000369"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "whats the command you tried out",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798504.000621"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "when you use tab",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798531.000135"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I want you guys to enter \"cat a\" then hit the tab key",
+        "thread_ts": "1525798535.000669",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525798614.000113"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1525798636.000321"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525798535.000669",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFL06YEM",
+                    "UAFU0J1K5",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "a backslash comes at the end right",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798551.000063"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "you get a forward slash right?",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798583.000068"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "a.txt came automatically",
+        "thread_ts": "1525798535.000669",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798614.000113"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "\/ is the slash",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798628.000104"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Exactly!!",
+        "thread_ts": "1525798535.000669",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525798636.000321"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Yup thats the forward slash",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798654.000485"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "my bad",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798661.000114"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I'm not too sure but I think its to denote that its a directory",
+        "thread_ts": "1525798445.000369",
+        "parent_user_id": "UAH30B5KQ",
+        "ts": "1525798692.000584",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "It's going to come in handy soon, you won't have to waste time entering the entire name of a file ever again:grin:",
+        "ts": "1525798770.000040"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So the last command I want to teach you guys this session is the remove function",
+        "ts": "1525798831.000689"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "we have created a directory now lets learn how to remove it too",
+        "ts": "1525798853.000560",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFL06YEM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "To remove files you can use the rm command. The rm (remove) command is used to delete files and directories.",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1525798929.000000"
+        },
+        "ts": "1525798921.000318"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFHUCYAG> commented on <@UAFVAN945>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt|Clears the screen>: Ctrl + l can also be used for the same purpose",
+        "file": {
+            "id": "FAKJPDS8Y",
+            "created": 1525798181,
+            "timestamp": 1525798181,
+            "name": "Clears_the_screen.txt",
+            "title": "Clears the screen",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 5,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKJPDS8Y\/clears_the_screen.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAKJPDS8Y\/download\/clears_the_screen.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAKJPDS8Y-eca80c72ac",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FAKJPDS8Y\/clears_the_screen.txt\/edit",
+            "preview": "clear",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>clear<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcAL748S1H",
+            "created": 1525798956,
+            "timestamp": 1525798956,
+            "user": "UAFHUCYAG",
+            "is_intro": false,
+            "comment": "Ctrl + l can also be used for the same purpose",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFVAN945",
+                        "UAH30B5KQ",
+                        "UAFLHAB2M"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1525798956.000625"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Take caution when using rm,as once they are gone, they are gone for good, so be careful.",
+        "ts": "1525798959.000583"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Fortunately there are some safety measures put into place, so you can’t just remove a bunch of important files. Write-protected files will prompt you for confirmation before deleting them. If a directory is write-protected it will also not be easily removed.",
+        "ts": "1525799029.000613"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "guys I want you to execute the following commands and tell me what you get",
+        "thread_ts": "1525799065.000516",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525799174.000273"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1525799181.000740"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1525799065.000516"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt|Untitled>",
+        "file": {
+            "id": "FALE527L5",
+            "created": 1525799096,
+            "timestamp": 1525799096,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 23,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FALE527L5-f5dfb91156",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt\/edit",
+            "preview": "cd ..\r\nrm Unix\\ project",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>cd ..<\/pre><\/div>\n<div><pre>rm Unix\\ project<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525799097.000539"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "cannot remove. its a directory",
+        "thread_ts": "1525799065.000516",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525799174.000273"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFL06YEM> commented on <@UAFVAN945>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt|Untitled>: Come to the home page..",
+        "file": {
+            "id": "FALE527L5",
+            "created": 1525799096,
+            "timestamp": 1525799096,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 23,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FALE527L5-f5dfb91156",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt\/edit",
+            "preview": "cd ..\r\nrm Unix\\ project",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>cd ..<\/pre><\/div>\n<div><pre>rm Unix\\ project<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "comment": {
+            "id": "FcALE633AR",
+            "created": 1525799179,
+            "timestamp": 1525799179,
+            "user": "UAFL06YEM",
+            "is_intro": false,
+            "comment": "Come to the home page.."
+        },
+        "is_intro": false,
+        "ts": "1525799179.000071"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "this is the output",
+        "thread_ts": "1525799065.000516",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525799181.000740",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFVAN945> commented on <@UAFVAN945>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt|Untitled>: did you enter the 2 fullstops?",
+        "file": {
+            "id": "FALE527L5",
+            "created": 1525799096,
+            "timestamp": 1525799096,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 23,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALE527L5\/download\/-.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FALE527L5-f5dfb91156",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALE527L5\/-.txt\/edit",
+            "preview": "cd ..\r\nrm Unix\\ project",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>cd ..<\/pre><\/div>\n<div><pre>rm Unix\\ project<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2
+        },
+        "comment": {
+            "id": "FcAL3FVD1A",
+            "created": 1525799234,
+            "timestamp": 1525799234,
+            "user": "UAFVAN945",
+            "is_intro": false,
+            "comment": "did you enter the 2 fullstops?"
+        },
+        "is_intro": false,
+        "ts": "1525799234.000094"
+    },
+    {
+        "type": "message",
+        "user": "UAFL06YEM",
+        "text": "Yeah",
+        "client_msg_id": "be9fbf85-815c-406e-bf4e-a54097360787",
+        "ts": "1525799246.000157"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "the cd.. command takes you to the parent directory",
+        "ts": "1525799274.000208"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFL06YEM> can you execute the command \"cd Desktop\/SMP\"",
+        "ts": "1525799367.000117"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "then \"rm Unix\\ project\"",
+        "ts": "1525799384.000414"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Since the directory \"Unix project\" has a file present in it, you won't be able to remove it just like that. You need to enter the command:",
+        "ts": "1525799513.000393"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALA8FNGJ\/to_remove_the_directory.txt|To remove the directory>",
+        "file": {
+            "id": "FALA8FNGJ",
+            "created": 1525799543,
+            "timestamp": 1525799543,
+            "name": "To_remove_the_directory.txt",
+            "title": "To remove the directory",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 19,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALA8FNGJ\/to_remove_the_directory.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FALA8FNGJ\/download\/to_remove_the_directory.txt?t=xoxe-356727844742-362130220162-362130220434-2c4eef3e5d05749e700deedb9c4059d6",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALA8FNGJ\/to_remove_the_directory.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FALA8FNGJ-e2ee3d4355",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FALA8FNGJ\/to_remove_the_directory.txt\/edit",
+            "preview": "rm -r Unix\\ project",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>rm -r Unix\\ project<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFLHAB2M",
+                        "UAFL06YEM"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1525799544.000322"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The -r flag recursively removes all the files and any subdirectories of the specified directory",
+        "ts": "1525799592.000713"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "no small case:sweat_smile:",
+        "thread_ts": "1525797908.000410",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1525799664.000782"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "That's all for todays session guys",
+        "ts": "1525799687.000355",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFL06YEM",
+                    "UAFLHAB2M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "thanks :slightly_smiling_face:",
+        "ts": "1525799843.000753",
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]
