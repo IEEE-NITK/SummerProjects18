@@ -1,4 +1,5 @@
-1a. This executable runs on 32 bit (x86) architecture as all the registers used are of size 32 bits or lesser and the lahf command is avaiable only in 32 bit architecture.
+1a.This executable runs on 32 bit (x86) architecture as all the registers used are of size 32 bits or lesser and the lahf command is avaiable only in 32 bit architecture.
+[changed]:using the file command tells us that code1 is a ELF 32bit LSB executable
 
 1b. Magic numbers are the first few bytes of a file which are unique to a particular file type. These unique bits are referred to as magic numbers,  also sometimes referred to as a  file signature. The magic number of code1 is 7f 45 4c 46 01 01 01 00.
 
@@ -29,9 +30,12 @@ code2_3 is dynamically linked, stripped.
 3b. 
 section .data:
 
-        str1: db "This statement should get printed!",'0xa','0x0' 
-        str2: db "This statement should not get printed :(",'0xa','0x0' 
-        str3: db "This again will get printed!",'0xa','0x0' 
+    ;    str1: db "This statement should get printed!",'0xa','0x0' 
+     ;   str2: db "This statement should not get printed :(",'0xa','0x0' 
+      ;  str3: db "This again will get printed!",'0xa','0x0' 
+[changed]: str1: db "This statement should get printed!",0xa,0x0
+        str2: db "This statement should not get printed :(",0xa,0x0
+        str3: db "This statement will get printed!",0xa,0x0 
         len1: equ $-str1
         len2: equ $-str2
         len3: equ $-str3
@@ -75,6 +79,10 @@ _start:
 4a. code4 is an example of an infinite loop wherein the jump statement continuosly points to itself thus never stops transferring the control to itself again and again.
 
 4b.
+[changed:added first three lines]:
+00400000-00401000 r-xp 00000000 08:07 1577022                            /home/rohit/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
+00600000-00601000 r--p 00000000 08:07 1577022                            /home/rohit/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
+00601000-00602000 rw-p 00001000 08:07 1577022                            /home/rohit/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
 7ffff79f5000-7ffff7bcb000 r-xp 00000000 08:07 2621527                    /lib/x86_64-linux-gnu/libc-2.26.so
 7ffff7bcb000-7ffff7dcb000 ---p 001d6000 08:07 2621527                    /lib/x86_64-linux-gnu/libc-2.26.so
 7ffff7dcb000-7ffff7dcf000 r--p 001d6000 08:07 2621527                    /lib/x86_64-linux-gnu/libc-2.26.so
@@ -91,8 +99,10 @@ _start:
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 
 4c. 7ffffffde000-7ffffffff000 is for .text section and 7ffff7ffe000-7ffff7fff000 is for .data section since the memory location 0x7fffffffdfd8 is used to store the pushed value of rbp.
+[changed]: 00400000-00401000 is the memory allocated for text segment and 7ffff7ff7000-7ffff7ffa000 is allocated for the data segment. 
 
 4d. I don't find a file with permissions -wxp. I think it's so because that part of the memory would be useless in runtime if you could only store data in it and not read back from it.
+[changed]:I don't find an address space with rwxp permissions either. I think it's so because a each address space has it's own function and hence there is no need for an address space to have all the permissions.
 
 4e.
 First time : 
@@ -157,6 +167,7 @@ for(i=0;i<n;i++)
 printf("Output = %d\n",n);
 
 6b. No, they're not the same. code6 consists of a recursive function call_me_1 which prints the values from 0 till the number entered excluding it. call_me_2 only loads the entered number into the rax register and passes the control back to main function to print the number.
+[changed]:the call_me_1 function is called from main with the number to be printed as parameter and the function prints it. 
 
 6c. There are two functions namely 'call_me_1' and 'call_me_2'.
 The two instructions:
@@ -192,6 +203,7 @@ We should pass nine arguments while executing the code for it to print the flag.
 
 8a. iterative - 104 instructions and 139264 bytes of stack memory
     recursive - 177 instructions and 139264 bytes of stack memory
+[changed]:iterative uses 0 bytes of stack memory and recursive uses 464 bytes of stack memory.
 
 8b. Consider n>=1
 No. of instructions:
@@ -242,6 +254,7 @@ The return address is 0x7ffff7a161c1.
 10c. A string of length greater than or equal to 120 causes segmentation fault.
 
 10d. The program segfaults only if I enter a string of length greater than or equal to 120.
+[changed]:The program segfaults only after 120 characters though the buffer is only of 100 characters because the return address is strored after the 120th character which when changed messed up the flow of the program, although I'm not sure what is stored in those 20 bytes inbetween.
 
 10e. The length of smallest input which can cause segfault is 120.
 The reason is that last few bits of the return were changed by the large input in the stack which caused the change in the return address and hence a segfault.
@@ -295,7 +308,7 @@ The values in fs:28 were:
 0x8995097e93829400
 0xac2d940e3df2e00
 fs is a protected register which we directly cannot access. So the value stored in fs is unknown.
-
+[changed]: I found an answer in stackoverflow saying that the fs register cannot be accessed directly by us
 
 
 
