@@ -1,5 +1,8 @@
 	.file	"code1.c"
+<<<<<<< HEAD
+=======
 	.text
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
 	.globl	a
 	.data
 	.align 4
@@ -34,5 +37,9 @@ main:
 	.cfi_endproc
 .LFE0:
 	.size	main, .-main
+<<<<<<< HEAD
+	.ident	"GCC: (Ubuntu 7.2.0-8ubuntu3.2) 7.2.0"
+=======
 	.ident	"GCC: (Ubuntu 7.3.0-16ubuntu3) 7.3.0"
+>>>>>>> ecd79047d2b6e8b9a62c666bad6e649bfec32259
 	.section	.note.GNU-stack,"",@progbits
