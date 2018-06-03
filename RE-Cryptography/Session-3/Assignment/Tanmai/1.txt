@@ -1,0 +1,10 @@
+a) code1 runs on x86 architecture. on using the file command, it was seen as a 32bit executable.
+
+b) Magic numbers are the first few bits of a file that are used to diffrentiate between different file formats like .jpg, .exe, .png.
+  The magic numbers for code1 (32bit ELF executable) are 7f45 4c46
+c)No, a pdf can't be run as an executable. When the pdf file is dragged and dropped into the terminal, then it opens it in the pdf file viewer.
+  When ./pdfFileName.pdf is typed, no such file or directory is shown.
+  When pdfFileName.pdf is typed, unknown command is shown on terminal.
+
+d)Even though a pdf file is a binary file, it isn't a standalone program, it requires another program(a pdf viewer) to open it.
+  The OS cannot directly run a pdf file since it isn't an executable.
