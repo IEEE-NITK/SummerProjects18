@@ -2,13 +2,31 @@
 in code7,the address of arguments are stored in registers rdi,rsi,rdx,rdc,r8,r9 and the function gets these values
 
 7b) pass arguments while executing
+--pass nine arguments while executing
+./code7 fg g h j k l g j h
+flag = re101{y0u_4r3_g00d!!}
 
 7c)use the string command
-              
+  -- /lib64/ld-linux-x86-64.so.2
+U*Z|
+libc.so.6
+exit
+printf
+__libc_start_main
+__gmon_start__
+GLIBC_2.2.5
+UH-@
+AWAVA
+AUATL
+[]A\A]A^A_
+flag = re101{y0u_4r3_g00d!!}
+;*3$"
+GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
+           
 8a)                instructions      stack space bytes
 recursive          177               139624
 iter               104            139264
-
+stack space
 
 8b)
 iterative=9n+5
@@ -28,14 +46,16 @@ n=1; it 14, rec=17
 
 9d)
 return address by static--0x00005555555547db
+--return address - 0x00005555555547ae
 rbp; 0x5555555547d0
-
+rbp--0x5555555547d0
 dynamic analysis--0x5555555547db
-
+dynamic-0x00005555555547ae
 both are same
 
 it gives a segmentation fault for length more than 100 characters
 
+optional'
 
 
 
@@ -51,12 +71,14 @@ return address  0x7ffff7a5a2e1
 
 10c)string of length 120 and more causes segmentation fault
 
-10d)large input might have changed the return address
+10d)large input might have changed the return address.
+the extra length of he input overwrites the return address of the main
 
 
 11a) yes
 
 11b)those inputs were larger than the allocated space and stack information was overwritten.
+as the input size is more than size of the buffer and return address of main function was overwritten to accommadate extra bits of input
 
 
 12a)
@@ -78,6 +100,10 @@ je     0x764 <func1+85>
 call   0x5b0 <__stack_chk_fail@plt>
     extra in code12-2
 
+12f..
+when fno stack protector is used program doesnt give an error message.  because the value at fs;28
+getsis moved to the stack end.and the value is checked again to see if it changed and gives error message when stack protector
+is not used.
 
 
 
