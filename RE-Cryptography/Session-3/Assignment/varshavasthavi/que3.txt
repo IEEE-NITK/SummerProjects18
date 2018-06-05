@@ -3,7 +3,7 @@ This again will get printed!
 first printf statement gets executed in this program and then a goto statement i
 is encountered and the control jumps to label1.so the second printf statement 
 is skipped and the third printf statement gets executed.
-
+--this is run and gives the intended output
 b)section .text
 global _start
 _start:
