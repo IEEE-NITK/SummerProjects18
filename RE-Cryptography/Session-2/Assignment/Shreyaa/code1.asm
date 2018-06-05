@@ -11,10 +11,10 @@ str_len1: equ $-str1
 section .text
 global _start
 _start:
-mov eax,dword[n]
+mov ebx,dword[n]
 
 
-mov ebx,eax
+mov eax,0x01 
 
 _loop:
 imul eax,ebx
