@@ -13,6 +13,5 @@ files and they are larger in size.but in case of dynamic linking only one copy
  program.
 
 d-)in a stripped executable, the strip program removes inessential information 
-   which might include debugging information and results in better performance.
-   -the word stripped in encounterd in this analysis.
-
+   which might include debugging information .
+   -the word stripped in encounterd in this analalysis
