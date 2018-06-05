@@ -26,7 +26,7 @@ GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
 8a)                instructions      stack space bytes
 recursive          177               139624
 iter               104            139264
-stack space
+stack space- recursive uses 160 bytes
 
 8b)
 iterative=9n+5
