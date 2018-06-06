@@ -1,0 +1,31 @@
+b)
+section .data
+  m1  db "This statement should get printed!\n"
+  lenM1 equ $-m1
+  m2 db "This again will get printed!\n"
+  lenM2 equ $-m2
+section .text
+  global _start
+
+  start:
+    mov rax, 0x04
+    mov rbx, 0x01
+    mov rcx, m1
+    mov rdx, lenM1
+    int 0x80
+
+    mov rax, 0x04
+    mov rbx, 0x01
+    mov rcx, m2
+    mov rdx, lenM2
+    int 0x80
+
+    mov rax, 0x01
+    int 0x80
+
+c) from disass main, the compiler has used rbp, rsp to maintain the stack frame for
+  the main function whereas in y assembly code I have directly printed the strings using
+  sys_write without any stack.
+
+d) The compiler has converted the printf() function in the code to puts() function as a part
+  of its optimization of code, and also removed the second print statement

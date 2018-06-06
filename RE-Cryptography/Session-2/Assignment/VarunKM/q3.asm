@@ -15,50 +15,47 @@ _start:
         lea rcx,[str]
 	mov rdx,400
 	call stdin_read
-
-;mov rcx,[str]	;TO STORE initial string
 	
 	
-	mov r9,rax
-	dec r9
-	call reverse_string
+	mov r9,rax		;to store size of string including 0x0a and 0x00
+	dec r9			;dec to exclude 0x00  in size
+	dec r9			;dec tp exclude 0x0a in size
+	call check_palindrome
 	
-;mov rdx,[str]	; TO STORE reversed string
-
-
-A:	cmp r8,0x00
+	
+	cmp r8,0x00
 	je is_palindrome
-B:	mov rcx,str2
+	
+ 	mov rcx,str2		;to print is not Palindrome
 	mov rdx,len2
 	call stdout_write
 	call exit_prog
 
-is_palindrome:	mov rcx,str1
+is_palindrome:	mov rcx,str1	;to print is Palindrome
 		mov rdx,len1
-		
 		call stdout_write
 	        call exit_prog
-reverse_string:
-	lea rdi,[str]
-	lea rsi,[str+r9-1]
-	mov rax,0x00
-	mov rbp,0x00
-	mov r8,0x00
+check_palindrome:
+	lea rdi,[str]		;stores address of first char
+	lea rsi,[str+r9]	;stores address of last char
+	mov al,0x00
+	mov bpl,0x00
+	mov r8,0x00		;r8 will be 0 if it is palindrome
+
 _loop:	cmp rdi,rsi
 	jge return
+	
 	mov al, byte[rdi]
 	mov bpl,byte[rsi]
-	cmp al,bpl
+	cmp al,bpl		;comparing first and last char ,second and second last...and so on
 	jne label1
 
 	inc rdi
 	dec rsi
 	jmp _loop
 label1:
-	mov r8,0x01
+	mov r8,0x01		;r8 will be one if it is not palindrome
 return:
-;	mov byte[str+r9+1],0x0a	
-;	mov byte[str+r9+2],0x00
 	ret
 
 stdin_read:
