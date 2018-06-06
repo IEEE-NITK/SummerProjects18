@@ -1,0 +1,53 @@
+9.
+
+a.
+If there is one command line argument, the command line argument is printed.
+else an error message 'Usage: $./code9 <arbitrary_string>' is printed
+
+b.
+
+c.
+
+d.
+
+-static analysis
+return address: 0x00005555555547ae
+
+
+-dynamic analysis
+rbp value: 0x5555555547f0
+return address: 0x5555555547ae
+
+-The return address from static and dynamic analysis is the same
+
+-
+Size of buffer: 100
+Input that gives segmentation fault: E3vhGGbu5VBPSTXntVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr
+Minimum size for segmentation fault= 112
+
+-
+
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffdbe0 --> 0xffffffff 
+0008| 0x7fffffffdbe8 --> 0x7fffffffe12c ("E3vhGGbu5VBPSTXntVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0016| 0x7fffffffdbf0 --> 0x7ffff7ffa268 (add    BYTE PTR ss:[rax],al)
+0024| 0x7fffffffdbf8 --> 0x7ffff7ffe710 --> 0x7ffff7ffa000 (jg     0x7ffff7ffa047)
+0032| 0x7fffffffdc00 --> 0x0 
+0040| 0x7fffffffdc08 --> 0x0 
+0048| 0x7fffffffdc10 --> 0x0 
+0056| 0x7fffffffdc18 --> 0x756e6547 ('Genu')
+
+
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffdbe0 --> 0xffffffff 
+0008| 0x7fffffffdbe8 --> 0x7fffffffe12c ("E3vhGGbu5VBPSTXntVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0016| 0x7fffffffdbf0 ("E3vhGGbu5VBPSTXntVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0024| 0x7fffffffdbf8 ("5VBPSTXntVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0032| 0x7fffffffdc00 ("tVzQ43lNiNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0040| 0x7fffffffdc08 ("iNJ18srdtkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0048| 0x7fffffffdc10 ("tkYY94npVxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+0056| 0x7fffffffdc18 ("VxqKWghQSBL9im3MFOsoadpoRDhVxGCYjTmx4cLcb16snOAEXuauwuRrBFJZVlE3w5m44krrr")
+[------------------------------------------------------------------------------]
+
+Segmentation fault is beacuse the size of the buffer is smaller than the input leading to buffer overflow.
+

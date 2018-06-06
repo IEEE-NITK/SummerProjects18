@@ -1,0 +1,25 @@
+a) for input of length >= 120, segfault occurs
+
+b) for length >= 108 causes segfault.
+
+c) when compiled with -fno-stack-protector,
+  error is Segmentation fault (core dumped)
+
+  when compiled normally.
+  *** stack smashing detected ***: <unknown> terminated
+  Aborted (core dumped)
+
+d)
+  in code12_2, the segment register fs is used in func1 and a function stack_chk_fail is called
+    before func1 return control to main. These two aren't present in code12_1
+
+e) The segment registers are used to guard the stack.
+  They are used to check if the function has attempted to write beyond its stack frame that can cause segfaults.
+
+g) gdb didn't allow me to access the value fs.
+  0x555555554717 <func1+8>:	mov    rax,QWORD PTR fs:0x28
+  0x555555554720 <func1+17>:	mov    QWORD PTR [rbp-0x8],rax
+
+  I used gdp-peda$: x/s $rax to get the value of f:0x28, but was denied access.
+  When I used gdp-peda$: x/s $rbp-0x8, the output was 0x7fffffffdd68:	""
+  
