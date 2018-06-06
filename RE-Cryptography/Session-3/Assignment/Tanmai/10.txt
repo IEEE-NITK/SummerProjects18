@@ -1,0 +1,15 @@
+a) warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    warning: the `gets' function is dangerous and should not be used.
+b)
+    rbp = 0x7fffffffdd80
+    return addr = 0x5555555546c1
+
+c) any input of length >= 120 will give a segfault
+
+d)once the length of input exceeds the size of the buffer, the extra length of the input could be overwriting the return address of main
+  that can cause a segfault
+
+e)Any input of length pf at least 120 can give a segfault.
+
+  From gdb, it is seen that, rsp moves done by 0x70 bytes, i.e 112 bytes. And the return adddress of main is of 64bits, hence 8bytes long.
+  112+20 = 120, hence once this limit is reached the return address of main is fully overwritten, causing a segfault.

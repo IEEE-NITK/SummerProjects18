@@ -1,0 +1,94 @@
+12. 
+a.
+Smallest input string which can segfault the program: 120
+
+b.
+Smallest input string which can segfault the program: 104
+
+c.
+Error messages
+code12_1
+Segmentation fault (core dumped)
+code12_2
+*** stack smashing detected ***: <unknown> terminated
+Aborted (core dumped)
+
+d.
+This feature prevents overwriting of the stack. Exits the program with an error to prevent buffer overflow.
+
+e.
+code12_1
+Dump of assembler code for function func1:
+   0x000000000000069f <+0>:	push   rbp
+   0x00000000000006a0 <+1>:	mov    rbp,rsp
+   0x00000000000006a3 <+4>:	sub    rsp,0x70
+   0x00000000000006a7 <+8>:	lea    rax,[rbp-0x70]
+   0x00000000000006ab <+12>:	mov    rdi,rax
+   0x00000000000006ae <+15>:	mov    eax,0x0
+   0x00000000000006b3 <+20>:	call   0x560 <gets@plt>
+   0x00000000000006b8 <+25>:	lea    rax,[rbp-0x70]
+   0x00000000000006bc <+29>:	mov    rsi,rax
+   0x00000000000006bf <+32>:	lea    rdi,[rip+0x9e]        # 0x764
+   0x00000000000006c6 <+39>:	mov    eax,0x0
+   0x00000000000006cb <+44>:	call   0x550 <printf@plt>
+   0x00000000000006d0 <+49>:	nop
+   0x00000000000006d1 <+50>:	leave  
+   0x00000000000006d2 <+51>:	ret    
+End of assembler dump.
+
+
+code12_2
+Dump of assembler code for function func1:
+   0x000000000000070f <+0>:	push   rbp
+   0x0000000000000710 <+1>:	mov    rbp,rsp
+   0x0000000000000713 <+4>:	sub    rsp,0x70
+   0x0000000000000717 <+8>:	mov    rax,QWORD PTR fs:0x28
+   0x0000000000000720 <+17>:	mov    QWORD PTR [rbp-0x8],rax
+   0x0000000000000724 <+21>:	xor    eax,eax
+   0x0000000000000726 <+23>:	lea    rax,[rbp-0x70]
+   0x000000000000072a <+27>:	mov    rdi,rax
+   0x000000000000072d <+30>:	mov    eax,0x0
+   0x0000000000000732 <+35>:	call   0x5d0 <gets@plt>
+   0x0000000000000737 <+40>:	lea    rax,[rbp-0x70]
+   0x000000000000073b <+44>:	mov    rsi,rax
+   0x000000000000073e <+47>:	lea    rdi,[rip+0xaf]        # 0x7f4
+   0x0000000000000745 <+54>:	mov    eax,0x0
+   0x000000000000074a <+59>:	call   0x5c0 <printf@plt>
+   0x000000000000074f <+64>:	nop
+   0x0000000000000750 <+65>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000000754 <+69>:	xor    rax,QWORD PTR fs:0x28
+   0x000000000000075d <+78>:	je     0x764 <func1+85>
+   0x000000000000075f <+80>:	call   0x5b0 <__stack_chk_fail@plt>
+   0x0000000000000764 <+85>:	leave  
+   0x0000000000000765 <+86>:	ret    
+End of assembler dump.
+
+In the disassembly of code12_2, there is a check at the end to ensure that the stack has not been overwritten. If the stack check fails there is an error message that is outputted.
+
+f.
+The value in segment register fs:0x28 at the beggining is moved to the end of the stack. At the this value is checked again and if it has been changed, the program gives an error output. When  -fno-stack-protector is used, this is not done.
+
+g.
+Attempt 1:('hello')
+Value at fs:28 initially: 0xd70462b492b1d900
+Value at fs:28 finally: 0xd70462b492b1d900
+
+Attempt 2:('a6v6v9iEvji86KSMkh29aOwN0yC9tdotcZAJ2TgADpzeOjVRuILO0y2BdVtMKrZbfmXolos82KqWBwE5pN5SsAVVOEwlZ3mqSTW8')
+Value at fs:28 initially: 0xb762d41f973be200
+Value at fs:28 finally: 0xb762d41f973be200
+
+Attempt 3:('A0NKkTG2XLzrmUtepZh5twj4634H61DGtUifOyIwA0lzg3LOUQGyQatFTGvFwxgAjCangNxsDiIAb8Coz3hJb6fCTvzw7PvCvYpb7PnDj9s')
+Value at fs:28 initially: 0x51ff29e5347e3100
+Value at fs:28 finally:0x51ff29e5347e3100
+Value at the end of stack: 0x51ff29e50073396a
+
+Attempt 4:
+('VpWeIKK4nErYyv14vdnrewdhqsgluTJspIDCjVdub5sdnHppbouHurALvuJsu7HAQ9AM8a2QP6XxagykGnVzB7a0HsBb00iCGmR74Qd61QXvkbVWE5VeFZPG5JFxpWnE7')
+Value at fs:28 initially: 0x715cc212d7dade00
+Value at fs:28 finally: 0x715cc212d7dade00
+Value at the end of stack: 0x5756626b76585131
+
+
+The value at fs:28 changes for each program.But it stays the same throughout the program. The value at the end of the stack is given the value at fs:28 at the beginning but is replaced if the stack is overwritten and an error message is displayed if this happens.
+The value at fs is 0.
+
