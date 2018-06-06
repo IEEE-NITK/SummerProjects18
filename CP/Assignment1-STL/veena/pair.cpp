@@ -7,7 +7,12 @@ using namespace std;
 bool myfxn(pair<int,int> &a, pair<int,int> &b)
 
 {
-	return a.second<b.second;
+	
+	if(a.second!=b.second)
+	return (a.second<b.second)
+	else
+	return (a.first<b.first);
+
 
 }
 
@@ -53,6 +58,8 @@ main()
 				cout<<"("<<p[i].first<<","<<p[i].second<<") ";
 
 		break;
+
+		default:break;
 
 		}
 
