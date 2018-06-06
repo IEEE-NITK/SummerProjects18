@@ -1,0 +1,33 @@
+ 4a. this executable executes an infinite loop program.wherein the jump statement points to itself,thus resulting in an endless loop.
+
+4b
+
+7ffff79e4000-7ffff7bcb000 r-xp 00000000 08:01 399160                     /lib/x86_64-linux-gnu/libc-2.27.so
+7ffff7bcb000-7ffff7dcb000 ---p 001e7000 08:01 399160                     /lib/x86_64-linux-gnu/libc-2.27.so
+7ffff7dcb000-7ffff7dcf000 r--p 001e7000 08:01 399160                     /lib/x86_64-linux-gnu/libc-2.27.so
+7ffff7dcf000-7ffff7dd1000 rw-p 001eb000 08:01 399160                     /lib/x86_64-linux-gnu/libc-2.27.so
+7ffff7dd1000-7ffff7dd5000 rw-p 00000000 00:00 0
+7ffff7dd5000-7ffff7dfc000 r-xp 00000000 08:01 399132                     /lib/x86_64-linux-gnu/ld-2.27.so
+7ffff7fde000-7ffff7fe0000 rw-p 00000000 00:00 0
+7ffff7ff7000-7ffff7ffa000 r--p 00000000 00:00 0                          [vvar]
+7ffff7ffa000-7ffff7ffc000 r-xp 00000000 00:00 0                          [vdso]
+7ffff7ffc000-7ffff7ffd000 r--p 00027000 08:01 399132                     /lib/x86_64-linux-gnu/ld-2.27.so
+7ffff7ffd000-7ffff7ffe000 rw-p 00028000 08:01 399132                     /lib/x86_64-linux-gnu/ld-2.27.so
+7ffff7ffe000-7ffff7fff000 rw-p 00000000 00:00 0
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+
+4c.7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0 is the text segment
+7ffff7ffe000-7ffff7fff000 rw-p 00000000 00:00 0 is the data segment.
+ 
+4d. No,I do not find a-wxp permission among the above permissions.I don't know the reason for this.(coudl someone explain?)
+
+4e.first time;
+0x7fffffffde10-0x7fffffffde48
+second time:
+0x7fffffffde10-0x7fffffffde48
+third time:
+0x7fffffffde10-0x7fffffffde48
+
+The stack memory allocated remains the same everytime the program is run. 
