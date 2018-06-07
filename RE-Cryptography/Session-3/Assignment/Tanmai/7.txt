@@ -1,0 +1,26 @@
+a) Initially rbp is pushed to the stack and rbp and rsp have the same value.
+  The rsp is moved down accordingly to the number of bytes required by the function.
+  The parameters are loaded into the registers in the following order  rdi, rsi, rdx, rcx, r8, r9.
+  But when the registers are pushed on to the stack in reverse order.
+  When the function finishes ret command is called, which sets rbp and rsp to the same position and returns control to callee function.
+
+b) the flag is re101{y0u_4r3_g00d!!}
+  running ./code7 re101{y0u_4r3_g00d!!} gives the flag as output
+
+c) using strings command a search for the flag can be made.
+    strings code7 gives
+      /lib64/ld-linux-x86-64.so.2
+      U*Z|
+      libc.so.6
+      exit
+      printf
+      __libc_start_main
+      __gmon_start__
+      GLIBC_2.2.5
+      UH-@
+      AWAVA
+      AUATL
+      []A\A]A^A_
+      flag = re101{y0u_4r3_g00d!!}
+      ;*3$"
+      GCC: (Ubuntu 5.4.0-6ubuntu1~16.04.9) 5.4.0 20160609
