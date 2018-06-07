@@ -12,13 +12,14 @@ int main()
 
   int n,i,j=0;
 
-  pair <int,int> w[200000];
+  pair <int,int> w[200009];
 
-  stack <int> s;
+ 
 
   string s1;
 
-        cin>>n;
+
+  cin>>n;
 
     	for(i=0;i<n;i++)
 
@@ -31,9 +32,10 @@ int main()
 
     	}
 
-sort(w,w+n);
+cin>>s1;
+ stack <int> s;
 
-cin >> s1;
+sort(w,w+n);
 
 
     	for(i=0;i<2*n;i++)
