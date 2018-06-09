@@ -1,0 +1,12 @@
+1a. This executable runs on 32 bit x86 architecture. Found it using file command.
+[comment by Adwaith]: Use file command and verify this answer is correct or not.Also checkout the readelf tool.
+
+1b. Magic number is a constant numerical value or text value used to identify a file format or protocol. The magic number of code1 executable file is 7f45 4c46 0101 0100.
+
+1c. I tried running re-assignment2.pdf as an executable file and got the following output:
+bash: ./re-assignment2.pdf: Permission denied
+[comment by Adwaith]: Try giving executable permissions(chmod u+x re-assignment2.pdf) and run it.
+
+1d.The magic numbers of an executable file and a pdf file are not the same,hence they cannot be run in the same format.Therefore,a pdf file cannot be run as an executable file.
+ 
+ 

@@ -1,0 +1,7 @@
+7a. In x86-64,arguments are passed to the functions by loading them into registers in the order rdi,rsi,rdx,rcx,r8,r9.In x86,the arguments are storec in the stack and are enteredd in reverse order.
+
+7b.flag = re101{y0u_$r3_g00d!!}
+
+we have to pass 9 arguments during execution to print the flag.
+
+7c.we can also find the hack by using the strings command. 

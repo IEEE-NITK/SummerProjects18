@@ -1,0 +1,8 @@
+11a. yes
+
+
+11b.They segfaulted for certain inouts because the size of inpput exceeded the size of buffer and a few bits of the return address for main function were overwritten to accomodatded the extra bits of the input.Maybe the use of gets function in code10 gave rise to this fault?
+ 
+
+
+11c. if string length is more than smallest length,the return address is overwritten and it gives rise to a segfault. 
