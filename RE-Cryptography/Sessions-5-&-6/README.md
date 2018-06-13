@@ -25,10 +25,10 @@ you store these files outside of the SummerProjects18 folder and access them by 
 - Caesar Encryption:
 Write a program to encrypt a message(about 200 words, just pick some random paragraphs from somewhere) of your choice using Caesar cipher.
 **The keyfile is not needed for this question** 
-Name the: 
-Program file as  yourname-caesar_encryption.extension 
-and 
-Cipher-text file as yourname-caesar_ciphertext.txt
+Name the:   
+Program file as  yourname-caesar_encryption.extension  
+and  
+Cipher-text file as yourname-caesar_ciphertext.txt  
 
 
 
@@ -36,15 +36,15 @@ Cipher-text file as yourname-caesar_ciphertext.txt
 Write a program to encrypt a message(about 200 words, just pick some random paragraphs from somewhere) of your choice using Vigenere cipher. 
 
 Name the 
-Program file as yourname-vigenere_encryption.extension 
-and 
-Cipher-text file as yourname-vigenere_ciphertext.txt
+Program file as yourname-vigenere_encryption.extension  
+and  
+Cipher-text file as yourname-vigenere_ciphertext.txt  
 
 - Substitution Encryption:
 Write a program to encrypt a message(just one meaningful word of 7 letters) of your choice using Substitution cipher. 
-Name the 
-Program file as yourname-substitution_encryption.extension 
-and 
+Name the:  
+Program file as yourname-substitution_encryption.extension  
+and   
 Cipher-text file as yourname-substitution_ciphertext.txt
 
 
