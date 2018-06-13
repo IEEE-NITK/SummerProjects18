@@ -1,0 +1,2030 @@
+[
+    {
+        "user": "UAFHUCYAG",
+        "text": "<@UAFHUCYAG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527856094.000194"
+    },
+    {
+        "user": "UAFHUCYAG",
+        "purpose": "intro to shell scripts",
+        "text": "<@UAFHUCYAG> set the channel purpose: intro to shell scripts",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1527856095.000180"
+    },
+    {
+        "user": "UAFHUCYAG",
+        "purpose": "learn about basic constructs of shell-scripting",
+        "text": "<@UAFHUCYAG> set the channel purpose: learn about basic constructs of shell-scripting",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1527856151.000206"
+    },
+    {
+        "user": "UAH30B5KQ",
+        "text": "<@UAH30B5KQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527856182.000263"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I would like to have a headcount",
+        "ts": "1527856241.000117"
+    },
+    {
+        "user": "UAFVAN945",
+        "text": "<@UAFVAN945> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527856250.000191"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "place a thumbs up on this message, to indicate you are ready",
+        "ts": "1527856258.000479",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG",
+                    "UAFVAN945",
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAFU0J1K5"
+                ],
+                "count": 6
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "we will start after some more people have joined in",
+        "ts": "1527856459.000382"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAH30B5KQ> how's ur vacation going?",
+        "thread_ts": "1527856499.000020",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527856522.000274"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1527856499.000020"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "its going fine",
+        "thread_ts": "1527856499.000020",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527856522.000274"
+    },
+    {
+        "user": "UAFL06YEM",
+        "text": "<@UAFL06YEM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527857031.000237"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, I think we should start",
+        "ts": "1527857378.000091"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "before going to the basic constructs of shell-scripts, we will look at some other basic utility functions in the shell",
+        "ts": "1527857411.000456"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAH30B5KQ> have you come across cal command?",
+        "ts": "1527857424.000507"
+    },
+    {
+        "user": "UAFPA8G59",
+        "text": "<@UAFPA8G59> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527857472.000405"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAH30B5KQ> are you there? <@UAFPA8G59> how can you print today's date and time using a shell command?",
+        "edited": {
+            "user": "UAFHUCYAG",
+            "ts": "1527857537.000000"
+        },
+        "thread_ts": "1527857526.000594",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527857644.000347"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527857715.000252"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527857741.000328"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1527857526.000594"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "If you guys don't know you can google it:smile:",
+        "ts": "1527857571.000602"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "or use the man pages",
+        "ts": "1527857591.000109"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "date command?",
+        "thread_ts": "1527857526.000594",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857644.000347"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, so the `date` command spits out the current date and time",
+        "ts": "1527857651.000037"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "similarly `cal` command will show the calendar of this month and highlight today's date",
+        "ts": "1527857673.000576"
+    },
+    {
+        "user": "UAGR7CFEJ",
+        "text": "<@UAGR7CFEJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527857681.000298"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "put a thumbs up on the respective messages if you have tried them out on your terminal",
+        "ts": "1527857702.000586",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "sorry network problems",
+        "thread_ts": "1527857526.000594",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857715.000252"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "It's alright",
+        "thread_ts": "1527857526.000594",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857741.000328"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I assume you guys are familiar with grep command?",
+        "ts": "1527857754.000219"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "can you try printing out a number, say \"21\" from the O\/P of cal command?",
+        "thread_ts": "1527857781.000542",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527857923.000276"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527857953.000436"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527857953.000574"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1527857781.000542"
+    },
+    {
+        "user": "UAH07G9T9",
+        "text": "<@UAH07G9T9> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527857810.000135"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "like year 21?",
+        "thread_ts": "1527857781.000542",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857923.000276"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "no, a date 21",
+        "thread_ts": "1527857781.000542",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857953.000436"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "no the date",
+        "thread_ts": "1527857781.000542",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527857953.000574"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, you can always do `cal | grep \"21\"`. Can anyone tell me what's the output?",
+        "thread_ts": "1527857962.000160",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527858006.000493"
+            },
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1527858033.000147"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527858035.000518"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527858080.000246"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1527857962.000160"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "not working",
+        "thread_ts": "1527857962.000160",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858006.000493"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "the entire line is printed with 21 in red colour",
+        "thread_ts": "1527857962.000160",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858033.000147"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "are you sure you keyed in correctly? it's working on my terminl",
+        "thread_ts": "1527857962.000160",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858035.000518"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAGR7CFEJ> correct",
+        "ts": "1527858050.000105"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "now can you think of the cut command and do something?",
+        "ts": "1527858064.000369"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the cut command selects some portion of the text and prints it out",
+        "ts": "1527858080.000048"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "ah yes it worked",
+        "thread_ts": "1527857962.000160",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858080.000246",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "hint: think of `cut -c n1,n2`",
+        "edited": {
+            "user": "UAFHUCYAG",
+            "ts": "1527858206.000000"
+        },
+        "thread_ts": "1527858183.000282",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527858254.000646"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527858269.000282"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1527858183.000282"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "in the terminal itself or in a file?",
+        "thread_ts": "1527858183.000282",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858254.000646"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "terminal itself",
+        "thread_ts": "1527858183.000282",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858269.000282"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Does anyone remember what the '-c' is for?",
+        "thread_ts": "1527858284.000560",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527858294.000653"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1527858284.000560"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "characters",
+        "thread_ts": "1527858284.000560",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527858294.000653",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ",
+                    "UAFVAN945"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, try this : `cal | grep \"21\" | cut -c 13,14`",
+        "thread_ts": "1527858330.000107",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1527858428.000308"
+            },
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1527858433.000121"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527858462.000574"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527858559.000482"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1527858330.000107"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "prints 21",
+        "thread_ts": "1527858330.000107",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858428.000308"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "but when I used cal | grep 21 | cut -c 21,22 it gave a different result",
+        "thread_ts": "1527858330.000107",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858433.000121"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "correct, that's because the characters at positions 21 and 22 are different",
+        "thread_ts": "1527858330.000107",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858462.000574"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, you can see that this is not extendable to different months, because the position of \"21\" will be different",
+        "thread_ts": "1527858519.000479",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1527858519.000479"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "any other ideas?",
+        "thread_ts": "1527858552.000151",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527858668.000320"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527858764.000292"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527858772.000349"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527859185.000384"
+            },
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1527859193.000385"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1527858552.000151"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The characters in those positions are just spaces",
+        "thread_ts": "1527858330.000107",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858559.000482",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "how do you delimit using the cut command?",
+        "thread_ts": "1527858638.000151",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527858751.000619"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527858802.000392"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527858816.000011"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1527858638.000151"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the cal has spaces in between numbers right, this could be a start",
+        "ts": "1527858640.000618"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "can we print characters,bytes etc of a given range?",
+        "thread_ts": "1527858552.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858668.000320"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "`cut -d' '`",
+        "thread_ts": "1527858638.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858751.000619",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "thats a good idea",
+        "thread_ts": "1527858552.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858764.000292"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "what would the command be",
+        "thread_ts": "1527858552.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858772.000349"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, this command splits the input based on ' ' and separates them into fields",
+        "thread_ts": "1527858638.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858802.000392"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the remaining job is to choose the appropriate field",
+        "thread_ts": "1527858638.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527858816.000011"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so shall I proceed?",
+        "ts": "1527858900.000123"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "`cal | grep \"21\" | cut -d' ' -f 5` : this prints out 21. Can anyone explain why?",
+        "thread_ts": "1527858984.000499",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527859047.000676"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527859083.000021"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527859106.000762"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1527858984.000499"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "21 is the fifth number in the output",
+        "thread_ts": "1527858984.000499",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859047.000676",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "more generally, it's the fifth field",
+        "thread_ts": "1527858984.000499",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859083.000021",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "yeah my bad",
+        "thread_ts": "1527858984.000499",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859106.000762"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "this is still not the best answer, because we need to know the field of the number in every month",
+        "ts": "1527859120.000584"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "what does `grep -o something.txt` do?",
+        "ts": "1527859159.000712"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "`cut -c a-b` ?",
+        "thread_ts": "1527858552.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859185.000384"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "cut -c n1-n2",
+        "thread_ts": "1527858552.000151",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859193.000385"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Anyone?:sweat_smile:",
+        "ts": "1527859255.000280",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay the `-o` options prints an O\/P iff there exists an exact match",
+        "thread_ts": "1527859307.000472",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527859339.000431"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527859360.000325"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527859382.000277"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527859398.000180"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527859443.000311"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1527859307.000472"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, `cal | grep -o \"21\"` will print out only 21",
+        "ts": "1527859326.000200",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ",
+                    "UAFPA8G59"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "any doubts so far?",
+        "ts": "1527859335.000643",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "something like a search function?",
+        "thread_ts": "1527859307.000472",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859339.000431"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "I don't understand what you mean by search",
+        "thread_ts": "1527859307.000472",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859360.000325"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "grep will print the complete line which matches the pattern",
+        "thread_ts": "1527859307.000472",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859382.000277"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but -o option will only print the appropriate part, that's the difference",
+        "edited": {
+            "user": "UAFHUCYAG",
+            "ts": "1527859584.000000"
+        },
+        "thread_ts": "1527859307.000472",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859398.000180"
+    },
+    {
+        "user": "UAH8CT90X",
+        "text": "<@UAH8CT90X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527859401.000698"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay we will start with the first shell script",
+        "ts": "1527859425.000100"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "ohh",
+        "thread_ts": "1527859307.000472",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527859443.000311"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "create a file with \".sh\" extension in a directory",
+        "ts": "1527859455.000714",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAGR7CFEJ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the extension only helps us find the shell scripts quickly, the OS doesn't differentiate files based on their extensions",
+        "ts": "1527859497.000501"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "What is the need for shell scripting? Basically if you combine many commands and want to execute many of them one after the other, you would store it in a file and execute them",
+        "ts": "1527859539.000445"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This \".sh\" file is called a script. Since you have shell commands, it's called shell script.",
+        "ts": "1527859590.000147",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So instead of entering each command on the terminal, you can have it all in a file.",
+        "ts": "1527859640.000464"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Understood?",
+        "ts": "1527859646.000192",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, at the beginning of the script, you need to tell the OS what interpreter to use",
+        "ts": "1527859670.000471"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "we can write scripts using python, perl. bash, etc.",
+        "ts": "1527859700.000537"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "that's why we use a shebang - `#!\/bin\/bash`",
+        "ts": "1527859741.000025"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Any doubts?",
+        "ts": "1527859741.000087"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the shebang line indicates that we are using the bash interpreter, which can be found at the folder \/bin\/",
+        "ts": "1527859798.000306"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it could also be `#!\/usr\/bin\/perl`, `#!\/usr\/bin\/python`, etc for different scripts",
+        "ts": "1527859842.000548"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but if it is not specified, it will assume bash to be the default interpreter",
+        "ts": "1527859862.000582"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "is everyone with me?",
+        "ts": "1527859875.000040",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAH8CT90X",
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAFU0J1K5"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Anyone knows what 'bash' stands for?",
+        "thread_ts": "1527859931.000070",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527859963.000695"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1527859931.000070"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "bourne again shell",
+        "thread_ts": "1527859931.000070",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527859963.000695",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "100",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, inside the file enter: `echo \"This is my first shell script\"`",
+        "ts": "1527859980.000156"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, to make a file, there are many ways",
+        "ts": "1527860049.000493"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "`touch filename`, will create a file name, but does not open it",
+        "ts": "1527860064.000806"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "more easily, `subl filename`, `vi filename` will create and open the file",
+        "ts": "1527860087.000405"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "'subl' is for an editor called Sublime text that you need to explicitly download. But guys it's worth it. Do download it after the session",
+        "thread_ts": "1527860148.000145",
+        "reply_count": 9,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527860175.000048"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527860187.000688"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527860199.000370"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527860214.000196"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527860214.000380"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527860236.000176"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527860241.000066"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527860244.000701"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527860272.000355"
+            }
+        ],
+        "unread_count": 9,
+        "ts": "1527860148.000145"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "does it replace vim?",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860175.000048"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "it's an alternative",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860187.000688"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "it doesn't replace it, its another editor",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860199.000370"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "oh so you can use both ?",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860214.000196"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but many find vi to be the most productive  editor",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860214.000380"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "yeah, you can always use both. it's used for writing programs",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860236.000176"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "i want sublime but idk if it will work for wsl",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860241.000066"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I like sublime better:yum:",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860244.000701"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "<@UAH07G9T9> can enlighten us on the greatness of vim, I would love to have a session",
+        "thread_ts": "1527860148.000145",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1527860272.000355",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, you guys entered an echo statement inside the scrpt?",
+        "ts": "1527860296.000560",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "If you have any doubts please feel free to ask us",
+        "ts": "1527860315.000190"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, now the file can be run as `bash filename`",
+        "ts": "1527860384.000519"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "but, the file does not have the execute permission, so we can't run it as `.\/filename`",
+        "thread_ts": "1527860444.000636",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527860554.000626"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1527860444.000636"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "every file has an attribute called permissions",
+        "ts": "1527860467.000760"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the `ls -l` lists out the permissions in the first column",
+        "ts": "1527860489.000069"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "the \"rwx\" denotes the permissions",
+        "ts": "1527860522.000189"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "so there user, group and others",
+        "ts": "1527860535.000670"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "We can change the permissions using the \"chmod\" command",
+        "ts": "1527860554.000209"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "we can use chmod to change file permissions",
+        "thread_ts": "1527860444.000636",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860554.000626",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, to be able to execute a file, it needs to have execute permission for the current user",
+        "ts": "1527860562.000547"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "`chmod +x filename` will give the execute access",
+        "ts": "1527860577.000331"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "any doubts?",
+        "ts": "1527860581.000348",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "now, you can execute the script as .\/filename also",
+        "ts": "1527860629.000472"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "previously, you would have got a `permission denied` message",
+        "ts": "1527860645.000676"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, moving on, let's look at the basics of if-else constructs",
+        "ts": "1527860676.000316"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you can look at the syntax here - <https:\/\/www.tutorialspoint.com\/unix\/if-elif-statement.htm>",
+        "attachments": [
+            {
+                "service_name": "www.tutorialspoint.com",
+                "title": "Unix \/ Linux Shell The if...elif...fi statement",
+                "title_link": "https:\/\/www.tutorialspoint.com\/unix\/if-elif-statement.htm",
+                "text": "Unix \/ Linux Shell The if...elif...fi statement - Learning fundamentals of UNIX in simple and easy steps : A beginner's tutorial containing complete knowledge of Getting Started, Unix Korn and Bourne Shell and Programming, File Permission \/ Access Modes, Environment, Utilities, Pipes and Filters, Network Communication Utilities, File System, Directories, Memory Management, Special Variables, vi editor, What is Shell?, Using Shell Variables, Arrays, Basic Operators, Decision Making, Loop Types, Control, Substitution, Quoting Mechanisms, Input \/ Output Redirections, Functions, Man Page Help, Regular Expressions with SED, User Administration, System Performance, Logging, Signals and Traps, Processes.",
+                "fallback": "www.tutorialspoint.com: Unix \/ Linux Shell The if...elif...fi statement",
+                "from_url": "https:\/\/www.tutorialspoint.com\/unix\/if-elif-statement.htm",
+                "service_icon": "https:\/\/www.tutorialspoint.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.tutorialspoint.com\/unix\/if-elif-statement.htm"
+            }
+        ],
+        "ts": "1527860713.000361"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "basically, the condition to be evaluated is placed within the square braces",
+        "thread_ts": "1527860778.000046",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527860833.000285"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527860882.000716"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1527860778.000046"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the reason is, the if stmt, by itself cannot evaluate relational and logical expressions",
+        "ts": "1527860808.000611"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, we can use another stmt called `test` to evaluate the conditional statements",
+        "thread_ts": "1527860829.000244",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527860925.000094"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527860987.000575"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527860990.000032"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527861094.000457"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527861102.000772"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1527860829.000244"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "the programs look a little like C#",
+        "thread_ts": "1527860778.000046",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860833.000285"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "or, equivalently use `[]`",
+        "ts": "1527860842.000539"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "importantly, the spaces inside the `[]` are very important, and must be preserved as is",
+        "thread_ts": "1527860868.000078",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527860925.000046"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527861022.000634"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527861393.000402"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1527860868.000078"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "yeah it does, but the spacing is crucial for it to work",
+        "thread_ts": "1527860778.000046",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860882.000716"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "so `if [expression 1]` is invalid?",
+        "thread_ts": "1527860868.000078",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860925.000046"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "how will the syntax be for this case?",
+        "thread_ts": "1527860829.000244",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860925.000094"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, how do you know how many arguments have been passed to the script?",
+        "ts": "1527860930.000572"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "'test' works for comparing two numbers, two strings and file attributes.",
+        "ts": "1527860933.000271",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFHUCYAG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "test val1 operator val2",
+        "thread_ts": "1527860829.000244",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860987.000575"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "if test $1 -gt 0\nthen\necho \"$1 number is positive\"",
+        "thread_ts": "1527860829.000244",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527860990.000032"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I want you to try it out and tell me:joy:",
+        "thread_ts": "1527860868.000078",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861022.000634"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, shell scripting has something called special variables, which come in very handy, while writing shell scripts - <https:\/\/www.tutorialspoint.com\/unix\/unix-special-variables.htm>",
+        "attachments": [
+            {
+                "service_name": "www.tutorialspoint.com",
+                "title": "Unix \/ Linux Special Variables",
+                "title_link": "https:\/\/www.tutorialspoint.com\/unix\/unix-special-variables.htm",
+                "text": "Unix \/ Linux Special Variables - Learning fundamentals of UNIX in simple and easy steps : A beginner's tutorial containing complete knowledge of Getting Started, Unix Korn and Bourne Shell and Programming, File Permission \/ Access Modes, Environment, Utilities, Pipes and Filters, Network Communication Utilities, File System, Directories, Memory Management, Special Variables, vi editor, What is Shell?, Using Shell Variables, Arrays, Basic Operators, Decision Making, Loop Types, Control, Substitution, Quoting Mechanisms, Input \/ Output Redirections, Functions, Man Page Help, Regular Expressions with SED, User Administration, System Performance, Logging, Signals and Traps, Processes.",
+                "fallback": "www.tutorialspoint.com: Unix \/ Linux Special Variables",
+                "from_url": "https:\/\/www.tutorialspoint.com\/unix\/unix-special-variables.htm",
+                "service_icon": "https:\/\/www.tutorialspoint.com\/favicon.ico",
+                "id": 1,
+                "original_url": "https:\/\/www.tutorialspoint.com\/unix\/unix-special-variables.htm"
+            }
+        ],
+        "ts": "1527861058.000454",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "instead of the relational operators ==,&lt;=,&gt;=,&gt;,&lt;,!= that u use in C, shell uses -eq(equal),-le(less than or eq),-ge,-gt,lt,-ne etc",
+        "ts": "1527861076.000343"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "is test a command?",
+        "thread_ts": "1527860829.000244",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861094.000457"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "or just a keyword",
+        "thread_ts": "1527860829.000244",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861102.000772"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "so, the number of args passed to our script can be accessed via the variable `$#`",
+        "ts": "1527861131.000131"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "similarly, the first arg is placed in $1, second arg is contained in $2, etc",
+        "ts": "1527861159.000352"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "everyone clear?",
+        "ts": "1527861172.000397",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh|Untitled>",
+        "file": {
+            "id": "FB0UR003Y",
+            "created": 1527861273,
+            "timestamp": 1527861273,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 91,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FB0UR003Y\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FB0UR003Y\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FB0UR003Y-2edfa0483f",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh\/edit",
+            "preview": "if [ $1 -eq $2 ] then\r\n\techo \"The args are equal\"\r\nelse\r\n\techo \"the args are not equal\"\r\nfi",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">if<\/span> [ <span class=\"cm-def\">$1<\/span> <span class=\"cm-attribute\">-eq<\/span> <span class=\"cm-def\">$2<\/span> ] <span class=\"cm-keyword\">then<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;The args are equal&quot;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">else<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;the args are not equal&quot;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">fi<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1527861273.000789"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the if construct always ends with `fi`",
+        "ts": "1527861297.000049"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "`-eq` checks if the two args are equal",
+        "ts": "1527861315.000354"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "fi is like the '}' that you learnt in C",
+        "ts": "1527861358.000260"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "it showed `.\/sample.sh: line 3: [10==15]: command not found`",
+        "thread_ts": "1527860868.000078",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861393.000402"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFHUCYAG> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAZRBRXRS\/elif_construct.sh|elif construct>",
+        "file": {
+            "id": "FAZRBRXRS",
+            "created": 1527861390,
+            "timestamp": 1527861390,
+            "name": "elif_construct.sh",
+            "title": "elif construct",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 320,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAZRBRXRS\/elif_construct.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAZRBRXRS\/download\/elif_construct.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAZRBRXRS\/elif_construct.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAZRBRXRS-44267432e6",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FAZRBRXRS\/elif_construct.sh\/edit",
+            "preview": "if [ expression 1 ]\r\nthen\r\n   Statement(s) to be executed if expression 1 is true\r\nelif [ expression 2 ]\r\nthen\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">if<\/span> [ expression <span class=\"cm-number\">1<\/span> ]<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">then<\/span><\/pre><\/div>\n<div><pre>   Statement(s) to be executed <span class=\"cm-keyword\">if<\/span> expression <span class=\"cm-number\">1<\/span> is <span class=\"cm-atom\">true<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">elif<\/span> [ expression <span class=\"cm-number\">2<\/span> ]<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">then<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 13,
+            "lines_more": 8,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFHUCYAG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "16co108.keshava",
+        "bot_id": null,
+        "ts": "1527861394.000152"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, can you guys code up to print out the max of two numbers?",
+        "ts": "1527861450.000658"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAFVAN945> commented on <@UAFHUCYAG>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh|Untitled>: To execute this we would need to say, for eg:   .\/filename 5 6",
+        "file": {
+            "id": "FB0UR003Y",
+            "created": 1527861273,
+            "timestamp": 1527861273,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAFHUCYAG",
+            "editable": true,
+            "size": 91,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FB0UR003Y\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FB0UR003Y\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FB0UR003Y-2edfa0483f",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFHUCYAG\/FB0UR003Y\/-.sh\/edit",
+            "preview": "if [ $1 -eq $2 ] then\r\n\techo \"The args are equal\"\r\nelse\r\n\techo \"the args are not equal\"\r\nfi",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">if<\/span> [ <span class=\"cm-def\">$1<\/span> <span class=\"cm-attribute\">-eq<\/span> <span class=\"cm-def\">$2<\/span> ] <span class=\"cm-keyword\">then<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;The args are equal&quot;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">else<\/span><\/pre><\/div>\n<div><pre>\t<span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;the args are not equal&quot;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">fi<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcB0UTSFM4",
+            "created": 1527861499,
+            "timestamp": 1527861499,
+            "user": "UAFVAN945",
+            "is_intro": false,
+            "comment": "To execute this we would need to say, for eg:   .\/filename 5 6"
+        },
+        "is_intro": false,
+        "ts": "1527861499.000505"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "or, do you guys know how to read numbers from STDIN?",
+        "ts": "1527861544.000235",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay, the `read` command is used to input a number",
+        "thread_ts": "1527861589.000815",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527861636.000714"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527861651.000590"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1527861589.000815"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "you can read two numbers instead of passing as args, and store them inside variables",
+        "ts": "1527861614.000651"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "like `read $a` ?",
+        "thread_ts": "1527861589.000815",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861636.000714"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "no, `read a` should suffice",
+        "thread_ts": "1527861589.000815",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527861651.000590",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "what do we use for parentheses?",
+        "thread_ts": "1527861708.000578",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527861757.000453"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1527861808.000246"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527861910.000510"
+            },
+            {
+                "user": "UAFHUCYAG",
+                "ts": "1527861928.000482"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1527861708.000578"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "The syntax does not need parenthesis in the read command",
+        "thread_ts": "1527861708.000578",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1527861757.000453"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "okay any doubts?",
+        "edited": {
+            "user": "UAFHUCYAG",
+            "ts": "1527861812.000000"
+        },
+        "thread_ts": "1527861804.000220",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527862032.000503"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527862055.000781"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1527862083.000659"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1527862095.000674"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1527861804.000220",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "no i mean how to type nested if statements?",
+        "thread_ts": "1527861708.000578",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1527861808.000246"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "the then and fi you can say are equivalent to '{' and '}' respectively",
+        "thread_ts": "1527861708.000578",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1527861910.000510",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "the syntax is not too different for nested-if, this contains a simple example - <https:\/\/www.tldp.org\/LDP\/abs\/html\/nestedifthen.html>",
+        "thread_ts": "1527861708.000578",
+        "parent_user_id": "UAFPA8G59",
+        "ts": "1527861928.000482"
+    },
+    {
+        "type": "message",
+        "user": "UAFHUCYAG",
+        "text": "we will wrap up for today",
+        "ts": "1527861945.000455",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "shoud the indentation be 2 spaces? because i am getting an error when im executing the file",
+        "thread_ts": "1527861804.000220",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527862032.000503"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": ".\/myscript.sh: line 6: syntax error near unexpected token `then'\n.\/myscript.sh: line 6: `then'",
+        "thread_ts": "1527861804.000220",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527862055.000781"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "no it is a single space",
+        "thread_ts": "1527861804.000220",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527862083.000659"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "ok",
+        "thread_ts": "1527861804.000220",
+        "parent_user_id": "UAFHUCYAG",
+        "ts": "1527862095.000674"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Guys so your first assignment would be to read in 3 values from the user, find the sum as well as the greatest of the 3.",
+        "ts": "1527862111.000125"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "okay",
+        "ts": "1527862132.000539"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Great job you guys!",
+        "ts": "1527862197.000518",
+        "reactions": [
+            {
+                "name": "blush",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "That's it for today",
+        "ts": "1527862205.000734"
+    },
+    {
+        "user": "UAG0A3ZNH",
+        "text": "<@UAG0A3ZNH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527864175.000148"
+    },
+    {
+        "user": "UAGTJ7M8X",
+        "text": "<@UAGTJ7M8X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1527919467.000015"
+    }
+]
