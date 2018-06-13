@@ -35,26 +35,26 @@ Cipher-text file as yourname-caesar_ciphertext.txt
 - Vigenere Encryption: 
 Write a program to encrypt a message(about 200 words, just pick some random paragraphs from somewhere) of your choice using Vigenere cipher. 
 
-Name the 
+Name the:   
 Program file as yourname-vigenere_encryption.extension  
 and  
 Cipher-text file as yourname-vigenere_ciphertext.txt  
 
-- Substitution Encryption:
+- Substitution Encryption:  
 Write a program to encrypt a message(just one meaningful word of 7 letters) of your choice using Substitution cipher. 
 Name the:  
-Program file as yourname-substitution_encryption.extension  
-and   
-Cipher-text file as yourname-substitution_ciphertext.txt
+Program file as yourname-substitution_encryption.extension    
+and     
+Cipher-text file as yourname-substitution_ciphertext.txt  
 
 
 ### Message and Keyfiles
 
-Make sure you have these saved somewhere for the next phase of the Assignment. **DO NOT** push the message and keyfiles to GitHub.
+Make sure you have these saved somewhere for the next phase of the Assignment. **DO NOT** push the message and keyfiles to GitHub.  
 
-Name them using this convention (No keyfile for Caesar's needed):
-yourname-message-caesar.txt
-yourname-keyfile-vigenere.txt
-and so on.
+Name them using this convention (No keyfile for Caesar's needed):  
+yourname-message-caesar.txt  
+yourname-keyfile-vigenere.txt  
+and so on.  
 
 **Good Luck!**
