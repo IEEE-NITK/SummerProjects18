@@ -22,7 +22,7 @@ NOTE:- **We have paired you up for the next phase of this assignment. The work t
 **Note: The message file and keyfile are text files. Either you store them inside _Yourname/_ and don't push those files to GitHub, or 
 you store these files outside of the SummerProjects18 folder and access them by means of programming (recommended)**
 
-- Caesar Encryption
+- Caesar Encryption:
 Write a program to encrypt a message(about 200 words, just pick some random paragraphs from somewhere) of your choice using Caesar cipher.
 **The keyfile is not needed for this question** 
 Name the: 
@@ -32,7 +32,7 @@ Cipher-text file as yourname-caesar_ciphertext.txt
 
 
 
-- Vigenere Encryption
+- Vigenere Encryption: 
 Write a program to encrypt a message(about 200 words, just pick some random paragraphs from somewhere) of your choice using Vigenere cipher. 
 
 Name the 
@@ -40,7 +40,7 @@ Program file as yourname-vigenere_encryption.extension
 and 
 Cipher-text file as yourname-vigenere_ciphertext.txt
 
-- Substitution Encryption
+- Substitution Encryption:
 Write a program to encrypt a message(just one meaningful word of 7 letters) of your choice using Substitution cipher. 
 Name the 
 Program file as yourname-substitution_encryption.extension 
