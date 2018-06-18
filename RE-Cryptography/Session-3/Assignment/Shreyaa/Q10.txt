@@ -1,0 +1,14 @@
+10a.
+ warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+  gets(buffer);
+  ^~~~
+  fgets
+/tmp/cciVD1Mo.o: In function `main':
+code10.c:(.text+0x15): warning: the `gets' function is dangerous and should not be used.
+
+
+10b.rbp value pushed is 0x5555555546d0
+return adress for main function:0x5555555546c1
+
+10d. yes,it has to do with size of buffer and size of input entered.
+10e.lenght of smallest inout that can segfault the prpgram os 120 characters.since the lemght of string exceeds the size of buffer,the succeeding characters are stored in the register which is supposed to hold the return address of the main function. 

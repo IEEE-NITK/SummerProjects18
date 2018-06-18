@@ -1,0 +1,7 @@
+a) Yes, for inputs greater than a certain length, code9,code10 gave segfaults.
+
+b) One reason could be that the input was of a greater length than the buffers that were equipped to handle them, causing overwriting of data in the stack frame, that led to a segfault.
+  gets() isn't equipped to handle buffer oveflows that happend in this case, which led segfaults.
+  
+c)return addr = 0x5555555546c1
+  The return address is overwritten, hence an error will occur when the main function returns control to the os, causing a segfault.

@@ -1,0 +1,28 @@
+8.
+
+a.
+
+For factorial_iter:
+
+Stack space= 139264
+No. of assembly instructions executed= 105
+
+
+For factorial_rec:
+
+Stack space= 139264
+No. of assembly instructions executed= 225
+
+
+b.
+
+i) For factorial_iter:
+No. of assembly instructions executed= 9n+15
+
+For factorial_rec:
+No. of assembly instructions executed= 23n-5
+
+ii)Stack Space = 139264
+
+c.
+Iterative version is better based on no. of instructions.

@@ -1,0 +1,1980 @@
+[
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So is everyone ready??",
+        "ts": "1526907803.000224",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAKJWKXN1",
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "We shall  start in a minute or two.  We will wait for the rest for a few minutes.",
+        "ts": "1526907915.000353"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So before we start I want you guys to do  a quick thing,  we need a second text file for this session. So go into the terminal and open up the unix-smp directory",
+        "ts": "1526908109.000227"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAUBW9WRM\/-.sh|Untitled>",
+        "file": {
+            "id": "FAUBW9WRM",
+            "created": 1526908198,
+            "timestamp": 1526908198,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 126,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAUBW9WRM\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAUBW9WRM\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAUBW9WRM\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAUBW9WRM-7b90064289",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAUBW9WRM\/-.sh\/edit",
+            "preview": "Now once you have done this type down the following command\r\necho 'The quick brown; fox jumps over the lazy  dog' > sample.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>Now once you have <span class=\"cm-keyword\">done<\/span> this type down the following command<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">'The quick brown; fox jumps over the lazy  dog'<\/span> &gt; sample.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526908199.000218"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "the space between lazy and dog must be a tab",
+        "ts": "1526908225.000183"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "tell me once you have done this",
+        "thread_ts": "1526908243.000046",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526908348.000091"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908397.000051"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908426.000259"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908434.000304"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908453.000227"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908468.000111"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908478.000695"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1526908243.000046",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAGR7CFEJ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "this basically puts it in sample.txt right?",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908348.000091"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes thats what it does.",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908397.000051"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Its copies down the text into the file that we have specified",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908426.000259"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "tab is not working",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908434.000304"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "i used two spaces instead",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908453.000227"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Or you can go into the text file and press tab between both",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908468.000111"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "oh ok",
+        "thread_ts": "1526908243.000046",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908478.000695"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Okay so now last session we covered a few text manipulation commands now we shall continue with them.",
+        "ts": "1526908537.000428"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "First command we'll be learning about is the cut command. It extracts portions of text from a file.",
+        "ts": "1526908560.000056"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now execute this command",
+        "ts": "1526908588.000554"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAU7ET5C6\/-.sh|Untitled>",
+        "file": {
+            "id": "FAU7ET5C6",
+            "created": 1526908607,
+            "timestamp": 1526908607,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 19,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAU7ET5C6\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAU7ET5C6\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAU7ET5C6\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAU7ET5C6-edab1ccc7c",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAU7ET5C6\/-.sh\/edit",
+            "preview": "cut -c 5 sample.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cut<\/span> <span class=\"cm-attribute\">-c<\/span> <span class=\"cm-number\">5<\/span> sample.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526908608.000139"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "What do you get?",
+        "thread_ts": "1526908617.000139",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526908675.000083"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908690.000566"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908693.000292"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1526908617.000139"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "the fifth character?",
+        "thread_ts": "1526908617.000139",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908675.000083"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "correct",
+        "thread_ts": "1526908617.000139",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908690.000566"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "only q",
+        "thread_ts": "1526908617.000139",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908693.000292"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So as you found out ,this outputs the 5th character in each line of the file. In this case it is \"q\", note that the space also counts as a character.",
+        "ts": "1526908739.000053"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now execute this",
+        "ts": "1526908770.000113"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ2MGE5\/-.sh|Untitled>",
+        "file": {
+            "id": "FASQ2MGE5",
+            "created": 1526908782,
+            "timestamp": 1526908782,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 19,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ2MGE5\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ2MGE5\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ2MGE5\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FASQ2MGE5-04c4a9f7b3",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ2MGE5\/-.sh\/edit",
+            "preview": "cut -f 2 sample.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cut<\/span> <span class=\"cm-attribute\">-f<\/span> <span class=\"cm-number\">2<\/span> sample.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526908782.000398"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "What do you get?",
+        "thread_ts": "1526908862.000527",
+        "reply_count": 9,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526908891.000385"
+            },
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1526908922.000038"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908925.000343"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908949.000192"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526908966.000484"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526908980.000364"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526908990.000272"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526909017.000347"
+            },
+            {
+                "user": "UAH8CT90X",
+                "ts": "1526909063.000406"
+            }
+        ],
+        "unread_count": 9,
+        "ts": "1526908862.000527"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "And why?",
+        "thread_ts": "1526908885.000598",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526909031.000648"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526909058.000034"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1526908885.000598"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "the sentence",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908891.000385"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "complete sentence as it is",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908922.000038"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Are you sure you put a tab space before dog",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908925.000343"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "i am only getting dog",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908949.000192"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "but i dont know why",
+        "edited": {
+            "user": "UAH30B5KQ",
+            "ts": "1526908976.000000"
+        },
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908966.000484"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes if you are getting Dog its the right answer",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908980.000364"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "yeah i got dog",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526908990.000272"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "the others put a tab space before dog and re execute it",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909017.000347"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "i guess it considers tab to be the start of the 2nd line so it prints whatever is in the second line",
+        "thread_ts": "1526908885.000598",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909031.000648"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "You are kinda right",
+        "thread_ts": "1526908885.000598",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909058.000034"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "Got dog too",
+        "thread_ts": "1526908862.000527",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909063.000406"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So the reason why we got the above output is because we extract the contents by a field",
+        "thread_ts": "1526909111.000613",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526909170.000240"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1526909111.000613"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "The -f or field flag cuts text based off of fields, by default it uses TABs as delimiters, so everything separated by a TAB is considered a field. You should see \"dog\" as your output.",
+        "ts": "1526909129.000133"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "We use 2 here to print the second feild",
+        "ts": "1526909154.000067"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Got it?",
+        "ts": "1526909164.000479",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAH8CT90X",
+                    "UAGR7CFEJ",
+                    "UAFPA8G59"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "what's a field?",
+        "thread_ts": "1526909111.000613",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909170.000240"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now try this one out and tell the output",
+        "ts": "1526909202.000131"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh|Untitled>",
+        "file": {
+            "id": "FASQ72AAV",
+            "created": 1526909224,
+            "timestamp": 1526909224,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 26,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ72AAV\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ72AAV\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FASQ72AAV-6dca69d912",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh\/edit",
+            "preview": "cut -f 1 -d \";\" sample.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cut<\/span> <span class=\"cm-attribute\">-f<\/span> <span class=\"cm-number\">1<\/span> <span class=\"cm-attribute\">-d<\/span> <span class=\"cm-string\">&quot;;&quot;<\/span> sample.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526909224.000398"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAH30B5KQ> commented on <@UAMHTGNG0>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh|Untitled>: The quick brown",
+        "file": {
+            "id": "FASQ72AAV",
+            "created": 1526909224,
+            "timestamp": 1526909224,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 26,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ72AAV\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQ72AAV\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FASQ72AAV-6dca69d912",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQ72AAV\/-.sh\/edit",
+            "preview": "cut -f 1 -d \";\" sample.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">cut<\/span> <span class=\"cm-attribute\">-f<\/span> <span class=\"cm-number\">1<\/span> <span class=\"cm-attribute\">-d<\/span> <span class=\"cm-string\">&quot;;&quot;<\/span> sample.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcATATGRMY",
+            "created": 1526909317,
+            "timestamp": 1526909317,
+            "user": "UAH30B5KQ",
+            "is_intro": false,
+            "comment": "The quick brown"
+        },
+        "is_intro": false,
+        "ts": "1526909317.000463"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes exactly and do youknow why?",
+        "thread_ts": "1526909338.000485",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526909374.000349"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526909387.000312"
+            },
+            {
+                "user": "UAH8CT90X",
+                "ts": "1526909392.000111"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526909402.000290"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526909469.000316"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1526909338.000485"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "-d tells that ; is a delimiter",
+        "thread_ts": "1526909338.000485",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909374.000349"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "yes",
+        "thread_ts": "1526909338.000485",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909387.000312"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "; is now the delimiter",
+        "thread_ts": "1526909338.000485",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909392.000111"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "1 for the first field, -d means everything before the delimiter",
+        "thread_ts": "1526909338.000485",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909402.000290"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now what we did here is that we  changed the TAB delimiter to a \";\" delimiter and since we are cutting the first field, the result should be \"The quick brown\".",
+        "ts": "1526909457.000115"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes all of you are right",
+        "thread_ts": "1526909338.000485",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909469.000316"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now consider the first command I asked to execute",
+        "ts": "1526909517.000001"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "instead of 5 what will happen if we use -5",
+        "thread_ts": "1526909535.000454",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526909581.000242"
+            },
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1526909595.000766"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526909605.000277"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1526909535.000454"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "everything before the nth character",
+        "thread_ts": "1526909535.000454",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909581.000242"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "The q",
+        "thread_ts": "1526909535.000454",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909595.000766"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "prints till the 5th character",
+        "thread_ts": "1526909535.000454",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909605.000277"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So as Nakul and Abhinav pointed out all  the charcter before the 5th charcter will be printed i.e when we use minus all the characters before the nth character will be printed.",
+        "ts": "1526909728.000343"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So that about it for cut. Any doubts? If not we will move on to the  next command",
+        "ts": "1526909770.000448",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAH8CT90X",
+                    "UAGR7CFEJ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Ok now we will go into tr or the translate command.",
+        "ts": "1526909858.000089"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "The tr (translate) command allows you to translate a set of characters into another set of characters.",
+        "ts": "1526909875.000542"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now try this out",
+        "ts": "1526909884.000156"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATAZRQ3C\/-.sh|Untitled>",
+        "file": {
+            "id": "FATAZRQ3C",
+            "created": 1526909906,
+            "timestamp": 1526909906,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 17,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATAZRQ3C\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATAZRQ3C\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATAZRQ3C\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FATAZRQ3C-ed94c39827",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATAZRQ3C\/-.sh\/edit",
+            "preview": "tr a-z A-Z\r\nhello",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>tr a-z A-Z<\/pre><\/div>\n<div><pre>hello<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526909908.000348"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "What is the output?",
+        "thread_ts": "1526909924.000531",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526909968.000412"
+            },
+            {
+                "user": "UAH8CT90X",
+                "ts": "1526909984.000286"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526910001.000567"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1526909924.000531"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "HELLO",
+        "thread_ts": "1526909924.000531",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909968.000412"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "HELLO",
+        "thread_ts": "1526909924.000531",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526909984.000286"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes, thats correct.  Great job",
+        "thread_ts": "1526909924.000531",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526910001.000567"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "so this works like define in C?",
+        "ts": "1526910022.000658"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Actually no. There a particular string that you define is replaced  by a number or function that you give it. Here tr is used to translate the world into another. In  the above example we translated all lower case characters to uppercase <http:\/\/characters.As|characters.As> you can see we made the ranges of a-z into A-Z and all text we type that is lowercase gets uppercased.",
+        "ts": "1526910200.000579"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Everybody clear with that?",
+        "ts": "1526910225.000287",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH8CT90X",
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Okay now the next command that we will look into is the paste command.",
+        "ts": "1526910343.000013"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So do you guys still have the older version of the sample.txt .The one we used last session.",
+        "thread_ts": "1526910439.000600",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526910637.000057"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1526910439.000600"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "If not delete this one  and download the other one into the unix-smp directory",
+        "ts": "1526910496.000074"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Tell me  when you are ready",
+        "ts": "1526910514.000624",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAH8CT90X",
+                    "UAGR7CFEJ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "the grocery list one right?",
+        "thread_ts": "1526910439.000600",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526910637.000057"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Ok now the paste command is similar to the cat command, it merges lines together in a file.",
+        "ts": "1526910753.000037"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "so execute the following two commands and tell me the difference",
+        "ts": "1526910778.000498"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQPSG6M\/-.sh|Untitled>",
+        "file": {
+            "id": "FASQPSG6M",
+            "created": 1526910794,
+            "timestamp": 1526910794,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 20,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQPSG6M\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQPSG6M\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQPSG6M\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FASQPSG6M-f000965d33",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQPSG6M\/-.sh\/edit",
+            "preview": "paste -s sample2.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>paste <span class=\"cm-attribute\">-s<\/span> sample2.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526910795.000527"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQQ458R\/-.lua|Untitled>",
+        "file": {
+            "id": "FASQQ458R",
+            "created": 1526910816,
+            "timestamp": 1526910816,
+            "name": "-.lua",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "lua",
+            "pretty_type": "Lua",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 27,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQQ458R\/-.lua?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FASQQ458R\/download\/-.lua?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQQ458R\/-.lua",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FASQQ458R-1bb414e7d9",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FASQQ458R\/-.lua\/edit",
+            "preview": "paste -d ' ' -s sample2.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">paste<\/span> -<span class=\"cm-variable\">d<\/span> <span class=\"cm-string\">' '<\/span> -<span class=\"cm-variable\">s<\/span> <span class=\"cm-variable\">sample2.txt<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526910817.000073"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Guys got it?",
+        "thread_ts": "1526911052.000716",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911090.000061"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911104.000336"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911121.000675"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911143.000157"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911161.000298"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1526911052.000716"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "Fred appBetty limes 14lons 2",
+        "thread_ts": "1526911052.000716",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911090.000061"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "for the first command",
+        "thread_ts": "1526911052.000716",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911104.000336"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "Betty limes 14lons 2",
+        "thread_ts": "1526911052.000716",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911121.000675"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "for 2nd command",
+        "thread_ts": "1526911052.000716",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911143.000157"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So what is the difference that you find?",
+        "thread_ts": "1526911052.000716",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911161.000298"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So I will explain  the two commands",
+        "ts": "1526911180.000841"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now in the first command, default delimiter for paste is TAB, so now there is one line with TABs separating each word. In the second command we changed this delimiter (-d) to space. Now everything should be on one line delimited by spaces.",
+        "ts": "1526911293.000837"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Any doubts?",
+        "thread_ts": "1526911300.000373",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911510.000746"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911543.000054"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911591.000043"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911633.000252"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911704.000001"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911721.000490"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1526911812.000147"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1526911300.000373",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Guys are you paying attention because I don't see any response from you or is something thats covered hard to understand?",
+        "thread_ts": "1526911483.000100",
+        "reply_count": 11,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526911536.000645"
+            },
+            {
+                "user": "UAH8CT90X",
+                "ts": "1526911563.000465"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911608.000547"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911620.000729"
+            },
+            {
+                "user": "UAH8CT90X",
+                "ts": "1526911704.000750"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526911762.000253"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526911873.000440"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526912088.000687"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526912243.000566"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526912305.000587"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526912439.000175"
+            }
+        ],
+        "unread_count": 11,
+        "ts": "1526911483.000100"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "is the last line separated with tabs?",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911510.000746"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "My net is shitty so i cant respond on time xD",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911536.000645"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "For which command?",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911543.000054"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "I'm a little confused so I'm just letting it settle in",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911563.000465"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "the first command",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911591.000043"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Oh cool XD <@UAFPA8G59>, if you have doubts do ask <@UAH8CT90X>",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911608.000547"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "We are in no hurry",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911620.000729"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "why doesnt it print the first line fully?",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911633.000252"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "then it directly jumps to the last line?",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911704.000001"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "So paste works the same way as cat does, the only difference being the delimiter stuff, is it?",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911704.000750"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Like here all the lines must be separated by a tab. I'm not quite sure why your first line is not printed ,because it is coming for me.",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911721.000490"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes exactly.",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911762.000253",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH8CT90X"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "ok",
+        "thread_ts": "1526911300.000373",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911812.000147"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Okay so now we will go into the next command that is the sort command",
+        "ts": "1526911841.000375"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "so is paste a more powerful version of cat?",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526911873.000440"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Now as the name suggests the sort command sorts lines in the alphabetical order.",
+        "ts": "1526911915.000557"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Execute the following command",
+        "ts": "1526911929.000492"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBPU602\/-.java|Untitled>",
+        "file": {
+            "id": "FATBPU602",
+            "created": 1526911955,
+            "timestamp": 1526911955,
+            "name": "-.java",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 17,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBPU602\/-.java?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBPU602\/download\/-.java?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBPU602\/-.java",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FATBPU602-51908a5319",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBPU602\/-.java\/edit",
+            "preview": "sort sample.txt\r\n",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">sort<\/span> <span class=\"cm-variable\">sample<\/span>.<span class=\"cm-variable\">txt<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 2,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526911955.000695"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "You do get the lines in a sorted fashion don't you?",
+        "ts": "1526911981.000509",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAGR7CFEJ",
+                    "UAH8CT90X",
+                    "UAFPA8G59"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "By powerful what do you mean?",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912088.000687"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "See basically cat print down the file  as it is , but what paste does is it past all the lines one after the other into a single line. Also there is a provision to change the delimiter in paste.",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912243.000566"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "okay then try out this",
+        "ts": "1526912255.000201"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh|Untitled>",
+        "file": {
+            "id": "FATBTPVL2",
+            "created": 1526912283,
+            "timestamp": 1526912283,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 17,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBTPVL2\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBTPVL2\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FATBTPVL2-338ed932ea",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh\/edit",
+            "preview": "sort -r file1.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">sort<\/span> <span class=\"cm-attribute\">-r<\/span> file1.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526912283.000569"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UAGR7CFEJ> commented on <@UAMHTGNG0>’s file <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh|Untitled>: in reverse order",
+        "file": {
+            "id": "FATBTPVL2",
+            "created": 1526912283,
+            "timestamp": 1526912283,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 17,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBTPVL2\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FATBTPVL2\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FATBTPVL2-338ed932ea",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FATBTPVL2\/-.sh\/edit",
+            "preview": "sort -r file1.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">sort<\/span> <span class=\"cm-attribute\">-r<\/span> file1.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcAU8NBYLE",
+            "created": 1526912300,
+            "timestamp": 1526912300,
+            "user": "UAGR7CFEJ",
+            "is_intro": false,
+            "comment": "in reverse order"
+        },
+        "is_intro": false,
+        "ts": "1526912300.000762"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "i mean with more options for pasting?",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912305.000587"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Exactly using the -r reverses the sort command",
+        "ts": "1526912416.000043"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes in a way you can say that",
+        "thread_ts": "1526911483.000100",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912439.000175"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Thats about it for the sort command. Any doubts?",
+        "ts": "1526912474.000368",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAH8CT90X",
+                    "UAH30B5KQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Okay now the next command that we will be looking into will be the sed command",
+        "ts": "1526912552.000306"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "The Linux operating system makes use of terminal commands to work with a computer's file system. The primary use of the Linux command sed, which is short for stream editor, is to modify each line of a file or stream by replacing specified parts of the line.",
+        "ts": "1526912573.000490"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "For example try out this one",
+        "ts": "1526912616.000274"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT91B3M1\/-.sh|Untitled>",
+        "file": {
+            "id": "FAT91B3M1",
+            "created": 1526912690,
+            "timestamp": 1526912690,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 39,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAT91B3M1\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAT91B3M1\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT91B3M1\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAT91B3M1-29f5219431",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT91B3M1\/-.sh\/edit",
+            "preview": "sed 's\/12\/30\/' sample.txt > sample2.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">sed<\/span> <span class=\"cm-string\">'s\/12\/30\/'<\/span> sample.txt &gt; sample2.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526912690.000724"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "What does it do?",
+        "thread_ts": "1526912703.000813",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "UAGR7CFEJ",
+                "ts": "1526912775.000294"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526912775.000393"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526912844.000384"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526912972.000813"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1526912703.000813"
+    },
+    {
+        "type": "message",
+        "user": "UAGR7CFEJ",
+        "text": "replaces 12 with 30",
+        "thread_ts": "1526912703.000813",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912775.000294"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "the contents of sample2 got replaced with those of sample",
+        "thread_ts": "1526912703.000813",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912775.000393"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Actually the contents in sample2 is the same except that all the 12 are replaced by 30",
+        "thread_ts": "1526912703.000813",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912844.000384"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So what we did here was that all the 12 in sampl is replaced by 30 into a new file called sample2",
+        "ts": "1526912894.000544"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "got it?",
+        "ts": "1526912903.000744",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAGR7CFEJ",
+                    "UAFPA8G59"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "oh all right got it",
+        "thread_ts": "1526912703.000813",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526912972.000813"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So what we did here was making text substitutions with sed. This is one of its main functons.",
+        "thread_ts": "1526912974.000394",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526913004.000327"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526913043.000376"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1526912974.000394"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "so somewhat like command-line text editing?",
+        "thread_ts": "1526912974.000394",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526913004.000327"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "It is also used in another function which we will see in the following example.",
+        "ts": "1526913012.000657"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes that is is what text manipulation  is all about basically.",
+        "thread_ts": "1526912974.000394",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526913043.000376"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAMHTGNG0> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT5EHACU\/-.sh|Untitled>",
+        "file": {
+            "id": "FAT5EHACU",
+            "created": 1526913096,
+            "timestamp": 1526913096,
+            "name": "-.sh",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "UAMHTGNG0",
+            "editable": true,
+            "size": 41,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAT5EHACU\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FAT5EHACU\/download\/-.sh?t=xoxe-356727844742-378222579521-378070774272-75014106f7fe18c1ae6672f27cfbf838",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT5EHACU\/-.sh",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FAT5EHACU-a01acf020a",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAMHTGNG0\/FAT5EHACU\/-.sh\/edit",
+            "preview": "sed -n '\/Mark\/p' sample.txt > sample2.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-builtin\">sed<\/span> <span class=\"cm-attribute\">-n<\/span> <span class=\"cm-string\">'\/Mark\/p'<\/span> sample.txt &gt; sample2.txt<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAMHTGNG0",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "adilashique",
+        "bot_id": null,
+        "ts": "1526913097.000439"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Tell what do you get here?",
+        "thread_ts": "1526913113.000845",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1526913204.000277"
+            },
+            {
+                "user": "UAMHTGNG0",
+                "ts": "1526913233.000434"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1526913113.000845"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "prints only the lines with mark",
+        "thread_ts": "1526913113.000845",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526913204.000277"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Yes exactly. Good job.",
+        "thread_ts": "1526913113.000845",
+        "parent_user_id": "UAMHTGNG0",
+        "ts": "1526913233.000434",
+        "reactions": [
+            {
+                "name": "blush",
+                "users": [
+                    "UAFPA8G59"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So what we did in this command was that we used it to filter the lines into the other text file",
+        "ts": "1526913293.000839"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "that is the second use of sed command i.e to  filter the content.",
+        "ts": "1526913322.000552"
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "Is that clear?",
+        "ts": "1526913329.000614",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAH30B5KQ",
+                    "UAFU0J1K5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAMHTGNG0",
+        "text": "So thats it for this session and with that we  come to an end with text manipulation . Thank you guys. Hope you felt the session to be informative and helpful",
+        "ts": "1526913506.000355",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAGR7CFEJ",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]
