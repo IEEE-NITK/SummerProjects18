@@ -18,7 +18,8 @@ fclose(fp1);
 for(i=0;i<strlen(mes);i++)
 {m=mes[i];
 if(islower(mes[i]))
-{j=((m+3-97)%26+97);}
+{
+j=((m+3-97)%26+97);}
 else
 {
 j=m;}
