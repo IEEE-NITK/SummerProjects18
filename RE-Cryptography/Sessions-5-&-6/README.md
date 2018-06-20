@@ -62,8 +62,8 @@ and so on.
 
 # Phase 2
 (Deadline: 22nd June)
-In essence , you are carrying out a Cipher-Text(CT)-Only attack. The key is not available to you. The task is made easier as you know beforehand what Cipher was used where. 
-**Proceed only once your partner's PR has been merged.**  
+In essence , you are carrying out a Cipher-Text(CT)-Only attack. The key is not available to you (except for vigenere). The task is made easier as you know beforehand what Cipher was used where. 
+**This is a team assignment. Proceed only once your partner's PR has been merged.**  
 You may now help your partner in case he/she is unable to complete phase 1. Be honest, and provide only conceptual help. Sharing keyfiles and messagefiles defeats the fun and purpose!
 
 **If your PR has not been merged, but your partner's has, you may start this phase, but first ensure you complete Phase 1 so that your partner can also start working.**
@@ -94,7 +94,7 @@ Decrypted Message file as yourname-caesar_decrypted.txt
 
 
 - Vigenere Attack:  
-Write a program to decrypt your partner's Vigenere Ciphertext.  
+Write a program to decrypt your partner's Vigenere Ciphertext. For this **you are allowed to use the key file of your partner** (ask your partner for the key file) because decrypting vigenere without the key is quite challenging.
 Name the:   
 Program file as yourname-vigenere_decryption.extension  
 and  
@@ -102,7 +102,6 @@ Decrypted message file as yourname-vigenere_decrypted.txt
 
 - Substitution Attack:  
 Write a program to decrypt your partner's Substitution Ciphertext. **Note - This involves a lot of trial and error. Confirm with your partner that the message is indeed a meaningful word, so that you can verify your program's output.**  
-     
 Name the:  
 Program file as yourname-substitution_decryption.extension  
 and  
