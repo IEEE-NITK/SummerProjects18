@@ -1,0 +1,42 @@
+1.a)ARM architecture. We found out using FILE command.
+  b)It is a number used to idenitfy file formats. Here it's 7FELF.
+  c)report after running progit.pdf:
+    ./progit.pdf: line 1: fg: no job control
+    ./progit.pdf: line 2: fg: no job control
+    ./progit.pdf: line 3: 1: command not found
+    ./progit.pdf: line 391917: warning: here-document at line 4 delimited by end-of-file                                               (wanted `/Title')
+    ./progit.pdf: line 391917: syntax error near unexpected token `('
+    ./progit.pdf: line 391917: `<< /Title (Pro Git)'
+2.a)There's no difference.
+  b)code2_1 and 2_3 are dynamically linked while code2_2 is statically linked.code2_3 is stripped while     the others are not.code2_2 is written for GNU while the others are written for SYSV.
+  c)code2_2 being statically linked has libraries of other functions built in as well so it is much         larger than code2_1.
+  d)A stripped exec is one without any debug info in it.The disassembly of code2_3(stripped) has no         demarcation of regions into functions like main etc. so disass main on gdb won't work.
+5.re101{y0u_4r3_g3tt1ng_b3tt3r_4t_Th1$}
+6.a)It prints all numbers from 0 to one less than the number entered.
+  b)NO it's not. code6 used two functions whereas mine used only main.
+  c)they are call_me_1 and call_me_2. They are "push rbp" and "pop rbp".
+  d)It is an instruction that tells the computer to do nothing.it is present in call_me_1.
+7.a)mov    DWORD PTR [rbp-0x4],edi
+    mov    QWORD PTR [rbp-0x10],rsi
+8.a) Iterative:17+9n
+     Recursive:14+11n instructions.
+    |---------------------------------------------
+    |          | n | Instructions |              
+    |----------|---|--------------|---------------    
+    |Iterative:|10 |   107        |
+    |          |7  |   80         |
+    |          |4  |   53         |
+    |          |3  |   44         | 
+    |          |2  |   35         |   
+    |          |1  |   26         |
+    |----------|---|--------------|----------------
+    |Recursive:|10 |   124        |
+    |          |7  |   91         |
+    |          |4  |   58         |
+    |          |3  |   47         |
+    |          |2  |   36         |
+    |          |1  |   25         |
+    |----------------------------------------------
+  b)Based on instructions ,iterative methhod is faster
+9.x/100xw $rsp means to print the next 100 hexadecimal words present in the stack.
+10.a)warning: the `gets' function is dangerous and should not be used.
