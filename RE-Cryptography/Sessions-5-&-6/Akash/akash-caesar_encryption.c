@@ -12,10 +12,15 @@ void main()
     while(ftell(m)<size-1)
     {
         fscanf(m,"%c",&ch);
-        if(ch <= 119)
-            fprintf(c,"%c",ch+3);
-        else
-            fprintf(c,"%c",ch+3-26);
+        if(ch!=' '){
+            if(ch <= 119)
+                fprintf(c,"%c",ch+3);
+            else
+                fprintf(c,"%c",ch+3-26);
+        }
+        else  {
+            fprintf(c,"%c",' ');
+        }
     }
     fprintf(c,"%c",'\0');
     fclose(c);

@@ -17,6 +17,7 @@ void main()
     {
         char ch,key;
         fscanf(m,"%c",&ch);
+        if(ch!=' '){
         fscanf(k,"%c",&key);
         if(ftell(k)==sizeofkey)
             fseek(k,0,0);
@@ -24,7 +25,11 @@ void main()
         if(ch>122)
             fprintf(c,"%c",ch-26);
         else
-            fprintf(c,"%c",ch);    
+            fprintf(c,"%c",ch);
+        }
+        else {
+            fprintf(c,"%c",' ');
+        }    
     }
     fclose(c);
     fclose(m);

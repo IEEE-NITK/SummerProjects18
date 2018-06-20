@@ -8,14 +8,19 @@ void main()
     fseek(m,0,2);
     int size = ftell(m);
     rewind(m);
+    FILE* k = fopen("/home/akash/akash-key-substitution.txt","r");
+    char key[26];
+    for(int i = 0; i < 26; i++){
+        key[i] = fgetc(k);
+    }
     while(ftell(m)<size-1)
     {
         char ch;
         fscanf(m,"%c",&ch);
         if ((ch >= 'a') && (ch <= 'z')){
-            ch -= 'a'; 
-            fprintf(c,"%c",((ch + 5) % 26) + 'a');
-            }
+            int a = (int)ch - 97;
+            fprintf(c,"%c",key[a]);
+        }
     }
     fprintf(c,"%c",'\0');
     fclose(c);
