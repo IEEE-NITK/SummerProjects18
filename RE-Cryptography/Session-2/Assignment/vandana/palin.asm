@@ -1,4 +1,4 @@
-section.data
+section .data
 
 str1: DB "Palindrome" , 0x0a ,0x00
 len1: equ $-str1
@@ -19,8 +19,8 @@ _start:
 
 length:
 	mov r9, rax         	
-	dec r9		 s;Now, r9 has the length of the string. 
-        mov r10,0x00     ;r10 has index 0 
+	dec r9	          ;Now, r9 has the length of the string. 
+        mov r10, 0x00     ;r10 has index 0 
 	dec r9		 ;r9 has the last index of the string.	
         mov r8, r9       ;r8 has the last index of the string.
         call reverse_string
@@ -43,8 +43,10 @@ reverse_string:
 _loop:
 	cmp r10,r8                                             
 	jge stdout_write
-	cmp byte[rdi], byte[rsi]
-        jne stdout_write
+        mov cl,byte[rdi]
+	mov dl,byte[rsi]
+	cmp cl, dl
+        jne stdout_write_n
 	inc rdi
 	dec rsi
         inc r10
@@ -54,7 +56,7 @@ _loop:
 stdout_write_n:
         mov rax, 0x04
         mov rbx, 0x01
-        lea rcx [str2] 
+        lea rcx, [str2] 
         mov rdx, len2
         int 0x80
         call exit_prog
@@ -63,7 +65,7 @@ stdout_write:
         
         mov rax, 0x04
         mov rbx, 0x01
-        lea rcx [str1] 
+        lea rcx, [str1] 
         mov rdx, len1
         int 0x80
         call exit_prog
