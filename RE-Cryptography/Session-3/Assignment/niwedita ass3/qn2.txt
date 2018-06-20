@@ -1,0 +1,14 @@
+a) All the files produce the same output "Hello world by code2_1!!".
+
+b)  code2_1 : dynamically linked, not stripped
++  code2_2 : statically linked, not stripped
++  code2_3 : dynamically linked, stripped
+
+c) There is a big size difference because code2_2 is statically linked whereas code2_1 is dynamically linked.
+Statically linked files are significantly larger in size because external programs are built into the executable files.
+In dynamic linking only one copy of shared library is kept in memory. This significantly reduces the size of executable programs, thereby saving memory and disk space.
+
+d) While compiling an executable, it contains debugging information. In that there is information for each instruction which states the line of the source generated it, the name of the variables in the source code is retained and can be assosiated to the matching memory of runtime, etc. Strip can remove this debugging information and other data included in the executable which is not necessary for execution.
+
+ya, code2_1 & code2_2 are not stripped but code2_3 is stripped.
+

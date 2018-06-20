@@ -5,7 +5,8 @@
 void print_buffer(char *input);
 
 int main(int argc, char **argv) {
-
+argc=2;
+argv[1]="tygiwiuyduiebubfhuhfvijgrufhdjugyfjygfvjygfbvjyghvyugevbhcguyfvgbyjvgyvvbvgvburgvfubhfvubrvujhbufvhwwehinfhjeerr";
 	if(argc != 2) {
 		fprintf(stderr, "Usage: $%s <arbitrary_string>\n", argv[0]);
 		exit(1);

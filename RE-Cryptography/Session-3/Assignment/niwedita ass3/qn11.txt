@@ -1,0 +1,5 @@
+a) Yes, for inputs of more than a certain no. of characters code9 and code10 both gives segmentation faults.
+
+b) the input was of a greater length than the buffers that were equipped to handle them, causing overwriting of data in the stack frame, that led to a segfault.
+
+ 
