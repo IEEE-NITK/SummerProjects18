@@ -20,7 +20,7 @@ key[k]=ch1;
 k++;}
 for(i=0,j=0;i<strlen(mes);i++,j++)
 {
-if(j>strlen(key))
+if(j>=strlen(key)-1)
 {j=0;}
 if(isalpha(mes[i]))
 {
