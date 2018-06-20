@@ -17,13 +17,20 @@ void main()
     {
         char ch,k;
         fscanf(input,"%c",&ch);
+        if(ch==' ')
+        {
+            fprintf(output," ");
+            continue;
+        }
         fscanf(key,"%c",&k);
-        if(ftell(key)==length)
+        if(ftell(key)==length-1)
             fseek(key,0,0);
-        ch+=k-97;
-        if(ch>122)
-            fprintf(output,"%c",ch-26);
+        int character;
+        character = ch;
+        character+=k-97;
+        if(character>122)
+            fprintf(output,"%c",character-26);
         else
-            fprintf(output,"%c",ch);    
+            fprintf(output,"%c",character);    
     }
 }

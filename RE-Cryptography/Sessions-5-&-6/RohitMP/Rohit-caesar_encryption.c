@@ -12,7 +12,12 @@ void main()
     while(ftell(input)<last-1)
     {
         fscanf(input,"%c",&ch);
+        if(ch==' ')
+        fprintf(output," ");
+        else if(ch<='x')
         fprintf(output,"%c",ch+2);
+        else
+        fprintf(output,"%c",ch-24);
     }
     fprintf(output,"%c",'\0');
 }
