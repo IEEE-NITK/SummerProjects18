@@ -14,12 +14,14 @@ fclose(f1);
 
 int i;
 for(i=0;pt[i]!='\0';i++)
-{
-  if(pt[i]<='n')
-     ct[i]=pt[i]+13;
-  else
-     ct[i]=pt[i]-13;
-}
+  {if(pt[i]>=97&&pt[i]<=122)
+     { pt[i]-=97;
+       ct[i]=(pt[i]+8)%26 +97;
+     }
+   else
+     ct[i]=pt[i];
+  }
+
 
 FILE *f2;
 f2=fopen("nakul-substitution_ciphertext.txt","w");

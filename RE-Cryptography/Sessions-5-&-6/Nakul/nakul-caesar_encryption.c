@@ -13,11 +13,13 @@ fgets(pt,1000,f1);
 fclose(f1);
 int i;
 for(i=0;pt[i]!='\0';i++)
-{if(pt[i]>='x')
-   ct[i]=pt[i]-23;
- else
-   ct[i]=pt[i]+3;
-}
+  {if(pt[i]>=97&&pt[i]<=122)
+     { pt[i]-=97;
+       ct[i]=(pt[i]+3)%26 +97;
+     }
+   else
+     ct[i]=pt[i];
+  }
 FILE *f2;
 f2=fopen("nakul-caesar_ciphertext.txt","w");
 if(f2==NULL)
