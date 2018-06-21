@@ -13,46 +13,22 @@ void main(int argc, char *argv[])
 	fscanf(fp2, " %s", key);
 	fclose(fp2);	
 	k=strlen(key);
+    j=0;
 	while (feof(fp1)==0)
 	{
 		fscanf(fp1, " %s", word);
 		l=strlen(word);
-		if (l==k)
-		{
-			for (i=0;i<l;i++)
+        for (i=0;i<l;i++,j++)
 			{
-				c=word[i]+key[i]-192;
-				if (c>26)
-					c=c%26;
-				cip[i]=c;
-			}
-			fprintf(fp3, "%s ", cip);
-		}
-		else if (l>k)
-		{
-			for (i=0;i<l;i++,j++)
-			{
-				if (j==k)
-					j=0;
+
+                if (j==k)
+                    j=0;
 				c=word[i]+key[j]-192;
 				if (c>26)
 					c=c%26;
-				cip[i]=c;
+				cip[i]=c+96;
 			}
-			fprintf(fp3, "%s ", cip);
-		}
-		else
-		{
-			for (i=0;i<l;i++)
-			{
-				c=word[i]+key[i]-192;
-				if (c>26)
-					c=c%26;
-				cip[i]=c;
-			}
-			fprintf(fp3, "%s ", cip);
-		}
-	}
-	fclose(fp1);
-	fclose(fp3);
-}			
+        cip[i]='\0';    
+		fprintf(fp3, "%s ", cip);
+    }
+}
