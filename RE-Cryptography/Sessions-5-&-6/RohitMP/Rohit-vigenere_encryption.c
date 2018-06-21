@@ -27,7 +27,7 @@ void main()
             fseek(key,0,0);
         int character;
         character = ch;
-        character+=k-97;
+        character+=k-96;
         if(character>122)
             fprintf(output,"%c",character-26);
         else
