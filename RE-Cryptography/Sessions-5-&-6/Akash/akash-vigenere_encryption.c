@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 void main()
 {
@@ -17,18 +18,17 @@ void main()
     {
         char ch,key;
         fscanf(m,"%c",&ch);
-        if(ch!=' '){
-        fscanf(k,"%c",&key);
-        if(ftell(k)==sizeofkey)
-            fseek(k,0,0);
-        ch+=key - 97;
-        if(ch>122)
-            fprintf(c,"%c",ch-26);
-        else
+        if(isalpha(ch)){
+            ch=tolower(ch);
+            fscanf(k,"%c",&key);
+            if(ftell(k)==sizeofkey-1)
+                fseek(k,0,0);
+            ch=ch-97;
+            key=key-97;
+            ch = 'a' + (ch+key)%26;
             fprintf(c,"%c",ch);
-        }
-        else {
-            fprintf(c,"%c",' ');
+        } else {
+            fprintf(c,"%c",ch);
         }    
     }
     fclose(c);
