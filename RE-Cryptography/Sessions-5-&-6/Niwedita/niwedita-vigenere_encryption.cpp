@@ -8,7 +8,9 @@ int main()
 	int keylen,j=1;
 	keylen = strlen(key);
 	ifstream fin;
-	fin.open("niwedita-vigenere_ciphertext.txt", ios::in);
+	fin.open("t2.txt", ios::in);
+	ofstream fout;
+	fout.open("niwedita-vigenere_ciphertext.txt",ios::out);
 	char my_char;
 	while(!fin.eof())
 	{
@@ -20,16 +22,17 @@ int main()
 		if (my_char>='a' && my_char<='z')
 		{
 			my_char= ((my_char + key[j])%26 + 'a');
-			cout<< my_char;
+			fout<< my_char;
 		}
 		else if (my_char>= 'A' && my_char<= 'Z')
 		{
 			my_char = ((my_char +key[j])%26 + 'A');
-			cout<<my_char;
+			fout<<my_char;
 		}
 		j++;
 		
 	}
-	cout<<endl;
+	fin.close();
+	fout.close();
 	return 0;
 }

@@ -9,7 +9,9 @@ int main()
 	cin>>key;
 	key=key%26;
 	ifstream fin;
-	fin.open("niwedita-substitution_ciphertext.txt",ios::in);
+	fin.open("t3.txt",ios::in);
+	ofstream fout;
+	fout.open("niwedita-substitution_ciphertext.txt",ios::out);
 	while(!fin.eof())
 	{
 		fin.get(msg);
@@ -29,8 +31,9 @@ int main()
 				msg= msg+'a'-'z'-1;
 			}
 		}
-		cout<<msg;
+		fout<<msg;
 	}
-	cout<<endl;
+	fin.close();
+	fout.close();
 	return 0;
 }

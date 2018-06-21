@@ -7,7 +7,9 @@ int main()
 	int key;
 	cin>>key;
 	ifstream fin;
-	fin.open("niwedita-caesar_ciphertext.txt", ios::in);
+	fin.open("t1.txt", ios::in);
+	ofstream fout;
+	fout.open("niwedita-caesar_ciphertext.txt",ios::out);
 	char my_char;
 	while(!fin.eof())
 	{
@@ -19,7 +21,7 @@ int main()
 			{
 				my_char = my_char - 'z'+'a' -1;
 			}
-			cout<< my_char;
+			fout << my_char;
 		}
 		else if (my_char>= 'A' && my_char<= 'Z')
 		{
@@ -28,9 +30,10 @@ int main()
 			{
 				my_char = my_char - 'Z'+ 'A' -1;
 			}
-			cout<<my_char;
+			fout << my_char;
 		}
 	}
-	cout<<endl;
+	fin.close;
+	fout.close();
 	return 0;
 }
