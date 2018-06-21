@@ -1,27 +1,42 @@
 #include<stdio.h>
+#include<ctype.h>
 void main()
 {
 FILE *msg,*ct;
 msg = fopen("Shreyaa-caesar_message.txt","r");
 ct = fopen("Shreyaa-caesar_ciphertext.txt","w");
 char c,b;
-c=fgetc(msg);
-while(c!=EOF)
+while((c=fgetc(msg))!=EOF)
 {
-
-
-if(!(c>='a' && c<='z'))
+if(isalpha(c))
 {
-b=c;
+b=c+2;
+if(b>122)
+{b=b-26;}
 }
 else
 {
-b=c+2;
+b=c;
 }
 fputc(b,ct);
-c=fgetc(msg);
 }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
