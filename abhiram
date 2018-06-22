@@ -1,0 +1,51 @@
+#!/bin/bash
+echo "input the values:"
+echo -e "first no:\c"
+#reading values
+read a
+echo -e "second no:\c"
+read b
+echo -e "third no:\c"
+read c
+#sum of three values
+d=`expr $a + $b + $c`
+#if a > b then a is greater than b
+if [ $a -ge $b ];
+then
+#if a > c then a is greatest
+	if [ $a -ge $c ];
+	then
+		echo "sum of the three values=$d and greatest of three values=$a"
+	fi
+#if a < c then c is greatest
+    if [ $a -le $c ]
+    then
+    echo "sum of the three values=$d and greatest of three values=$c"
+	fi
+#if a > b then b is greater than a
+else
+#if b > c then b is greatest
+	if [ $b -ge $c ];
+	then
+		echo "sum of the three values=$d and greatest of three values=$b"
+    fi
+#if b < c then c is greatest
+    if [ $b -le $c ]
+    then
+		echo "sum of the three values=$d and greatest of three values=$c"
+	fi
+fi
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
