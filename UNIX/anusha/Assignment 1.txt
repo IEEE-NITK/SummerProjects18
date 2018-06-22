@@ -2,7 +2,7 @@
 read -p "Enter the first number: " a
 read -p "Enter the second number: " b
 read -p "Enter the third number: " c
-sum = `expr $a + $b + $c`
+sum=`expr $a +$b + $c`
 echo "The sum is: $sum"
 if [ $a -gt $b ]
 then 
