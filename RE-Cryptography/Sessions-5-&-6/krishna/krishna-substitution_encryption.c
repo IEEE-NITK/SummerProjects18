@@ -11,9 +11,14 @@ int main()
 	f3=fopen("key-substitution.txt","r");
 
 	for(i=0;i<26;++i)
-		key[i]=fgetc(f3);
+	{    key[i]=fgetc(f3);
+			key[i]=tolower(key);
+    }
 	for(i=0;i<8;++i)
-		message[i]=fgetc(f2);
+    {   message[i]=fgetc(f2);
+		if(message[i]!=' ')
+			mesage[i]=tolower(message[i]);
+	}  
 
     
     for(i=0;i<message[i]!='\0';++i)

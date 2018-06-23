@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 int main()
 {
 	FILE *f1,*f2,*f3;
@@ -16,16 +17,19 @@ int main()
 	while(ftell(f1)<max-1)
 	{
 	  fscanf(f1,"%c",&msg);
-	  if(msg!=' ')
-	  {
+
+	  if(isalpha(msg))
+	  { msg=tolower(msg);
 	  fscanf(f2,"%c",&key);
 	  if(ftell(f2)==max_key)
 	  fseek(f2,0,0);
 	  fprintf(f3,"%c",((msg+key)%26)+'a');
 
 	  }
-	  else
-	  fprintf(f3,"%c",' ');
+	  if(msg==' ')
+           fprintf(f3,"%c",' ');
+
+	  
 	}
 	fclose(f1);
 	fclose(f2);

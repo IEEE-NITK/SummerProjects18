@@ -11,12 +11,16 @@ int main()
 	scanf("%d",&key);
 
 	while((k=fgetc(f1))!=EOF)
-	{ 
+	{    if(isaplha(k))
+		  { k=tolower(k);
 		if((k+key)>=65&&(k+key)<=90)
 			k+=key;
 		else
 			k+=(k-25);
 		putc(k,f2);
+	           }
+	      if(k==' ')
+	      	putc(' ',f2);
 
 	}
 
