@@ -1,19 +1,16 @@
 #include<stdio.h>
-char subs(char );
+
 void main()
 {
-    char str[8];
-    FILE* input = fopen("/home/rohit/rohit-message-substitution.txt","r");
-    FILE* output = fopen("rohit-substitution_ciphertext.txt","w");
+    FILE* input = fopen("/home/rohit/SummerProjects18/RE-Cryptography/Sessions-5-&-6/VarunKM/VarunKM-substitution_ciphertext.txt","r");
+    FILE* output = fopen("rohit-substitution_decrypted.txt","w");
     FILE* key = fopen("/home/rohit/VarunKM-key-substitution.txt","r");
-    fseek(input,0,2);
-    int last = ftell(input);
-    fseek(input,0,0);
-    while(ftell(input)<last-1)
+    int i=0;
+    while(i<7)
     {
         char ch;
         fscanf(input,"%c",&ch);
-        char check='.';
+        char check =',';
         while(check!=ch)
         {
             fscanf(key,"%c",&check);
@@ -22,6 +19,6 @@ void main()
         fscanf(key,"%c",&check);
         fprintf(output,"%c",check);
         fseek(key,0,0);
+        i++;
     }
 }
-
