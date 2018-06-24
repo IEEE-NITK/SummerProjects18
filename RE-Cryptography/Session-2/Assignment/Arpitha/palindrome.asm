@@ -33,17 +33,20 @@ _start:
 
 
 check:
-	lea rdi,[str]
-	lea rsi,[str+r9]
+	lea rsi,[str]
+	lea rdi,[str+r9]
+	mov rcx,0
+	mov rdx,0
 loop1: 
+	cmp rsi,rdi
+	jge _true
 	mov cl,byte[rdi]
 	mov dl,byte[rsi]
-	inc rdi
-	dec rsi
+	inc rsi
+	dec rdi
 	cmp cl,dl
 	je loop1
-	cmp rdi,rsi
-	jge _true
+
 	
 
 	mov rax, 0x04		
@@ -60,11 +63,6 @@ _true:
 	mov rdx, l2	
 	int 0x80
 	
-	mov rax, 0x04		
-	mov rbx, 0x01		
-	lea rcx, [str]		
-	mov rdx, r8	
-	int 0x80
 	
 exit:
 	mov rax, 0x01		
