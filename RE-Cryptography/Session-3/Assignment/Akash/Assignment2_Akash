@@ -1,0 +1,421 @@
+1.a
+code1: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked
+Code 1 runs on 32bit ARM architecture. I found out using the [file] function on terminal.
+
+1.b
+7f45 4c46 0101 0100 0000 0000 0000 0000
+
+I used the hex editor, [xxd code1 | head] on the terminal, the first few bytes of the file head is the magic number.
+
+1.c
+$ ./re-assignment2.pdf
+bash: ./re-assignment2.pdf: Permission denied
+
+Bash denies my access to pdf files
+
+1.d
+The magic number of the pdf file does not match with those of an executable, hence it is not treated the same way, even though they are binary files.
+
+--------------------------------
+
+2.a
+$ ./code2_1
+Hello world by code2_1!!
+$ ./code2_2
+Hello world by code2_1!!
+$ ./code2_3
+Hello world by code2_1!!
+
+No.
+They give similar outputs.
+
+2.b
+$ file code2_1
+code2_1: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=20d794253b8b383d8c32cd8b5239aa541a8a7408, not stripped
+$ file code2_2
+code2_2: ELF 64-bit LSB executable, x86-64, version 1 (GNU/Linux), statically linked, for GNU/Linux 2.6.32, BuildID[sha1]=61e48b0fa465600a4982e40a2a294208f964095c, not stripped
+$ file code2_3
+code2_3: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=20d794253b8b383d8c32cd8b5239aa541a8a7408, stripped
+
+code2_1 is dynamically linked, not stripped.
+code2_2 is statically linked, not stripped.
+code2_3 is dynamically linked, stripped.
+
+2.c
+The large size difference between code2_1 and code2_2 is because code2_2 has been statically linked.
+Statically linked files are larger in size as external programs/libraries are built into the executable files
+In static linking, the executable is linked during compiling and all libraries/programs used are copied to the final executable file, but In dynamic linking, only the names of the libraries are placed in the executable and the linking is done by the operating system during runtime.
+
+2.d
+Strip means to reduce the space of the program by removing the memory used to store debugging information. Due to the stripping, code2_3 is smaller than code2_1.
+
+--------------------------------
+
+3.a
+The program uses label to print a particular statement and ignore a print statement.
+It ran successfully, output:
+$ ./code3
+This statement should get printed!
+This again will get printed!
+
+3.b
+section .data
+	s db "This statement should get printed!",0
+	ss db "This statement should not get printed :(",0
+	sss db "This again will get printed!",0
+	lens equ $-s
+	lenss equ $-ss
+	lensss equ $-sss
+section .text
+	global _start
+
+start:
+	mov r8, 0x04
+    	mov r9, 0x01
+   	lea r10, [s]
+    	mov r11, lens
+    	int 0x80
+	
+	jmp skip
+	
+	mov rax, 0x04
+        mov rbx, 0x01
+        lea rcx, [ss]
+        mov rdx, lenss
+        int 0x80
+
+skip:
+	mov r8, 0x04
+	mov r9, 0x01
+	lea r10, [sss]
+	mov r11, lensss
+	int 0x80
+
+	mov r8, 0x01
+int 0x80
+
+3.c
+gdb-peda$ disass main
+Dump of assembler code for function main:
+   0x0000000000400526 <+0>:	push   rbp
+   0x0000000000400527 <+1>:	mov    rbp,rsp
+   0x000000000040052a <+4>:	mov    edi,0x4005d8
+   0x000000000040052f <+9>:	call   0x400400 <puts@plt>
+   0x0000000000400534 <+14>:	nop
+   0x0000000000400535 <+15>:	mov    edi,0x4005fb
+   0x000000000040053a <+20>:	call   0x400400 <puts@plt>
+   0x000000000040053f <+25>:	mov    eax,0x0
+   0x0000000000400544 <+30>:	pop    rbp
+   0x0000000000400545 <+31>:	ret    
+End of assembler dump.
+
+The compiler used rbp, edi and rsp, and we see that there are only rwo print functions being called, the second one was removed from the program
+
+3.d
+Instead of second print statement being mentioned, it simply replaced with [0x0000000000400534 <+14>:	nop] the nop operator which does nothing.
+
+--------------------------------
+
+4.a
+The program looks like an infinite loop where a jump statement points to itself and never breaks out of the loop.
+
+4.b
+00400000-00401000 r-xp 00000000 08:06 5390270                            /home/akash/assignment2_programs/code4
+00600000-00601000 r--p 00000000 08:06 5390270                            /home/akash/assignment2_programs/code4
+00601000-00602000 rw-p 00001000 08:06 5390270                            /home/akash/assignment2_programs/code4
+7f0a2082a000-7f0a20a11000 r-xp 00000000 08:06 2626215                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f0a20a11000-7f0a20c11000 ---p 001e7000 08:06 2626215                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f0a20c11000-7f0a20c15000 r--p 001e7000 08:06 2626215                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f0a20c15000-7f0a20c17000 rw-p 001eb000 08:06 2626215                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f0a20c17000-7f0a20c1b000 rw-p 00000000 00:00 0
+7f0a20c1b000-7f0a20c42000 r-xp 00000000 08:06 2626187                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f0a20e27000-7f0a20e29000 rw-p 00000000 00:00 0
+7f0a20e42000-7f0a20e43000 r--p 00027000 08:06 2626187                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f0a20e43000-7f0a20e44000 rw-p 00028000 08:06 2626187                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f0a20e44000-7f0a20e45000 rw-p 00000000 00:00 0
+7ffe34f2e000-7ffe34f4f000 rw-p 00000000 00:00 0                          [stack]
+7ffe34f5a000-7ffe34f5d000 r--p 00000000 00:00 0                          [vvar]
+7ffe34f5d000-7ffe34f5f000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+[I made a copy of the assignment programs folder in home]
+
+4.c
+7ffe34f2e000-7ffe34f4f000 is for text segment
+7f0a20e44000-7f0a20e45000 is for data segment
+
+^I think
+
+4.d
+There is no -wxp permission here. We can't execute a file if we don't have it's read permissions.
+
+4.e
+It does not change.
+7f0a20e44000-7f0a20e45000 rw-p 00000000 00:00 0
+7ffe34f2e000-7ffe34f4f000 rw-p 00000000 00:00 0                          [stack]
+
+7f0a20e44000-7f0a20e45000 rw-p 00000000 00:00 0
+7ffe34f2e000-7ffe34f4f000 rw-p 00000000 00:00 0                          [stack]
+
+7f0a20e44000-7f0a20e45000 rw-p 00000000 00:00 0
+7ffe34f2e000-7ffe34f4f000 rw-p 00000000 00:00 0                          [stack]
+
+--------------------------------
+
+5.a
+Using the string function, I found these:
+123hwovoe2oi35945829dp2eovwibfou23rrouthy3oioh
+va545}4q[0v7[c7pp5jc[f7pp7v[0p[Pl5 y
+owueehru232t30yfubu neoijoiwhviuqknciubiui  
+orhgouvcwoieji9u408ty28493ru83hvoiciqqwoijouh
+
+5.b
+After running a C program xoring the strings each time, the message was: 
+re101y0u_4r3_g3tt1ng_b3tt3r_4t_Th1 ---> re101you are getting better at thi
+
+--------------------------------
+
+6.a
+$ ./code6
+
+Enter a number: 3
+0
+1
+2
+Output = 3
+
+Probable C Program:
+
+#include<stdio.h>
+void main(){
+printf("\nEnter a number: ");
+int a;
+scanf("%d",&a);
+int i=0;
+for(i=0;i<a;i++)
+    printf("%d\n",i);
+printf("Output = %d\n",a); 
+}
+
+6.b
+They are different, Code6 seems to have two functions, one to print numbers till the one preceeding the entered number, and another to print the entered number.
+
+6.c
+Code6 has two functions, namely call_me_1 and call_me_2.
+
+gdb-peda$ disass main
+Dump of assembler code for function main:
+   0x00000000004005f6 <+0>:	push   rbp
+   0x00000000004005f7 <+1>:	mov    rbp,rsp
+   0x00000000004005fa <+4>:	sub    rsp,0x10
+   0x00000000004005fe <+8>:	mov    rax,QWORD PTR fs:0x28
+   0x0000000000400607 <+17>:	mov    QWORD PTR [rbp-0x8],rax
+   0x000000000040060b <+21>:	xor    eax,eax
+   0x000000000040060d <+23>:	mov    edi,0x400744
+   0x0000000000400612 <+28>:	mov    eax,0x0
+   0x0000000000400617 <+33>:	call   0x4004c0 <printf@plt>
+   0x000000000040061c <+38>:	lea    rax,[rbp-0x10]
+   0x0000000000400620 <+42>:	mov    rsi,rax
+   0x0000000000400623 <+45>:	mov    edi,0x400756
+   0x0000000000400628 <+50>:	mov    eax,0x0
+   0x000000000040062d <+55>:	call   0x4004e0 <__isoc99_scanf@plt>
+   0x0000000000400632 <+60>:	mov    DWORD PTR [rbp-0xc],0x0
+   0x0000000000400639 <+67>:	jmp    0x400649 <main+83>
+   0x000000000040063b <+69>:	mov    eax,0x0
+   0x0000000000400640 <+74>:	call   0x400687 <call_me_1>
+   0x0000000000400645 <+79>:	add    DWORD PTR [rbp-0xc],0x1
+   0x0000000000400649 <+83>:	mov    eax,DWORD PTR [rbp-0x10]
+   0x000000000040064c <+86>:	cmp    DWORD PTR [rbp-0xc],eax
+   0x000000000040064f <+89>:	jl     0x40063b <main+69>
+   0x0000000000400651 <+91>:	mov    eax,0x0
+   0x0000000000400656 <+96>:	call   0x4006b4 <call_me_2>
+   0x000000000040065b <+101>:	mov    esi,eax
+   0x000000000040065d <+103>:	mov    edi,0x400759
+   0x0000000000400662 <+108>:	mov    eax,0x0
+   0x0000000000400667 <+113>:	call   0x4004c0 <printf@plt>
+   0x000000000040066c <+118>:	mov    eax,0x0
+   0x0000000000400671 <+123>:	mov    rdx,QWORD PTR [rbp-0x8]
+   0x0000000000400675 <+127>:	xor    rdx,QWORD PTR fs:0x28
+   0x000000000040067e <+136>:	je     0x400685 <main+143>
+   0x0000000000400680 <+138>:	call   0x4004b0 <__stack_chk_fail@plt>
+   0x0000000000400685 <+143>:	leave  
+   0x0000000000400686 <+144>:	ret    
+End of assembler dump.
+gdb-peda$ quit
+
+[push rbp
+mov rbp, rsp
+sub rsp, 0x10] constructs the stack frame.
+[mov rbp,rsp
+pop rbp] destroys the stack frame.
+
+6.d
+The nop instruction tells the computer to do nothing. it is present in the function call_me_1.
+
+--------------------------------
+
+7.a
+Arguments are passed through the registers in the order rdi,rsi,rdx,rcx,r8,r9.
+
+7.b
+$ ./code7 l l l l l l l l l
+flag = re101{y0u_4r3_g00d!!}
+
+We had to pass 9 arguments.
+
+7.c
+We can use the strings function.
+
+--------------------------------
+
+8.a
+139264 bytes of stack memory is used
+I get that recursive needs more space, but I'm not able to figure out how to calculate how much each needs seperately..
+
+when n=10,
+iter uses 105 instructions
+rec uses 161 instructions
+
+8.b
+General formulas:
+Iterative = 5 + 9n
+Recursive = 1 + 16n
+
+n=7 i=68 r=113
+n=4 i=41 r=65
+n=3 i=32 r=49
+n=2 i=23 r=33
+n=1 i=14 r=17
+
+8.c
+Iter is clearly better as it needs way less instructions.
+
+--------------------------------
+
+9.a
+The code accepts a single argument and prints it out
+
+9.d
+Static:
+return address: 0x00005555555547ae
+
+Dynamic:
+rbp value: 0x5555555547f0
+return address: 0x5555555547ae
+
+the return addresses seem to be the same
+
+Any string greater than 100 chars will cause a segmentation fault, caused as the entered string is larger than the buffer and the extra characters of the string overwrites the return address of the function print_buffer in the stack.
+
+--------------------------------
+
+10.a
+Yes, my warning was:
+code10.c: In function ‘main’:
+code10.c:8:2: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+  gets(buffer);
+  ^~~~
+  fgets
+/tmp/cc7cq4AZ.o: In function `main':
+code10.c:(.text+0x15): warning: the `gets' function is dangerous and should not be used.
+
+
+10.b
+rbp: 0x5555555546d0
+return address: 0x7ffff7a05b97
+
+10.c
+ ./code10
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+
+llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+Segmentation fault (core dumped)
+
+
+10.d
+Yes, the size of my input was too large compared to the buffer, hence the segfault.
+
+10.e
+So, the size of buffer is 100bytes, but in gdb, rsp moves 0x70 bytes, making it a total of 120 bytes, so after 120 bytes, the segfault occurs, though I don't understand why this happens, why does rsp do that and how the extra 20bytes is accomadated etc etc...
+
+--------------------------------
+
+11.a
+Yes, alreaady mentioned in earlier answers..
+
+11.b
+Segfaults occured due to buffer overflow, when the input size was greater than the buffer itself, and YES, the use of gets() led to this security flaw as it cannot handle buffer overflows, another function we can use to make sure it does not happen is fgets(), where the length of the input is taken into account.
+
+11.c
+So what happens during buffer overflow is that, when inputs greater than the buffer is taken, it ends up overwriting the return address causing the segfault.
+
+--------------------------------
+
+12.a
+Once again, just like before, an input of minimum length 121 bytes can cause segfault.
+
+12.b
+It accepted inputs only untill 106 chars, right after that it says: [*** stack smashing detected ***: <unknown> terminated]
+
+12.c
+Yes, this time it is: [*** stack smashing detected ***: <unknown> terminated].
+
+12.d
+I guess the stack protector is doing this to protect the file from being exploited by the buffer overflow problem.
+
+12.e
+CODE12_1
+
+Dump of assembler code for function func1:
+   0x000055555555469f <+0>:	push   %rbp
+   0x00005555555546a0 <+1>:	mov    %rsp,%rbp
+   0x00005555555546a3 <+4>:	sub    $0x70,%rsp
+   0x00005555555546a7 <+8>:	lea    -0x70(%rbp),%rax
+   0x00005555555546ab <+12>:	mov    %rax,%rdi
+   0x00005555555546ae <+15>:	mov    $0x0,%eax
+   0x00005555555546b3 <+20>:	callq  0x555555554560 <gets@plt>
+   0x00005555555546b8 <+25>:	lea    -0x70(%rbp),%rax
+   0x00005555555546bc <+29>:	mov    %rax,%rsi
+   0x00005555555546bf <+32>:	lea    0x9e(%rip),%rdi        # 0x555555554764
+   0x00005555555546c6 <+39>:	mov    $0x0,%eax
+   0x00005555555546cb <+44>:	callq  0x555555554550 <printf@plt>
+   0x00005555555546d0 <+49>:	nop
+   0x00005555555546d1 <+50>:	leaveq 
+   0x00005555555546d2 <+51>:	retq   
+End of assembler dump.
+
+CODE12_2
+
+Dump of assembler code for function func1:
+   0x000000000000070f <+0>:	push   %rbp
+   0x0000000000000710 <+1>:	mov    %rsp,%rbp
+   0x0000000000000713 <+4>:	sub    $0x70,%rsp
+   0x0000000000000717 <+8>:	mov    %fs:0x28,%rax
+   0x0000000000000720 <+17>:	mov    %rax,-0x8(%rbp)
+   0x0000000000000724 <+21>:	xor    %eax,%eax
+   0x0000000000000726 <+23>:	lea    -0x70(%rbp),%rax
+   0x000000000000072a <+27>:	mov    %rax,%rdi
+   0x000000000000072d <+30>:	mov    $0x0,%eax
+   0x0000000000000732 <+35>:	callq  0x5d0 <gets@plt>
+   0x0000000000000737 <+40>:	lea    -0x70(%rbp),%rax
+   0x000000000000073b <+44>:	mov    %rax,%rsi
+   0x000000000000073e <+47>:	lea    0xaf(%rip),%rdi        # 0x7f4
+   0x0000000000000745 <+54>:	mov    $0x0,%eax
+   0x000000000000074a <+59>:	callq  0x5c0 <printf@plt>
+   0x000000000000074f <+64>:	nop
+   0x0000000000000750 <+65>:	mov    -0x8(%rbp),%rax
+   0x0000000000000754 <+69>:	xor    %fs:0x28,%rax
+   0x000000000000075d <+78>:	je     0x764 <func1+85>
+   0x000000000000075f <+80>:	callq  0x5b0 <__stack_chk_fail@plt>
+   0x0000000000000764 <+85>:	leaveq 
+   0x0000000000000765 <+86>:	retq   
+End of assembler dump.
+
+In the disass of code12_2, of func1, we see that theres a function <__stack_chk_fail@plt> being done to check if it overflows.
+
+12.f
+The value in segment register fs:0x28 at the beggining is moved to the end of the stack, so the stack check fail function is called to check if it changes. While thats not the case when compiled without the stack protector..
+
+
+
+
