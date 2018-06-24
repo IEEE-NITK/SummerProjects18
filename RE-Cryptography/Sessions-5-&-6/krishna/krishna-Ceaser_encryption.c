@@ -3,7 +3,7 @@
 int main()
 {
 	FILE *f1,*f2;
-	char k,l;
+	char k;
 	 int key;
 	f1 = fopen("krishna-message.txt","r");
 	f2 =fopen("krishna_ceaser_cipher.txt","w");
@@ -11,12 +11,15 @@ int main()
 	scanf("%d",&key);
 
 	while((k=fgetc(f1))!=EOF)
-	{    if(isaplha(k))
+	{    
+          if(isalpha(k))
 		  { k=tolower(k);
-		if((k+key)>=65&&(k+key)<=90)
-			k+=key;
-		else
-			k+=(k-25);
+                       k+=key;
+                        if(k>'z')
+                            k=k-'z'+'a'-1;
+		
+			
+		
 		putc(k,f2);
 	           }
 	      if(k==' ')
