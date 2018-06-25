@@ -20,26 +20,36 @@ int main()
  printf("ERROR IN OPENING\n");
  exit(2);
  }
-
- char c,w,keyf[11];
- int y=0;
+ char c,w,keyf[4],msg[9],p[9];
+ int y=0,ciph[9],pciph[9];
  while((w=fgetc(key3))!=EOF)
  {
  keyf[y]=w;
  y++;
  }
- 
+ keyf[3]='\0';
+ y=0;
+ puts(keyf);
  while((c=fgetc(msg3))!=EOF)
  { 
- char k=c-'a';
- int v= (int)k;
- int g=v%10;
- 
- char n=c+keyf[g];
- 
- fprintf(ciph3,"%c",n);
+ msg[y]=c;
+ y++;
  }
- 
+ msg[8]='\0';
+ puts(msg);
+ y=0;
+ for(int i=0;i<7;i++,y++)
+ {
+ if(y==3)
+ {y=0;}
+ pciph[i]=(msg[i]-'A');
+ ciph[i]= keyf[y]+pciph[i];
+}
+
+ for(int j=0;j<7;j++)
+{
+ fprintf(ciph3,"%d 9",ciph[j]);
+}
  fclose(msg3);
  fclose(ciph3);
  fclose(key3);
