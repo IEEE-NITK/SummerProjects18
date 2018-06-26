@@ -36,7 +36,7 @@ void main(){
 	while(c!='\0'){
 		if(isalpha(c)){
 			for(x=0;x<=25;x++){
-				if(str[x]==c)
+				if(k[x]==c)
 					break;
 			}
 			t=x+97;
