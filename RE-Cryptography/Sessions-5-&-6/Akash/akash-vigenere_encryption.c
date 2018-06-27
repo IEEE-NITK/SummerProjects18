@@ -23,12 +23,11 @@ void main()
             fscanf(k,"%c",&key);
             if(ftell(k)==sizeofkey-1)
                 fseek(k,0,0);
-            ch=ch-96;
-            key=key-96;
-            ch=ch+key;
-            if (ch>26)
-                ch=ch%26;
-            ch = 96+ch;
+            ch=ch-97;
+            key=key-97;
+            ch=ch+key+1;
+            ch=ch%26;
+            ch = 97+ch;
             fprintf(c,"%c",ch);
         } else {
             fprintf(c,"%c",ch);
