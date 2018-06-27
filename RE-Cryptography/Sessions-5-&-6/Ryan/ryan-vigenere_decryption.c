@@ -10,7 +10,7 @@ int main(){
 	char chc,chk;
 	m= fopen("ryan-vigenere_decrypted.txt","w");
 	k= fopen("niranjan-keyfile-vigenere.txt","r");
-
+	c= fopen("niranjan-vigenere_ciphertext.txt","r");
 //The value of the corresponding letter of the key is subtracted from the cipher text for vigenere decryption
 	while((chc = getc(c))!= EOF){
 		if(isalpha(chc)){
