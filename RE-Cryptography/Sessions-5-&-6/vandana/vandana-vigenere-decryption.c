@@ -5,7 +5,7 @@
 
 int main()
 {
-    FILE *pToFile2 = fopen("arpi-key.txt", "r");
+    FILE *pToFile2 = fopen("arpitha-keyfile-vigenere.txt", "r");
     char key[100];
     char ch;
     int i = 0;
@@ -17,10 +17,10 @@ int main()
     key[i] = '\0';
     fclose(pToFile2);
 
-    FILE *pToFile = fopen("arpi-cipher.txt", "r");
+    FILE *pToFile = fopen("arpitha-vigenere_ciphertext.txt", "r");
 
     char input[600];
-    FILE *pToFile1 = fopen("arpi-m_vig.txt", "w");
+    FILE *pToFile1 = fopen("vandana-vigenere-decrypted.txt", "w");
     int u = 0;
      while (fgets(input, 600, pToFile))
     {
