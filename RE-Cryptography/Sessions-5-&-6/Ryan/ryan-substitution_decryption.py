@@ -3,6 +3,10 @@ with open("niranjan-keyfile-substitution.txt", "r") as key:
 with open("niranjan-substitution_ciphertext.txt", "r") as cipher:
     c = cipher.read()
 s = ''
+
+#For each letter in the cipher text we search for the same letter in the key and print the character pertaining to the position in the key
+#Example: If s is located at the 25th position in the key, the letter s corresponds to the letter y and the letter y will be printed whenever letter s is encountered in the cipher-text
+
 for i in range(7):
     count = 0
     for j in k:

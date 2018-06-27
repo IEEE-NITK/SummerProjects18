@@ -13,9 +13,13 @@ int main(){
 	char ch;
 	m= fopen("ryan-caesar_decrypted.txt","w");
 	c= fopen("niranjan-caesar_ciphertext.txt","r");
+
+//For caesar decryption the key is subtracted from the cipher text
 	while((ch = getc(c))!= EOF){
 		if(islower(ch)){
 			ch=ch-97-r;
+
+//If the result on subtraction is less than zero, 26 is added to the answer
 		    	if(ch<0){
 		        	ch=ch+26;
 		     	}	
