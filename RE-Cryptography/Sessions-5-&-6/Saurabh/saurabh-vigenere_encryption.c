@@ -20,7 +20,6 @@ void main(int argc, char *argv[])
 		l=strlen(word);
         for (i=0;i<l;i++,j++)
 			{
-
                 if (j==k)
                     j=0;
 				c=word[i]+key[j]-192;
