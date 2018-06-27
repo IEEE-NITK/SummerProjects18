@@ -1,30 +1,27 @@
 #include<stdio.h>
+#include<string.h>
+#include<ctype.h>
 int main()
 {
 	FILE *f1,*f2,*f3;
-	char message [8],temp,key[26];
+	char message [9],key[26],k;
 	int i;
 	
 	
-	f1=fopen("krishna-substution_cipher.txt","w");
+	f1=fopen("krishna-substitution_cipher.txt","w");
 	f2=fopen("message-substitution.txt","r");
-	f3=fopen("key-substitution.txt","r");
-
+	f3=fopen("ll.txt","r");
+              i=0;
 	for(i=0;i<26;++i)
-	{    key[i]=fgetc(f3);
-			key[i]=tolower(key);
-    }
-	for(i=0;i<8;++i)
-    {   message[i]=fgetc(f2);
-		if(message[i]!=' ')
-			mesage[i]=tolower(message[i]);
-	}  
+               key[i]=fgetc(f3);
+  
+      for(i=0;i<9;++i)
+            message[i]=fgetc(f2);
+	
 
     
-    for(i=0;i<message[i]!='\0';++i)
-    {  temp=message[i];
-    	
-    	temp-='a';
+    for(i=0;i<strlen(message);++i)
+    {  int temp = (int)message[i] -97;
         fprintf(f1,"%c",key[temp]);
     }
 

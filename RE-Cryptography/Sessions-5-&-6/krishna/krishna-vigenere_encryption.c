@@ -13,6 +13,7 @@ int main()
 	fseek(f1,0,0);
 	fseek(f2,0,2);
 	max_key=ftell(f2);
+        fseek(f2,0,0);
 
 	while(ftell(f1)<max-1)
 	{
