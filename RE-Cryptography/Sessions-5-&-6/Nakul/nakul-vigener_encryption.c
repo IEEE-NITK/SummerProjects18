@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 void main(){
-char ct[1000],pt[1000],key[1000],k[100];
+char ct[1000],pt[1000],key[1000],k[1000];
 FILE *f1,*fp,*f2;
 
 f1=fopen("nakul-vigener_message.txt","r");
@@ -11,7 +11,8 @@ if(f1==NULL)
   exit(0);
  }
 fgets(pt,1000,f1);
-fclose(f1);
+fseek(f1,0,2);
+long int len=ftell(f1);
 
 
 fp=fopen("nakul-vigener_keyfile.txt","r");
@@ -20,16 +21,15 @@ if(fp==NULL)
   exit(0);
  }
 fgets(k,1000,fp);
-fclose(fp);
-
-
-int i,j,n=strlen(k);
-for(i=0,j=0;i<strlen(pt);i++,j++)
-  {if(j==n)
-     j=0;
-   key[i]=k[j];
-  }
-
+int i,j;
+int key_length=strlen(k);
+for(i=0,j=0;i<len;i++,j++)
+   {if(j == key_length-1)
+       j = 0;
+    key[i] = k[j];
+   }
+key[i] = '\0';
+printf("%s\n",key);
 
 for(j=0;pt[j]!='\0';j++)
  {
@@ -49,5 +49,7 @@ if(f2==NULL)
   exit(0);
  }
 fputs(ct,f2);
+fclose(fp);
 fclose(f2);
+fclose(f1);
 }
