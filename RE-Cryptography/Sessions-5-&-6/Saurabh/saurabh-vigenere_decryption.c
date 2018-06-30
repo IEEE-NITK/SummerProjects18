@@ -31,4 +31,6 @@ void main(int argc, char *argv[])
         if (feof(fp1)==0)    
 		    fprintf(fp3, "%s ", msg);
     }
+	fclose(fp1);
+	fclose(fp3);
 }
