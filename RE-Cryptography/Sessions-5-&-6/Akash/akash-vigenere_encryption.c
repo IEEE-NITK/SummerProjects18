@@ -25,7 +25,9 @@ void main()
                 fseek(k,0,0);
             ch=ch-97;
             key=key-97;
-            ch = 'a' + (ch+key)%26;
+            ch=ch+key+1;
+            ch=ch%26;
+            ch = 97+ch;
             fprintf(c,"%c",ch);
         } else {
             fprintf(c,"%c",ch);
