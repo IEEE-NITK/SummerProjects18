@@ -9,14 +9,22 @@ char k[26];
 char a;
 int i=0;
 while((a=fgetc(key))!=EOF)
-{k[i]=a;i++;}
+{
+ k[i]=a;
+ i++;
+}
 char c;
 while((a=fgetc(ct))!=EOF)
-{for(i=0;i<26;i++)
-{if(a==k[i])
-{break;}}
-c=97+i;
-fputc(c,msg);
+{
+ for(i=0;i<26;i++)
+ {
+  if(a==k[i])
+  {
+   break;
+  }
+ }
+ c=97+i;
+ fputc(c,msg);
 }
 }
 

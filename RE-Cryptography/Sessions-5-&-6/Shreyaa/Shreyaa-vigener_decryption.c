@@ -18,21 +18,29 @@ i=0;
 int d;
 while((c=fgetc(ct))!=EOF)
 {
-if(isalpha(c))
-{
-b=fgetc(key);
-i++;
-if(i==n-1)
-{fseek(key,0,0);i=0;}
-d=c-b;
-if(d<0)
-{d+=26;}
-a=97+d;}
+ if(isalpha(c))
+ {
+  b=fgetc(key);
+  i++;
+  if(i==n-1)
+  {
+   fseek(key,0,0);
+   i=0;
+  }
+  d=c-b;
+  if(d<0)
+  {
+   d+=26;
+  }
+  a=97+d;
+ }
 
 
-else
-{a=c;}
-putc(a,msg);
+ else
+ {
+  a=c;
+ }
+ putc(a,msg);
 }
 }
 
