@@ -62,7 +62,11 @@ and so on.
 
 # Phase 2
 (Deadline: 22nd June)
+<<<<<<< HEAD
 In essence , you are carrying out a Cipher-Text(CT)-Only attack. The key is available to you (except for caesar). The task is made easier as you know beforehand what Cipher was used where. 
+=======
+In essence , you are carrying out a Cipher-Text(CT)-Only attack. The key is not available to you (except for vigenere). The task is made easier as you know beforehand what Cipher was used where. 
+>>>>>>> 1373cf81369813a33545105fcb68fe14446dfd69
 **This is a team assignment. Proceed only once your partner's PR has been merged.**  
 You may now help your partner in case he/she is unable to complete phase 1. Be honest, and provide only conceptual help. Sharing keyfiles and messagefiles defeats the fun and purpose!
 
@@ -101,7 +105,11 @@ and
 Decrypted message file as yourname-vigenere_decrypted.txt  
 
 - Substitution Attack:  
+<<<<<<< HEAD
 Write a program to decrypt your partner's Substitution Ciphertext. For this **you are allowed to use the key file of your partner**  
+=======
+Write a program to decrypt your partner's Substitution Ciphertext. **Note - This involves a lot of trial and error. Confirm with your partner that the message is indeed a meaningful word, so that you can verify your program's output.**  
+>>>>>>> 1373cf81369813a33545105fcb68fe14446dfd69
 Name the:  
 Program file as yourname-substitution_decryption.extension  
 and  

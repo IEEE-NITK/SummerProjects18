@@ -1,0 +1,36 @@
+a) code6 outputs {0-(n-1)& OUtput=n} , if n is given as input.
+EX.:Enter a number: 3
+    1
+    2
+    Output = 3
+
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter a number:");
+	scanf("%d",&n);
+	for(int i=0;i<n;i++)
+		printf("%d\n",i);
+	printf("Output = %d\n",n);
+	return 0;
+}
+
+
+
+b) It's not same.  code6 uses a function called call_me_1() to print the nummbers less than the input.
+
+c) Functions in code6: printf, scanf, call_me_1(), call_me_2()
+
+  construction of stack frame :
+  push rbp
+  mov rbp, rsp
+  sub rsp, 0x10
+
+  Destruction of stack frame: 
+  leave
+  ret
+
+
+ d) nop is the command that does nothing. 
+ It is most commonly used for time delays.

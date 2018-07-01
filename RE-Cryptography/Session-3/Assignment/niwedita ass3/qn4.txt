@@ -1,0 +1,32 @@
+a) code4 takes endless input strings.
+
+b) cd /proc/PID
+   vi maps
+
+
+00400000-00401000 r-xp 00000000 08:07 39715911                           /home/niwedita/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
+00600000-00601000 r--p 00000000 08:07 39715911                           /home/niwedita/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
+00601000-00602000 rw-p 00001000 08:07 39715911                           /home/niwedita/SummerProjects18/RE-Cryptography/Session-3/Assignment/programs/assignment2_programs/code4
+7ffff7a0d000-7ffff7bcd000 r-xp 00000000 08:07 29098068                   /lib/x86_64-linux-gnu/libc-2.23.so
+7ffff7bcd000-7ffff7dcd000 ---p 001c0000 08:07 29098068                   /lib/x86_64-linux-gnu/libc-2.23.so
+7ffff7dcd000-7ffff7dd1000 r--p 001c0000 08:07 29098068                   /lib/x86_64-linux-gnu/libc-2.23.so
+7ffff7dd1000-7ffff7dd3000 rw-p 001c4000 08:07 29098068                   /lib/x86_64-linux-gnu/libc-2.23.so
+7ffff7dd3000-7ffff7dd7000 rw-p 00000000 00:00 0
+7ffff7dd7000-7ffff7dfd000 r-xp 00000000 08:07 29098009                   /lib/x86_64-linux-gnu/ld-2.23.so
+7ffff7fd5000-7ffff7fd8000 rw-p 00000000 00:00 0
+7ffff7ff7000-7ffff7ffa000 r--p 00000000 00:00 0                          [vvar]
+7ffff7ffa000-7ffff7ffc000 r-xp 00000000 00:00 0                          [vdso]
+7ffff7ffc000-7ffff7ffd000 r--p 00025000 08:07 29098009                   /lib/x86_64-linux-gnu/ld-2.23.so
+7ffff7ffd000-7ffff7ffe000 rw-p 00026000 08:07 29098009                   /lib/x86_64-linux-gnu/ld-2.23.so
+7ffff7ffe000-7ffff7fff000 rw-p 00000000 00:00 0
+7ffffffde000-7ffffffff000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+~
+
+c) 7-9: text segment
+   10-20: data segment
+   21-22: stack
+
+d) No -wxp permission is seen.
+   
+   I am getting same address of stack every time.

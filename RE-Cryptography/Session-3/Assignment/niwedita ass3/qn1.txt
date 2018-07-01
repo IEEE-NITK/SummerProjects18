@@ -1,0 +1,8 @@
+a) code1 runs on x86 architecture. on using the file command, it was seen as a 32bit executable.
+
+b) Magic numbers are the first bit of a file which uniquely identify its type. i.e whether the file is of format .exe, .jpg.....
+Magic numbers of code1 are 7f45 4c46
+
+c) NO, a pdf can't be run as an executable. When it is opened in a text editor, first it will so problem in opening file : The file you opened has some invalid characters. If you continue editing this file you could corrupt this document. After that if we click the option of edit anyway and run , then it shows: besh:./filename.pdf:permission denied.
+
+d) pdf file is not a standalone program.it requires another program(pdf viewer) to open. that's why it can't be run as an executable file however it's a binary file.

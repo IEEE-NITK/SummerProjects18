@@ -79,11 +79,12 @@ stdin_read:
         ret
 
 stdout_write:
-        mov rax, 0x04
-        mov rbx, 0x01
+       mov rax, 0x03
+        mov rbx, 0x00
         int 0x80
 
         ret
+
 
 exit_prog:
         mov rax, 0x01
