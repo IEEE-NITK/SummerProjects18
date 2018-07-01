@@ -6,7 +6,7 @@ void main(int argc, char *argv[])
 {
 	FILE *fp1,*fp2,*fp3;
 	int l,k,i,j;
-	char c,word[15],key[10],cip[15];
+	char c,word[15],key[10],msg[15];
 	fp1 = fopen(argv[1], "r");
 	fp2 = fopen(argv[2], "r");	
 	fp3 = fopen(argv[3], "w");
@@ -22,14 +22,15 @@ void main(int argc, char *argv[])
 			{
                 if (j==k)
                     j=0;
-				c=word[i]+key[j]-192;
-				if (c>26)
-					c=c%26;
-				if (c==0)
+				c=word[i]-key[j];
+				if (c<=0)
 					c=c+26;
-				cip[i]=c+96;
+				msg[i]=c+96;
 			}
-        cip[i]='\0';    
-		fprintf(fp3, "%s ", cip);
+        msg[i]='\0';
+        if (feof(fp1)==0)    
+		    fprintf(fp3, "%s ", msg);
     }
+	fclose(fp1);
+	fclose(fp3);
 }
