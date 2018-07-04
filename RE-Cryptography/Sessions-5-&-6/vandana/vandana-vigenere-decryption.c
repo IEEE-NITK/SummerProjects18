@@ -5,7 +5,7 @@
 
 int main()
 {
-    FILE *pToFile2 = fopen("vandana-keyfile-vigenere.txt", "r");
+    FILE *pToFile2 = fopen("arpitha-keyfile-vigenere.txt", "r");
     char key[100];
     char ch;
     int i = 0;
@@ -15,14 +15,12 @@ int main()
 
     }
     key[i] = '\0';
-    i = i-1;
-    printf("%d",i);
     fclose(pToFile2);
 
-    FILE *pToFile = fopen("vandana-message-vigenere.txt", "r");
+    FILE *pToFile = fopen("arpitha-vigenere_ciphertext.txt", "r");
 
     char input[600];
-    FILE *pToFile1 = fopen("vandana-vigenere_ciphertext.txt", "w");
+    FILE *pToFile1 = fopen("vandana-vigenere-decrypted.txt", "w");
     int u = 0;
      while (fgets(input, 600, pToFile))
     {
@@ -32,19 +30,22 @@ int main()
         for (; input[j] != '\n'; j++)
         {
 
-
-
             if (isalpha(input[j]) && islower(input[j]))
             {
 
                 int k = u%i;
-                int x = (input[j]-97+key[k]-96)%26;
+                int z = ((input[j]-97)-(key[k]-96));
+                if (z<0)
+                {
+                    z = z+26;
+                }
+
+                int x = (z)%26;
 
                 int y = x+97;
-
+                u = k+1;
 
                 fputc(y, pToFile1);
-                u = k+1;
 
             }
 
