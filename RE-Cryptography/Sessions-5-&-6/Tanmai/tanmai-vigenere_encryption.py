@@ -19,7 +19,7 @@ with open('tanmai-message-vigenere.txt', 'r') as file:
 			else:
 				ch = chr( (ord(ch)+ ord(key[i].lower()) - 2*ord('a')) % 26 + ord('a') )
 		
-		i = i+1
+			i = i+1
 		f2.write(ch)
 		
 f2.close()
