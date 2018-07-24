@@ -1,0 +1,2 @@
+1 >Create a folder in your name
+2 >Add a Readme to the project

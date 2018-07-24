@@ -1,0 +1,1817 @@
+[
+    {
+        "user": "UAFVAN945",
+        "text": "<@UAFVAN945> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530691017.000281"
+    },
+    {
+        "user": "UAFVAN945",
+        "purpose": "This session we will be discussing all the Text Editor manipulations you need to know in Vim, followed by an insight on how the system is booted.",
+        "text": "<@UAFVAN945> set the channel purpose: This session we will be discussing all the Text Editor manipulations you need to know in Vim, followed by an insight on how the system is booted.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1530691103.000139"
+    },
+    {
+        "user": "UAFPA8G59",
+        "text": "<@UAFPA8G59> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530700073.000315"
+    },
+    {
+        "user": "UAFLHAB2M",
+        "text": "<@UAFLHAB2M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530706826.000324"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Hey <@UAFLHAB2M>, we'll wait for few minutes for others to join in.",
+        "client_msg_id": "fcb0b521-dd89-4c7b-bb84-abff9f995ac9",
+        "ts": "1530707543.000101"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "sure.",
+        "client_msg_id": "1c524e47-6370-4e53-a52b-ae4227327bbd",
+        "ts": "1530707552.000165"
+    },
+    {
+        "user": "UAH30B5KQ",
+        "inviter": "UAFVAN945",
+        "text": "<@UAH30B5KQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530707740.000390"
+    },
+    {
+        "user": "UAH8CT90X",
+        "inviter": "UAFVAN945",
+        "text": "<@UAH8CT90X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530707740.000413"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Hey guys!",
+        "client_msg_id": "701a31c9-a5ff-4e47-b272-a6ef763be3c7",
+        "ts": "1530707789.000079"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "How is your vacation going so far?",
+        "client_msg_id": "1490846a-9849-48a6-a718-5b4657e2805f",
+        "ts": "1530707808.000232"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "pretty good",
+        "client_msg_id": "c14011d2-fe7f-4582-9361-6e6385eb6ad0",
+        "ts": "1530707818.000284",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "That's nice!",
+        "client_msg_id": "73be406a-b174-4eee-99e7-03716e0082bc",
+        "ts": "1530707837.000248"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So let's begin",
+        "client_msg_id": "cb5f76ba-cdaa-47ce-b4c8-d039a9e0cbb3",
+        "ts": "1530707937.000231"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "You have worked with the vi editor in first year right?",
+        "client_msg_id": "206aa3cf-4c9b-4ff9-9fc5-6cbbc41b21fe",
+        "ts": "1530707956.000118",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAFU0J1K5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So, there are so many text editors available like Vim, emacs, Sublime Text, Atom etc.",
+        "client_msg_id": "22fa1454-54c7-47f0-ab9b-4678610930f7",
+        "ts": "1530708041.000156"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "You need to figure out which one works best for you.",
+        "client_msg_id": "e1e700ac-d47b-4bea-b2c7-bbe56cc9b032",
+        "thread_ts": "1530708060.000049",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530708083.000008"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530708175.000196"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530708191.000215"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1530708060.000049"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Vim and emacs are popular text editors that are installed by default on most Linux distributions and they both have their pros and cons. If you want to get around your system like a ninja, you'll need to pick up one of these text editors to use. They are essentially coding, word document processing and basically all in one editors.",
+        "client_msg_id": "e0bc358a-aa21-491a-a7db-e5deb96150dc",
+        "ts": "1530708075.000338"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "all of these are in-built?",
+        "client_msg_id": "ee445a95-ec85-48a8-a3df-e54eb62899ad",
+        "thread_ts": "1530708060.000049",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530708083.000008"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Vi is there by default, you need to install the others. I do recommend Sublime text, that's the one I found most comfortable working with.",
+        "client_msg_id": "9cf1597d-b262-4a46-88af-46c6e2977a1a",
+        "thread_ts": "1530708060.000049",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530708175.000196"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "ohk",
+        "client_msg_id": "9bc57bfe-f8c1-401c-99b2-2c023056604e",
+        "thread_ts": "1530708060.000049",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530708191.000215"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Vim stands for vi (Improved) just like its name it stands for an improved version of the vi text editor command.\n\nIt's super lightweight, opening and editing a file with vim is quick and easy. It's also almost always available, if you booted up a random Linux distribution, chances are vim is installed by default.",
+        "client_msg_id": "b6317f06-d3e8-412f-9aaa-9e4c5547e296",
+        "ts": "1530708246.000089"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So today we will learn about the vi editor.",
+        "client_msg_id": "6a342c27-51d8-4e10-9cd1-2933499abe1f",
+        "ts": "1530708311.000299"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Ready?",
+        "client_msg_id": "6a9622fa-f42b-47cb-b556-05cd12bf8c3b",
+        "ts": "1530708314.000366",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So I want you guys to open up your terminal and then make a text file called \"practise.txt\"",
+        "client_msg_id": "43d10336-cfa5-4d71-9123-5b9b420b158a",
+        "ts": "1530708441.000142"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJSJ3H2N\/-.js|Untitled>",
+        "file": {
+            "id": "FBJSJ3H2N",
+            "created": 1530708481,
+            "timestamp": 1530708481,
+            "name": "-.js",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "javascript",
+            "pretty_type": "JavaScript\/JSON",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 15,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJSJ3H2N\/-.js?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJSJ3H2N\/download\/-.js?t=xoxe-3-3-3-3",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJSJ3H2N\/-.js",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBJSJ3H2N-bc5bf53447",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJSJ3H2N\/-.js\/edit",
+            "preview": "vi practise.txt",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable\">vi<\/span> <span class=\"cm-variable\">practise<\/span>.<span class=\"cm-property\">txt<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFPA8G59",
+                        "UAH30B5KQ"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530708482.000002"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Once you are done with that, click on 'i' to enter into the insert mode and then type in the following text:",
+        "client_msg_id": "19002594-8674-47c5-b77b-a4e64dd93e0a",
+        "ts": "1530708539.000249"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUMT77Z\/-.txt|Untitled>",
+        "file": {
+            "id": "FBKUMT77Z",
+            "created": 1530708559,
+            "timestamp": 1530708559,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 37,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKUMT77Z\/-.txt?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKUMT77Z\/download\/-.txt?t=xoxe-3-3-3-3",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUMT77Z\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBKUMT77Z-1ebcfad160",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUMT77Z\/-.txt\/edit",
+            "preview": "The sky is clear and the sky is blue.",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>The sky is clear and the sky is blue.<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 1,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAFPA8G59",
+                        "UAH30B5KQ",
+                        "UAFLHAB2M"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530708560.000059"
+    },
+    {
+        "user": "UAFU0J1K5",
+        "text": "<@UAFU0J1K5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530708614.000015"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Now what we're first going to learn is how to search for the first occurrence of the word sky",
+        "client_msg_id": "bcb72915-de82-422b-9791-4dc69c4ad65f",
+        "ts": "1530708748.000269"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "so in order to do that we need to first hit the Esc key",
+        "client_msg_id": "363e6f46-119f-488e-aa03-653e7c32ba5d",
+        "ts": "1530708772.000246"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This takes it back to the command mode.",
+        "client_msg_id": "197f4eee-cfd3-4c63-a765-2bdb7a12161b",
+        "ts": "1530708798.000323"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Then to search we say '\/sky'",
+        "client_msg_id": "66680a98-82fe-424f-b135-845f109d958e",
+        "ts": "1530708827.000211",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAFU0J1K5",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Once you hit enter, you can press \"n\" to go forward or \"N\" to go backward in your search results.",
+        "client_msg_id": "af9b8bf2-477b-4bf1-8b56-e81ac99709a4",
+        "ts": "1530708869.000060"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The '?' search command will search the text file backwards, so in the previous example, the last pretty would come up first.",
+        "client_msg_id": "ce3dc2b7-8a3e-4fd4-82d5-f252312c38b7",
+        "ts": "1530708892.000148"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So try that out as well. Type '?sky' to see the last occurrence of the word.",
+        "client_msg_id": "ff48814f-3771-4620-8bb8-1ad8e3245514",
+        "ts": "1530708923.000238",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Like you just tried out with the \"n\" and \"N\" keys, in order to navigate in vim",
+        "client_msg_id": "57a59481-fc2c-4090-9f47-bad47f2906b6",
+        "ts": "1530709035.000032"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "there are special keys",
+        "client_msg_id": "ca73915d-7ccb-4062-a5ea-8194e8172c36",
+        "ts": "1530709062.000349"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUS8WQP\/-.txt|Untitled>",
+        "file": {
+            "id": "FBKUS8WQP",
+            "created": 1530709074,
+            "timestamp": 1530709074,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 210,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKUS8WQP\/-.txt?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKUS8WQP\/download\/-.txt?t=xoxe-3-3-3-3",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUS8WQP\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBKUS8WQP-0de88b74b3",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKUS8WQP\/-.txt\/edit",
+            "preview": "h or the left arrow - will move you left one character\r\nk or the up arrow - will move you up one line\r\nj or the down arrow - will move you down one line\r\nl or the right arrow - will move you right one character",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>h or the left arrow - will move you left one character<\/pre><\/div>\n<div><pre>k or the up arrow - will move you up one line<\/pre><\/div>\n<div><pre>j or the down arrow - will move you down one line<\/pre><\/div>\n<div><pre>l or the right arrow - will move you right one character<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 4,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "UAH30B5KQ",
+                        "UAFU0J1K5"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530709074.000328"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Enter few more lines with separate lines and try this out.",
+        "client_msg_id": "3f455cf0-a5a2-4a6f-b89c-b64ac42107f9",
+        "ts": "1530709135.000049"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFPA8G59> Which key would you use to get into insert mode?",
+        "client_msg_id": "dbe8d6a2-5e43-4089-b9d0-d090e31d408d",
+        "thread_ts": "1530709161.000180",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530709178.000041"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1530709161.000180"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "i",
+        "client_msg_id": "a55dccce-6ecd-439b-898a-364c9a12b480",
+        "thread_ts": "1530709161.000180",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709178.000041",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFLHAB2M> How would you go back to the command mode from insert mode?",
+        "client_msg_id": "fb097730-7661-4aa7-bc97-0b4a64e415f9",
+        "thread_ts": "1530709210.000176",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAH8CT90X",
+                "ts": "1530709290.000140"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530709298.000061"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530709324.000148"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530709674.000209"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530709694.000128"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1530709210.000176"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": ":wq?",
+        "client_msg_id": "de2fca9e-90af-4994-b58e-1f89cf84d9d7",
+        "thread_ts": "1530709210.000176",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709290.000140"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "Esc",
+        "client_msg_id": "f475002e-f4d2-4d3c-bdb0-cbc783a19367",
+        "thread_ts": "1530709210.000176",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709298.000061",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "UAFVAN945",
+                    "UAFU0J1K5",
+                    "UAFLHAB2M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAH8CT90X> ':wq' is to save and exit the editor.",
+        "client_msg_id": "c16519c0-b852-4feb-b437-29296c87e31a",
+        "thread_ts": "1530709210.000176",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709324.000148",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH8CT90X",
+                    "UAFU0J1K5"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "'i' isn't the only key to enter into the insert mode.",
+        "client_msg_id": "e3047148-87e4-42c4-9237-f5e137d2568f",
+        "ts": "1530709370.000070"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Based on where you want the text to be entered. There are other keys you can use like:",
+        "client_msg_id": "ceada0bb-804e-4848-8e0a-1b4e1843c3d3",
+        "ts": "1530709393.000164"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKRR9G22\/-.txt|Untitled>",
+        "file": {
+            "id": "FBKRR9G22",
+            "created": 1530709407,
+            "timestamp": 1530709407,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 179,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKRR9G22\/-.txt?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKRR9G22\/download\/-.txt?t=xoxe-3-3-3-3",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKRR9G22\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBKRR9G22-673e3b7203",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKRR9G22\/-.txt\/edit",
+            "preview": "i - insert text before the cursor\r\nO - insert text on the previous line\r\no - insert text on the next line\r\na - append text after the cursor\r\nA - append text at the end of the line",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>i - insert text before the cursor<\/pre><\/div>\n<div><pre>O - insert text on the previous line<\/pre><\/div>\n<div><pre>o - insert text on the next line<\/pre><\/div>\n<div><pre>a - append text after the cursor<\/pre><\/div>\n<div><pre>A - append text at the end of the line<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530709408.000090"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Can all of you try to enter the text \"Good Evening!\" above the current first line?",
+        "client_msg_id": "334f5434-4693-41b6-97a0-f8c2a7396732",
+        "ts": "1530709450.000243",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAFU0J1K5",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFU0J1K5> can you tell us how you did that? What keys did you use?",
+        "client_msg_id": "83ccfa10-8932-4a5f-8cff-0fe7971a9352",
+        "thread_ts": "1530709574.000219",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAFU0J1K5",
+                "ts": "1530709608.000087"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1530709574.000219"
+    },
+    {
+        "type": "message",
+        "user": "UAFU0J1K5",
+        "text": "O",
+        "client_msg_id": "FDE8D6EA-EDB1-4453-8558-009CAE97044B",
+        "thread_ts": "1530709574.000219",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709608.000087",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945",
+                    "UAH30B5KQ",
+                    "UAFPA8G59"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "I want all of you to practice using these various modes once the session is over. Cool?",
+        "client_msg_id": "b9608aa0-fcb6-43ce-a288-674cc5213cec",
+        "ts": "1530709663.000103",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAFLHAB2M",
+                    "UAFU0J1K5"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "sorry. shut down due to battery drain",
+        "client_msg_id": "ffcbba4c-2ecb-48ed-8910-c060e53fd92d",
+        "thread_ts": "1530709210.000176",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709674.000209"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Now say you have made a mistake and you want to edit the text. Does the backspace work?",
+        "client_msg_id": "d62f4b28-c397-480c-836d-78dc0d9014a4",
+        "thread_ts": "1530709693.000371",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530709724.000319"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530709728.000196"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530709759.000175"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1530709693.000371"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "yep esc",
+        "client_msg_id": "c5b2dc82-f577-49c0-b10b-c5891d02dd11",
+        "thread_ts": "1530709210.000176",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709694.000128",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "It works only in insert mode",
+        "client_msg_id": "ea0dab0e-f0fb-4723-8f20-edb9e0d775b4",
+        "thread_ts": "1530709693.000371",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709724.000319"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "while in insert mode, yes",
+        "client_msg_id": "58edb00b-0bc1-4401-bbfe-12ef4b03b05b",
+        "thread_ts": "1530709693.000371",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709728.000196"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "good",
+        "client_msg_id": "e3b91f3c-182f-4189-8b56-7c9a2c7ed063",
+        "thread_ts": "1530709693.000371",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530709759.000175"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJB1403B\/-.txt|Untitled>",
+        "file": {
+            "id": "FBJB1403B",
+            "created": 1530709796,
+            "timestamp": 1530709796,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "UAFVAN945",
+            "editable": true,
+            "size": 225,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJB1403B\/-.txt?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJB1403B\/download\/-.txt?t=xoxe-3-3-3-3",
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJB1403B\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBJB1403B-f709e1cf04",
+            "edit_link": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJB1403B\/-.txt\/edit",
+            "preview": "x - used to cut the selected text also used for deleting characters\r\ndd - used to delete the current line\r\ny - yank or copy whatever is selected\r\nyy - yank or copy the current line\r\np - paste the copied text before the cursor",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>x - used to cut the selected text also used for deleting characters<\/pre><\/div>\n<div><pre>dd - used to delete the current line<\/pre><\/div>\n<div><pre>y - yank or copy whatever is selected<\/pre><\/div>\n<div><pre>yy - yank or copy the current line<\/pre><\/div>\n<div><pre>p - paste the copied text before the cursor<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530709797.000010"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "These are the keys you would use for text editing.",
+        "client_msg_id": "f4893e61-dc48-4a61-82cb-b24906263a2d",
+        "ts": "1530709832.000256"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Can you try to copy the first line and paste it thrice?",
+        "client_msg_id": "58414457-6345-408d-8fcb-0ad2699842af",
+        "thread_ts": "1530709869.000237",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530710000.000019"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530710042.000107"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530710114.000423"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530710199.000105"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530710210.000190"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1530709869.000237",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAFLHAB2M",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFPA8G59> how did you do it?",
+        "client_msg_id": "a093f13a-6e57-46f5-a8d1-4888c5abe8e1",
+        "thread_ts": "1530709975.000323",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530710022.000209"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530710212.000251"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1530709975.000323"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "For me 'p' pasted text on a new line rather than pasting it just before the cursor",
+        "client_msg_id": "e9bb3a07-0595-4434-a14f-835d07bc36b7",
+        "edited": {
+            "user": "UAH30B5KQ",
+            "ts": "1530710028.000000"
+        },
+        "thread_ts": "1530709869.000237",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710000.000019"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "I put the cursor on that line, pressed yy,went to the end and pressed p thrice",
+        "client_msg_id": "63c2e3da-f8fa-43c7-bd6e-b14450a12102",
+        "thread_ts": "1530709975.000323",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710022.000209",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "same",
+        "client_msg_id": "b602ee23-5461-4a36-b254-a01377226f53",
+        "thread_ts": "1530709869.000237",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710042.000107"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "yeah same:sweat_smile:. The paste functionality automatically pastes in the new line",
+        "client_msg_id": "3c9eb53b-97c3-497f-a7e8-5451d54f8ae5",
+        "thread_ts": "1530709869.000237",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710114.000423",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Since a line has been copied, it pastes as a new line",
+        "client_msg_id": "6e65f886-c653-4260-82d8-5f50ac8929cc",
+        "thread_ts": "1530709869.000237",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710199.000105"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "so p pastes the copied text in the line after the cursor?",
+        "client_msg_id": "035f3964-ae61-43c4-a799-1ab43fe88685",
+        "thread_ts": "1530709869.000237",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710210.000190"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Good job!",
+        "client_msg_id": "740988dc-f652-4081-8c1e-0693d3c7d931",
+        "thread_ts": "1530709975.000323",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710212.000251"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Everyone with me?",
+        "client_msg_id": "9ad86dfb-f275-4acb-9a13-cdbe59a32b26",
+        "ts": "1530710245.000135",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAFLHAB2M",
+                    "UAH30B5KQ",
+                    "UAH8CT90X"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Something you need to keep in mind is '^' key will move the cursor to the  first non-blank character of the line",
+        "client_msg_id": "2418f0b9-1b41-44d1-a4b1-474f9300dc91",
+        "ts": "1530710332.000293"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "and the\"$\" moves to the end of the line",
+        "client_msg_id": "1d5c1566-d132-47ba-ae30-072b71e0da1e",
+        "ts": "1530710371.000174"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<https:\/\/www.cs.colostate.edu\/helpdocs\/vi.html>",
+        "client_msg_id": "c6d1cabf-d3c6-4956-829a-860567950844",
+        "ts": "1530710400.000169"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This website is a good resource for basic vi commands.",
+        "client_msg_id": "cb596a92-27d2-4495-a8be-d5b92aebbe82",
+        "thread_ts": "1530710425.000130",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530710525.000210"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1530710425.000130",
+        "reactions": [
+            {
+                "name": "hushed",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Now it's time to learn about how the boot process takes place.",
+        "client_msg_id": "8358938f-b33a-4ac2-b564-ede79383ffb4",
+        "ts": "1530710490.000125"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Have you heard the phrase \"booting the system\"?",
+        "client_msg_id": "0303f12b-0a6e-4117-95c4-080dfc7bac8a",
+        "ts": "1530710514.000300",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAH30B5KQ",
+                    "UAFPA8G59",
+                    "UAFLHAB2M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "vimtutor command also has the same thing i think",
+        "client_msg_id": "c2ed5cff-34e3-456e-8afd-21b8eb4e5803",
+        "thread_ts": "1530710425.000130",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710525.000210"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFPA8G59> what does booting the system mean?",
+        "client_msg_id": "efc1d603-3e84-4cfb-bdff-78501358a3fc",
+        "thread_ts": "1530710602.000355",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530710638.000142"
+            },
+            {
+                "user": "UAFPA8G59",
+                "ts": "1530710646.000229"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530710664.000049"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530710666.000030"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530710678.000255"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1530710602.000355"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "loading the system from rom to ram ??",
+        "client_msg_id": "6ea22303-5cfb-4d69-b33f-69a463b2ebd1",
+        "thread_ts": "1530710602.000355",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710638.000142"
+    },
+    {
+        "type": "message",
+        "user": "UAFPA8G59",
+        "text": "basically starting it up",
+        "client_msg_id": "4ff1c42d-0050-4520-943a-bbf38cdf2c09",
+        "thread_ts": "1530710602.000355",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710646.000229"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Good answer!",
+        "client_msg_id": "bf4bd39c-f9a2-487b-b06c-08155a117c28",
+        "thread_ts": "1530710602.000355",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710664.000049"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "procedure for initializing the system",
+        "client_msg_id": "ffd652b1-51b0-4b53-9593-72eec758bc4d",
+        "thread_ts": "1530710602.000355",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710666.000030"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "awesome!",
+        "client_msg_id": "53b6be77-5fd6-4f17-a5ce-baba7b694864",
+        "thread_ts": "1530710602.000355",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710678.000255"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "When you turn on your machine, it does some neat things like show you the logo screen, run through some different messages and then at the end you're prompted with a login window. Well there is actually a ton of stuff happening between when you push the power button to when you login.",
+        "client_msg_id": "e87eac20-5f4c-48f8-9560-1233d37115e5",
+        "ts": "1530710694.000308"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The Linux boot process can be broken down in 4 simple stages:",
+        "client_msg_id": "82352e67-0c08-4d48-9f8a-f9c5307ba190",
+        "ts": "1530710712.000039"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "*1. BIOS*\nThe BIOS (stands for \"Basic Input\/Output System\") initializes the hardware and makes sure with a Power-on self test (POST) that all the hardware is good to go. The main job of the BIOS is to load up the bootloader.",
+        "client_msg_id": "1db6f9cc-55a4-4ae6-9cc3-7d9ea84814a9",
+        "ts": "1530710752.000251"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "*2. Bootloader*\nThe bootloader loads the kernel into memory and then starts the kernel with a set of kernel parameters. One of the most common bootloaders is GRUB, which is a universal Linux standard.",
+        "client_msg_id": "b7765313-a0e7-45e6-9c81-c3e1d5a9eb4c",
+        "ts": "1530710783.000374"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "*3. Kernel*\nWhen the kernel is loaded, it immediately initializes devices and memory. The main job of the kernel is to load up the init process.",
+        "client_msg_id": "73a43343-ac8c-41ae-9458-17286e40473e",
+        "ts": "1530710800.000043"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "*4. Init*\nRemember the init process is the first process that gets started, init starts and stops essential service process on the system. There are three major implementations of init in Linux distributions.",
+        "client_msg_id": "2ac06c3d-6c07-43d6-8db4-ca394cf83aca",
+        "ts": "1530710827.000095"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "There it is, the (very) simple explanation of the Linux boot process.",
+        "client_msg_id": "15ba27db-e9a2-4a2f-838b-5058f8b17098",
+        "ts": "1530710844.000127"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Everyone with me?",
+        "client_msg_id": "ff13b3fd-aeff-483d-a66f-29503f3c233d",
+        "ts": "1530710876.000188",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAH8CT90X",
+                    "UAFPA8G59",
+                    "UAH30B5KQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "How many of you have dual-booted your system?",
+        "client_msg_id": "d833810d-c588-4454-9c99-d12343fbee1c",
+        "thread_ts": "1530710935.000331",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530710982.000276"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530710998.000097"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530711010.000365"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530711040.000161"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530711088.000087"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1530710935.000331",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH8CT90X",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "means using 2 operating system?",
+        "client_msg_id": "ce149758-b972-4137-932b-37319e83c2bc",
+        "thread_ts": "1530710935.000331",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710982.000276"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "like windows and ubuntu?",
+        "client_msg_id": "d9b52648-49f5-4dcf-91d2-12175472813a",
+        "thread_ts": "1530710935.000331",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530710998.000097"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "correct",
+        "client_msg_id": "59b90e7a-e22b-4525-891a-f40c43a266ec",
+        "thread_ts": "1530710935.000331",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711010.000365"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Have any of you seen the GRUB menu?",
+        "client_msg_id": "f0d6d78a-02a0-47fd-8c42-32283e5d7ed5",
+        "ts": "1530711023.000178",
+        "reactions": [
+            {
+                "name": "-1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAFLHAB2M"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKVA9PHD\/grub2-in-ubuntu.jpg|grub2-in-ubuntu.jpg>",
+        "file": {
+            "id": "FBKVA9PHD",
+            "created": 1530711035,
+            "timestamp": 1530711035,
+            "name": "grub2-in-ubuntu.jpg",
+            "title": "grub2-in-ubuntu.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "UAFVAN945",
+            "editable": false,
+            "size": 31891,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKVA9PHD\/grub2-in-ubuntu.jpg?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBKVA9PHD\/download\/grub2-in-ubuntu.jpg?t=xoxe-3-3-3-3",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBKVA9PHD-c1113cb42a\/grub2-in-ubuntu_64.jpg?t=xoxe-3-3-3-3",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBKVA9PHD-c1113cb42a\/grub2-in-ubuntu_80.jpg?t=xoxe-3-3-3-3",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBKVA9PHD-c1113cb42a\/grub2-in-ubuntu_360.jpg?t=xoxe-3-3-3-3",
+            "thumb_360_w": 360,
+            "thumb_360_h": 233,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBKVA9PHD-c1113cb42a\/grub2-in-ubuntu_480.jpg?t=xoxe-3-3-3-3",
+            "thumb_480_w": 480,
+            "thumb_480_h": 311,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBKVA9PHD-c1113cb42a\/grub2-in-ubuntu_160.jpg?t=xoxe-3-3-3-3",
+            "image_exif_rotation": 1,
+            "original_w": 700,
+            "original_h": 454,
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBKVA9PHD\/grub2-in-ubuntu.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBKVA9PHD-c36d5bcd27",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "open_mouth",
+                    "users": [
+                        "UAFPA8G59",
+                        "UAFLHAB2M"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530711038.000014"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "nope. I'm using VMware Workstation for ubuntu",
+        "client_msg_id": "ecccaa1e-00c2-4fbc-a221-01851b547055",
+        "thread_ts": "1530710935.000331",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711040.000161"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFLHAB2M> that's alright",
+        "client_msg_id": "9dba54f4-3c24-47bb-b219-068bef6c3557",
+        "thread_ts": "1530710935.000331",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711088.000087"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "This what a GRUB menu looks like,  when you dual boot your system. You get to choose which OS you want to boot into",
+        "client_msg_id": "7624392d-7bfb-4205-aea4-0eccb6922a9a",
+        "ts": "1530711156.000099"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Let's go into a little more detail of the booting process",
+        "client_msg_id": "9884cb55-90c0-441d-bed0-c33494bd2823",
+        "ts": "1530711210.000179"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "BIOS- The first step in the Linux boot process is the BIOS which performs system integrity checks. The BIOS is a firmware that comes most common in IBM PC compatible computers, the dominant type of computers out there today. The BIOS's main goal is to find the system bootloader.\n\nSo once the BIOS boots up the hard drive, it searches for the boot block to figure out how to boot up the system. Depending on how you partition your disk, it will look to the master boot record (MBR). The MBR is located in the first sector of the hard drive, the first 512 bytes. The MBR contains the code to load another program somewhere on the disk, this program in turn actually loads up our bootloader.",
+        "client_msg_id": "73d6f3af-b310-4174-bdb8-25a10914d255",
+        "ts": "1530711259.000239"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The bootloader's main responsibilities are:\n-Booting into an operating system, it can also be used to boot to non-Linux operating systems\n-Select a kernel to use\n-Specify kernel parameters",
+        "client_msg_id": "1de86df3-9f52-41c2-b79e-7be362fc2b69",
+        "edited": {
+            "user": "UAFVAN945",
+            "ts": "1530711318.000000"
+        },
+        "ts": "1530711300.000157"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Everyone with me?",
+        "client_msg_id": "2e603996-6dec-40b8-a848-2e98861f5fba",
+        "ts": "1530711360.000135",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAFLHAB2M",
+                    "UAH8CT90X"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Have you guys heard the term \"kernel\" before?",
+        "client_msg_id": "d98b87d6-cfc4-428b-828c-e84cd6259d67",
+        "ts": "1530711394.000093",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59",
+                    "UAH8CT90X",
+                    "UAH30B5KQ"
+                ],
+                "count": 4
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFLHAB2M> can you tell what you know?",
+        "client_msg_id": "a8ba4c6b-34d9-493d-a023-3ae332d2e64f",
+        "thread_ts": "1530711425.000155",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530711488.000131"
+            },
+            {
+                "user": "UAH30B5KQ",
+                "ts": "1530711497.000080"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530711544.000054"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1530711425.000155"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "i dont know properly. its acts as some interface between us and cpu",
+        "client_msg_id": "99363ee6-42e3-4cc7-a2bb-7857f9e9692f",
+        "thread_ts": "1530711425.000155",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711488.000131"
+    },
+    {
+        "type": "message",
+        "user": "UAH30B5KQ",
+        "text": "initializes and configures the computer’s memory and also configures all the hardware attached to the system",
+        "client_msg_id": "c529297a-7cb1-4599-98d8-3ac5e8907fc1",
+        "thread_ts": "1530711425.000155",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711497.000080",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFVAN945"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAH8CT90X> what is the functionality of the kernel?",
+        "client_msg_id": "05a648dd-a9ae-439a-ad2d-0d43ae1d6f6b",
+        "ts": "1530711506.000080"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "<@UAFLHAB2M> good attempt!",
+        "client_msg_id": "86f76081-df27-4b9a-88fe-1aea6f85fcd9",
+        "thread_ts": "1530711425.000155",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530711544.000054",
+        "reactions": [
+            {
+                "name": "sweat_smile",
+                "users": [
+                    "UAFLHAB2M"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UAFVAN945> uploaded a file: <https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJTCK2QJ\/kernel_layout.svg.png|Kernel_Layout.svg.png> and commented: In operating system, the kernel is a computer program that manages input\/output requests from software, and translates them into data processing instructions for the central processing unit and other electronic components of a computer.",
+        "file": {
+            "id": "FBJTCK2QJ",
+            "created": 1530711637,
+            "timestamp": 1530711637,
+            "name": "Kernel_Layout.svg.png",
+            "title": "Kernel_Layout.svg.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UAFVAN945",
+            "editable": false,
+            "size": 8221,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJTCK2QJ\/kernel_layout.svg.png?t=xoxe-3-3-3-3",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/TAGMDQUMU-FBJTCK2QJ\/download\/kernel_layout.svg.png?t=xoxe-3-3-3-3",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBJTCK2QJ-20a9016d22\/kernel_layout.svg_64.png?t=xoxe-3-3-3-3",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBJTCK2QJ-20a9016d22\/kernel_layout.svg_80.png?t=xoxe-3-3-3-3",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBJTCK2QJ-20a9016d22\/kernel_layout.svg_360.png?t=xoxe-3-3-3-3",
+            "thumb_360_w": 225,
+            "thumb_360_h": 178,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/TAGMDQUMU-FBJTCK2QJ-20a9016d22\/kernel_layout.svg_160.png?t=xoxe-3-3-3-3",
+            "image_exif_rotation": 1,
+            "original_w": 225,
+            "original_h": 178,
+            "permalink": "https:\/\/ieeeunixsmp.slack.com\/files\/UAFVAN945\/FBJTCK2QJ\/kernel_layout.svg.png",
+            "permalink_public": "https:\/\/slack-files.com\/TAGMDQUMU-FBJTCK2QJ-abafcd1197",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcBJLUC2AG",
+                "created": 1530711637,
+                "timestamp": 1530711637,
+                "user": "UAFVAN945",
+                "is_intro": true,
+                "comment": "In operating system, the kernel is a computer program that manages input\/output requests from software, and translates them into data processing instructions for the central processing unit and other electronic components of a computer."
+            }
+        },
+        "user": "UAFVAN945",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "rosageorge97",
+        "bot_id": null,
+        "ts": "1530711638.000088"
+    },
+    {
+        "user": "UAFL06YEM",
+        "text": "<@UAFL06YEM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1530711650.000236"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "The kernel is a fundamental part of a modern computer’s operating system\n• The critical code of the kernel is usually loaded into a protected area of memory, which prevents it from being overwritten by other, less frequently used parts of the operating system or by applications.\n • The kernel performs its tasks, such as executing processes and handling interrupts, in kernel space, whereas everything a user normally does, such as writing text in a text editor or running programs in a GUI (graphical user interface), is done in user space.",
+        "client_msg_id": "d6247471-071a-4b28-9454-0a0b7b35b9db",
+        "ts": "1530711676.000050"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So, in other words Kernel is like the brain:smile:",
+        "client_msg_id": "dec93598-3cb1-463f-a26f-ddcbb55f2b3d",
+        "ts": "1530711737.000164",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Guys just a few more minutes and we'll wrap up the session. I do want to tell you guys about the project too.",
+        "client_msg_id": "d6bd8727-02cc-4909-b56b-429bc26e7625",
+        "ts": "1530711780.000268",
+        "reactions": [
+            {
+                "name": "hushed",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So the last topic for today's session is 'Init' process",
+        "client_msg_id": "5befe98c-3362-4074-8d0f-446bf6a0187f",
+        "ts": "1530711853.000188"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "*System V init (sysv)*\nThis is the traditional init system. It sequentially starts and stops processes, based on startup scripts.\n*Upstart*\nThis is the init you'll find on older Ubuntu installations. Upstart uses the idea of jobs and events and works by starting jobs that performs certain actions in response to events.\n\n*Systemd*\nThis is the new standard for init, it is goal oriented. Basically you have a goal that you want to achieve and systemd tries to satisfy the goal's dependencies to complete the goal.",
+        "client_msg_id": "7ffa1332-31f5-488c-b46a-48cbf0222f98",
+        "ts": "1530711906.000209"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So now regarding the project, we would like you guys to pair up and think of a project idea that you find interesting or as an application of everything you have learned so far in this course.",
+        "client_msg_id": "a0ef52ea-8229-4955-876c-376375cf0429",
+        "ts": "1530711995.000116"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "In case you can't think of an idea, you can ping any one of us and we will help you out. You have 2 weeks to do the project.",
+        "client_msg_id": "8ad3e83d-5100-4618-96e4-f15891565003",
+        "ts": "1530712045.000034"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "It will be evaluated in the first week of August.",
+        "client_msg_id": "8b09c64d-a6ef-4fe5-887d-54cc84ce37df",
+        "thread_ts": "1530712069.000169",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530712098.000268"
+            },
+            {
+                "user": "UAFVAN945",
+                "ts": "1530712114.000357"
+            },
+            {
+                "user": "UAFLHAB2M",
+                "ts": "1530712121.000211"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1530712069.000169"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "So that's it for today's session guys!",
+        "client_msg_id": "efc8e63b-e1b0-4963-a103-cab7256f490e",
+        "ts": "1530712082.000045",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAFLHAB2M",
+                    "UAFPA8G59",
+                    "UAH30B5KQ"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "upto when this SMP will go on?",
+        "client_msg_id": "6204d35f-1ae4-4bc3-a072-152a9491f5c5",
+        "thread_ts": "1530712069.000169",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530712098.000268"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "End of July",
+        "client_msg_id": "402c15fc-55cb-4e12-ae8c-e6171c6203ff",
+        "thread_ts": "1530712069.000169",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530712114.000357"
+    },
+    {
+        "type": "message",
+        "user": "UAFLHAB2M",
+        "text": "ok",
+        "client_msg_id": "454038b0-80d2-4da6-8703-53636426a108",
+        "thread_ts": "1530712069.000169",
+        "parent_user_id": "UAFVAN945",
+        "ts": "1530712121.000211"
+    },
+    {
+        "type": "message",
+        "user": "UAFVAN945",
+        "text": "Bye:wave:",
+        "client_msg_id": "2832941b-f91d-48a6-b1e8-3b9d79df67cc",
+        "ts": "1530712165.000003",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "UAFPA8G59",
+                    "UAH30B5KQ",
+                    "UAFLHAB2M"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "hey sorry my internet was out",
+        "client_msg_id": "2c2b5b1c-fe50-4caa-97c9-b6efbbf41106",
+        "ts": "1530714972.000350"
+    },
+    {
+        "type": "message",
+        "user": "UAH8CT90X",
+        "text": "a kernel is basically used to communicate the commands to the shell",
+        "client_msg_id": "10090fcf-f503-4437-afb7-d1735ef214e3",
+        "ts": "1530715037.000162"
+    }
+]
