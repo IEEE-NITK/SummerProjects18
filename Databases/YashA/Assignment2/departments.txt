@@ -1,7 +1,0 @@
-{ "_id" : ObjectId("5b06f186a419f89fa9456c46"), "dept_id" : "CO", "hod" : "S.Arun Kumar", "location" : "western campus", "capacity" : 128, "num_faculty" : 27 }
-{ "_id" : ObjectId("5b06f2c2a419f89fa9456c47"), "dept_id" : "IT", "hod" : "Bhaskar Dutta", "location" : "western campus", "capacity" : 134, "num_faculty" : 24 }
-{ "_id" : ObjectId("5b06f3b4a419f89fa9456c48"), "dept_id" : "EC", "hod" : "Ravi Hegde", "location" : "western campus", "capacity" : 158, "num_faculty" : 34 }
-{ "_id" : ObjectId("5b06f43aa419f89fa9456c49"), "dept_id" : "EE", "hod" : "Dinesh Srinivasan", "location" : "western campus", "capacity" : 147, "num_faculty" : 31 }
-{ "_id" : ObjectId("5b06f4e7a419f89fa9456c4a"), "dept_id" : "ME", "hod" : "Vinod Narayanan", "location" : "eastern campus", "capacity" : 186, "num_faculty" : 37 }
-{ "_id" : ObjectId("5b06f561a419f89fa9456c4b"), "dept_id" : "CV", "hod" : "Pabitra Roy", "location" : "eastern campus", "capacity" : 111, "num_faculty" : 22 }
-{ "_id" : ObjectId("5b06f67ba419f89fa9456c4c"), "dept_id" : "CH", "hod" : "Mithun Radhakrishna", "location" : "eastern campus", "capacity" : 152, "num_faculty" : 36 }
