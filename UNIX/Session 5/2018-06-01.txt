@@ -1,0 +1,532 @@
+#0 User:UAFHUCYAG
+Message: <@UAFHUCYAG> has joined the channel
+
+#1 User:UAFHUCYAG
+Message: <@UAFHUCYAG> set the channel purpose: intro to shell scripts
+
+#2 User:UAFHUCYAG
+Message: <@UAFHUCYAG> set the channel purpose: learn about basic constructs of shell-scripting
+
+#3 User:UAH30B5KQ
+Message: <@UAH30B5KQ> has joined the channel
+
+#4 User:UAFHUCYAG
+Message: I would like to have a headcount
+
+#5 User:UAFVAN945
+Message: <@UAFVAN945> has joined the channel
+
+#6 User:UAFHUCYAG
+Message: place a thumbs up on this message, to indicate you are ready
+
+#7 User:UAFHUCYAG
+Message: we will start after some more people have joined in
+
+#8 User:UAFVAN945
+Message: <@UAH30B5KQ> how's ur vacation going?
+
+#9 User:UAH30B5KQ
+Message: its going fine
+
+#10 User:UAFL06YEM
+Message: <@UAFL06YEM> has joined the channel
+
+#11 User:UAFHUCYAG
+Message: okay, I think we should start
+
+#12 User:UAFHUCYAG
+Message: before going to the basic constructs of shell-scripts, we will look at some other basic utility functions in the shell
+
+#13 User:UAFHUCYAG
+Message: <@UAH30B5KQ> have you come across cal command?
+
+#14 User:UAFPA8G59
+Message: <@UAFPA8G59> has joined the channel
+
+#15 User:UAFHUCYAG
+Message: <@UAH30B5KQ> are you there? <@UAFPA8G59> how can you print today's date and time using a shell command?
+
+#16 User:UAFVAN945
+Message: If you guys don't know you can google it:smile:
+
+#17 User:UAFHUCYAG
+Message: or use the man pages
+
+#18 User:UAFPA8G59
+Message: date command?
+
+#19 User:UAFHUCYAG
+Message: okay, so the `date` command spits out the current date and time
+
+#20 User:UAFHUCYAG
+Message: similarly `cal` command will show the calendar of this month and highlight today's date
+
+#21 User:UAGR7CFEJ
+Message: <@UAGR7CFEJ> has joined the channel
+
+#22 User:UAFHUCYAG
+Message: put a thumbs up on the respective messages if you have tried them out on your terminal
+
+#23 User:UAH30B5KQ
+Message: sorry network problems
+
+#24 User:UAFVAN945
+Message: It's alright
+
+#25 User:UAFHUCYAG
+Message: I assume you guys are familiar with grep command?
+
+#26 User:UAFHUCYAG
+Message: can you try printing out a number, say "21" from the O/P of cal command?
+
+#27 User:UAH07G9T9
+Message: <@UAH07G9T9> has joined the channel
+
+#28 User:UAFPA8G59
+Message: like year 21?
+
+#29 User:UAFHUCYAG
+Message: no, a date 21
+
+#30 User:UAFVAN945
+Message: no the date
+
+#31 User:UAFHUCYAG
+Message: okay, you can always do `cal | grep "21"`. Can anyone tell me what's the output?
+
+#32 User:UAFPA8G59
+Message: not working
+
+#33 User:UAGR7CFEJ
+Message: the entire line is printed with 21 in red colour
+
+#34 User:UAFHUCYAG
+Message: are you sure you keyed in correctly? it's working on my terminl
+
+#35 User:UAFHUCYAG
+Message: <@UAGR7CFEJ> correct
+
+#36 User:UAFHUCYAG
+Message: now can you think of the cut command and do something?
+
+#37 User:UAFHUCYAG
+Message: the cut command selects some portion of the text and prints it out
+
+#38 User:UAFPA8G59
+Message: ah yes it worked
+
+#39 User:UAFHUCYAG
+Message: hint: think of `cut -c n1,n2`
+
+#40 User:UAFPA8G59
+Message: in the terminal itself or in a file?
+
+#41 User:UAFVAN945
+Message: terminal itself
+
+#42 User:UAFVAN945
+Message: Does anyone remember what the '-c' is for?
+
+#43 User:UAFPA8G59
+Message: characters
+
+#44 User:UAFHUCYAG
+Message: okay, try this : `cal | grep "21" | cut -c 13,14`
+
+#45 User:UAGR7CFEJ
+Message: prints 21
+
+#46 User:UAGR7CFEJ
+Message: but when I used cal | grep 21 | cut -c 21,22 it gave a different result
+
+#47 User:UAFHUCYAG
+Message: correct, that's because the characters at positions 21 and 22 are different
+
+#48 User:UAFHUCYAG
+Message: so, you can see that this is not extendable to different months, because the position of "21" will be different
+
+#49 User:UAFHUCYAG
+Message: any other ideas?
+
+#50 User:UAFVAN945
+Message: The characters in those positions are just spaces
+
+#51 User:UAFHUCYAG
+Message: how do you delimit using the cut command?
+
+#52 User:UAFHUCYAG
+Message: the cal has spaces in between numbers right, this could be a start
+
+#53 User:UAFPA8G59
+Message: can we print characters,bytes etc of a given range?
+
+#54 User:UAFHUCYAG
+Message: `cut -d' '`
+
+#55 User:UAFVAN945
+Message: thats a good idea
+
+#56 User:UAFVAN945
+Message: what would the command be
+
+#57 User:UAFHUCYAG
+Message: so, this command splits the input based on ' ' and separates them into fields
+
+#58 User:UAFHUCYAG
+Message: the remaining job is to choose the appropriate field
+
+#59 User:UAFHUCYAG
+Message: so shall I proceed?
+
+#60 User:UAFHUCYAG
+Message: `cal | grep "21" | cut -d' ' -f 5` : this prints out 21. Can anyone explain why?
+
+#61 User:UAFPA8G59
+Message: 21 is the fifth number in the output
+
+#62 User:UAFHUCYAG
+Message: more generally, it's the fifth field
+
+#63 User:UAFPA8G59
+Message: yeah my bad
+
+#64 User:UAFHUCYAG
+Message: this is still not the best answer, because we need to know the field of the number in every month
+
+#65 User:UAFHUCYAG
+Message: what does `grep -o something.txt` do?
+
+#66 User:UAFPA8G59
+Message: `cut -c a-b` ?
+
+#67 User:UAGR7CFEJ
+Message: cut -c n1-n2
+
+#68 User:UAFVAN945
+Message: Anyone?:sweat_smile:
+
+#69 User:UAFHUCYAG
+Message: okay the `-o` options prints an O/P iff there exists an exact match
+
+#70 User:UAFHUCYAG
+Message: so, `cal | grep -o "21"` will print out only 21
+
+#71 User:UAFHUCYAG
+Message: any doubts so far?
+
+#72 User:UAFPA8G59
+Message: something like a search function?
+
+#73 User:UAFHUCYAG
+Message: I don't understand what you mean by search
+
+#74 User:UAFHUCYAG
+Message: grep will print the complete line which matches the pattern
+
+#75 User:UAFHUCYAG
+Message: but -o option will only print the appropriate part, that's the difference
+
+#76 User:UAH8CT90X
+Message: <@UAH8CT90X> has joined the channel
+
+#77 User:UAFHUCYAG
+Message: okay we will start with the first shell script
+
+#78 User:UAFPA8G59
+Message: ohh
+
+#79 User:UAFHUCYAG
+Message: create a file with ".sh" extension in a directory
+
+#80 User:UAFHUCYAG
+Message: the extension only helps us find the shell scripts quickly, the OS doesn't differentiate files based on their extensions
+
+#81 User:UAFVAN945
+Message: What is the need for shell scripting? Basically if you combine many commands and want to execute many of them one after the other, you would store it in a file and execute them
+
+#82 User:UAFVAN945
+Message: This ".sh" file is called a script. Since you have shell commands, it's called shell script.
+
+#83 User:UAFVAN945
+Message: So instead of entering each command on the terminal, you can have it all in a file.
+
+#84 User:UAFVAN945
+Message: Understood?
+
+#85 User:UAFHUCYAG
+Message: okay, at the beginning of the script, you need to tell the OS what interpreter to use
+
+#86 User:UAFHUCYAG
+Message: we can write scripts using python, perl. bash, etc.
+
+#87 User:UAFHUCYAG
+Message: that's why we use a shebang - `#!/bin/bash`
+
+#88 User:UAFVAN945
+Message: Any doubts?
+
+#89 User:UAFHUCYAG
+Message: the shebang line indicates that we are using the bash interpreter, which can be found at the folder /bin/
+
+#90 User:UAFHUCYAG
+Message: it could also be `#!/usr/bin/perl`, `#!/usr/bin/python`, etc for different scripts
+
+#91 User:UAFHUCYAG
+Message: but if it is not specified, it will assume bash to be the default interpreter
+
+#92 User:UAFHUCYAG
+Message: is everyone with me?
+
+#93 User:UAFVAN945
+Message: Anyone knows what 'bash' stands for?
+
+#94 User:UAH30B5KQ
+Message: bourne again shell
+
+#95 User:UAFHUCYAG
+Message: okay, inside the file enter: `echo "This is my first shell script"`
+
+#96 User:UAFHUCYAG
+Message: okay, to make a file, there are many ways
+
+#97 User:UAFHUCYAG
+Message: `touch filename`, will create a file name, but does not open it
+
+#98 User:UAFHUCYAG
+Message: more easily, `subl filename`, `vi filename` will create and open the file
+
+#99 User:UAFVAN945
+Message: 'subl' is for an editor called Sublime text that you need to explicitly download. But guys it's worth it. Do download it after the session
+
+#100 User:UAFPA8G59
+Message: does it replace vim?
+
+#101 User:UAFHUCYAG
+Message: it's an alternative
+
+#102 User:UAFVAN945
+Message: it doesn't replace it, its another editor
+
+#103 User:UAFPA8G59
+Message: oh so you can use both ?
+
+#104 User:UAFHUCYAG
+Message: but many find vi to be the most productive  editor
+
+#105 User:UAFHUCYAG
+Message: yeah, you can always use both. it's used for writing programs
+
+#106 User:UAFPA8G59
+Message: i want sublime but idk if it will work for wsl
+
+#107 User:UAFVAN945
+Message: I like sublime better:yum:
+
+#108 User:UAFHUCYAG
+Message: <@UAH07G9T9> can enlighten us on the greatness of vim, I would love to have a session
+
+#109 User:UAFHUCYAG
+Message: okay, you guys entered an echo statement inside the scrpt?
+
+#110 User:UAFVAN945
+Message: If you have any doubts please feel free to ask us
+
+#111 User:UAFHUCYAG
+Message: okay, now the file can be run as `bash filename`
+
+#112 User:UAFHUCYAG
+Message: but, the file does not have the execute permission, so we can't run it as `./filename`
+
+#113 User:UAFHUCYAG
+Message: every file has an attribute called permissions
+
+#114 User:UAFHUCYAG
+Message: the `ls -l` lists out the permissions in the first column
+
+#115 User:UAFVAN945
+Message: the "rwx" denotes the permissions
+
+#116 User:UAFVAN945
+Message: so there user, group and others
+
+#117 User:UAFVAN945
+Message: We can change the permissions using the "chmod" command
+
+#118 User:UAH30B5KQ
+Message: we can use chmod to change file permissions
+
+#119 User:UAFHUCYAG
+Message: so, to be able to execute a file, it needs to have execute permission for the current user
+
+#120 User:UAFHUCYAG
+Message: `chmod +x filename` will give the execute access
+
+#121 User:UAFHUCYAG
+Message: any doubts?
+
+#122 User:UAFHUCYAG
+Message: now, you can execute the script as ./filename also
+
+#123 User:UAFHUCYAG
+Message: previously, you would have got a `permission denied` message
+
+#124 User:UAFHUCYAG
+Message: okay, moving on, let's look at the basics of if-else constructs
+
+#125 User:UAFHUCYAG
+Message: you can look at the syntax here - <https://www.tutorialspoint.com/unix/if-elif-statement.htm>
+
+#126 User:UAFHUCYAG
+Message: basically, the condition to be evaluated is placed within the square braces
+
+#127 User:UAFHUCYAG
+Message: the reason is, the if stmt, by itself cannot evaluate relational and logical expressions
+
+#128 User:UAFHUCYAG
+Message: so, we can use another stmt called `test` to evaluate the conditional statements
+
+#129 User:UAH30B5KQ
+Message: the programs look a little like C#
+
+#130 User:UAFHUCYAG
+Message: or, equivalently use `[]`
+
+#131 User:UAFHUCYAG
+Message: importantly, the spaces inside the `[]` are very important, and must be preserved as is
+
+#132 User:UAFVAN945
+Message: yeah it does, but the spacing is crucial for it to work
+
+#133 User:UAFPA8G59
+Message: so `if [expression 1]` is invalid?
+
+#134 User:UAFPA8G59
+Message: how will the syntax be for this case?
+
+#135 User:UAFHUCYAG
+Message: okay, how do you know how many arguments have been passed to the script?
+
+#136 User:UAFVAN945
+Message: 'test' works for comparing two numbers, two strings and file attributes.
+
+#137 User:UAFHUCYAG
+Message: test val1 operator val2
+
+#138 User:UAFVAN945
+Message: if test $1 -gt 0
+then
+echo "$1 number is positive"
+
+#139 User:UAFVAN945
+Message: I want you to try it out and tell me:joy:
+
+#140 User:UAFHUCYAG
+Message: so, shell scripting has something called special variables, which come in very handy, while writing shell scripts - <https://www.tutorialspoint.com/unix/unix-special-variables.htm>
+
+#141 User:UAFVAN945
+Message: instead of the relational operators ==,&lt;=,&gt;=,&gt;,&lt;,!= that u use in C, shell uses -eq(equal),-le(less than or eq),-ge,-gt,lt,-ne etc
+
+#142 User:UAH30B5KQ
+Message: is test a command?
+
+#143 User:UAH30B5KQ
+Message: or just a keyword
+
+#144 User:UAFHUCYAG
+Message: so, the number of args passed to our script can be accessed via the variable `$#`
+
+#145 User:UAFHUCYAG
+Message: similarly, the first arg is placed in $1, second arg is contained in $2, etc
+
+#146 User:UAFHUCYAG
+Message: everyone clear?
+
+#147 User:UAFHUCYAG
+Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FB0UR003Y/-.sh|Untitled>
+
+#148 User:UAFHUCYAG
+Message: the if construct always ends with `fi`
+
+#149 User:UAFHUCYAG
+Message: `-eq` checks if the two args are equal
+
+#150 User:UAFVAN945
+Message: fi is like the '}' that you learnt in C
+
+#151 User:UAFPA8G59
+Message: it showed `./sample.sh: line 3: [10==15]: command not found`
+
+#152 User:UAFHUCYAG
+Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAZRBRXRS/elif_construct.sh|elif construct>
+
+#153 User:UAFHUCYAG
+Message: okay, can you guys code up to print out the max of two numbers?
+
+
+#155 User:UAFHUCYAG
+Message: or, do you guys know how to read numbers from STDIN?
+
+#156 User:UAFHUCYAG
+Message: okay, the `read` command is used to input a number
+
+#157 User:UAFHUCYAG
+Message: you can read two numbers instead of passing as args, and store them inside variables
+
+#158 User:UAFPA8G59
+Message: like `read $a` ?
+
+#159 User:UAFHUCYAG
+Message: no, `read a` should suffice
+
+#160 User:UAFPA8G59
+Message: what do we use for parentheses?
+
+#161 User:UAFHUCYAG
+Message: The syntax does not need parenthesis in the read command
+
+#162 User:UAFHUCYAG
+Message: okay any doubts?
+
+#163 User:UAFPA8G59
+Message: no i mean how to type nested if statements?
+
+#164 User:UAFVAN945
+Message: the then and fi you can say are equivalent to '{' and '}' respectively
+
+#165 User:UAFHUCYAG
+Message: the syntax is not too different for nested-if, this contains a simple example - <https://www.tldp.org/LDP/abs/html/nestedifthen.html>
+
+#166 User:UAFHUCYAG
+Message: we will wrap up for today
+
+#167 User:UAH30B5KQ
+Message: shoud the indentation be 2 spaces? because i am getting an error when im executing the file
+
+#168 User:UAH30B5KQ
+Message: ./myscript.sh: line 6: syntax error near unexpected token `then'
+./myscript.sh: line 6: `then'
+
+#169 User:UAFVAN945
+Message: no it is a single space
+
+#170 User:UAH30B5KQ
+Message: ok
+
+#171 User:UAFVAN945
+Message: Guys so your first assignment would be to read in 3 values from the user, find the sum as well as the greatest of the 3.
+
+#172 User:UAH8CT90X
+Message: okay
+
+#173 User:UAFVAN945
+Message: Great job you guys!
+
+#174 User:UAFVAN945
+Message: That's it for today
+
+#175 User:UAG0A3ZNH
+Message: <@UAG0A3ZNH> has joined the channel
+
+#176 User:UAGTJ7M8X
+Message: <@UAGTJ7M8X> has joined the channel
+
