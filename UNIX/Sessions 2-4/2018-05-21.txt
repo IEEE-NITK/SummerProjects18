@@ -1,416 +1,416 @@
-#0 User:UAMHTGNG0
+#0 User:Adil Ashique
 Message: So is everyone ready??
 
-#1 User:UAMHTGNG0
+#1 User:Adil Ashique
 Message: We shall  start in a minute or two.  We will wait for the rest for a few minutes.
 
-#2 User:UAMHTGNG0
+#2 User:Adil Ashique
 Message: So before we start I want you guys to do  a quick thing,  we need a second text file for this session. So go into the terminal and open up the unix-smp directory
 
-#3 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAUBW9WRM/-.sh|Untitled>
+#3 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAUBW9WRM/-.sh|Untitled>
 
-#4 User:UAMHTGNG0
+#4 User:Adil Ashique
 Message: the space between lazy and dog must be a tab
 
-#5 User:UAMHTGNG0
+#5 User:Adil Ashique
 Message: tell me once you have done this
 
-#6 User:UAFPA8G59
+#6 User:Nakul Suresh
 Message: this basically puts it in sample.txt right?
 
-#7 User:UAMHTGNG0
+#7 User:Adil Ashique
 Message: Yes thats what it does.
 
-#8 User:UAMHTGNG0
+#8 User:Adil Ashique
 Message: Its copies down the text into the file that we have specified
 
-#9 User:UAH30B5KQ
+#9 User:Abhinav P Y
 Message: tab is not working
 
-#10 User:UAH30B5KQ
+#10 User:Abhinav P Y
 Message: i used two spaces instead
 
-#11 User:UAMHTGNG0
+#11 User:Adil Ashique
 Message: Or you can go into the text file and press tab between both
 
-#12 User:UAH30B5KQ
+#12 User:Abhinav P Y
 Message: oh ok
 
-#13 User:UAMHTGNG0
+#13 User:Adil Ashique
 Message: Okay so now last session we covered a few text manipulation commands now we shall continue with them.
 
-#14 User:UAMHTGNG0
+#14 User:Adil Ashique
 Message: First command we'll be learning about is the cut command. It extracts portions of text from a file.
 
-#15 User:UAMHTGNG0
+#15 User:Adil Ashique
 Message: Now execute this command
 
-#16 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAU7ET5C6/-.sh|Untitled>
+#16 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAU7ET5C6/-.sh|Untitled>
 
-#17 User:UAMHTGNG0
+#17 User:Adil Ashique
 Message: What do you get?
 
-#18 User:UAFPA8G59
+#18 User:Nakul Suresh
 Message: the fifth character?
 
-#19 User:UAMHTGNG0
+#19 User:Adil Ashique
 Message: correct
 
-#20 User:UAH30B5KQ
+#20 User:Abhinav P Y
 Message: only q
 
-#21 User:UAMHTGNG0
+#21 User:Adil Ashique
 Message: So as you found out ,this outputs the 5th character in each line of the file. In this case it is "q", note that the space also counts as a character.
 
-#22 User:UAMHTGNG0
+#22 User:Adil Ashique
 Message: Now execute this
 
-#23 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FASQ2MGE5/-.sh|Untitled>
+#23 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FASQ2MGE5/-.sh|Untitled>
 
-#24 User:UAMHTGNG0
+#24 User:Adil Ashique
 Message: What do you get?
 
-#25 User:UAMHTGNG0
+#25 User:Adil Ashique
 Message: And why?
 
-#26 User:UAFPA8G59
+#26 User:Nakul Suresh
 Message: the sentence
 
-#27 User:UAGR7CFEJ
+#27 User:Yash Khivasara
 Message: complete sentence as it is
 
-#28 User:UAMHTGNG0
+#28 User:Adil Ashique
 Message: Are you sure you put a tab space before dog
 
-#29 User:UAH30B5KQ
+#29 User:Abhinav P Y
 Message: i am only getting dog
 
-#30 User:UAH30B5KQ
+#30 User:Abhinav P Y
 Message: but i dont know why
 
-#31 User:UAMHTGNG0
+#31 User:Adil Ashique
 Message: Yes if you are getting Dog its the right answer
 
-#32 User:UAFPA8G59
+#32 User:Nakul Suresh
 Message: yeah i got dog
 
-#33 User:UAMHTGNG0
+#33 User:Adil Ashique
 Message: the others put a tab space before dog and re execute it
 
-#34 User:UAFPA8G59
+#34 User:Nakul Suresh
 Message: i guess it considers tab to be the start of the 2nd line so it prints whatever is in the second line
 
-#35 User:UAMHTGNG0
+#35 User:Adil Ashique
 Message: You are kinda right
 
-#36 User:UAH8CT90X
+#36 User:Anusha Misra
 Message: Got dog too
 
-#37 User:UAMHTGNG0
+#37 User:Adil Ashique
 Message: So the reason why we got the above output is because we extract the contents by a field
 
-#38 User:UAMHTGNG0
+#38 User:Adil Ashique
 Message: The -f or field flag cuts text based off of fields, by default it uses TABs as delimiters, so everything separated by a TAB is considered a field. You should see "dog" as your output.
 
-#39 User:UAMHTGNG0
+#39 User:Adil Ashique
 Message: We use 2 here to print the second feild
 
-#40 User:UAMHTGNG0
+#40 User:Adil Ashique
 Message: Got it?
 
-#41 User:UAFPA8G59
+#41 User:Nakul Suresh
 Message: what's a field?
 
-#42 User:UAMHTGNG0
+#42 User:Adil Ashique
 Message: Now try this one out and tell the output
 
-#43 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FASQ72AAV/-.sh|Untitled>
+#43 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FASQ72AAV/-.sh|Untitled>
 
 
-#45 User:UAMHTGNG0
+#45 User:Adil Ashique
 Message: Yes exactly and do youknow why?
 
-#46 User:UAH30B5KQ
+#46 User:Abhinav P Y
 Message: -d tells that ; is a delimiter
 
-#47 User:UAMHTGNG0
+#47 User:Adil Ashique
 Message: yes
 
-#48 User:UAH8CT90X
+#48 User:Anusha Misra
 Message: ; is now the delimiter
 
-#49 User:UAFPA8G59
+#49 User:Nakul Suresh
 Message: 1 for the first field, -d means everything before the delimiter
 
-#50 User:UAMHTGNG0
+#50 User:Adil Ashique
 Message: Now what we did here is that we  changed the TAB delimiter to a ";" delimiter and since we are cutting the first field, the result should be "The quick brown".
 
-#51 User:UAMHTGNG0
+#51 User:Adil Ashique
 Message: Yes all of you are right
 
-#52 User:UAMHTGNG0
+#52 User:Adil Ashique
 Message: Now consider the first command I asked to execute
 
-#53 User:UAMHTGNG0
+#53 User:Adil Ashique
 Message: instead of 5 what will happen if we use -5
 
-#54 User:UAFPA8G59
+#54 User:Nakul Suresh
 Message: everything before the nth character
 
-#55 User:UAGR7CFEJ
+#55 User:Yash Khivasara
 Message: The q
 
-#56 User:UAH30B5KQ
+#56 User:Abhinav P Y
 Message: prints till the 5th character
 
-#57 User:UAMHTGNG0
+#57 User:Adil Ashique
 Message: So as Nakul and Abhinav pointed out all  the charcter before the 5th charcter will be printed i.e when we use minus all the characters before the nth character will be printed.
 
-#58 User:UAMHTGNG0
+#58 User:Adil Ashique
 Message: So that about it for cut. Any doubts? If not we will move on to the  next command
 
-#59 User:UAMHTGNG0
+#59 User:Adil Ashique
 Message: Ok now we will go into tr or the translate command.
 
-#60 User:UAMHTGNG0
+#60 User:Adil Ashique
 Message: The tr (translate) command allows you to translate a set of characters into another set of characters.
 
-#61 User:UAMHTGNG0
+#61 User:Adil Ashique
 Message: Now try this out
 
-#62 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FATAZRQ3C/-.sh|Untitled>
+#62 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FATAZRQ3C/-.sh|Untitled>
 
-#63 User:UAMHTGNG0
+#63 User:Adil Ashique
 Message: What is the output?
 
-#64 User:UAH30B5KQ
+#64 User:Abhinav P Y
 Message: HELLO
 
-#65 User:UAH8CT90X
+#65 User:Anusha Misra
 Message: HELLO
 
-#66 User:UAMHTGNG0
+#66 User:Adil Ashique
 Message: Yes, thats correct.  Great job
 
-#67 User:UAH8CT90X
+#67 User:Anusha Misra
 Message: so this works like define in C?
 
-#68 User:UAMHTGNG0
+#68 User:Adil Ashique
 Message: Actually no. There a particular string that you define is replaced  by a number or function that you give it. Here tr is used to translate the world into another. In  the above example we translated all lower case characters to uppercase <http://characters.As|characters.As> you can see we made the ranges of a-z into A-Z and all text we type that is lowercase gets uppercased.
 
-#69 User:UAMHTGNG0
+#69 User:Adil Ashique
 Message: Everybody clear with that?
 
-#70 User:UAMHTGNG0
+#70 User:Adil Ashique
 Message: Okay now the next command that we will look into is the paste command.
 
-#71 User:UAMHTGNG0
+#71 User:Adil Ashique
 Message: So do you guys still have the older version of the sample.txt .The one we used last session.
 
-#72 User:UAMHTGNG0
+#72 User:Adil Ashique
 Message: If not delete this one  and download the other one into the unix-smp directory
 
-#73 User:UAMHTGNG0
+#73 User:Adil Ashique
 Message: Tell me  when you are ready
 
-#74 User:UAFPA8G59
+#74 User:Nakul Suresh
 Message: the grocery list one right?
 
-#75 User:UAMHTGNG0
+#75 User:Adil Ashique
 Message: Ok now the paste command is similar to the cat command, it merges lines together in a file.
 
-#76 User:UAMHTGNG0
+#76 User:Adil Ashique
 Message: so execute the following two commands and tell me the difference
 
-#77 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FASQPSG6M/-.sh|Untitled>
+#77 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FASQPSG6M/-.sh|Untitled>
 
-#78 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FASQQ458R/-.lua|Untitled>
+#78 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FASQQ458R/-.lua|Untitled>
 
-#79 User:UAMHTGNG0
+#79 User:Adil Ashique
 Message: Guys got it?
 
-#80 User:UAH30B5KQ
+#80 User:Abhinav P Y
 Message: Fred appBetty limes 14lons 2
 
-#81 User:UAH30B5KQ
+#81 User:Abhinav P Y
 Message: for the first command
 
-#82 User:UAH30B5KQ
+#82 User:Abhinav P Y
 Message: Betty limes 14lons 2
 
-#83 User:UAH30B5KQ
+#83 User:Abhinav P Y
 Message: for 2nd command
 
-#84 User:UAMHTGNG0
+#84 User:Adil Ashique
 Message: So what is the difference that you find?
 
-#85 User:UAMHTGNG0
+#85 User:Adil Ashique
 Message: So I will explain  the two commands
 
-#86 User:UAMHTGNG0
+#86 User:Adil Ashique
 Message: Now in the first command, default delimiter for paste is TAB, so now there is one line with TABs separating each word. In the second command we changed this delimiter (-d) to space. Now everything should be on one line delimited by spaces.
 
-#87 User:UAMHTGNG0
+#87 User:Adil Ashique
 Message: Any doubts?
 
-#88 User:UAMHTGNG0
+#88 User:Adil Ashique
 Message: Guys are you paying attention because I don't see any response from you or is something thats covered hard to understand?
 
-#89 User:UAH30B5KQ
+#89 User:Abhinav P Y
 Message: is the last line separated with tabs?
 
-#90 User:UAFPA8G59
+#90 User:Nakul Suresh
 Message: My net is shitty so i cant respond on time xD
 
-#91 User:UAMHTGNG0
+#91 User:Adil Ashique
 Message: For which command?
 
-#92 User:UAH8CT90X
+#92 User:Anusha Misra
 Message: I'm a little confused so I'm just letting it settle in
 
-#93 User:UAH30B5KQ
+#93 User:Abhinav P Y
 Message: the first command
 
-#94 User:UAMHTGNG0
-Message: Oh cool XD <@UAFPA8G59>, if you have doubts do ask <@UAH8CT90X>
+#94 User:Adil Ashique
+Message: Oh cool XD <@Nakul Suresh>, if you have doubts do ask <@Anusha Misra>
 
-#95 User:UAMHTGNG0
+#95 User:Adil Ashique
 Message: We are in no hurry
 
-#96 User:UAH30B5KQ
+#96 User:Abhinav P Y
 Message: why doesnt it print the first line fully?
 
-#97 User:UAH30B5KQ
+#97 User:Abhinav P Y
 Message: then it directly jumps to the last line?
 
-#98 User:UAH8CT90X
+#98 User:Anusha Misra
 Message: So paste works the same way as cat does, the only difference being the delimiter stuff, is it?
 
-#99 User:UAMHTGNG0
+#99 User:Adil Ashique
 Message: Like here all the lines must be separated by a tab. I'm not quite sure why your first line is not printed ,because it is coming for me.
 
-#100 User:UAMHTGNG0
+#100 User:Adil Ashique
 Message: Yes exactly.
 
-#101 User:UAH30B5KQ
+#101 User:Abhinav P Y
 Message: ok
 
-#102 User:UAMHTGNG0
+#102 User:Adil Ashique
 Message: Okay so now we will go into the next command that is the sort command
 
-#103 User:UAFPA8G59
+#103 User:Nakul Suresh
 Message: so is paste a more powerful version of cat?
 
-#104 User:UAMHTGNG0
+#104 User:Adil Ashique
 Message: Now as the name suggests the sort command sorts lines in the alphabetical order.
 
-#105 User:UAMHTGNG0
+#105 User:Adil Ashique
 Message: Execute the following command
 
-#106 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FATBPU602/-.java|Untitled>
+#106 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FATBPU602/-.java|Untitled>
 
-#107 User:UAMHTGNG0
+#107 User:Adil Ashique
 Message: You do get the lines in a sorted fashion don't you?
 
-#108 User:UAMHTGNG0
+#108 User:Adil Ashique
 Message: By powerful what do you mean?
 
-#109 User:UAMHTGNG0
+#109 User:Adil Ashique
 Message: See basically cat print down the file  as it is , but what paste does is it past all the lines one after the other into a single line. Also there is a provision to change the delimiter in paste.
 
-#110 User:UAMHTGNG0
+#110 User:Adil Ashique
 Message: okay then try out this
 
-#111 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FATBTPVL2/-.sh|Untitled>
+#111 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FATBTPVL2/-.sh|Untitled>
 
 
-#113 User:UAFPA8G59
+#113 User:Nakul Suresh
 Message: i mean with more options for pasting?
 
-#114 User:UAMHTGNG0
+#114 User:Adil Ashique
 Message: Exactly using the -r reverses the sort command
 
-#115 User:UAMHTGNG0
+#115 User:Adil Ashique
 Message: Yes in a way you can say that
 
-#116 User:UAMHTGNG0
+#116 User:Adil Ashique
 Message: Thats about it for the sort command. Any doubts?
 
-#117 User:UAMHTGNG0
+#117 User:Adil Ashique
 Message: Okay now the next command that we will be looking into will be the sed command
 
-#118 User:UAMHTGNG0
+#118 User:Adil Ashique
 Message: The Linux operating system makes use of terminal commands to work with a computer's file system. The primary use of the Linux command sed, which is short for stream editor, is to modify each line of a file or stream by replacing specified parts of the line.
 
-#119 User:UAMHTGNG0
+#119 User:Adil Ashique
 Message: For example try out this one
 
-#120 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAT91B3M1/-.sh|Untitled>
+#120 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAT91B3M1/-.sh|Untitled>
 
-#121 User:UAMHTGNG0
+#121 User:Adil Ashique
 Message: What does it do?
 
-#122 User:UAGR7CFEJ
+#122 User:Yash Khivasara
 Message: replaces 12 with 30
 
-#123 User:UAFPA8G59
+#123 User:Nakul Suresh
 Message: the contents of sample2 got replaced with those of sample
 
-#124 User:UAMHTGNG0
+#124 User:Adil Ashique
 Message: Actually the contents in sample2 is the same except that all the 12 are replaced by 30
 
-#125 User:UAMHTGNG0
+#125 User:Adil Ashique
 Message: So what we did here was that all the 12 in sampl is replaced by 30 into a new file called sample2
 
-#126 User:UAMHTGNG0
+#126 User:Adil Ashique
 Message: got it?
 
-#127 User:UAFPA8G59
+#127 User:Nakul Suresh
 Message: oh all right got it
 
-#128 User:UAMHTGNG0
+#128 User:Adil Ashique
 Message: So what we did here was making text substitutions with sed. This is one of its main functons.
 
-#129 User:UAFPA8G59
+#129 User:Nakul Suresh
 Message: so somewhat like command-line text editing?
 
-#130 User:UAMHTGNG0
+#130 User:Adil Ashique
 Message: It is also used in another function which we will see in the following example.
 
-#131 User:UAMHTGNG0
+#131 User:Adil Ashique
 Message: Yes that is is what text manipulation  is all about basically.
 
-#132 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAT5EHACU/-.sh|Untitled>
+#132 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAT5EHACU/-.sh|Untitled>
 
-#133 User:UAMHTGNG0
+#133 User:Adil Ashique
 Message: Tell what do you get here?
 
-#134 User:UAFPA8G59
+#134 User:Nakul Suresh
 Message: prints only the lines with mark
 
-#135 User:UAMHTGNG0
+#135 User:Adil Ashique
 Message: Yes exactly. Good job.
 
-#136 User:UAMHTGNG0
+#136 User:Adil Ashique
 Message: So what we did in this command was that we used it to filter the lines into the other text file
 
-#137 User:UAMHTGNG0
+#137 User:Adil Ashique
 Message: that is the second use of sed command i.e to  filter the content.
 
-#138 User:UAMHTGNG0
+#138 User:Adil Ashique
 Message: Is that clear?
 
-#139 User:UAMHTGNG0
+#139 User:Adil Ashique
 Message: So thats it for this session and with that we  come to an end with text manipulation . Thank you guys. Hope you felt the session to be informative and helpful
 

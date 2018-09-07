@@ -1,480 +1,471 @@
-#0 User:UAF9TDN5P
-Message: <@UAF9TDN5P> has joined the channel
+#0 User:Sanjana Palisetti
+Message: <@Sanjana Palisetti> has joined the channel
 
-#1 User:UAFHUCYAG
+#1 User:Chenna Keshava B S
 Message: can I get a head count of how many of you are ready? Put a thumbs up here on this message
 
-#2 User:UAGR3HCLW
-Message: <@UAGR3HCLW> has joined the channel
+#2 User:Ankit Karody
+Message: <@Ankit Karody> has joined the channel
 
-#3 User:UAGR3HCLW
+#3 User:Ankit Karody
 Message: :+1:
 
-#4 User:UAFVAN945
-Message: <@UAFVAN945> has joined the channel
+#4 User:Rosa Anil George
+Message: <@Rosa Anil George> has joined the channel
 
-#5 User:UAH07G9T9
-Message: <@UAH07G9T9> has joined the channel
+#5 User:Kaushik S Kalmady
+Message: <@Kaushik S Kalmady> has joined the channel
 
-#6 User:UAF9M0XBK
-Message: <@UAF9M0XBK> has joined the channel
+#6 User:Ayush Arun Singh
+Message: <@Ayush Arun Singh> has joined the channel
 
-#7 User:UAF9M0XBK
+#7 User:Ayush Arun Singh
 Message: :+1:
 
-#8 User:UAFHUCYAG
+#8 User:Chenna Keshava B S
 Message: we will wait for a few more mins.
 
-#9 User:UAGR7CFEJ
-Message: <@UAGR7CFEJ> has joined the channel
+#9 User:Yash Khivasara
+Message: <@Yash Khivasara> has joined the channel
 
-#10 User:UAGR7CFEJ
+#10 User:Yash Khivasara
 Message: :+1:
 
-#11 User:UAGTJ7M8X
-Message: <@UAGTJ7M8X> has joined the channel
+#11 User:Abhiram Chowdary
+Message: <@Abhiram Chowdary> has joined the channel
 
-#12 User:UAFHUCYAG
+#12 User:Chenna Keshava B S
 Message: it would be nice if you put a thumbs up here, less clutter and easier to count.
 
-#13 User:UAF4ZQ7BJ
-Message: <@UAF4ZQ7BJ> has joined the channel
+#13 User:Aniketh
+Message: <@Aniketh> has joined the channel
 
-#14 User:UAF4ZQ7BJ
+#14 User:Aniketh
 Message: :+1:
 
-#15 User:UAFHUCYAG
+#15 User:Chenna Keshava B S
 Message: okay let us start now
 
-#16 User:UAFHUCYAG
+#16 User:Chenna Keshava B S
 Message: do all of you have a terminal to begin with?
 
-#17 User:UAFHUCYAG
+#17 User:Chenna Keshava B S
 Message: it would be nice to explore the commands on the go. Please make sure you have this for future sessions atleast
 
-#18 User:UAFHUCYAG
+#18 User:Chenna Keshava B S
 Message: most of what I cover today, is what you already know
 
-#19 User:UAFHUCYAG
+#19 User:Chenna Keshava B S
 Message: okay, can anyone tell me what ls does?
 
-#20 User:UAF4ZQ7BJ
+#20 User:Aniketh
 Message: what is the full form?
 
-#21 User:UAFHUCYAG
+#21 User:Chenna Keshava B S
 Message: list is the full form of ls
 
-#22 User:UAF4ZQ7BJ
+#22 User:Aniketh
 Message: oh my bad. Yes ls lists all the files in the present directory
 
-#23 User:UAFHUCYAG
+#23 User:Chenna Keshava B S
 Message: there are tons of other options that can be used along with ls
 
-#24 User:UAFHUCYAG
+#24 User:Chenna Keshava B S
 Message: for instance:
 
-#25 User:UAFHUCYAG
-Message: <@UAGTJ7M8X> can you tell me what ls -l does?
+#25 User:Chenna Keshava B S
+Message: <@Abhiram Chowdary> can you tell me what ls -l does?
 
-#26 User:UAFHUCYAG
+#26 User:Chenna Keshava B S
 Message: how is it different from the barebones ls?
 
-#27 User:UAGTJ7M8X
+#27 User:Abhiram Chowdary
 Message: It gives a long formate like it include last time used etc
 
-#28 User:UAFHUCYAG
+#28 User:Chenna Keshava B S
 Message: yeah. more precisely, it mentions the size, permissions, modified date and time, owner of the file, etc.
 
-#29 User:UAFHUCYAG
+#29 User:Chenna Keshava B S
 Message: To see the filesize in human readable format, we can use ls -lh command
 
-#30 User:UAFHUCYAG
-Message: <@UAGR7CFEJ> what does ls -a do?
+#30 User:Chenna Keshava B S
+Message: <@Yash Khivasara> what does ls -a do?
 
-#31 User:UAF4ZQ7BJ
+#31 User:Aniketh
 Message: sorry but what is barebones?
 
-#32 User:UAFHUCYAG
+#32 User:Chenna Keshava B S
 Message: -h flag stands for human readable
 
-#33 User:UAFHUCYAG
+#33 User:Chenna Keshava B S
 Message: without any flag, only the ls command
 
-#34 User:UAG0A3ZNH
-Message: <@UAG0A3ZNH> has joined the channel
+#34 User:Tejas C
+Message: <@Tejas C> has joined the channel
 
-#35 User:UAF9M0XBK
+#35 User:Ayush Arun Singh
 Message: Reveals hidden filea
 
-#36 User:UAF9M0XBK
+#36 User:Ayush Arun Singh
 Message: Files*
 
-#37 User:UAF9M0XBK
+#37 User:Ayush Arun Singh
 Message: Is it?
 
-#38 User:UAFHUCYAG
-Message: <@UAGR3HCLW> can you tell me what ls -R does? Do this in a directory with subdirectories :stuck_out_tongue:
+#38 User:Chenna Keshava B S
+Message: <@Ankit Karody> can you tell me what ls -R does? Do this in a directory with subdirectories :stuck_out_tongue:
 
-#39 User:UAGTJ7M8X
+#39 User:Abhiram Chowdary
 Message: Even LS -a mentions current and prarent directory's
 
-#40 User:UAGR3HCLW
+#40 User:Ankit Karody
 Message: lists recursively directory tree
 
-#41 User:UAGTJ7M8X
+#41 User:Abhiram Chowdary
 Message: Also
 
-#42 User:UAFHUCYAG
+#42 User:Chenna Keshava B S
 Message: yeah. Folders might contain many hidden files (usually beginning with a dot in their names, like .bashrc, .vimrc, .profile) etc.
 
-#43 User:UAFHUCYAG
+#43 User:Chenna Keshava B S
 Message: yeah, correct
 
-#44 User:UAFHUCYAG
+#44 User:Chenna Keshava B S
 Message: A better way to visualize the directory structure is by using tree command. But you will have to install the program in the first place
 
-#45 User:UAFHUCYAG
+#45 User:Chenna Keshava B S
 Message: okay, let's move onto the cd command
 
-#46 User:UAFHUCYAG
+#46 User:Chenna Keshava B S
 Message: cd as you know, is used to change the working directory
 
-#47 User:UAFHUCYAG
+#47 User:Chenna Keshava B S
 Message: you all must check out zsh terminal
 
-#48 User:UAFHUCYAG
+#48 User:Chenna Keshava B S
 Message: there's a nice plugin called oh-my-zsh also
 
-#49 User:UAFHUCYAG
+#49 User:Chenna Keshava B S
 Message: it's really cool
 
-#50 User:UAFPA8G59
-Message: <@UAFPA8G59> has joined the channel
+#50 User:Nakul Suresh
+Message: <@Nakul Suresh> has joined the channel
 
-#51 User:UAFHUCYAG
+#51 User:Chenna Keshava B S
 Message: now, can everyone pitch in the different ways we can use cd command?
 
-#52 User:UAFHUCYAG
+#52 User:Chenna Keshava B S
 Message: like moving to parent folder, ... etc?
 
-#53 User:UAFL06YEM
-Message: <@UAFL06YEM> has joined the channel
+#53 User:Akshay Gupta
+Message: <@Akshay Gupta> has joined the channel
 
-#54 User:UAF9M0XBK
+#54 User:Ayush Arun Singh
 Message: cd~username does that i guess
 
-#55 User:UAFVAN945
+#55 User:Rosa Anil George
 Message: It is important that ls is in lowercase as LS isn't a command
 
-#56 User:UAGR3HCLW
+#56 User:Ankit Karody
 Message: cd .. moves up one directory
 
-#57 User:UAFHUCYAG
+#57 User:Chenna Keshava B S
 Message: moving to the home directory can be done using "cd ~ "
 
-#58 User:UAFHUCYAG
+#58 User:Chenna Keshava B S
 Message: but moving one directory above needs : cd ..
 
-#59 User:UAFHUCYAG
+#59 User:Chenna Keshava B S
 Message: yeah
 
-#60 User:UAFHUCYAG
+#60 User:Chenna Keshava B S
 Message: how do you move up two directories at a time?
 
-#61 User:UAGR3HCLW
+#61 User:Ankit Karody
 Message: cd ../..
 
-#62 User:UAFHUCYAG
+#62 User:Chenna Keshava B S
 Message: yeah, correct
 
-#63 User:UAFHUCYAG
+#63 User:Chenna Keshava B S
 Message: As an aside, in the zsh terminal with that plugin, you can directly start typing in the folder name, it will have cached all of the previous working directories. It's a great productivity boost for devs.
 
-#64 User:UAFHUCYAG
+#64 User:Chenna Keshava B S
 Message: is everyone with me so far?
 
-#65 User:UAFHUCYAG
+#65 User:Chenna Keshava B S
 Message: any doubts?
 
-#66 User:UAFPA8G59
+#66 User:Nakul Suresh
 Message: is zsh a separate program
 
-#67 User:UAFHUCYAG
+#67 User:Chenna Keshava B S
 Message: you can tell me if I am fast, slow, boring, whatever
 
-#68 User:UAFHUCYAG
+#68 User:Chenna Keshava B S
 Message: it's another terminal itself, like bash
 
-#69 User:UAFPA8G59
+#69 User:Nakul Suresh
 Message: so we have to install zsh right
 
-#70 User:UAFHUCYAG
+#70 User:Chenna Keshava B S
 Message: <https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e>
 
-#71 User:UAF4ZQ7BJ
+#71 User:Aniketh
 Message: Do all terminals need Linux OS?
 
-#72 User:UAFHUCYAG
+#72 User:Chenna Keshava B S
 Message: terminal is a program on the linux distributions, which can be used to create, manage and work with other processes
 
-#73 User:UAFHUCYAG
+#73 User:Chenna Keshava B S
 Message: now, you have terminals on windows also, apart from mac OSX
 
-#74 User:UAFHUCYAG
+#74 User:Chenna Keshava B S
 Message: okay, moving on. Can anyone tell me what's the different between relative and absolute address?
 
-#75 User:UAGR3HCLW
+#75 User:Ankit Karody
 Message: relative address is dealing with memory locations with respect to another one
 
-#76 User:UAFHUCYAG
+#76 User:Chenna Keshava B S
 Message: you can use bash on windows also, but you don't have the freedom to tinker with stuff, like you do in linux
 
-#77 User:UAF9M0XBK
+#77 User:Ayush Arun Singh
 Message: Relative addresses can be diff
 
-#78 User:UAFHUCYAG
+#78 User:Chenna Keshava B S
 Message: windows abstracts away a lot of the details from the user
 
-#79 User:UAF9M0XBK
+#79 User:Ayush Arun Singh
 Message: But absolute address is same no matter which directory u working in
 
-#80 User:UAGR3HCLW
+#80 User:Ankit Karody
 Message: like if you have a pointer p pointing to a int and p++ will point to the address + 4bytes
 
-#81 User:UAFHUCYAG
+#81 User:Chenna Keshava B S
 Message: correct, absolute addresses are specified from the root directory
 
-#82 User:UAFHUCYAG
+#82 User:Chenna Keshava B S
 Message: the relative addresses are specified wrt the current directory
 
-#83 User:UAFHUCYAG
+#83 User:Chenna Keshava B S
 Message: I am not sure if the pointers analogy is the best way to describe the situation. Especially, when we have soft links and all
 
-#84 User:UAFHUCYAG
+#84 User:Chenna Keshava B S
 Message: you guys can check out what "cd - " does
 
-#85 User:UAFHUCYAG
+#85 User:Chenna Keshava B S
 Message: it's used to move directly to the last used directory
 
-#86 User:UAFHUCYAG
+#86 User:Chenna Keshava B S
 Message: okay, shall we move on to pwd command?
 
-#87 User:UAGTJ7M8X
+#87 User:Abhiram Chowdary
 Message: S
 
-#88 User:UAFPA8G59
+#88 User:Nakul Suresh
 Message: can we use pointers to  access and manipulate these addresses?
 
-#89 User:UAFHUCYAG
-Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAGJCLE13/code_for_pwd.sh|code for pwd>
+#89 User:Chenna Keshava B S
+Message: <@Chenna Keshava B S> uploaded a file: <https://ieeeunixsmp.slack.com/files/Chenna Keshava B S/FAGJCLE13/code_for_pwd.sh|code for pwd>
 
 
-#91 User:UAFPA8G59
+#91 User:Nakul Suresh
 Message: can we type cd ../../ n times to move up n directories?
 
-#92 User:UAFHUCYAG
+#92 User:Chenna Keshava B S
 Message: I am not sure I got your question, but yeah that's how it's implemented in the file system
 
-#93 User:UAFHUCYAG
+#93 User:Chenna Keshava B S
 Message: the commands to create a file, create soft and hard links, delete a file - all involving storing the addresses of blocks of memory(which together make up a file)
 
-#94 User:UAFHUCYAG
+#94 User:Chenna Keshava B S
 Message: storing and playing with the addresses of the blocks
 
-#95 User:UAFHUCYAG
+#95 User:Chenna Keshava B S
 Message: but these are not exposed to the user per se, that's why we need an abstraction called a file system
 
 
-#97 User:UAFHUCYAG
+#97 User:Chenna Keshava B S
 Message: so what does pwd do? - spits out the present working directory
 
 
-#99 User:UAFPA8G59
+#99 User:Nakul Suresh
 Message: 4th one gives the home directory i guess
 
 
-#101 User:UAGR3HCLW
+#101 User:Ankit Karody
 Message: ln: ./a: File exists
 
-#102 User:UAFHUCYAG
+#102 User:Chenna Keshava B S
 Message: so the first line will take you to the home directory
 
 
-#104 User:UAFHUCYAG
+#104 User:Chenna Keshava B S
 Message: the second line uses the ln with -s flag. It's used to create a soft link to the directory, which is specified in the first argument
 
-#105 User:UAFHUCYAG
+#105 User:Chenna Keshava B S
 Message: the third line moves into the htm directory
 
 
-#107 User:UAGTJ7M8X
+#107 User:Abhiram Chowdary
 Message: What is soft link
 
-#108 User:UAFHUCYAG
+#108 User:Chenna Keshava B S
 Message: I took the pain of creating sym links or soft links to show the difference between -P and -L flags for the pwd command
 
-#109 User:UAH07G9T9
-Message: <@UAF4ZQ7BJ> think of a terminal as just another program allowing you to do a bunch of stuff. Back in the day, there was no GUI. No mouse even at one point. So everything was done by issuing a specific set of commands to your computer. Everything from file handling to system management. And all of that was done through an interface called the Command Line Interface(CLI) which we now call the terminal. You can do everything you can do using a GUI on a terminal.
+#109 User:Kaushik S Kalmady
+Message: <@Aniketh> think of a terminal as just another program allowing you to do a bunch of stuff. Back in the day, there was no GUI. No mouse even at one point. So everything was done by issuing a specific set of commands to your computer. Everything from file handling to system management. And all of that was done through an interface called the Command Line Interface(CLI) which we now call the terminal. You can do everything you can do using a GUI on a terminal.
 
 And no. You don't need a Linux OS for a terminal. Every major OS has a terminal, though the instructions you issue and what you can do has its limitations.
 
-#110 User:UAFHUCYAG
+#110 User:Chenna Keshava B S
 Message: soft links will be covered in detail in the future sessions. But what can be understood is - two different files can be linked together keeping a single copy of the data on the hard disk
 
-#111 User:UAH07G9T9
+#111 User:Kaushik S Kalmady
 Message: For e.g on the windows command line you have `dir` command to list directories and files whereas Linux bash terminals use `ls`
 
-#112 User:UAFPA8G59
+#112 User:Nakul Suresh
 Message: something like a pointer?
 
-#113 User:UAFHUCYAG
+#113 User:Chenna Keshava B S
 Message: yeah, it's actually a pointer
 
-#114 User:UAFHUCYAG
+#114 User:Chenna Keshava B S
 Message: so pwd -L flag will only show the output, without minding the soft links
 
-#115 User:UAFHUCYAG
+#115 User:Chenna Keshava B S
 Message: but you will get a different output if you use a -P flag for the pwd command
 
-#116 User:UAF4ZQ7BJ
+#116 User:Aniketh
 Message: thanks a lot
 
-#117 User:UAFHUCYAG
+#117 User:Chenna Keshava B S
 Message: also, I have used /bin/pwd command in the above snippet because, pwd refers to the shell's implementation of the command
 
-#118 User:UAFHUCYAG
+#118 User:Chenna Keshava B S
 Message: but /bin/pwd refers to the specific binary file, which is already present in the system
 
-#119 User:UAH07G9T9
-Message:  <@UAFPA8G59> If there are n directories to move up to, then yes.
+#119 User:Kaushik S Kalmady
+Message:  <@Nakul Suresh> If there are n directories to move up to, then yes.
 
 If you type `ls - a` in any directory it will list all the files and directories including the hidden ones. You will find two files `. ` and `.. `. Here the first one refers to the current directory and the second one to the parent directory.
 
-#120 User:UAFHUCYAG
+#120 User:Chenna Keshava B S
 Message: so when you are writing an application, if you don't want your applucation to break, when the bash implementation of pwd is modified, you will want to use binary implementations
 
-#121 User:UAH07G9T9
+#121 User:Kaushik S Kalmady
 Message: So you can keep doing `../../..` n number of times because every directory has a `.. ` that points to the parent directory.
 
-#122 User:UAFHUCYAG
+#122 User:Chenna Keshava B S
 Message: it's fine if you don't get the soft link part completely, just remember that we have flags to get the resolved path names also
 
-#123 User:UAFHUCYAG
+#123 User:Chenna Keshava B S
 Message: everyone is with me till now?
 
-#124 User:UAH07G9T9
+#124 User:Kaushik S Kalmady
 Message: Keep asking doubts :D
 
-#125 User:UAF9M0XBK
+#125 User:Ayush Arun Singh
 Message: Ya
 
-#126 User:UAFPA8G59
+#126 User:Nakul Suresh
 Message: kinda
 
-#127 User:UAFPA8G59
+#127 User:Nakul Suresh
 Message: hmm i see. and how to move down n directories?
 
-#128 User:UAFHUCYAG
-Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAGJNP5K7/cat_command_usage.sh|cat command usage>
+#128 User:Chenna Keshava B S
+Message: <@Chenna Keshava B S> uploaded a file: <https://ieeeunixsmp.slack.com/files/Chenna Keshava B S/FAGJNP5K7/cat_command_usage.sh|cat command usage>
 
-#129 User:UAFHUCYAG
+#129 User:Chenna Keshava B S
 Message: I want you guys to try out all these commands
 
-#130 User:UAFHUCYAG
+#130 User:Chenna Keshava B S
 Message: the -n flag is used to include line numbers when it displays the contents of the files - improves readability
 
-#131 User:UAH07G9T9
-Message: <@UAGTJ7M8X> Remember creating a shortcut in windows? Think of it as a something pretty much like that. More details will be given in future sessions.
+#131 User:Kaushik S Kalmady
+Message: <@Abhiram Chowdary> Remember creating a shortcut in windows? Think of it as a something pretty much like that. More details will be given in future sessions.
 
-#132 User:UAFHUCYAG
+#132 User:Chenna Keshava B S
 Message: the sixth line shows, how all the output of the cat command can be plummeled into another file. this is very useful
 
-#133 User:UAH07G9T9
-Message: <@UAFPA8G59> what's the doubt?
+#133 User:Kaushik S Kalmady
+Message: <@Nakul Suresh> what's the doubt?
 
-#134 User:UAFHUCYAG
+#134 User:Chenna Keshava B S
 Message: for the command shown in the 4th line: we can take input from STDIN (keyboard) until the user hits Ctrl+D. All of that text will be saved into the specified file
 
-#135 User:UAFHUCYAG
+#135 User:Chenna Keshava B S
 Message: anything that you didn't understand here?
 
-#136 User:UAFHUCYAG
+#136 User:Chenna Keshava B S
 Message: cat is actually used to concatenate files. It concatenates them and prints an o/p
 
-#137 User:UAH07G9T9
+#137 User:Kaushik S Kalmady
 Message: What he's trying to say is, if you application uses the pwd command, if the version that bash uses is modified then your application might break. So we specifically tell it use the binary at /bin/pwd
 
-#138 User:UAFPA8G59
+#138 User:Nakul Suresh
 Message: I've to look up some of this in order to get a clear picture that's all
 
-#139 User:UAFHUCYAG
+#139 User:Chenna Keshava B S
 Message: give me a thumbs up if you have understood.
 
-#140 User:UAH07G9T9
+#140 User:Kaushik S Kalmady
 Message: Yeah. Just raise doubts in the Google group if some doubt pops up. It's usually a bit murky in the beginning
 
 
 
-#143 User:UAH07G9T9
+#143 User:Kaushik S Kalmady
 Message: Create file with some dummy content first. And then run those commands.
 
-#144 User:UAGTJ7M8X
+#144 User:Abhiram Chowdary
 Message: no
 
-
-
-
-
-
-
-
-
-
-#154 User:UAFVAN945
+#154 User:Rosa Anil George
 Message: cat is for display
 
-#155 User:UAH07G9T9
+#155 User:Kaushik S Kalmady
 Message: OK small question for you guys
 
-#156 User:UAFVAN945
+#156 User:Rosa Anil George
 Message: You could also say cat &lt; filename
 
-#157 User:UAH07G9T9
+#157 User:Kaushik S Kalmady
 Message: Let's say you have a file file1.txt with some text in it. There's another file file2.txt. How would you append the contents of file1.txt at the end of file2.txt?
 
 
-#159 User:UAH07G9T9
+#159 User:Kaushik S Kalmady
 Message: Move down as in?
 
-#160 User:UAGR3HCLW
+#160 User:Ankit Karody
 Message: cat file2.txt file1.txt
 
 
 
 
-#164 User:UAGTJ7M8X
+#164 User:Abhiram Chowdary
 Message: is third command changes any of file original contents
 
-#165 User:UAH07G9T9
+#165 User:Kaushik S Kalmady
 Message: Are you sure? Wouldn't that just print the contents of file1 and then file2?
 Read the question again
 
-#166 User:UAFPA8G59
+#166 User:Nakul Suresh
 Message: it overwrites them
 
-#167 User:UAGTJ7M8X
+#167 User:Abhiram Chowdary
 Message: means
 
-#168 User:UAFVAN945
+#168 User:Rosa Anil George
 Message: deletes the current content and adds the new one
 
-#169 User:UAFPA8G59
+#169 User:Nakul Suresh
 Message: whatever was wriiten in the file at first will be replaced with whatever u just typed
 
-#170 User:UAGTJ7M8X
+#170 User:Abhiram Chowdary
 Message: ohh
 
-#171 User:UAH07G9T9
+#171 User:Kaushik S Kalmady
 Message: So
 `cat file1&gt;file2` will overwrite file2 with contents of file1
 
@@ -483,63 +474,63 @@ Message: So
 
 This is best seen when you type them out in a terminal yourself. So at the end of this I want all of you to run all of these on your terminals and to confirm the functionalities. You can raise doubts if something doesn't look right.
 
-#172 User:UAF9M0XBK
+#172 User:Ayush Arun Singh
 Message: :+1:
 
-#173 User:UAFPA8G59
+#173 User:Nakul Suresh
 Message: works
 
-#174 User:UAGR3HCLW
+#174 User:Ankit Karody
 Message: oh yeah
 
-#175 User:UAH07G9T9
+#175 User:Kaushik S Kalmady
 Message: Question unanswered. 
 
-#176 User:UAFHUCYAG
+#176 User:Chenna Keshava B S
 Message: so, do you want me to continue?
 
-#177 User:UAFPA8G59
+#177 User:Nakul Suresh
 Message: cat file2&gt;&gt;file
 
-#178 User:UAFHUCYAG
+#178 User:Chenna Keshava B S
 Message: or shall we call it a day?
 
-#179 User:UAGTJ7M8X
+#179 User:Abhiram Chowdary
 Message: cat file1.txt file2.txt &gt;&gt;file2.txt
 
-#180 User:UAH07G9T9
+#180 User:Kaushik S Kalmady
 Message: What would that do? Can you go through it one by one by breaking it down?
 
-#181 User:UAH07G9T9
+#181 User:Kaushik S Kalmady
 Message: Sure? :p
 
-#182 User:UAFPA8G59
+#182 User:Nakul Suresh
 Message: pretty sure
 
-#183 User:UAH07G9T9
+#183 User:Kaushik S Kalmady
 Message: I want to add thing to the end of file2, so should file2 be on the left of the &gt;&gt; or the right?
 
-#184 User:UAFPA8G59
+#184 User:Nakul Suresh
 Message: left
 
-#185 User:UAH07G9T9
+#185 User:Kaushik S Kalmady
 Message: Also, when you see something like `command file1 &gt; file2`
 
 contents of file1 will be used by the command and the output will be written to file2 by overwriting the current contents of file2. Cool?
 
-#186 User:UAGTJ7M8X
+#186 User:Abhiram Chowdary
 Message: its actually cat file1.txt &gt;&gt;file2.txt
 
-#187 User:UAGTJ7M8X
+#187 User:Abhiram Chowdary
 Message: s
 
-#188 User:UAFPA8G59
+#188 User:Nakul Suresh
 Message: oh that's a good way to remember
 
-#189 User:UAGR3HCLW
+#189 User:Ankit Karody
 Message: cat file1&gt;&gt;file2 appends file1 to file2 right?
 
-#190 User:UAH07G9T9
+#190 User:Kaushik S Kalmady
 Message: The answer is `cat file1.txt&gt;&gt;file2.txt`
 
 Breaking it down
@@ -547,16 +538,16 @@ Breaking it down
 `cat file1.txt` display content so file1.txt.
 `cat file1.txt &gt;&gt;file2.txt` display contents of file1.txt and redirect it to the end of file2.txt (append)
 
-#191 User:UAH07G9T9
-Message: <@UAGR3HCLW> you are right.
+#191 User:Kaushik S Kalmady
+Message: <@Ankit Karody> you are right.
 
-#192 User:UAFPA8G59
+#192 User:Nakul Suresh
 Message: oh its the reverse
 
-#193 User:UAH07G9T9
+#193 User:Kaushik S Kalmady
 Message: `&gt;` is known as the redirection. If you notice cat only displays the output. The reason it gets added to file2 is because you `redirect` the output there?
 
-#194 User:UAH07G9T9
+#194 User:Kaushik S Kalmady
 Message: So if you break down the command `cat file1 &gt; file2`
 
 It's actually made of two parts.
@@ -565,70 +556,70 @@ First part `cat file1` displays contents of file1
 
 Second part `&gt; file2` redirect output of the command that preceded the `&gt;` to file2
 
-#195 User:UAH07G9T9
+#195 User:Kaushik S Kalmady
 Message: So you can actually do `ls&gt;file2`
 
-#196 User:UAH07G9T9
+#196 User:Kaushik S Kalmady
 Message: What do you think that will do?
 
-#197 User:UAGTJ7M8X
+#197 User:Abhiram Chowdary
 Message: write the output given by ls to file
 
-#198 User:UAFPA8G59
+#198 User:Nakul Suresh
 Message: yeah same
 
-#199 User:UAH07G9T9
+#199 User:Kaushik S Kalmady
 Message: Perfect. So next time you see a `&gt;`you should realize it just means take the output from what preceeded `&gt;` and redirect it to the file specified after `&gt;`
 
-#200 User:UAFHUCYAG
+#200 User:Chenna Keshava B S
 Message: okay, I managed to compile a few resources on other commands, just check them out
 
-#201 User:UAFHUCYAG
-Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAGK84U05/mkdir_options.png|flags for mkdir>
+#201 User:Chenna Keshava B S
+Message: <@Chenna Keshava B S> uploaded a file: <https://ieeeunixsmp.slack.com/files/Chenna Keshava B S/FAGK84U05/mkdir_options.png|flags for mkdir>
 
-#202 User:UAFHUCYAG
-Message: <@UAFHUCYAG> shared a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAHA7BDRU/mkdir.sh|mkdir>
+#202 User:Chenna Keshava B S
+Message: <@Chenna Keshava B S> shared a file: <https://ieeeunixsmp.slack.com/files/Chenna Keshava B S/FAHA7BDRU/mkdir.sh|mkdir>
 
 
-#204 User:UAFHUCYAG
-Message: <@UAFHUCYAG> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFHUCYAG/FAHC34Q8N/rmdir_options.png|flags for rm dir>
+#204 User:Chenna Keshava B S
+Message: <@Chenna Keshava B S> uploaded a file: <https://ieeeunixsmp.slack.com/files/Chenna Keshava B S/FAHC34Q8N/rmdir_options.png|flags for rm dir>
 
-#205 User:UAH07G9T9
+#205 User:Kaushik S Kalmady
 Message: Also, you can always do `command --help` and the terminal will display info about that command.
 
-#206 User:UAH07G9T9
+#206 User:Kaushik S Kalmady
 Message: Try with `ls --help` and `cat - - help`
 
-#207 User:UAFHUCYAG
+#207 User:Chenna Keshava B S
 Message: use the `man command_name` to get the manual pages
 
-#208 User:UAFVAN945
+#208 User:Rosa Anil George
 Message: Guys you can ping any of us if you have any doubts, you could post them either here or on the google group
 
-#209 User:UAFHUCYAG
+#209 User:Chenna Keshava B S
 Message: also, regarding the working of rm command, rm will only unlink the associated data from the file name in the filesystem, and it marks the associated space as usable on the device. We won't actually get rid of the data on the disk
 
-#210 User:UAFHUCYAG
+#210 User:Chenna Keshava B S
 Message: so, to remove stuff like your browser history, use shred command instead. This will overwrite all of the data on the disk, and so it can't be reconstructed again also.
 
-#211 User:UAH07G9T9
+#211 User:Kaushik S Kalmady
 Message: We will come to this later ^
 
-#212 User:UAFHUCYAG
+#212 User:Chenna Keshava B S
 Message: okay, in conclusion, today we went through the commands ls, cat, pwd, cd, redirection operator
 
-#213 User:UAFHUCYAG
+#213 User:Chenna Keshava B S
 Message: okay, that's it for today
 
-#214 User:UAFHUCYAG
+#214 User:Chenna Keshava B S
 Message: you guys can ask your doubts on google groups - it's a lot more organised.
 
-#215 User:UAFHUCYAG
+#215 User:Chenna Keshava B S
 Message: good night!
 
-#216 User:UAH07G9T9
+#216 User:Kaushik S Kalmady
 Message: If there's something nagging you right now then bring it up! We'll clear that off
 
-#217 User:UAH30B5KQ
-Message: <@UAH30B5KQ> has joined the channel
+#217 User:Abhinav P Y
+Message: <@Abhinav P Y> has joined the channel
 

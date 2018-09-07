@@ -1,331 +1,331 @@
-#0 User:UAMHTGNG0
+#0 User:Adil Ashique
 Message: Hey Guys. Is everyone ready?
 
-#1 User:UAMHTGNG0
+#1 User:Adil Ashique
 Message: We will wait for five more minutes and  start.
 
-#2 User:UAMHTGNG0
+#2 User:Adil Ashique
 Message: Okay lets start.
 
-#3 User:UAMHTGNG0
+#3 User:Adil Ashique
 Message: Today we will be looking into regex (short for regular expressions) and some text manipulation commands
 
-#4 User:UAMHTGNG0
+#4 User:Adil Ashique
 Message: So does anyone know what regex is?
 
-#5 User:UAH30B5KQ
+#5 User:Abhinav P Y
 Message: No
 
-#6 User:UAMHTGNG0
+#6 User:Adil Ashique
 Message: Okay well Regex is used to manipulate specific pieces of data based on a particular pattern that is specified.
 
-#7 User:UAMHTGNG0
+#7 User:Adil Ashique
 Message: So the regex command we will be covering today will be grep
 
-#8 User:UAMHTGNG0
+#8 User:Adil Ashique
 Message: Now what is grep? Well grep command is quite possibly the most common text processing command you will use. It allows you to search files for characters that match a certain pattern. What if you wanted to know if a file existed in a certain directory or if you wanted to see if a string was found in a file? It would be tedious to go through the file manually rather you can use the grep command to do the same
 
-#9 User:UAMHTGNG0
+#9 User:Adil Ashique
 Message: Now this would be hard to understand if you just read through my explanation. So lets do an example and see how the output comes out
 
-#10 User:UAMHTGNG0
+#10 User:Adil Ashique
 Message: Has everyone downloaded the textfile?
 
-#11 User:UAMHTGNG0
+#11 User:Adil Ashique
 Message: Okay so the syntax of the grep  command is as follows
 
-#12 User:UAMHTGNG0
+#12 User:Adil Ashique
 Message: egrep [command line options] &lt;pattern&gt; [path]
 
-#13 User:UAMHTGNG0
+#13 User:Adil Ashique
 Message: Now lets us do an example.Use cd to enter into the unix-smp directory
 
-#14 User:UAMHTGNG0
+#14 User:Adil Ashique
 Message: Has everyone done that?
 
-#15 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAR17UN4R/-.sh|Untitled>
+#15 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAR17UN4R/-.sh|Untitled>
 
-#16 User:UAMHTGNG0
+#16 User:Adil Ashique
 Message: Now execute the above command and tell me the output
 
-#17 User:UAMHTGNG0
+#17 User:Adil Ashique
 Message: Instead od my sampledata.txt it must be the text files name
 
-#18 User:UAMHTGNG0
+#18 User:Adil Ashique
 Message: in our case it is sammple.txt
 
-#19 User:UAMHTGNG0
+#19 User:Adil Ashique
 Message: *sample.txt
 
-#20 User:UAH30B5KQ
+#20 User:Abhinav P Y
 Message: mellon in
 
-#21 User:UAH30B5KQ
+#21 User:Abhinav P Y
 Message: Mark watermellons 12
 Oliver rockmellons 2
 
-#22 User:UAH30B5KQ
+#22 User:Abhinav P Y
 Message: is red
 
-#23 User:UAMHTGNG0
+#23 User:Adil Ashique
 Message: That is the right answer. The mellon is in a different color as it is the string that we tried to find in the text.
 
-#24 User:UAMHTGNG0
+#24 User:Adil Ashique
 Message: So has everyone executed it?
 
-#25 User:UAMHTGNG0
+#25 User:Adil Ashique
 Message: Well if you haven't quite got the answer it must come out to be something like the follows:
 
-#26 User:UAMHTGNG0
+#26 User:Adil Ashique
 Message: Mark watermelons 12
 
-#27 User:UAMHTGNG0
+#27 User:Adil Ashique
 Message: Oliver rockmellons 2
 
-#28 User:UAMHTGNG0
+#28 User:Adil Ashique
 Message: Nowfrom the above output what do understand the funtion of the above command is?
 
-#29 User:UAH8CT90X
+#29 User:Anusha Misra
 Message: prints lines with the specified string in it?
 
-#30 User:UAMHTGNG0
+#30 User:Adil Ashique
 Message: Exactly. The basic behaviour of egrep is that it will print the entire line for every line which contains a string of characters matching the given pattern. This is important to note, we are not searching for a word but a string of characters.
 
-#31 User:UAMHTGNG0
+#31 User:Adil Ashique
 Message: Also note that we included the pattern within quotes. This is not always required but it is safer to get in the habit of always using them. They are required if your pattern contains characters which have a special meaning on the command line.
 
-#32 User:UAMHTGNG0
+#32 User:Adil Ashique
 Message: Is everyone clear with everything till here?
 
-#33 User:UAH8CT90X
+#33 User:Anusha Misra
 Message: does this involve special characters like spaces too? As in, can we use this command to look for double spaces in the text?
 
-#34 User:UAMHTGNG0
+#34 User:Adil Ashique
 Message: Yes absolutely.That is why we enclose them in quotes as mentioned below
 
-#35 User:UAMHTGNG0
+#35 User:Adil Ashique
 Message: Okay now execute the following command.
 
-#36 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FARELUHL3/-.sh|Untitled>
+#36 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FARELUHL3/-.sh|Untitled>
 
-#37 User:UAMHTGNG0
+#37 User:Adil Ashique
 Message: And give me the output.
 
-#38 User:UAH30B5KQ
+#38 User:Abhinav P Y
 Message: it gives the line number
 
-#39 User:UAH30B5KQ
+#39 User:Abhinav P Y
 Message: from which the pattern is found
 
-#40 User:UAMHTGNG0
+#40 User:Adil Ashique
 Message: Yes.Good work Abhinav
 
-#41 User:UAMHTGNG0
+#41 User:Adil Ashique
 Message: So as you can see from the output sometimes we want to know not only which lines matched but their line number as well.
 
-#42 User:UAMHTGNG0
+#42 User:Adil Ashique
 Message: Then we use the above command.
 
-#43 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAQSL8QV6/-.sh|Untitled>
+#43 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAQSL8QV6/-.sh|Untitled>
 
-#44 User:UAMHTGNG0
+#44 User:Adil Ashique
 Message: And what do you get?
 
-#45 User:UAH30B5KQ
+#45 User:Abhinav P Y
 Message: it gives the number of occurrences of the pattern 'mellon'
 
-#46 User:UAFU0J1K5
+#46 User:Sachith
 Message: You get the number of times the word is repeated
 
-#47 User:UAMHTGNG0
+#47 User:Adil Ashique
 Message: Yes exactly. You are absolutely right.
 
-#48 User:UAMHTGNG0
+#48 User:Adil Ashique
 Message: So as Sachith and Abhinav pointed out,the above command is used when we are not interested in seeing the matched lines but wish to know how many lines did match.
 
-#49 User:UAH8CT90X
+#49 User:Anusha Misra
 Message: what happens if the string occurs twice in a single line?
 
-#50 User:UAMHTGNG0
+#50 User:Adil Ashique
 Message: The line will be displayed regardless. And both the occurances will be higlighted. Try it out yourself when you get the time.
 
-#51 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAR1VBA8H/-.sh|Untitled>
+#51 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAR1VBA8H/-.sh|Untitled>
 
-#52 User:UAMHTGNG0
+#52 User:Adil Ashique
 Message: What  do you get?
 
-#53 User:UAH30B5KQ
+#53 User:Abhinav P Y
 Message: No output
 
-#54 User:UAMHTGNG0
+#54 User:Adil Ashique
 Message: Yes true.And why do you think that happens since there is the string mark  in the text file, so shouldn't it be displayed?
 
-#55 User:UAH30B5KQ
+#55 User:Abhinav P Y
 Message: we have put in mark and not Mark
 
-#56 User:UAMHTGNG0
+#56 User:Adil Ashique
 Message: As Abhinav mentioned there is no output regardless of the string being in the textfile
 
-#57 User:UAMHTGNG0
+#57 User:Adil Ashique
 Message: Yes. That is the reason
 
-#58 User:UAMHTGNG0
+#58 User:Adil Ashique
 Message: Now the reason being is that the command is case sensitive and will search for the string just as as how we have inputed it. So, does anyone have any idea asto how we can mitigate this problem?
 
-#59 User:UAMHTGNG0
+#59 User:Adil Ashique
 Message: You understood the above question?
 
-#60 User:UAH30B5KQ
+#60 User:Abhinav P Y
 Message: do you mean how we can make the search case insensitive
 
-#61 User:UAH30B5KQ
+#61 User:Abhinav P Y
 Message: maybe by using an option
 
-#62 User:UAMHTGNG0
+#62 User:Adil Ashique
 Message: Yes
 
-#63 User:UAH8CT90X
+#63 User:Anusha Misra
 Message: using '-i'?
 
-#64 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FARN6B6N9/-.sh|Untitled>
+#64 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FARN6B6N9/-.sh|Untitled>
 
-#65 User:UAMHTGNG0
+#65 User:Adil Ashique
 Message: Yes exactly. Correct answer Anusha
 
-#66 User:UAH30B5KQ
+#66 User:Abhinav P Y
 Message: locates mark in the text file irrespective of the case of any of the letters
 
-#67 User:UAMHTGNG0
+#67 User:Adil Ashique
 Message: Yes exactly. We might sometimes want to find a particular string for example the  no of occurrences of the word 'the' in the textfile. Then we must search for all the words regardless of its  case and thus in such a situation we use the above command
 
-#68 User:UAMHTGNG0
+#68 User:Adil Ashique
 Message: With that we have come to end about <http://grep.Is|grep.Is> everything clear till now?
 
-#69 User:UAMHTGNG0
+#69 User:Adil Ashique
 Message: Okay then. Now we shall learn about pipes and tee command
 
-#70 User:UAMHTGNG0
+#70 User:Adil Ashique
 Message: How many of you know what a pipe command is?
 
-#71 User:UAMHTGNG0
+#71 User:Adil Ashique
 Message: OK thats fine . Ill explain. The pipe operator |, represented by a vertical bar, allows us to get the stdout of a command and make that the stdin to another process. Basically it uses the output of one process as input of the other
 
-#72 User:UAMHTGNG0
+#72 User:Adil Ashique
 Message: Okay now we will do an example to understand better.
 
-#73 User:UAMHTGNG0
+#73 User:Adil Ashique
 Message: You guys are familiar with the cat command right?
 
-#74 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FARFPC6CT/-.sh|Untitled>
+#74 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FARFPC6CT/-.sh|Untitled>
 
-#75 User:UAMHTGNG0
+#75 User:Adil Ashique
 Message: The output will be the contents of the file
 
-#76 User:UAMHTGNG0
+#76 User:Adil Ashique
 Message: Now instead of displaying it on the terminal we can use the command called less to show it in another window.
 
-#77 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FARFS5ERZ/-.sh|Untitled>
+#77 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FARFS5ERZ/-.sh|Untitled>
 
-#78 User:UAMHTGNG0
+#78 User:Adil Ashique
 Message: And tell me what doyou get
 
-#79 User:UAMHTGNG0
+#79 User:Adil Ashique
 Message: You guys got it?
 
-#80 User:UAH30B5KQ
+#80 User:Abhinav P Y
 Message: the file contents are displayed on an editor
 
-#81 User:UAMHTGNG0
+#81 User:Adil Ashique
 Message: Haa exactly.
 
-#82 User:UAMHTGNG0
+#82 User:Adil Ashique
 Message: So yea as Abhinav said the contents are displayed on an editor which is the  function of less. So what piping did in the above command isthat it tookthe output of the first command(i.e cat) and put it in the second command (i.e less)
 
-#83 User:UAMHTGNG0
+#83 User:Adil Ashique
 Message: Any doubts?
 
-#84 User:UAH30B5KQ
+#84 User:Abhinav P Y
 Message: is less a command like vi
 
-#85 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAR2UTCKT/image.png|image.png>
+#85 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAR2UTCKT/image.png|image.png>
 
-#86 User:UAH30B5KQ
+#86 User:Abhinav P Y
 Message: that is used to open a text editor
 
-#87 User:UAMHTGNG0
+#87 User:Adil Ashique
 Message: Not exactly. vi is used to open the editor . less is used to display content in the editor,not nessacaririly a text file
 
-#88 User:UAMHTGNG0
+#88 User:Adil Ashique
 Message: The above image will explain the process
 
-#89 User:UAH30B5KQ
+#89 User:Abhinav P Y
 Message: oh ok
 
-#90 User:UAMHTGNG0
+#90 User:Adil Ashique
 Message: Is everyone clear?
 
-#91 User:UAMHTGNG0
+#91 User:Adil Ashique
 Message: Okay now we will  go into the tee command.
 
-#92 User:UAMHTGNG0
+#92 User:Adil Ashique
 Message: Now the tee command is used if I wanted to write the output of my command to two different streams
 
-#93 User:UAMHTGNG0
+#93 User:Adil Ashique
 Message: Now open a directory in terminal that has multiple files in it.
 
-#94 User:UAMHTGNG0
+#94 User:Adil Ashique
 Message: Tell me when you are done with that.
 
-#95 User:UAMHTGNG0
-Message: <@UAMHTGNG0> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAMHTGNG0/FAR3206CR/-.js|Untitled>
+#95 User:Adil Ashique
+Message: <@Adil Ashique> uploaded a file: <https://ieeeunixsmp.slack.com/files/Adil Ashique/FAR3206CR/-.js|Untitled>
 
-#96 User:UAMHTGNG0
+#96 User:Adil Ashique
 Message: And tell me what you get
 
-#97 User:UAH30B5KQ
+#97 User:Abhinav P Y
 Message: It listed the files in that directory
 
-#98 User:UAMHTGNG0
+#98 User:Adil Ashique
 Message: Open up the sample.txt also after executing. You will understand then
 
-#99 User:UAMHTGNG0
+#99 User:Adil Ashique
 Message: Is that the only thing you noticed?
 
-#100 User:UAH30B5KQ
+#100 User:Abhinav P Y
 Message: the contents on sample.txt have been replaced with the list of files
 
-#101 User:UAMHTGNG0
+#101 User:Adil Ashique
 Message: You should see the output of ls on your screen and if you open up the sample.txt file you should see the same information. So tee has set its output to two streams whereas if you just use piping it will only send it to one stream
 
-#102 User:UAMHTGNG0
+#102 User:Adil Ashique
 Message: Thats right.
 
-#103 User:UAMHTGNG0
+#103 User:Adil Ashique
 Message: So thats basically what tee and pipe is. any doubts?
 
-#104 User:UAH30B5KQ
+#104 User:Abhinav P Y
 Message: i didnt understand what the two streams are
 
-#105 User:UAH30B5KQ
+#105 User:Abhinav P Y
 Message: it just copied the result of ls onto the file
 
-#106 User:UAMHTGNG0
+#106 User:Adil Ashique
 Message: As in the output is not given just to the terminal. It is also sent to the text file. The text file is one output stream and the editor is the other.
 
-#107 User:UAH30B5KQ
+#107 User:Abhinav P Y
 Message: oh okay
 
-#108 User:UAMHTGNG0
+#108 User:Adil Ashique
 Message: If not we will wrap it up for today. We will be having a session today or tomorrow as a continuation of text manipulation. Ill send a message on google groups regarding that. Great job guys its was a really good session.
 
-#109 User:UAMHTGNG0
+#109 User:Adil Ashique
 Message: All the best guys!!
 

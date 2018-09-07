@@ -1,349 +1,349 @@
-#0 User:UAFVAN945
+#0 User:Rosa Anil George
 Message: Hey
 
-#1 User:UAGR3HCLW
+#1 User:Ankit Karody
 Message: hi
 
-#2 User:UAFVAN945
+#2 User:Rosa Anil George
 Message: Let's wait 5 min more for people to join in
 
-#3 User:UAF9TDN5P
+#3 User:Sanjana Palisetti
 Message: I'm here too :)
 
-#4 User:UAFVAN945
+#4 User:Rosa Anil George
 Message: Ok guys
 
-#5 User:UAFVAN945
+#5 User:Rosa Anil George
 Message: lets start:grin:
 
-#6 User:UAFVAN945
+#6 User:Rosa Anil George
 Message: Did you guys complete the tasks that were given in the mail?
 
-#7 User:UAFU0J1K5
+#7 User:Sachith
 Message: :+1::skin-tone-5:
 
-#8 User:UAH30B5KQ
+#8 User:Abhinav P Y
 Message: i did not receive mail
 
-#9 User:UAFVAN945
+#9 User:Rosa Anil George
 Message: Ok, don't worry we will sort this out after the session
 
-#10 User:UAFVAN945
-Message: <@UAFU0J1K5> do you know the answer to the first question?
+#10 User:Rosa Anil George
+Message: <@Sachith> do you know the answer to the first question?
 
-#11 User:UAH30B5KQ
+#11 User:Abhinav P Y
 Message: yeah
 
-#12 User:UAFVAN945
+#12 User:Rosa Anil George
 Message: Here are a set of tasks for the next session as a recap of the first one:-
 1) Find out the difference between UNIX and LINUX.
 2) Create a directory called "Unix project" (without quotes) in your home directory.
 3) Go into that directory and create a text file using 'cat' command and write some text into it. 
 4) Now delete this entire directory(along with that file of course).
 
-#13 User:UAFU0J1K5
+#13 User:Sachith
 Message: Linux is a unix clone
 
-#14 User:UAFVAN945
+#14 User:Rosa Anil George
 Message: good
 
-#15 User:UAFVAN945
+#15 User:Rosa Anil George
 Message: Anything else you would like to add?
 
-#16 User:UAFU0J1K5
+#16 User:Sachith
 Message: Linux is portable whereas unix is not
 
-#17 User:UAFVAN945
+#17 User:Rosa Anil George
 Message: That's right
 
-#18 User:UAFVAN945
+#18 User:Rosa Anil George
 Message: LINUX is basically open source, while UNIX is proprietary software.
 
-#19 User:UAFL06YEM
+#19 User:Akshay Gupta
 Message: Linux is used in home based pcs while unix is used in server system
 
-#20 User:UAFVAN945
+#20 User:Rosa Anil George
 Message: Linux is developed by Open Source development i.e. through sharing and collaboration of code and features through forums etc and it is distributed by various vendors.
 
 Unix systems are divided into various other flavors, mostly developed by AT&amp;T as well as various commercial vendors and non-profit organizations.
 
-#21 User:UAFVAN945
+#21 User:Rosa Anil George
 Message: You can check out the source code here: <https://github.com/torvalds/linux>
 
-#22 User:UAFVAN945
+#22 User:Rosa Anil George
 Message: So I'd like to give you a little bit of backstory about Linux.
 
-#23 User:UAFVAN945
+#23 User:Rosa Anil George
 Message: To learn about how Linux came to be, let’s go back to the beginning to 1969 where Ken Thompson and Dennis Ritchie of Bell Laboratories developed the UNIX operating system. It was later rewritten in C to make it more portable and eventually became a widely used operating system.
 
-#24 User:UAFVAN945
+#24 User:Rosa Anil George
 Message: Almost a decade later Richard Stallman started working on the GNU (GNU is Not UNIX) project, the GNU kernel called Hurd, which unfortunately never came to completion. The GNU General Public License (GPL), a free software license, was also created as a result of this.
 
-#25 User:UAFVAN945
+#25 User:Rosa Anil George
 Message: The *kernel* is the most important piece in the operating system. It allows the hardware to talk to the software. It also does a whole lot of other things, but we’ll discuss that in the upcoming sessions. For now, just know that the kernel controls pretty much everything that happens on your system.
 
-#26 User:UAFVAN945
+#26 User:Rosa Anil George
 Message: During this time other efforts such as BSD, MINIX, etc were developed to be UNIX like-systems. However, one thing that all these UNIX like-systems had in common was the lack of a unified kernel. Then in 1991, a young fellow named _Linus Torvalds_ started developing what we now know today as the Linux kernel.
 
-#27 User:UAFVAN945
+#27 User:Rosa Anil George
 Message: Interesting right?
 
-#28 User:UAFVAN945
+#28 User:Rosa Anil George
 Message: Ok so the next question: Create a directory called "Unix project" (without quotes) in your home directory.
 
-#29 User:UAFVAN945
+#29 User:Rosa Anil George
 Message: Does anyone know to do to this?
 
-#30 User:UAFL06YEM
+#30 User:Akshay Gupta
 Message: By using mkdir command
 
-#31 User:UAFVAN945
+#31 User:Rosa Anil George
 Message: correct but did you say mkdir Unix project?
 
-#32 User:UAH30B5KQ
+#32 User:Abhinav P Y
 Message: mkdir Unix/ project
 
-#33 User:UAFL06YEM
+#33 User:Akshay Gupta
 Message: Nope
 
-#34 User:UAFVAN945
+#34 User:Rosa Anil George
 Message: Can you tell me the exact command you used?
 
-#35 User:UAFVAN945
+#35 User:Rosa Anil George
 Message: Did you try executing this command with the forward slash?
 
-#36 User:UAFVAN945
+#36 User:Rosa Anil George
 Message: Ok so I want everyone to execute the following commands and tell me what output you get
 
-#37 User:UAFL06YEM
+#37 User:Akshay Gupta
 Message: I don't know
 
-#38 User:UAH30B5KQ
+#38 User:Abhinav P Y
 Message: sorry its forward slash
 
-#39 User:UAFVAN945
+#39 User:Rosa Anil George
 Message: It's alright
 
-#40 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FALCRCC85/-.txt|Untitled>
+#40 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FALCRCC85/-.txt|Untitled>
 
-#41 User:UAFVAN945
+#41 User:Rosa Anil George
 Message: put a thumbs up on the snippet once you're done
 
-#42 User:UAGR3HCLW
+#42 User:Ankit Karody
 Message: it creates a directory smp in desktop and goes into the directory
 
-#43 User:UAFVAN945
+#43 User:Rosa Anil George
 Message: Thats correct:smiley:
 
-#44 User:UAFVAN945
+#44 User:Rosa Anil George
 Message: Now I want you guys to try to make a directory called "Unix project" using the mkdir command
 
-#45 User:UAFVAN945
+#45 User:Rosa Anil George
 Message: After that using the 'ls' command I want you to tell me what happens
 
-#46 User:UAGR3HCLW
+#46 User:Ankit Karody
 Message: directory is empty
 
-#47 User:UAGR3HCLW
+#47 User:Ankit Karody
 Message: so it doesn
 
-#48 User:UAGR3HCLW
+#48 User:Ankit Karody
 Message: do anything
 
-#49 User:UAFVAN945
+#49 User:Rosa Anil George
 Message: did you use the 'mkdir' command?
 
-#50 User:UAGTJ7M8X
+#50 User:Abhiram Chowdary
 Message: It is making two empty directory's Unix and project
 
-#51 User:UAGR3HCLW
+#51 User:Ankit Karody
 Message: oh i used double quotes
 
-#52 User:UAFVAN945
+#52 User:Rosa Anil George
 Message: Ok good
 
-#53 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAKHS8MJ4/2_directories_created.txt|2 directories created>
+#53 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAKHS8MJ4/2_directories_created.txt|2 directories created>
 
-#54 User:UAFU0J1K5
+#54 User:Sachith
 Message: It makes two different directories
 
-#55 User:UAFVAN945
+#55 User:Rosa Anil George
 Message: this command results in the creation of 2 directories like some of you have seen
 
-#56 User:UAFVAN945
+#56 User:Rosa Anil George
 Message: What we want is a directory called "Unix project"
 
-#57 User:UAFVAN945
+#57 User:Rosa Anil George
 Message: to get that we need to use the command
 
-#58 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAL8WA9JN/-.txt|Untitled>
+#58 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAL8WA9JN/-.txt|Untitled>
 
 #59 User:USLACKBOT
 Message: This message was deleted.
 
-#60 User:UAFL06YEM
+#60 User:Akshay Gupta
 Message: I think
 
-#61 User:UAFVAN945
+#61 User:Rosa Anil George
 Message: 'cd' is used to change directories.
 
-#62 User:UAFL06YEM
+#62 User:Akshay Gupta
 Message: Ok
 
-#63 User:UAFVAN945
+#63 User:Rosa Anil George
 Message: Now when you use the 'ls' command you should see a single directory named "Unix project"
 
-#64 User:UAFVAN945
+#64 User:Rosa Anil George
 Message: The same result can be obtained even if you say
 
-#65 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAMAEG71V/-.txt|Untitled>
+#65 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAMAEG71V/-.txt|Untitled>
 
-#66 User:UAFVAN945
+#66 User:Rosa Anil George
 Message: Any doubts so far?
 
-#67 User:UAH30B5KQ
+#67 User:Abhinav P Y
 Message: no
 
-#68 User:UAFVAN945
+#68 User:Rosa Anil George
 Message: ok so moving on
 
-#69 User:UAFVAN945
+#69 User:Rosa Anil George
 Message: 3) Go into that directory and create a text file using 'cat' command and write the text "Hello World!" into it.
 
-#70 User:UAFVAN945
+#70 User:Rosa Anil George
 Message: What's the command to change directory?
 
-#71 User:UAFL06YEM
+#71 User:Akshay Gupta
 Message: Cd
 
-#72 User:UAFVAN945
+#72 User:Rosa Anil George
 Message: that is correct, but ensure it is in lowercase though
 
-#73 User:UAFL06YEM
+#73 User:Akshay Gupta
 Message: Yeah..
 
-#74 User:UAFVAN945
+#74 User:Rosa Anil George
 Message: otherwise you will get an error saying "command not found"
 
-#75 User:UAFL06YEM
+#75 User:Akshay Gupta
 Message: Ok
 
-#76 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAMAKFD63/try_this_out.txt|Try this out>
+#76 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAMAKFD63/try_this_out.txt|Try this out>
 
-#77 User:UAFVAN945
+#77 User:Rosa Anil George
 Message: Then press Ctrl+d
 
-#78 User:UAFU0J1K5
+#78 User:Sachith
 Message: Can we use ctrl z
 
-#79 User:UAFVAN945
+#79 User:Rosa Anil George
 Message: You can but what this does is it just pauses the current process
 
-#80 User:UAFVAN945
+#80 User:Rosa Anil George
 Message: This is not advisable.
 
-#81 User:UAFVAN945
+#81 User:Rosa Anil George
 Message: 'fg' command can then be used to resume it
 
-#82 User:UAFVAN945
+#82 User:Rosa Anil George
 Message: Did you all try it out?
 
-#83 User:UAFU0J1K5
+#83 User:Sachith
 Message: Ok
 
 #84 User:UAFLHAB2M
 Message: (cat a.txt &gt; b.txt) and (cp a.txt b.txt) are same??
 
-#85 User:UAFVAN945
+#85 User:Rosa Anil George
 Message: Yes, it is essentially performing the same operation. In the first case your taking the output of one and writing that into b.txt and in the second you are using the copy function
 
-#86 User:UAFVAN945
+#86 User:Rosa Anil George
 Message: So do any of you know why we use Ctrl+d?
 
-#87 User:UAFL06YEM
+#87 User:Akshay Gupta
 Message: To come out from the text file
 
-#88 User:UAH30B5KQ
+#88 User:Abhinav P Y
 Message: save and exit?
 
-#89 User:UAFVAN945
+#89 User:Rosa Anil George
 Message: thats right
 
-#90 User:UAFVAN945
+#90 User:Rosa Anil George
 Message: ^d is an End of file character. Once that is encountered, the file writing is complete.
 
-#91 User:UAH07G9T9
+#91 User:Kaushik S Kalmady
 Message: Althout it performs the same function here you should know that the two commands are used for completely different purposes.
 
-#92 User:UAFVAN945
+#92 User:Rosa Anil George
 Message: Let's learn a few more essential commands
 
-#93 User:UAFVAN945
+#93 User:Rosa Anil George
 Message: This week is all about the basics, but they are very essential commands
 
-#94 User:UAFL06YEM
+#94 User:Akshay Gupta
 Message: Can you tell me how to reopen it
 
-#95 User:UAFVAN945
+#95 User:Rosa Anil George
 Message: to view the file you have created, use "cat a.txt"
 
-#96 User:UAFVAN945
+#96 User:Rosa Anil George
 Message: modifications can't be made though using the cat command
 
-#97 User:UAFVAN945
+#97 User:Rosa Anil George
 Message: you can append text at the end of the file using the command "cat &gt;&gt; a.txt"
 
 #98 User:UAFLHAB2M
 Message: we can open the file in editor and make changes. right?
 
-#99 User:UAFVAN945
+#99 User:Rosa Anil George
 Message: I'll teach you few tricks which you will definitely find they come in handy
 
 #100 User:UAFLHAB2M
 Message: gedit a.txt
 
-#101 User:UAFL06YEM
+#101 User:Akshay Gupta
 Message: Okay....thanks
 
 #102 User:UAFLHAB2M
 Message: like this
 
-#103 User:UAFVAN945
+#103 User:Rosa Anil George
 Message: yup we'll be teaching you this next week:grin:
 
 #104 User:UAFLHAB2M
 Message: ok:sweat_smile:
 
-#105 User:UAFVAN945
+#105 User:Rosa Anil George
 Message: Ok so moving on to a command that you will be super grateful very soon is the "history" command
 
-#106 User:UAFVAN945
+#106 User:Rosa Anil George
 Message: In your shell, there is a history of the commands that you previously entered, you can actually look through these commands. This is quite useful when you want to find and run a command you used previously without actually typing it again.
 
-#107 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAM6AQ4S2/try_this.txt|try this>
+#107 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAM6AQ4S2/try_this.txt|try this>
 
-#108 User:UAFVAN945
+#108 User:Rosa Anil George
 Message: to run the same command you did before, just hit the up arrow.
 
-#109 User:UAFVAN945
+#109 User:Rosa Anil George
 Message: Want to run the previous command without typing it again? Use !!. If you typed cat a.txt and want to run it again, you can actually just go '!!' and it will run the last command you ran.
 
-#110 User:UAFVAN945
+#110 User:Rosa Anil George
 Message: Another history shortcut is ctrl-R, this is the reverse search command, if you hit ctrl-R on the terminal and you start typing parts of the command you want it will show you matches and you can just navigate through them by hitting the ctrl-R key again. Once you found the command you want to use again, just hit the Enter key.
 
-#111 User:UAFVAN945
+#111 User:Rosa Anil George
 Message: Guys I do hope you make a note of these commands
 
-#112 User:UAFVAN945
+#112 User:Rosa Anil George
 Message: cool right?:joy:
 
-#113 User:UAFVAN945
+#113 User:Rosa Anil George
 Message: Do you guys want a 5 min break?:sweat_smile:
 
 #114 User:UAFLHAB2M
@@ -352,126 +352,126 @@ Message: as you wish. we're fine
 #115 User:UAFLHAB2M
 Message: :laughing:
 
-#116 User:UAFVAN945
+#116 User:Rosa Anil George
 Message: So before we proceed
 
-#117 User:UAFVAN945
+#117 User:Rosa Anil George
 Message: I want to tell you guys about the result of using - ^d, ^z, ^c after you enter some text using the cat command
 
-#118 User:UAFVAN945
-Message: <@UAFL06YEM> what was the ^d command for?
+#118 User:Rosa Anil George
+Message: <@Akshay Gupta> what was the ^d command for?
 
-#119 User:UAFL06YEM
+#119 User:Akshay Gupta
 Message: To come out from the text file
 
-#120 User:UAFVAN945
+#120 User:Rosa Anil George
 Message: right
 
-#121 User:UAFVAN945
+#121 User:Rosa Anil George
 Message: ctrl+D is used to quit the current action.
 
-#122 User:UAFVAN945
+#122 User:Rosa Anil George
 Message: ctrl+c kills the current process which is the process of writing into the file.
 
-#123 User:UAFVAN945
+#123 User:Rosa Anil George
 Message: ctrl+z is used to pause the current process. 'fg' command can then be used to resume it
 
-#124 User:UAFVAN945
+#124 User:Rosa Anil George
 Message: This method is not recommended though
 
-#125 User:UAFVAN945
+#125 User:Rosa Anil George
 Message: understood?
 
 #126 User:UAFLHAB2M
 Message: capital D?
 
-#127 User:UAH30B5KQ
+#127 User:Abhinav P Y
 Message: fg is to resume in the foreground right
 
-#128 User:UAFVAN945
+#128 User:Rosa Anil George
 Message: When you feel like your terminal is getting a little cluttered, you can do a little cleanup, using the clear command to clear up your display.
 
-#129 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FAKJPDS8Y/clears_the_screen.txt|Clears the screen>
+#129 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FAKJPDS8Y/clears_the_screen.txt|Clears the screen>
 
-#130 User:UAFVAN945
+#130 User:Rosa Anil George
 Message: The next one is really really useful:sweat_smile:
 
-#131 User:UAFVAN945
+#131 User:Rosa Anil George
 Message: One of the most useful features in any command-line environment is tab completion. If you start typing the beginning of a command, file, directory, etc and hit the Tab key, it will autocomplete based on what it finds in the directory you are searching as long as you don’t have any other files that start with those letters.
 
-#132 User:UAFL06YEM
+#132 User:Akshay Gupta
 Message: rmdir?
 
-#133 User:UAFVAN945
+#133 User:Rosa Anil George
 Message: that is useful too
 
-#134 User:UAFVAN945
+#134 User:Rosa Anil George
 Message: all of you are in the Unix project directory with a text file called a.txt right?
 
-#135 User:UAFL06YEM
+#135 User:Akshay Gupta
 Message: Yeah
 
-#136 User:UAH30B5KQ
+#136 User:Abhinav P Y
 Message: why does a backslash come at the end?
 
-#137 User:UAFVAN945
+#137 User:Rosa Anil George
 Message: whats the command you tried out
 
-#138 User:UAH30B5KQ
+#138 User:Abhinav P Y
 Message: when you use tab
 
-#139 User:UAFVAN945
+#139 User:Rosa Anil George
 Message: I want you guys to enter "cat a" then hit the tab key
 
-#140 User:UAH30B5KQ
+#140 User:Abhinav P Y
 Message: a backslash comes at the end right
 
-#141 User:UAFVAN945
+#141 User:Rosa Anil George
 Message: you get a forward slash right?
 
 #142 User:UAFLHAB2M
 Message: a.txt came automatically
 
-#143 User:UAH30B5KQ
+#143 User:Abhinav P Y
 Message: / is the slash
 
-#144 User:UAFVAN945
+#144 User:Rosa Anil George
 Message: Exactly!!
 
-#145 User:UAFVAN945
+#145 User:Rosa Anil George
 Message: Yup thats the forward slash
 
-#146 User:UAH30B5KQ
+#146 User:Abhinav P Y
 Message: my bad
 
-#147 User:UAFVAN945
+#147 User:Rosa Anil George
 Message: I'm not too sure but I think its to denote that its a directory
 
-#148 User:UAFVAN945
+#148 User:Rosa Anil George
 Message: It's going to come in handy soon, you won't have to waste time entering the entire name of a file ever again:grin:
 
-#149 User:UAFVAN945
+#149 User:Rosa Anil George
 Message: So the last command I want to teach you guys this session is the remove function
 
-#150 User:UAFVAN945
+#150 User:Rosa Anil George
 Message: we have created a directory now lets learn how to remove it too
 
-#151 User:UAFVAN945
+#151 User:Rosa Anil George
 Message: To remove files you can use the rm command. The rm (remove) command is used to delete files and directories.
 
 
-#153 User:UAFVAN945
+#153 User:Rosa Anil George
 Message: Take caution when using rm,as once they are gone, they are gone for good, so be careful.
 
-#154 User:UAFVAN945
+#154 User:Rosa Anil George
 Message: Fortunately there are some safety measures put into place, so you can’t just remove a bunch of important files. Write-protected files will prompt you for confirmation before deleting them. If a directory is write-protected it will also not be easily removed.
 
-#155 User:UAFVAN945
+#155 User:Rosa Anil George
 Message: guys I want you to execute the following commands and tell me what you get
 
-#156 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FALE527L5/-.txt|Untitled>
+#156 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FALE527L5/-.txt|Untitled>
 
 #157 User:UAFLHAB2M
 Message: cannot remove. its a directory
@@ -481,31 +481,31 @@ Message: cannot remove. its a directory
 Message: this is the output
 
 
-#161 User:UAFL06YEM
+#161 User:Akshay Gupta
 Message: Yeah
 
-#162 User:UAFVAN945
+#162 User:Rosa Anil George
 Message: the cd.. command takes you to the parent directory
 
-#163 User:UAFVAN945
-Message: <@UAFL06YEM> can you execute the command "cd Desktop/SMP"
+#163 User:Rosa Anil George
+Message: <@Akshay Gupta> can you execute the command "cd Desktop/SMP"
 
-#164 User:UAFVAN945
+#164 User:Rosa Anil George
 Message: then "rm Unix\ project"
 
-#165 User:UAFVAN945
+#165 User:Rosa Anil George
 Message: Since the directory "Unix project" has a file present in it, you won't be able to remove it just like that. You need to enter the command:
 
-#166 User:UAFVAN945
-Message: <@UAFVAN945> uploaded a file: <https://ieeeunixsmp.slack.com/files/UAFVAN945/FALA8FNGJ/to_remove_the_directory.txt|To remove the directory>
+#166 User:Rosa Anil George
+Message: <@Rosa Anil George> uploaded a file: <https://ieeeunixsmp.slack.com/files/Rosa Anil George/FALA8FNGJ/to_remove_the_directory.txt|To remove the directory>
 
-#167 User:UAFVAN945
+#167 User:Rosa Anil George
 Message: The -r flag recursively removes all the files and any subdirectories of the specified directory
 
-#168 User:UAFVAN945
+#168 User:Rosa Anil George
 Message: no small case:sweat_smile:
 
-#169 User:UAFVAN945
+#169 User:Rosa Anil George
 Message: That's all for todays session guys
 
 #170 User:UAFLHAB2M
