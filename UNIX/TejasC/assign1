@@ -1,0 +1,24 @@
+#!/bin/bash
+echo "Enter three numbers"
+read a b c     
+#acceptinig inputs
+sum=$(($a+$b+$c))
+echo "Their sum is" $sum
+#if else statements to find the greatest no.
+if [ $a -gt $b ];
+then 
+   if [ $a -gt $c ];
+   then
+      echo "1st is the greatest"
+   else
+      echo "3rd is the greatest"
+   fi
+else
+   if [ $b -gt $c ];
+   then
+      echo "2nd is the greatest"
+   else
+      echo "3rd is the greatest"
+   fi
+fi
+
