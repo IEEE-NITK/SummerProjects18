@@ -1,0 +1,16 @@
+a) for input of more than 120 characters, segmentation fault occured
+
+b) for input of more than 108 charcters , segmentation fault occured
+
+c)  when compiled with -fno-stack-protector,
+ error is Segmentation fault (core dumped)
+
+ when compiled normally.
+  *** stack smashing detected ***: <unknown> terminated
+  Aborted (core dumped)
+
+e)  in code12_2, the segment register fs is used in func1 and a function stack_chk_fail is called
+   before func1 return control to main. These two aren't present in code12_1
+
+f) segment registers are used to check if the function has attempted to write beyond its stack frame that can cause segfaults.    
+

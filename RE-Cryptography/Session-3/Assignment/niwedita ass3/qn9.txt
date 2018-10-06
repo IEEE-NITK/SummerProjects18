@@ -1,0 +1,8 @@
+a) code9 prints first arg that is passed to it.(argc==2)
+
+d) 0x00000000004006d2 is the return address of the print_buffer function.
+   0x00000000004006d2 is the return address of the print_buffer function.
+   Both address are always same.
+   0x400636 is the rbp value pushed when print_buffer is executed.
+
+   On giving an input of more than 112 characters , segmentation fault is in the output

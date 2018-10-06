@@ -13,12 +13,12 @@ _start:
 
 
 	mov cx, word[n]
-
-	call fib;
+	call stdin_read
+	call fib
 
 	mov rax, rdi	;rax will have the 10th fibonacci number.
-
-	call exit_prog;
+	call stdout_write
+	call exit_prog
 
 
 
@@ -34,7 +34,7 @@ _loop:
 
 	
 
-	add rsi, rdi	; Now, rsi is the new fibonacci number.
+	mul rsi, rdi	; Now, rsi is the new fibonacci number.
 
 	mov r9, rdi	;r9 is a temporary variable used.
 	mov rdi, rsi
@@ -43,7 +43,7 @@ _loop:
 	inc rdx
 
 	jmp _loop
-
+	ret
 
 
 
@@ -71,4 +71,5 @@ exit_prog:
         mov rax, 0x01
         mov rbx, 0x00
         int 0x80
+       
 
